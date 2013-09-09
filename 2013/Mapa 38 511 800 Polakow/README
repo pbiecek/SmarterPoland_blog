@@ -1,0 +1,39 @@
+Zestaw skryptów stworzonych przy projekcie mapy gęstośći zaludnienia:
+
+### Katalog 01_GUSParser
+- katalog zawiera projekt Eclipse z parserem danych GUS ze spisu powszechnego
+- w katalogu 'data' jest plik pobrany z GUS 
+- w katalogu 'result' jest wynik działania skryptu
+
+### Katalog 02_DANE_GIS
+- katalog zawiera dane w formacie GML pobrane z Geoportalu i stworzone na ich podstawie pliki .shp
+- pliki są zawarte w odpowiednich katalogach
+
+### Katalog 03_SKRYPTY_POMOCNICZE
+- katalog zawiera skrypty pomocnicze tworzące dodatkowe pliki CVS wykorzystywane przy tworzeniu mapowania między 
+obszarami z plików shp a danymi z GUS
+- w katalogu 01_NAZWY_GMIN_Z_GIS znajduje się skrypt pobieracjący mapowanie pomiędzy polygonem a nazwą i typem gminy w postaci pliku CSV, potrzebnego dla dalszego przetwarzania danch. 
+- w katalogu 02_GMINY_W_WOJEWÓDZTWIE znajduje się skrypt mapujący obszary GIS gmin na nazwy województw, w których się zawierają
+- dla każdego skryptu jest wynik jego działania w katalogu 'WYNIK'
+
+### Katalog 04_DataMatcher
+- katalog zawiera skrypt tworzący mapowanie między obszarami z plików shp a danymi z GUS
+- w katalogu 'data' są wyniki działania skryptu z projektu GUSParser i skryptów pomocniczych
+- w katalogu 'result' jest wynik działania skryptu:
+	* plik match.csv zawiera jednoznaczne powiązania między obszarami z plików shp a danymi z GUS
+	* plik unmatch.csv zawiera listę gmin dla których nie znaleziono jednoznacznego powiązania (powiązanie to znajdowałem ręcznie korzystając z Google Maps)
+- w katalogu 'result_full' jest wynik działania skryptu uzupełniony o wynik ręcznego dopasowania 
+
+### 05_GENERATOR
+- katalog zawiera skrypt generujący mapy
+- w katalogu 'dane' są pliki .shp stworzone na podstawie danych GML z Geoportalu
+- w katalogu 'csv' jest wynik działania skryptu pomocniczego z katalogu '02_GMINY_W_WOJEWÓDZTWIE' i skryptu tworzącego mapowanie między obszarami z plików shp a danymi z GUS
+- dobrym pomysłem na optymalizację działania skryptu jest dodanie zapisywania informacji o generowanych losowo punktach w pliku, po to żeby nie musiały być generowane za każdym razem od nowa
+
+### 06_PDF_SPLIT
+- katalog zawiera skrypt python dzielący plik pdf na pół 
+- składnia skryptu: ./un2up.py < pdf_do_podzialu.pdf > podzielony_pdf.pdf
+
+
+Uwaga: wszystkie ścieżki w skryptach R są względne, więc trzeba ustawiać working directory
+
