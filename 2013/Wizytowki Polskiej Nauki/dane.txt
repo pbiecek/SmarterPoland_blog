@@ -1,0 +1,323 @@
+537 SI1BA Politechnika Gdańska; Wydział Inżynierii Lądowej i Środowiska 951 40.62 402.00 8.63 100.00 75.79 A
+538 SI1BA Politechnika Wrocławska; Wydział Inżynierii Środowiska 556 43.38 296.00 4.84 100.00 70.27 A
+539 SI1BA Politechnika Lubelska; Wydział Budownictwa i Architektury 267 42.71 121.00 12.47 50.00 58.69 A
+540 SI1BA Politechnika Łódzka; Wydział Budownictwa. Architektury i Inżynierii Środowiska 590 35.41 343.00 23.61 50.00 54.06 A
+541 SI1BA Politechnika Wrocławska; Wydział Architektury 330 33.95 344.00 5.56 70.00 44.25 A
+542 SI1BA Szkoła Główna Gospodarstwa Wiejskiego w Warszawie; Wydział Budownictwa i Inżynierii Środowiska 625 32.90 285.00 12.25 50.00 39.46 A
+543 SI1BA Politechnika Opolska; Wydział Budownictwa 763 38.65 208.00 2.89 50.00 37.18 A
+544 SI1BA Zachodniopomorski Uniwersytet Technologiczny w Szczecinie; Wydział Budownictwa i Architektury 401 36.72 255.00 2.49 50.00 33.92 A
+545 SI1BA Politechnika Warszawska; Wydział Architektury 806 32.11 247.00 5.58 80.00 33.40 A
+546 SI1BA Politechnika Poznańska; Wydział Architektury 773 35.06 199.00 0.66 70.00 25.90 A
+547 SI1BA Politechnika Krakowska im. Tadeusza Kościuszki; Wydział Architektury 831 31.39 391.00 0.80 80.00 24.67 B
+548 SI1BA Politechnika Koszalińska; Wydział Inżynierii Lądowej. Środowiska i Geodezji 520 33.04 226.00 1.61 40.00 14.59 B
+549 SI1BA Politechnika Gdańska; Wydział Architektury 731 34.20 167.00 0.29 50.00 13.64 B
+550 SI1BA Politechnika Warszawska; Wydział Inżynierii Środowiska 920 29.20 239.00 4.25 70.00 12.58 B
+551 SI1BA Politechnika Białostocka; Wydział Budownictwa i Inżynierii Środowiska 161 31.31 275.00 1.23 50.00 11.90 B
+552 SI1BA Politechnika Poznańska; Wydział Budownictwa i Inżynierii Środowiska 324 27.26 392.00 5.01 60.00 5.55 B
+553 SI1BA Politechnika Świętokrzyska w Kielcach; Wydział Budownictwa i Architektury 743 28.00 139.00 41.37 40.00 3.93 B
+554 SI1BA Politechnika Rzeszowska im. Ignacego Łukasiewicza; Wydział Budownictwa i Inżynierii Środowiska 203 25.62 254.00 10.08 60.00 -1.32 B
+555 SI1BA Politechnika Wrocławska; Wydział Budownictwa Lądowego i Wodnego 703 23.40 311.00 7.77 100.00 -1.69 B
+556 SI1BA Politechnika Krakowska im. Tadeusza Kościuszki; Wydział Inżynierii Środowiska 184 26.41 255.00 4.19 75.00 -3.31 B
+557 SI1BA Uniwersytet Zielonogórski; Wydział Inżynierii Lądowej i Środowiska 861 25.03 275.00 7.79 40.00 -11.12 B
+558 SI1BA Politechnika Warszawska; Wydział Inżynierii Lądowej 74 22.54 273.00 4.07 100.00 -14.07 B
+559 SI1BA Politechnika Śląska; Wydział Budownictwa 526 23.59 210.00 5.70 50.00 -22.92 B
+560 SI1BA Uniwersytet Technologiczno-Przyrodniczy im. Jana i Jędrzeja Śniadeckich w  Bydgoszczy; Wydział Budownictwa. Architektury i Inżynierii Środowiska 391 23.26 196.00 7.15 40.00 -23.31 B
+561 SI1BA Politechnika Krakowska im. Tadeusza Kościuszki; Wydział Inżynierii Lądowej 935 18.55 410.00 2.12 90.00 -30.03 B
+562 SI1BA Politechnika Warszawska; Wydział Budownictwa. Mechaniki i Petrochemii 518 24.13 141.00 1.93 20.00 -40.97 B
+563 SI1BA Krakowska Akademia im. Andrzeja Frycza Modrzewskiego w Krakowie; Wydział  Architektury i Sztuk Pięknych 429 17.77 25.00 14.51 40.00 -44.79 B
+564 SI1BA Politechnika Białostocka; Wydział Architektury 370 23.10 92.00 0.16 45.00 -45.20 B
+565 SI1BA Politechnika Częstochowska; Wydział Budownictwa 115 23.22 46.00 0.34 50.00 -45.54 B
+566 SI1BA Politechnika Śląska; Wydział Architektury 433 19.56 115.00 0.69 60.00 -51.87 B
+567 SI1BA Wyższa Szkoła Techniczna w Katowicach; Wydział Architektury. Budownictwa i Sztuk Stosowanych 760 5.49 29.00 0.00 10.00 -93.05 C
+568 SI1BA Wyższa Szkoła Ekologii i Zarządzania w Warszawie; Wydział Architektury 266 5.01 35.00 0.00 0.00 -93.43 C
+569 SI1CT Uniwersytet Warszawski; Wydział Chemii 180 109.95 381.00 14.13 100.00 50.74 A+
+570 SI1CT Uniwersytet Warszawski; Centrum Nowych Technologii UW 683 109.57 39.00 67.17 70.00 48.09 A+
+571 SI1CT Uniwersytet Jagielloński w Krakowie; Wydział Chemii 389 101.95 472.00 16.60 73.00 43.12 A+
+572 SI1CT Uniwersytet Warszawski; Interdyscyplinarne Centrum Modelowania  Matematycznego i Komputerowego 351 102.46 40.00 120.13 78.00 41.11 A
+573 SI1CT Uniwersytet im. Adama Mickiewicza w Poznaniu; Wydział Chemii 673 93.05 397.00 29.55 67.00 36.86 A
+574 SI1CT Politechnika Poznańska; Wydział Technologii Chemicznej 175 93.08 343.00 18.43 89.00 34.34 A
+575 SI1CT Politechnika Warszawska; Wydział Chemiczny 652 93.95 637.00 13.98 72.00 33.44 A
+576 SI1CT Politechnika Gdańska; Wydział Chemiczny 157 95.93 741.00 10.83 65.00 30.23 A
+577 SI1CT Uniwersytet Wrocławski; Wydział Chemii 851 104.24 370.00 10.95 60.00 29.56 A
+578 SI1CT Politechnika Wrocławska; Wydział Chemiczny 457 91.05 824.00 10.63 65.00 24.39 A
+579 SI1CT Uniwersytet Mikołaja Kopernika w Toruniu; Wydział Chemii 922 97.10 335.00 9.43 71.00 21.64 A
+580 SI1CT Uniwersytet Marii Curie-Skłodowskiej w Lublinie; Wydział Chemii 418 90.41 329.00 19.33 37.00 16.04 A
+581 SI1CT Politechnika Łódzka; Wydział Chemiczny 603 88.87 524.00 12.05 52.00 14.72 A
+582 SI1CT Uniwersytet Gdański; Wydział Chemii 224 90.23 399.00 8.75 49.00 7.56 A
+583 SI1CT Politechnika Śląska; Wydział Chemiczny 614 80.31 505.00 5.91 49.00 -12.69 A
+584 SI1CT Uniwersytet Łódzki; Wydział Chemii 564 81.04 303.00 2.72 34.00 -24.91 A
+585 SI1CT Uniwersytet Opolski; Wydział Chemii 40 75.64 87.00 16.63 31.00 -25.08 A
+586 SI1CT Uniwersytet Przyrodniczo-Humanistyczny w Siedlcach; Wydział Nauk Ścisłych 754 62.52 173.00 0.12 42.00 -58.24 B
+587 SI1CT Politechnika Łódzka; Instytut Papiernictwa i Poligrafii 212 44.19 45.00 6.38 57.50 -66.34 B
+588 SI1CT Szkoła Główna Służby Pożarniczej; Wydział Inżynierii Bezpieczeństwa Pożarowego 874 23.53 69.00 18.94 13.00 -68.77 B
+589 SI1CT Szkoła Główna Służby Pożarniczej; Wydział Inżynierii Bezpieczeństwa Cywilnego 47 17.70 28.00 17.26 0.00 -72.56 B
+590 SI1EA Politechnika Wrocławska; Wydział Elektroniki Mikrosystemów i Fotoniki 145 80.24 287.00 16.04 45.00 79.28 A+
+591 SI1EA Politechnika Gdańska; Wydział Elektroniki. Telekomunikacji i Informatyki 735 53.89 495.00 13.78 92.50 67.35 A
+592 SI1EA Politechnika Wrocławska; Wydział Elektroniki 953 54.43 631.00 14.27 70.00 67.20 A
+593 SI1EA Politechnika Warszawska; Wydział Elektroniki i Technik Informacyjnych 120 52.27 856.00 18.97 64.00 67.15 A
+594 SI1EA Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie; Wydział  Informatyki. Elektroniki i Telekomunikacji 901 51.97 525.00 12.64 84.50 63.58 A
+595 SI1EA Wojskowa Akademia Techniczna im. Jarosława Dąbrowskiego; Instytut  Optoelektroniki 253 56.11 114.00 22.35 51.00 56.70 A
+596 SI1EA Politechnika Wrocławska; Wydział Elektryczny 97 53.68 248.00 10.20 81.50 56.13 A
+597 SI1EA Politechnika Poznańska; Wydział Elektroniki i Telekomunikacji 721 52.60 202.00 9.98 60.00 49.25 A
+598 SI1EA Politechnika Poznańska; Wydział Informatyki 759 46.72 274.00 14.63 77.50 46.73 A
+599 SI1EA Politechnika Częstochowska; Wydział Elektryczny 489 84.07 127.00 1.02 20.00 42.89 A
+600 SI1EA Polsko-Japońska Wyższa Szkoła Technik Komputerowych; Wydział Informatyki 63 48.12 253.00 17.65 25.50 40.18 A
+601 SI1EA Politechnika Lubelska; Wydział Elektrotechniki i Informatyki 48 54.11 244.00 4.74 27.50 35.83 A
+602 SI1EA Politechnika Warszawska; Wydział Elektryczny 913 46.85 345.00 4.37 68.00 34.89 A
+603 SI1EA Politechnika Łódzka; Wydział Elektrotechniki. Elektroniki. Informatyki i Automatyki 680 44.98 767.00 6.23 52.50 34.74 A
+604 SI1EA Politechnika Śląska; Wydział Automatyki. Elektroniki i Informatyki 834 43.26 634.00 6.20 65.00 29.79 A
+605 SI1EA Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie; Wydział  Elektrotechniki. Automatyki. Informatyki i Inżynierii Biomedycznej 764 41.11 583.00 4.22 88.00 19.87 B
+606 SI1EA Zachodniopomorski Uniwersytet Technologiczny w Szczecinie; Wydział  Elektryczny 768 44.97 339.00 3.21 40.00 19.59 B
+607 SI1EA Politechnika Białostocka; Wydział Elektryczny 588 46.39 259.00 2.91 22.50 15.39 B
+608 SI1EA Wojskowa Akademia Techniczna im. Jarosława Dąbrowskiego; Wydział  Elektroniki 966 37.29 337.00 13.40 50.00 12.41 B
+609 SI1EA Politechnika Opolska; Wydział Elektrotechniki. Automatyki i Informatyki 813 39.31 350.00 14.54 25.50 11.79 B
+610 SI1EA Politechnika Koszalińska; Wydział Elektroniki i Informatyki 604 48.28 95.00 2.80 10.00 11.29 B
+611 SI1EA Politechnika Wrocławska; Wydział Informatyki i Zarządzania 904 39.00 365.00 5.41 72.00 11.27 B
+612 SI1EA Politechnika Białostocka; Wydział Informatyki 358 46.69 132.00 0.56 39.50 10.11 B
+613 SI1EA Politechnika Śląska; Wydział Elektryczny 643 37.84 368.00 5.13 37.50 0.05 B
+614 SI1EA Uniwersytet Zielonogórski; Wydział Elektrotechniki. Informatyki i Telekomunikacji 191 38.58 272.00 3.61 46.00 -3.10 B
+615 SI1EA Akademia Morska w Gdyni; Wydział Elektryczny 421 42.88 159.00 3.07 7.50 -4.83 B
+616 SI1EA Politechnika Gdańska; Wydział Elektrotechniki i Automatyki 197 33.79 246.00 7.21 60.00 -5.35 B
+617 SI1EA Politechnika Poznańska; Wydział Elektryczny 612 35.94 437.00 2.07 56.00 -6.58 B
+618 SI1EA Zachodniopomorski Uniwersytet Technologiczny w Szczecinie; Wydział  Informatyki 651 35.22 214.00 4.15 38.00 -14.62 B
+619 SI1EA Politechnika Świętokrzyska w Kielcach; Wydział Elektrotechniki. Automatyki i  Informatyki 674 38.31 188.00 0.74 43.50 -14.95 B
+620 SI1EA Uniwersytet Technologiczno-Przyrodniczy im. Jana i Jędrzeja Śniadeckich w  Bydgoszczy; Wydział Telekomunikacji. Informatyki i Elektrotechniki 888 33.47 78.00 4.48 45.00 -22.76 B
+621 SI1EA Wojskowa Akademia Techniczna im. Jarosława Dąbrowskiego; Wydział Cybernetyki 654 25.34 226.00 8.98 66.50 -28.68 B
+622 SI1EA Politechnika Opolska; Wydział Inżynierii Produkcji i Logistyki 576 32.55 63.00 0.51 26.00 -41.39 B
+623 SI1EA Społeczna Akademia Nauk z siedzibą w Łodzi; Instytut Technologii  Informatycznych 350 23.22 42.00 7.45 35.00 -48.86 B
+624 SI1EA Politechnika Rzeszowska im. Ignacego Łukasiewicza; Wydział Elektrotechniki i  Informatyki 779 29.90 174.00 1.43 4.50 -49.43 B
+625 SI1EA Wyższa Szkoła Informatyki Stosowanej i Zarządzania w Warszawie; Wydział  Informatyki 298 25.76 18.00 7.62 13.00 -51.53 C
+626 SI1EA Warszawska Wyższa Szkoła Informatyki w Warszawie 811 21.60 2.00 9.92 22.00 -52.01 C
+627 SI1EA Wyższa Szkoła Informatyki i Zarządzania w Rzeszowie; Wydział Informatyki  Stosowanej 649 26.49 54.00 3.79 20.00 -54.95 C
+628 SI1EA Wrocławska Wyższa Szkoła Informatyki Stosowanej we Wrocławiu; Wydział  Informatyki 68 18.35 11.00 5.49 31.50 -59.28 C
+629 SI1EA Politechnika Krakowska im. Tadeusza Kościuszki; Wydział Inżynierii Elektrycznej i  Komputerowej 740 21.74 121.00 1.23 22.00 -65.57 C
+630 SI1EA Uniwersytet Technologiczno-Humanistyczny im. Kazimierza Pułaskiego w  Radomiu; Wydział Informatyki i Matematyki 829 24.25 16.00 0.00 17.00 -69.41 C
+631 SI1EA Wyższa Szkoła Ekologii i Zarządzania w Warszawie; Wydział Zarządzania 468 20.99 1.00 0.00 0.00 -76.31 C
+632 SI1EA Państwowa Wyższa Szkoła Zawodowa im. Witelona w Legnicy; Wydział Nauk  Technicznych i Ekonomicznych 404 6.26 41.00 0.00 10.50 -91.36 C
+633 SI1EA Wyższa Szkoła Menedżerska w Warszawie; Wydział Informatyki Stosowanej i  Technik Bezpieczeństwa 271 3.64 0.00 0.71 0.00 -93.10 C
+634 SI1FA Uniwersytet Warszawski; Wydział Fizyki 783 111.21 783.00 21.90 100.00 79.21 A+
+635 SI1FA Uniwersytet Jagielloński w Krakowie; Wydział Fizyki. Astronomii i Informatyki  Stosowanej 59 107.56 726.00 25.65 100.00 76.10 A+
+636 SI1FA Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie; Wydział Fizyki i  Informatyki Stosowanej 568 106.98 313.00 6.49 100.00 59.29 A+
+637 SI1FA Uniwersytet Śląski w Katowicach; Wydział Matematyki. Fizyki i Chemii 239 95.99 751.00 5.58 80.00 50.59 A
+638 SI1FA Uniwersytet Mikołaja Kopernika w Toruniu; Wydział Fizyki. Astronomii i Informatyki  Stosowanej 881 93.99 369.00 18.55 70.00 48.23 A
+639 SI1FA Politechnika Warszawska; Wydział Fizyki 479 96.43 285.00 7.37 85.00 46.83 A
+640 SI1FA Politechnika Wrocławska; Wydział Podstawowych Problemów Techniki 767 85.89 537.00 10.70 100.00 37.55 A
+641 SI1FA Uniwersytet Zielonogórski; Wydział Fizyki i Astronomii 642 100.36 185.00 2.09 75.00 32.23 A
+642 SI1FA Uniwersytet Wrocławski; Wydział Fizyki i Astronomii 37 94.28 352.00 2.06 62.50 27.41 A
+643 SI1FA Uniwersytet im. Adama Mickiewicza w Poznaniu; Wydział Fizyki 339 89.27 446.00 3.86 60.00 24.77 A
+644 SI1FA Uniwersytet Łódzki; Wydział Fizyki i Informatyki Stosowanej 67 95.99 244.00 1.70 60.00 23.43 A
+645 SI1FA Uniwersytet w Białymstoku; Wydział Fizyki 466 94.27 99.00 5.53 50.00 22.59 A
+646 SI1FA Politechnika Śląska; Instytut Fizyki-Centrum Naukowo - Dydaktyczne Politechniki  Śląskiej 255 82.38 57.00 4.81 50.00 -7.37 B
+647 SI1FA Uniwersytet Gdański; Wydział Matematyki. Fizyki i Informatyki 575 79.81 331.00 3.18 50.00 -7.91 B
+648 SI1FA Uniwersytet Warszawski; Środowiskowe Laboratorium Ciężkich Jonów w UW 725 71.32 26.00 6.85 80.00 -17.94 B
+649 SI1FA Uniwersytet Marii Curie-Skłodowskiej w Lublinie; Wydział Matematyki. Fizyki i  Informatyki 310 70.05 368.00 2.81 75.00 -18.60 B
+650 SI1FA Politechnika Gdańska; Wydział Fizyki Technicznej i Matematyki Stosowanej 753 79.64 257.00 1.04 45.00 -20.01 B
+651 SI1FA Uniwersytet Szczeciński; Wydział Matematyczno-Fizyczny 574 69.76 74.00 3.55 62.50 -31.95 B
+652 SI1FA Politechnika Poznańska; Wydział Fizyki Technicznej 537 71.17 184.00 2.35 50.00 -32.62 B
+653 SI1FA Uniwersytet Jana Kochanowskiego w Kielcach; Wydział MatematycznoPrzyrodniczy 641 65.87 481.00 0.25 50.00 -36.71 B
+654 SI1FA Uniwersytet Kardynała Stefana Wyszyńskiego w Warszawie; Wydział  Matematyczno-Przyrodniczy.Szkoła Nauk Ścisłych 31 77.98 100.00 0.16 0.00 -37.03 B
+655 SI1FA Akademia im. Jana Długosza w Częstochowie; Wydział MatematycznoPrzyrodniczy 449 69.34 172.00 0.69 62.50 -37.65 B
+656 SI1FA Uniwersytet Rzeszowski; Wydział Matematyczno-Przyrodniczy 237 55.88 209.00 17.01 40.00 -39.16 B
+657 SI1FA Uniwersytet Kazimierza Wielkiego w Bydgoszczy; Wydział Matematyki. Fizyki i  Techniki 948 60.79 90.00 1.36 80.00 -44.42 B
+658 SI1FA Uniwersytet Opolski; Wydział Matematyki. Fizyki i Informatyki 424 64.71 130.00 0.16 62.50 -46.44 B
+659 SI1FA Politechnika Krakowska im. Tadeusza Kościuszki; Wydział Fizyki. Matematyki i  Informatyki 685 45.05 65.00 0.38 40.00 -84.08 C
+660 SI1GE Politechnika Śląska; Wydział Inżynierii Środowiska i Energetyki 338 46.82 517.00 11.46 83.00 84.86 A
+661 SI1GE Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie; Wydział  Energetyki i Paliw 209 53.01 165.00 5.08 83.50 62.07 A
+662 SI1GE Politechnika Poznańska; Wydział Maszyn Roboczych i Transportu 509 39.38 397.00 10.45 74.00 59.82 A
+663 SI1GE Politechnika Warszawska; Wydział Mechaniczny Energetyki i Lotnictwa 81 31.93 465.00 14.42 81.00 38.57 A
+664 SI1GE Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie; Wydział  Wiertnictwa. Nafty i Gazu 742 35.70 213.00 14.22 67.50 38.04 A
+665 SI1GE Politechnika Wrocławska; Wydział Geoinżynierii. Górnictwa i Geologii 163 33.02 265.00 13.06 55.00 25.66 B
+666 SI1GE Akademia Morska w Gdyni; Wydział Nawigacyjny 789 33.57 169.00 11.97 46.50 16.70 B
+667 SI1GE Międzynarodowa Wyższa Szkoła Logistyki i Transportu we Wrocławiu; Wydział  Logistyki i Transportu 847 35.66 44.00 6.00 58.00 13.19 B
+668 SI1GE Uniwersytet Przyrodniczy we Wrocławiu; Wydział Inżynierii Kształtowania  Środowiska i Geodezji 290 32.77 334.00 3.32 60.50 11.70 B
+669 SI1GE Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie; Wydział  Górnictwa i Geoinżynierii 39 30.82 345.00 6.76 59.50 10.75 B
+670 SI1GE Politechnika Śląska; Wydział Górnictwa i Geologii 335 30.60 275.00 5.19 57.50 2.56 B
+671 SI1GE Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie; Wydział  Geodezji Górniczej i Inżynierii Środowiska 791 29.82 426.00 3.72 55.50 -0.01 B
+672 SI1GE Akademia Morska w Szczecinie; Wydział Nawigacyjny 475 26.15 175.00 22.97 45.50 -13.58 B
+673 SI1GE Politechnika Warszawska; Wydział Transportu 931 23.23 273.00 12.47 50.00 -25.02 B
+674 SI1GE Uniwersytet Warmińsko-Mazurski w Olsztynie; Wydział Geodezji i Gospodarki Przestrzennej 506 27.22 265.00 3.17 46.50 -26.06 B
+675 SI1GE Uniwersytet Technologiczno-Humanistyczny im. Kazimierza Pułaskiego w Radomiu; Wydział Transportu i Elektrotechniki 608 28.35 205.00 1.00 44.00 -28.60 B
+676 SI1GE Akademia Marynarki Wojennej im. Bohaterów Westerplatte; Wydział Nawigacji i  Uzbrojenia Okrętowego 199 25.08 78.00 8.52 44.50 -35.38 B
+677 SI1GE Politechnika Warszawska; Wydział Geodezji i Kartografii 586 23.19 238.00 2.09 49.50 -47.90 B
+678 SI1GE Akademia Morska w Szczecinie; Wydział Inżynieryjno-Ekonomiczny Transportu 761 23.13 3.00 1.33 38.50 -63.18 B
+679 SI1GE Wojskowa Akademia Techniczna im. Jarosława Dąbrowskiego; Wydział Inżynierii Lądowej i Geodezji 855 14.57 130.00 5.79 36.00 -77.24 C
+680 SI1IM Politechnika Warszawska; Wydział Inżynierii Materiałowej  437 96.23 280.00 82.01 94.00 79.93 A+
+681 SI1IM Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie; Wydział Inżynierii Materiałowej i Ceramiki 723 87.63 677.00 22.30 60.00 74.94 A
+682 SI1IM Wojskowa Akademia Techniczna im. Jarosława Dąbrowskiego; Wydział Nowych Technologii i Chemii 417 83.24 298.00 26.65 75.00 65.22 A
+683 SI1IM Politechnika Warszawska; Wydział Inżynierii Chemicznej i Procesowej 835 78.99 220.00 15.78 100.00 48.34 A
+684 SI1IM Zachodniopomorski Uniwersytet Technologiczny w Szczecinie; Wydział Technologii i Inżynierii Chemicznej 750 85.63 475.00 9.40 30.00 46.72 A
+685 SI1IM Politechnika Łódzka; Wydział Technologii Materiałowych i Wzornictwa Tekstyliów 800 73.01 240.00 21.05 25.00 24.28 A
+686 SI1IM Politechnika Łódzka; Wydział Inżynierii Procesowej i Ochrony Środowiska 815 64.86 414.00 10.83 60.00 12.31 B
+687 SI1IM Uniwersytet Śląski w Katowicach; Wydział Informatyki i Nauki o Materiałach 873 71.54 368.00 2.99 46.00 12.03 B
+688 SI1IM Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie; Wydział Metali Nieżelaznych 545 65.68 330.00 13.47 50.00 11.47 B
+689 SI1IM Politechnika Częstochowska; Wydział Inżynierii Procesowej. Materiałowej i Fizyki Stosowanej 662 59.51 522.00 7.98 48.50 -3.06 B
+690 SI1IM Politechnika Krakowska im. Tadeusza Kościuszki; Wydział Inżynierii i Technologii Chemicznej 937 67.96 296.00 5.21 23.00 -6.02 B
+691 SI1IM Politechnika Śląska; Wydział Inżynierii Materiałowej i Metalurgii 591 54.01 492.00 14.27 40.00 -10.18 B
+692 SI1IM Politechnika Lubelska; Wydział Inżynierii Środowiska 923 64.55 207.00 5.10 45.50 -10.93 B
+693 SI1IM Politechnika Rzeszowska im. Ignacego Łukasiewicza; Wydział Chemiczny 250 57.21 194.00 20.46 26.00 -13.46 B
+694 SI1IM Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie; Wydział Inżynierii Metali i Informatyki Przemysłowej 865 52.20 423.00 8.56 68.00 -16.82 B
+695 SI1IM Uniwersytet Technologiczno-Przyrodniczy im. Jana i Jędrzeja Śniadeckich w  Bydgoszczy; Wydział Technologii i Inżynierii Chemicznej 671 63.21 127.00 1.67 15.00 -29.38 B
+696 SI1IM Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie; Wydział  Odlewnictwa 911 51.06 253.00 11.31 22.00 -37.63 B
+697 SI1IM Politechnika Świętokrzyska w Kielcach; Wydział Inżynierii Środowiska. Geomatyki  i Energetyki 895 41.06 79.00 37.37 54.00 -38.46 B
+698 SI1IM Politechnika Częstochowska; Wydział Inżynierii Środowiska i Biotechnologii 610 45.43 338.00 9.64 40.00 -41.62 B
+699 SI1IM Uniwersytet Technologiczno-Humanistyczny im. Kazimierza Pułaskiego w Radomiu; Wydział Materiałoznawstwa. Technologii i Wzornictwa 505 50.93 35.00 9.44 31.00 -45.28 B
+700 SI1IM Akademia Techniczno-Humanistyczna w Bielsku-Białej; Wydział Nauk o  Materiałach i Środowisku 859 38.06 107.00 11.24 30.00 -67.28 B
+701 SI1MH Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie; Wydział  Inżynierii Mechanicznej i Robotyki 244 50.62 578.00 24.16 86.00 76.01 A
+702 SI1MH Zachodniopomorski Uniwersytet Technologiczny w Szczecinie; Wydział Inżynierii  Mechanicznej i Mechatroniki 519 55.18 312.00 11.76 47.00 61.90 A
+703 SI1MH Politechnika Warszawska; Wydział Mechatroniki 159 55.26 373.00 4.75 70.00 57.03 A
+704 SI1MH Politechnika Poznańska; Wydział Budowy Maszyn i Zarządzania 226 47.78 512.00 10.46 58.50 54.75 A
+705 SI1MH Politechnika Świętokrzyska w Kielcach; Wydział Mechatroniki i Budowy Maszyn 899 47.91 305.00 26.09 37.00 51.41 A
+706 SI1MH Politechnika Białostocka; Wydział Mechaniczny 381 53.38 327.00 3.77 48.50 46.99 A
+707 SI1MH Politechnika Lubelska; Wydział Mechaniczny 327 48.26 331.00 5.87 30.00 33.76 A
+708 SI1MH Politechnika Koszalińska; Instytut Technologii i Edukacji 302 51.63 113.00 8.45 20.50 32.54 A
+709 SI1MH Politechnika Wrocławska; Wydział Mechaniczny 229 40.41 491.00 19.02 56.50 29.20 A
+710 SI1MH Politechnika Śląska; Wydział Inżynierii Biomedycznej 494 49.03 96.00 2.26 41.00 23.76 A
+711 SI1MH Politechnika Łódzka; Wydział Mechaniczny 860 41.55 646.00 5.60 60.00 20.05 A
+712 SI1MH Politechnika Śląska; Wydział Mechaniczny Technologiczny 315 38.59 616.00 7.71 87.00 15.93 B
+713 SI1MH Politechnika Gdańska; Wydział Oceanotechniki i Okrętownictwa 876 41.40 243.00 14.02 40.00 15.40 B
+714 SI1MH Akademia Morska w Szczecinie; Wydział Mechaniczny 200 44.43 163.00 2.70 54.00 13.61 B
+715 SI1MH Politechnika Opolska; Wydział Mechaniczny 400 44.53 282.00 2.51 35.00 11.84 B
+716 SI1MH Wojskowa Akademia Techniczna im. Jarosława Dąbrowskiego; Wydział Mechaniczny 353 34.92 390.00 27.59 66.00 11.80 B
+717 SI1MH Politechnika Rzeszowska im. Ignacego Łukasiewicza; Wydział Budowy Maszyn i Lotnictwa 934 37.11 398.00 12.47 37.50 4.12 B
+718 SI1MH Politechnika Częstochowska; Wydział Inżynierii Mechanicznej i Informatyki 884 38.70 604.00 0.96 75.00 2.51 B
+719 SI1MH Politechnika Lubelska; Wydział Podstaw Techniki 974 45.14 38.00 0.28 28.00 -0.89 B
+720 SI1MH Akademia Techniczno-Humanistyczna w Bielsku-Białej; Wydział Budowy Maszyn i Informatyki 26 38.56 234.00 11.81 20.50 -5.45 B
+721 SI1MH Uniwersytet Technologiczno-Przyrodniczy im. Jana i Jędrzeja Śniadeckich w Bydgoszczy; Wydział Inżynierii Mechanicznej 309 37.60 292.00 8.45 34.50 -5.72 B
+722 SI1MH Politechnika Krakowska im. Tadeusza Kościuszki; Wydział Mechaniczny 914 30.61 573.00 9.86 84.00 -8.54 B
+723 SI1MH Politechnika Warszawska; Wydział Samochodów i Maszyn Roboczych 929 31.89 341.00 12.37 60.00 -8.61 B
+724 SI1MH Uniwersytet Technologiczno-Humanistyczny im. Kazimierza Pułaskiego w Radomiu; Wydział Mechaniczny 21 37.72 263.00 7.34 30.00 -9.66 B
+725 SI1MH Politechnika Koszalińska; Wydział Mechaniczny 278 38.66 292.00 3.26 28.50 -13.97 B
+726 SI1MH Politechnika Gdańska; Wydział Mechaniczny 798 37.77 227.00 4.04 37.00 -15.09 B
+727 SI1MH Akademia Marynarki Wojennej im. Bohaterów Westerplatte; Wydział MechanicznoElektryczny 419 35.70 92.00 9.15 28.00 -21.88 B
+728 SI1MH Zachodniopomorski Uniwersytet Technologiczny w Szczecinie; Wydział Techniki  Morskiej i Transportu 78 34.49 184.00 4.55 40.00 -24.51 B
+729 SI1MH Wojskowa Akademia Techniczna im. Jarosława Dąbrowskiego; Wydział Mechatroniki i Lotnictwa 971 29.97 222.00 22.29 27.00 -26.70 B
+730 SI1MH Politechnika Świętokrzyska w Kielcach; Wydział Zarządzania i Modelowania  Komputerowego 646 37.60 101.00 1.55 15.00 -33.68 B
+731 SI1MH Politechnika Wrocławska; Wydział Mechaniczno-Energetyczny 464 23.19 199.00 14.23 42.00 -47.15 B
+732 SI1MH Akademia Morska w Gdyni; Wydział Mechaniczny 146 30.81 87.00 1.60 30.00 -51.76 B
+733 SI1MH Politechnika Śląska; Wydział Transportu 965 29.46 144.00 3.37 29.00 -52.45 B
+734 SI1MH Politechnika Warszawska; Wydział Inżynierii Produkcji 707 24.97 336.00 4.65 17.00 -60.74 B
+735 SI1MH Uniwersytet Zielonogórski; Wydział Mechaniczny 554 29.08 86.00 0.58 28.00 -61.18 B
+736 SI1MH Wyższa Szkoła Oficerska Sił Powietrznych; Wydział Lotnictwa 399 19.47 38.00 12.48 30.00 -64.49 B
+737 SI1MI Uniwersytet Warszawski; Wydział Matematyki. Informatyki i Mechaniki 802 77.72 656.00 3.82 100.00 75.34 A+
+738 SI1MI Uniwersytet Jagielloński w Krakowie; Wydział Matematyki i Informatyki 277 77.72 391.00 2.45 100.00 68.40 A
+739 SI1MI Uniwersytet im. Adama Mickiewicza w Poznaniu; Wydział Matematyki i Informatyki 196 69.41 387.00 1.78 95.00 51.71 A
+740 SI1MI Uniwersytet Wrocławski; Wydział Matematyki i Informatyki 439 64.92 560.00 1.14 70.00 33.19 A
+741 SI1MI Uniwersytet Mikołaja Kopernika w Toruniu; Wydział Matematyki i Informatyki 570 67.39 311.00 0.83 70.00 29.02 A
+742 SI1MI Politechnika Łódzka; Wydział Fizyki Technicznej. Informatyki i Matematyki Stosowanej 482 61.50 239.00 3.36 55.00 24.34 A
+743 SI1MI Uniwersytet Zielonogórski; Wydział Matematyki. Informatyki i Ekonometrii 252 69.44 201.00 0.13 65.00 18.32 A
+744 SI1MI Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie; Wydział  Matematyki Stosowanej 234 68.82 124.00 0.17 70.00 14.01 A
+745 SI1MI Politechnika Rzeszowska im. Ignacego Łukasiewicza; Wydział Matematyki i Fizyki Stosowanej 647 67.78 26.00 1.12 30.00 10.34 A
+746 SI1MI Politechnika Warszawska; Wydział Matematyki i Nauk Informacyjnych 148 59.30 251.00 1.06 50.00 2.19 A
+747 SI1MI Uniwersytet Pedagogiczny im. Komisji Edukacji Narodowej w Krakowie; Wydział  Matematyczno-Fizyczno-Techniczny 142 59.62 188.00 0.35 40.00 -13.63 B
+748 SI1MI Uniwersytet Łódzki; Wydział Matematyki i Informatyki 387 50.97 266.00 0.66 65.00 -22.65 B
+749 SI1MI Uniwersytet Warmińsko-Mazurski w Olsztynie; Wydział Matematyki i Informatyki 463 45.94 95.00 1.53 50.00 -33.11 B
+750 SI1MI Politechnika Śląska; Wydział Matematyki Stosowanej 595 52.79 78.00 0.44 45.00 -36.60 B
+751 SI1MI Uniwersytet w Białymstoku; Wydział Matematyki i Informatyki 559 36.50 66.00 0.21 50.00 -71.72 C
+752 SI1MI Katolicki Uniwersytet Lubelski Jana Pawła II w Lublinie; Wydział Matematyki. Informatyki i Architektury Krajobrazu 675 24.63 35.00 0.70 15.00 -82.48 C
+753 SI2BA Instytut Budownictwa Wodnego Polskiej Akademii Nauk 724 33.53 42.00 10.21 70.00 42.58 B
+754 SI2CT Instytut Chemii Fizycznej Polskiej Akademii Nauk 483 94.52 285.00 17.78 70.50 58.50 A
+755 SI2CT Instytut Katalizy i Fizykochemii Powierzchni im. Jerzego Habera Polskiej Akademii Nauk 154 93.22 220.00 16.62 73.00 52.37 A
+756 SI2CT Instytut Chemii Organicznej Polskiej Akademii Nauk 882 92.72 196.00 12.53 46.00 29.20 A
+757 SI2CT Centrum Materiałów Polimerowych i Węglowych Polskiej Akademii Nauk 365 80.26 111.00 9.79 45.00 -8.50 B
+758 SI2CT Centrum Badań Molekularnych i Makromolekularnych Polskiej Akademii Nauk 868 63.00 260.00 6.38 38.00 -45.13 B
+759 SI2EA Instytut Badań Systemowych Polskiej Akademii Nauk 941 91.53 290.00 5.01 78.00 65.33 A
+760 SI2EA Instytut Podstaw Informatyki Polskiej Akademii Nauk 323 56.78 427.00 15.79 60.00 34.03 A
+761 SI2EA Instytut Biocybernetyki i Inżynierii Biomedycznej im. Macieja Nałęcza Polskiej  Akademii Nauk 785 56.39 241.00 5.97 82.50 12.49 A
+762 SI2EA Instytut Informatyki Teoretycznej i Stosowanej Polskiej Akademii Nauk 268 58.90 89.00 6.74 55.00 -2.94 A
+763 SI2FA Instytut Fizyki Jądrowej im. Henryka Niewodniczańskiego Polskiej Akademii Nauk 771 97.74 678.00 29.79 100.00 46.83 A+
+764 SI2FA Instytut Niskich Temperatur i Badań Strukturalnych im. Włodzimierza Trzebiatowskiego Polskiej Akademii Nauk 702 102.80 404.00 23.06 87.50 39.07 A+
+765 SI2FA Centrum Astronomiczne im. Mikołaja Kopernika Polskiej Akademii Nauk 705 111.31 208.00 9.82 100.00 32.16 A+
+766 SI2FA Instytut Fizyki Polskiej Akademii Nauk 655 94.03 453.00 22.24 90.00 28.64 A
+767 SI2FA Instytut Fizyki Molekularnej Polskiej Akademii Nauk 973 96.89 251.00 11.23 100.00 17.84 A
+768 SI2FA Centrum Fizyki Teoretycznej Polskiej Akademii Nauk 85 112.29 85.00 2.74 75.00 12.36 A
+769 SI2FA Instytut Wysokich Ciśnień Polskiej Akademii Nauk 668 92.21 122.00 34.60 60.00 10.89 A
+770 SI2FA Centrum Badań Kosmicznych Polskiej Akademii Nauk 770 70.10 244.00 39.23 70.00 -26.97 A
+771 SI2FA Międzynarodowe Laboratorium Silnych Pól Magnetycznych i Niskich Temperatur 817 78.36 0.00 8.37 62.50 -46.55 B
+772 SI2GE Instytut Mechaniki Górotworu Polskiej Akademii Nauk 862 47.63 114.00 12.97 73.50 52.23 A
+773 SI2GE Instytut Gospodarki Surowcami Mineralnymi i Energią Polskiej Akademii Nauk 55 39.69 165.00 23.21 65.00 35.23 A
+774 SI2IM Instytut Metalurgii i Inżynierii Materiałowej im. Aleksandra Krupkowskiego Polskiej  Akademii Nauk 507 82.41 348.00 23.03 37.50 75.98 A
+775 SI2IM Instytut Inżynierii Chemicznej Polskiej Akademii Nauk 596 55.92 66.00 5.66 72.00 -18.21 B
+776 SI2MH Instytut Podstawowych Problemów Techniki Polskiej Akademii Nauk 514 80.89 657.00 16.77 84.00 90.90 A+
+777 SI2MH Instytut Maszyn Przepływowych im. Roberta Szewalskiego Polskiej Akademii Nauk 695 43.48 333.00 13.66 72.00 -0.26 B
+778 SI2MI Instytut Matematyczny Polskiej Akademii Nauk 472 85.02 366.00 2.77 100.00 93.30 A+
+779 SI3EG Instytut Chemicznej Przeróbki Węgla 916 27.14 129.00 50.91 88.50 45.62 A
+780 SI3EG Instytut Chemii i Techniki Jądrowej 248 75.17 266.00 17.31 81.00 29.32 A
+781 SI3EG Instytut Fizyki Plazmy i Laserowej Mikrosyntezy 258 62.68 33.00 22.20 74.00 25.83 A
+782 SI3EG Instytut Nafty i Gazu 804 26.63 156.00 24.29 88.00 22.78 A
+783 SI3EG Narodowe Centrum Badań Jądrowych 44 78.41 399.00 12.54 100.00 15.24 A
+784 SI3EG Główny Instytut Górnictwa 629 19.99 444.00 21.00 85.50 7.57 B
+785 SI3EG Instytut Energetyki 201 9.71 164.00 26.24 90.00 1.18 B
+786 SI3EG Instytut Technik Innowacyjnych EMAG 762 14.39 150.00 21.57 70.00 -18.64 B
+787 SI3EG Poltegor-Instytut. Instytut Górnictwa Odkrywkowego 287 15.39 53.00 18.27 59.00 -41.74 B
+788 SI3EG Instytut Techniki Górniczej KOMAG 423 22.68 154.00 11.61 70.00 -45.48 B
+789 SI3EI Instytut Technologii Elektronowej 819 71.81 260.00 49.28 87.50 83.94 A
+790 SI3EI Instytut Tele- i Radiotechniczny 241 56.98 93.00 32.10 78.00 51.51 A
+791 SI3EI Naukowa i Akademicka Sieć Komputerowa 632 27.66 38.00 87.42 62.50 26.58 B
+792 SI3EI Przemysłowy Instytut Automatyki i Pomiarów PIAP 584 23.97 68.00 46.71 67.50 17.33 B
+793 SI3EI Instytut Technologii Materiałów Elektronicznych 755 67.25 135.00 12.06 85.00 14.32 B
+794 SI3EI Branżowy Ośrodek Badawczo-Rozwojowy Maszyn Elektrycznych KOMEL 275 38.61 40.00 26.84 55.00 10.80 B
+795 SI3EI Instytut Elektrotechniki 112 37.84 286.00 15.26 50.00 -7.67 B
+796 SI3EI Instytut Łączności - Państwowy Instytut Badawczy 249 30.53 179.00 15.33 67.50 -17.41 B
+797 SI3EI Instytut Maszyn Matematycznych 15 21.62 15.00 23.83 60.00 -26.02 B
+798 SI3EI Instytut Techniki i Aparatury Medycznej ITAM 917 23.25 76.00 17.27 65.00 -36.36 B
+799 SI3EI Wojskowy Instytut Łączności im. prof. Janusza Groszkowskiego 830 5.72 88.00 19.12 70.00 -46.48 B
+800 SI3EI Instytut Optyki Stosowanej imienia prof. Maksymiliana Pluty 60 34.05 24.00 8.17 32.50 -52.73 C
+801 SI3IO Instytut Badawczy Dróg i Mostów 106 23.30 134.00 115.41 85.00 57.00 A
+802 SI3IO Instytut Kolejnictwa 694 16.55 118.00 176.52 92.50 46.30 A
+803 SI3IO Instytut Meteorologii i Gospodarki Wodnej - Państwowy Instytut Badawczy 299 19.97 203.00 43.26 55.00 18.40 B
+804 SI3IO Instytut Gospodarki Przestrzennej i Mieszkalnictwa 150 28.49 54.00 14.92 70.00 -4.81 B
+805 SI3IO Instytut Techniki Budowlanej 607 10.92 183.00 35.77 68.00 -10.44 B
+806 SI3IO Instytut Geodezji i Kartografii 832 23.83 36.00 18.58 78.00 -14.01 B
+807 SI3IO Instytut Ceramiki i Materiałów Budowlanych 360 15.08 160.00 22.69 97.50 -18.38 B
+808 SI3IO Instytut Rozwoju Miast 481 31.23 53.00 2.72 65.00 -21.56 B
+809 SI3IO Wojskowy Instytut Techniki Inżynieryjnej im. profesora Józefa Kosackiego 208 5.75 86.00 18.74 82.50 -54.65 C
+810 SI3MU Instytut Mechanizacji Budownictwa i Górnictwa Skalnego 217 29.41 127.00 270.93 90.00 75.83 A
+811 SI3MU Przemysłowy Instytut Motoryzacji 178 30.57 122.00 280.14 35.00 63.85 A
+812 SI3MU Instytut Techniczny Wojsk Lotniczych 137 31.34 283.00 122.78 85.00 61.94 A
+813 SI3MU Instytut Technologii Eksploatacji - Państwowy Instytut Badawczy 420 46.46 117.00 34.44 100.00 28.49 B
+814 SI3MU Wojskowy Instytut Techniki Pancernej i Samochodowej 369 15.99 50.00 155.55 55.00 21.57 B
+815 SI3MU Przemysłowy Instytut Maszyn Rolniczych 117 20.08 108.00 47.43 100.00 11.97 B
+816 SI3MU Instytut Obróbki Plastycznej 599 17.03 60.00 61.12 100.00 5.72 B
+817 SI3MU Instytut Mechaniki Precyzyjnej 600 23.65 150.00 27.22 100.00 3.65 B
+818 SI3MU Wojskowy Instytut Techniczny Uzbrojenia 349 9.54 109.00 50.65 65.00 -18.91 B
+819 SI3MU Instytut Zaawansowanych Technologii Wytwarzania 371 11.41 106.00 28.39 100.00 -31.76 C
+820 SI3MU Centralny Ośrodek Badawczo-Rozwojowy Przemysłu Poligraficznego 79 10.98 2.00 13.28 30.00 -67.60 C
+821 SI3MU Centralny Ośrodek Badawczo-Rozwojowy Maszyn Włókienniczych "POLMATEXCENARO" 650 9.66 0.00 11.69 7.50 -72.99 C
+822 SI3MU Ośrodek Badawczo - Rozwojowy Dźwignic i Urządzeń Transportowych "Detrans" 91 4.16 2.00 1.35 40.00 -88.57 C
+823 SI3TB Centralny Instytut Ochrony Pracy - Państwowy Instytut Badawczy 181 35.50 222.00 62.65 100.00 76.53 A
+824 SI3TB Instytut Transportu Samochodowego 27 32.41 185.00 57.89 80.00 65.83 A
+825 SI3TB Ośrodek Przetwarzania Informacji 49 15.47 25.00 101.91 75.00 25.64 A
+826 SI3TB Centrum Naukowo-Badawcze Ochrony Przeciwpożarowej im. Józefa  Tuliszkowskiego - Państwowy Instytut Badawczy 100 33.82 143.00 20.92 70.00 1.13 B
+827 SI3TB Instytut Logistyki i Magazynowania 326 14.69 48.00 41.61 75.00 -7.96 B
+828 SI3TB Instytut Lotnictwa 448 5.69 128.00 38.93 100.00 -11.49 B
+829 SI3TB Instytut Technologii Bezpieczeństwa MORATEX 722 31.10 110.00 13.76 77.50 -12.53 B
+830 SI3TB Instytut Pojazdów Szynowych TABOR 415 10.45 160.00 26.35 80.00 -29.42 B
+831 SI3TB Wojskowy Instytut Chemii i Radiometrii 511 5.09 92.00 33.56 80.00 -33.15 B
+832 SI3TB Centralne Laboratorium Ochrony Radiologicznej 186 22.59 54.00 14.56 80.00 -35.35 B
+833 SI3TM Instytut Odlewnictwa 788 38.98 127.00 67.13 70.00 53.26 A
+834 SI3TM Instytut Włókiennictwa 718 34.28 120.00 63.45 85.00 45.47 A
+835 SI3TM Instytut Nawozów Sztucznych 331 36.72 114.00 54.77 100.00 41.78 A
+836 SI3TM Instytut Ciężkiej Syntezy Organicznej BLACHOWNIA 82 51.63 109.00 33.79 100.00 35.06 A
+837 SI3TM Instytut Spawalnictwa 692 26.38 114.00 67.86 60.00 22.29 A
+838 SI3TM Instytut Metalurgii Żelaza im. Stanisława Staszica 441 26.46 76.00 73.64 80.00 22.14 A
+839 SI3TM Instytut Inżynierii Materiałów Polimerowych i Barwników 222 45.48 109.00 28.17 50.00 13.28 B
+840 SI3TM Instytut Chemii Przemysłowej im. prof. Ignacego Mościckiego 152 46.08 161.00 15.09 100.00 9.52 B
+841 SI3TM Instytut Metali Nieżelaznych 553 23.88 143.00 33.75 100.00 -1.83 B
+842 SI3TM Instytut Biopolimerów i Włókien Chemicznych 684 28.42 96.00 11.65 85.00 -40.32 B
+843 SI3TM CORBO - Instytut Badawczy Opakowań 129 17.96 76.00 28.71 40.00 -49.86 B
+844 SI3TM Instytut Przemysłu Organicznego 848 14.89 150.00 9.23 85.00 -55.00 B
+845 SI3TM Instytut Przemysłu Skórzanego 75 27.19 78.00 10.72 50.00 -56.67 B
+846 SI4EG KGHM CUPRUM sp. z o.o. Centrum Badawczo Rozwojowe z siedzibą we  Wrocławiu 613 11.38 95.00 32.14 60.00 6.08 B
+847 SI4EI Instytut Automatyki Systemów Energetycznych Sp. z o.o. 414 4.08 32.00 15.88 40.00 -35.00 C
+848 SI4EI Centrum Fizyki Ciała Stałego Sp. z o.o. 688 10.00 0.00 0.00 0.00 -76.67 C
+849 SI4MU Centralny Ośrodek Badawczo Rozwojowy Aparatury Badawczej i Dydaktycznej  COBRABiD sp. z o.o. 236 34.84 2.00 193.90 35.00 46.19 A
+850 SI4MU Ośrodek Badawczo-Rozwojowy Udządzeń Mechanicznych "OBRUM" sp. z o.o. 728 23.07 20.00 184.73 55.00 41.67 A
+851 SI4MU Instytut Badań i Rozwoju Motoryzacji BOSMAL Sp. z o. o. 550 9.53 84.00 1006.72 10.00 35.95 A
+852 SI4MU Przemysłowy Instytut Maszyn Budowlanych Sp. z o.o. 228 3.33 60.00 10.83 35.00 -62.10 C
+853 SI4MU Centrum Badawczo-Konstrukcyjne Obrabiarek Sp. z o.o. 493 3.30 16.00 9.73 30.00 -70.38 C
+854 SI4TB Fundacja Partnerstwa Technologicznego 949 8.33 4.00 81.82 55.00 22.24 B
+855 SI4TB Centrum Techniki Okrętowej S.A. Zakład Badawczo-Rozwojowy 957 9.25 80.00 34.14 75.00 4.39 B
+856 SI4TB Ośrodek Badawczo-Rozwojowy Centrum Techniki Morskiej S.A. 558 4.04 109.00 18.35 70.00 -58.47 C
+857 SI4TM Fundacja Uniwersytetu im. A. Mickiewicza Poznański Park NaukowoTechnologiczny 273 31.81 19.00 18.53 35.00 16.66 C
+858 SI4TM Centralny Ośrodek Chłodnictwa „COCH” w Krakowie Sp. z o.o. 233 4.07 71.00 14.64 10.00 -48.72 C
+859 SI4TM Ośrodek Badawczo-Rozwojowy Przemysłu Płyt Drewnopochodnych sp. z o.o. 398 7.52 30.00 3.98 15.00 -80.67 C
