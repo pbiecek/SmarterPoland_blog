@@ -1,0 +1,3030 @@
+1
+HS1EK
+Szkoła Główna Handlowa w Warszawie; Kolegium Analiz Ekonomicznych
+107
+40.82
+330.00
+1.85
+95.00
+83.88
+A+
+2
+HS1EK
+Szkoła Główna Handlowa w Warszawie; Kolegium Zarządzania i Finansów
+609
+37.52
+560.00
+0.13
+90.00
+75.39
+A+
+3
+HS1EK
+Uniwersytet Ekonomiczny w Poznaniu; Wydział Towaroznawstwa
+818
+42.84
+285.00
+0.99
+50.00
+73.26
+A
+4
+HS1EK
+Uniwersytet Ekonomiczny w Poznaniu; Wydział Zarządzania
+171
+37.10
+519.00
+0.37
+72.50
+72.66
+A
+5
+HS1EK
+Uniwersytet Warszawski; Wydział Nauk Ekonomicznych
+492
+39.72
+233.00
+2.10
+55.00
+70.97
+A
+6
+HS1EK
+Uniwersytet Ekonomiczny we Wrocławiu; Wydział Inżynieryjno-Ekonomiczny
+710
+44.47
+171.00
+2.64
+40.00
+68.28
+A
+7
+HS1EK
+Szkoła Główna Handlowa w Warszawie; Kolegium Nauk o Przedsiębiorstwie
+232
+33.43
+426.00
+1.47
+80.50
+58.31
+A
+8
+HS1EK
+Uniwersytet Ekonomiczny w Poznaniu; Wydział Ekonomii
+734
+33.02
+371.00
+1.70
+80.00
+55.13
+A
+9
+HS1EK
+Uniwersytet Szczeciński; Wydział Nauk Ekonomicznych i Zarządzania
+769
+32.89
+426.00
+1.17
+72.50
+53.73
+A
+10
+HS1EK
+Szkoła Główna Gospodarstwa Wiejskiego w Warszawie; Wydział Zastosowań Informatyki i Matematyki
+871
+38.33
+78.00
+0.15
+50.00
+50.91
+A
+11
+HS1EK
+Szkoła Główna Handlowa w Warszawie; Kolegium Ekonomiczno-Społeczne
+227
+33.19
+244.00
+0.58
+69.00
+47.37
+A
+12
+HS1EK
+Uniwersytet Ekonomiczny we Wrocławiu; Wydział Zarządzania. Informatyki i Finansów
+219
+29.37
+473.00
+2.24
+90.00
+42.68
+A
+13
+HS1EK
+Uniwersytet Ekonomiczny w Katowicach; Wydział Ekonomii
+758
+31.73
+342.00
+0.67
+60.00
+40.70
+A
+14
+HS1EK
+Uniwersytet Ekonomiczny w Krakowie; Wydział Zarządzania
+344
+30.80
+484.00
+0.32
+65.00
+39.83
+A
+15
+HS1EK
+Akademia Leona Koźmińskiego w Warszawie
+90
+29.52
+487.00
+0.38
+82.50
+38.38
+A
+16
+HS1EK
+Szkoła Główna Handlowa w Warszawie; Kolegium Gospodarki Światowej
+796
+30.80
+313.00
+0.36
+72.50
+37.45
+A
+17
+HS1EK
+Uniwersytet Ekonomiczny we Wrocławiu; Wydział Nauk Ekonomicznych
+473
+29.07
+459.00
+1.91
+70.00
+37.30
+A
+18
+HS1EK
+Uniwersytet Ekonomiczny w Krakowie; Wydział Towaroznawstwa
+844
+34.43
+199.00
+0.36
+30.00
+36.66
+A
+19
+HS1EK
+Uniwersytet Warszawski; Wydział Zarządzania
+864
+30.78
+317.00
+0.51
+65.00
+36.60
+A
+20
+HS1EK
+Uniwersytet Ekonomiczny w Katowicach; Wydział Zarządzania
+704
+30.41
+419.00
+0.36
+62.50
+36.51
+A
+21
+HS1EK
+Wyższa Szkoła Biznesu w Dąbrowie Górniczej; Wydział Zarządzania. Informatyki i Nauk Społecznych
+691
+35.83
+139.00
+0.00
+25.00
+35.68
+A
+22
+HS1EK
+Uniwersytet Ekonomiczny we Wrocławiu; Wydział Ekonomii. Zarządzania i Turystyki w Jeleniej Górze
+857
+30.25
+205.00
+0.90
+72.50
+33.25
+A
+23
+HS1EK
+Uniwersytet Ekonomiczny w Poznaniu; Wydział Informatyki i Gospodarki Elektronicznej
+801
+28.88
+234.00
+4.23
+75.00
+32.33
+A
+24
+HS1EK
+Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie; Wydział Zarządzania
+659
+30.24
+208.00
+2.22
+60.00
+32.26
+A
+25
+HS1EK
+Uniwersytet Ekonomiczny w Krakowie; Wydział Ekonomii i Stosunków Międzynarodowych
+676
+28.90
+426.00
+2.44
+55.00
+32.21
+A
+26
+HS1EK
+Uniwersytet Ekonomiczny w Krakowie; Wydział Finansów
+210
+31.66
+266.00
+0.08
+55.00
+32.09
+A
+27
+HS1EK
+Wyższa Szkoła Finansów i Zarządzania w Warszawie; Wydział Zarządzania i Finansów
+877
+36.52
+81.00
+0.07
+20.00
+31.97
+A
+28
+HS1EK
+Uniwersytet Łódzki; Wydział Ekonomiczno-Socjologiczny
+744
+26.81
+562.00
+0.77
+95.00
+30.88
+A
+29
+HS1EK
+Społeczna Akademia Nauk z siedzibą w Łodzi; Wydział Zarządzania
+280
+33.73
+99.00
+1.77
+29.50
+30.22
+A
+30
+HS1EK
+Uniwersytet Łódzki; Wydział Zarządzania
+46
+27.87
+336.00
+0.84
+77.50
+28.74
+A
+31
+HS1EK
+Wyższa Szkoła Biznesu - National Louis University z siedzibą w Nowym Sączu; Wydział Nauk Społecznych i Informatyki
+890
+33.94
+42.00
+2.66
+35.00
+27.46
+B
+32
+HS1EK
+Uniwersytet Warmińsko-Mazurski w Olsztynie; Wydział Nauk Ekonomicznych
+838
+30.33
+137.00
+2.31
+45.50
+24.43
+B
+33
+HS1EK
+Uniwersytet Szczeciński; Wydział Zarządzania i Ekonomiki Usług
+118
+27.98
+268.00
+0.63
+65.00
+23.70
+B
+34
+HS1EK
+Politechnika Częstochowska; Wydział Zarządzania
+193
+29.50
+415.00
+0.31
+34.50
+21.57
+B
+35
+HS1EK
+Uniwersytet Technologiczno-Humanistyczny im. Kazimierza Pułaskiego w Radomiu; Wydział Ekonomiczny
+938
+33.28
+115.00
+0.00
+25.00
+20.87
+B
+36
+HS1EK
+Uniwersytet Ekonomiczny w Poznaniu; Wydział Gospodarki Międzynarodowej
+33
+28.62
+256.00
+0.36
+52.50
+20.62
+B
+37
+HS1EK
+Uniwersytet Przyrodniczy w Poznaniu; Wydział Ekonomiczno-Społeczny
+378
+29.51
+100.00
+0.10
+65.00
+18.01
+B
+38
+HS1EK
+Uniwersytet Mikołaja Kopernika w Toruniu; Wydział Nauk Ekonomicznych i Zarządzania
+149
+25.14
+418.00
+0.97
+80.00
+17.54
+B
+39
+HS1EK
+Uniwersytet Ekonomiczny w Katowicach; Wydział Finansów i Ubezpieczeń
+693
+27.43
+270.00
+0.25
+52.50
+14.90
+B
+40
+HS1EK
+Szkoła Główna Gospodarstwa Wiejskiego w Warszawie; Wydział Nauk Ekonomicznych
+485
+26.51
+383.00
+0.61
+47.50
+14.88
+B
+41
+HS1EK
+Politechnika Łódzka; Wydział Organizacji i Zarządzania
+293
+30.80
+135.00
+0.58
+25.00
+13.94
+B
+42
+HS1EK
+Uniwersytet Ekonomiczny w Katowicach; Wydział Informatyki i Komunikacji
+240
+28.84
+106.00
+0.91
+45.00
+13.30
+B
+43
+HS1EK
+Uniwersytet Gdański; Wydział Zarządzania
+379
+25.22
+418.00
+0.04
+70.00
+11.45
+B
+44
+HS1EK
+Politechnika Gdańska; Wydział Zarządzania i Ekonomii
+635
+27.45
+199.00
+0.23
+50.00
+11.18
+B
+45
+HS1EK
+Uniwersytet Gdański; Wydział Ekonomiczny
+939
+24.75
+249.00
+1.46
+80.00
+10.65
+B
+46
+HS1EK
+Politechnika Śląska; Wydział Organizacji i Zarządzania
+279
+26.62
+171.00
+2.46
+45.00
+9.82
+B
+47
+HS1EK
+Uniwersytet Zielonogórski; Wydział Ekonomii i Zarządzania
+925
+27.73
+85.00
+0.58
+55.00
+9.23
+B
+48
+HS1EK
+Akademia Morska w Gdyni; Wydział Przedsiębiorczości i Towaroznawstwa
+660
+28.57
+77.00
+0.58
+45.00
+8.68
+B
+49
+HS1EK
+Wyższa Szkoła Informatyki i Zarządzania w Rzeszowie; Wydział Ekonomiczny
+220
+28.64
+42.00
+10.85
+45.00
+8.22
+B
+50
+HS1EK
+Politechnika Białostocka; Wydział Zarządzania
+866
+27.38
+104.00
+1.37
+45.00
+7.58
+B
+51
+HS1EK
+Politechnika Warszawska; Wydział Zarządzania
+295
+26.23
+97.00
+0.26
+65.00
+4.51
+B
+52
+HS1EK
+Zachodniopomorski Uniwersytet Technologiczny w Szczecinie; Wydział Ekonomiczny
+32
+28.50
+107.00
+0.18
+35.00
+3.61
+B
+53
+HS1EK
+Uniwersytet w Białymstoku; Wydział Ekonomii i Zarządzania
+893
+25.84
+241.00
+2.30
+30.00
+2.08
+B
+54
+HS1EK
+Wyższa Szkoła Logistyki w Poznaniu; Wydział Zarządzania i Logistyki
+927
+28.77
+39.00
+3.59
+30.00
+1.43
+B
+55
+HS1EK
+Politechnika Rzeszowska im. Ignacego Łukasiewicza; Wydział Zarządzania
+498
+30.20
+50.00
+0.00
+30.00
+1.21
+B
+56
+HS1EK
+Uniwersytet Marii Curie-Skłodowskiej w Lublinie; Wydział Ekonomiczny
+622
+23.95
+186.00
+0.86
+75.00
+0.69
+B
+57
+HS1EK
+Politechnika Poznańska; Wydział Inżynierii Zarządzania
+128
+26.19
+152.00
+1.34
+32.50
+-0.16
+B
+58
+HS1EK
+Uniwersytet Rzeszowski; Wydział Ekonomii
+778
+29.31
+39.00
+0.18
+32.50
+-1.87
+B
+59
+HS1EK
+Uniwersytet Opolski; Wydział Ekonomiczny
+827
+27.86
+71.00
+0.06
+37.50
+-2.27
+B
+60
+HS1EK
+Uniwersytet Technologiczno-Przyrodniczy im. Jana i Jędrzeja Śniadeckich w Bydgoszczy; Wydział Zarządzania
+926
+27.46
+67.00
+0.14
+39.00
+-3.53
+B
+61
+HS1EK
+Szkoła Wyższa im. Bogdana Jańskiego w Warszawie; Wydział Zarządzania w Warszawie
+198
+27.07
+57.00
+1.23
+32.50
+-4.78
+B
+62
+HS1EK
+Wy¿sza Szko³a Zarz¹dzania "Edukacja" we Wroc³awiu; Wydzia³ Zarz¹dzania
+739
+27.96
+78.00
+0.39
+20.00
+-5.53
+B
+63
+HS1EK
+Wy¿sza Szko³a Zarz¹dzania i Administracji w Zamoœciu; Wydzia³ Zarz¹dzania i Administracji
+924
+27.50
+18.00
+8.43
+25.00
+-8.03
+B
+64
+HS1EK
+Akademia Techniczno-Humanistyczna w Bielsku-Bia³ej; Wydzia³ Zarz¹dzania i Informatyki
+92
+24.87
+96.00
+0.00
+40.00
+-14.82
+B
+65
+HS1EK
+Wy¿sza Szko³a Zarz¹dzania w Gdañsku; Wydzia³ Informatyki i Zarz¹dzania
+375
+28.77
+13.00
+0.00
+8.00
+-16.48
+B
+66
+HS1EK
+Politechnika Opolska; Wydzia³ Ekonomii i Zarz¹dzania
+88
+24.58
+101.00
+0.79
+20.00
+-20.30
+B
+67
+HS1EK
+Politechnika Koszaliñska; Wydzia³ Nauk Ekonomicznych
+329
+25.18
+38.00
+0.07
+35.00
+-22.07
+B
+68
+HS1EK
+Akademia Finansów i Biznesu Vistula; Instytut Zarz¹dzania Ryzykiem
+235
+24.81
+63.00
+0.13
+2.50
+-31.28
+B
+69
+HS1EK
+Uniwersytet w Bia³ymstoku; Wydzia³ Ekonomiczno-Informatyczny w Wilnie
+269
+24.71
+12.00
+0.00
+25.00
+-31.64
+B
+70
+HS1EK
+Uniwersytet Przyrodniczo-Humanistyczny w Siedlcach; Wydzia³ Nauk Ekonomicznych i Prawnych
+960
+22.79
+68.00
+0.04
+35.00
+-33.28
+B
+71
+HS1EK
+Wy¿sza Szko³a Gospodarki Euroregionalnej im. Alcide De Gasperi w Józefowie
+636
+21.54
+27.00
+1.62
+35.00
+-40.52
+B
+72
+HS1EK
+Politechnika Lubelska; Wydzia³ Zarz¹dzania
+732
+22.07
+81.00
+0.03
+20.00
+-42.21
+B
+73
+HS1EK
+Wy¿sza Szko³a Bankowa w Poznaniu; Wydzia³ Finansów i Bankowoœci
+443
+21.22
+18.00
+0.20
+40.00
+-45.58
+B
+74
+HS1EK
+Wy¿sza Szko³a Handlowa we Wroc³awiu; Wydzia³ Ekonomiczno-Mened¿erski
+24
+21.17
+25.00
+2.69
+22.50
+-46.88
+B
+75
+HS1EK
+Wy¿sza Szko³a Zarz¹dzania i Bankowoœci w Krakowie; Wydzia³ Zarz¹dzania i Informatyki
+346
+21.74
+15.00
+0.00
+20.00
+-52.32
+B
+76
+HS1EK
+Wy¿sza Szko³a Zarz¹dzania i Bankowoœci w Krakowie; Wydzia³ Nauk Ekonomicznych i Spo³ecznych
+891
+21.29
+31.00
+0.00
+20.00
+-53.89
+B
+77
+HS1EK
+Uczelnia £azarskiego w Warszawie; Wydzia³ Ekonomii i Zarz¹dzania
+747
+17.58
+57.00
+1.32
+30.00
+-53.93
+B
+78
+HS1EK
+Szko³a G³ówna Turystyki i Rekreacji; Wydzia³ Turystyki i Rekreacji
+909
+21.87
+13.00
+0.00
+0.00
+-56.60
+B
+79
+HS1EK
+Wy¿sza Szko³a Bankowa w Gdañsku; Wydzia³ Finansów i Z¹rzadzania
+170
+18.68
+44.00
+0.00
+30.00
+-58.15
+B
+80
+HS1EK
+Wy¿sza Szko³a Finansów i Zarz¹dzania w Bia³ymstoku; Wydzia³ Zarz¹dzania Filia w E³ku
+105
+21.16
+18.00
+0.00
+0.00
+-60.56
+B
+81
+HS1EK
+Wy¿sza Szko³a Mened¿erska w Warszawie; Wydzia³ Mened¿erski
+803
+17.63
+15.00
+1.99
+19.00
+-62.11
+B
+82
+HS1EK
+Wy¿sza Szko³a Finansów i Zarz¹dzania w Bia³ymstoku; Wydzia³ Nauk Ekonomicznych
+508
+19.81
+39.00
+0.04
+10.00
+-62.77
+B
+83
+HS1EK
+Wy¿sza Szko³a Bankowa w Toruniu
+451
+14.11
+68.00
+0.00
+35.00
+-63.61
+B
+84
+HS1EK
+Wy¿sza Szko³a Bankowa we Wroc³awiu; Wydzia³ Finansów i Zarz¹dzania
+138
+16.44
+31.00
+0.01
+35.00
+-64.02
+B
+85
+HS1EK
+Wy¿sza Szko³a Finansów i Zarz¹dzania w Bia³ymstoku; Wydzia³ Zamiejscowy w Ostrowi Mazowieckiej
+116
+20.37
+0.00
+0.00
+0.00
+-65.63
+B
+86
+HS1EK
+Politechnika Warszawska; Kolegium Nauk Ekonomicznych i Spo³ecznych
+16
+18.45
+19.00
+0.00
+15.00
+-67.06
+B
+87
+HS1EK
+Ma³opolska Wy¿sza Szko³a Ekonomiczna w Tarnowie; Wydzia³ Zarz¹dzania i Turystyki
+905
+18.16
+9.00
+0.00
+12.50
+-69.49
+B
+88
+HS1EK
+Wy¿sza Szko³a Zarz¹dzania Marketingowego i Jêzyków Obcych w Katowicach; Wydzia³ Ekonomiczno-In¿ynieryjny
+672
+17.10
+9.00
+0.00
+20.00
+-70.25
+B
+89
+HS1EK
+Górnoœl¹ska Wy¿sza Szko³a Handlowa im. Wojciecha Korfantego w Katowicach; Wydzia³ Zarz¹dzania
+772
+6.22
+97.00
+0.00
+0.00
+-81.06
+C
+90
+HS1EK
+Dolnoœl¹ska Szko³a Wy¿sza we Wroc³awiu; Wydzia³ Nauk Technicznych
+875
+4.76
+2.00
+8.38
+10.00
+-81.92
+C
+91
+HS1EK
+Wyższa Szkoła Finansów i Zarządzania w Białymstoku; Wydział Gospodarki Przestrzennej
+797
+11.09
+14.00
+0.00
+10.00
+-84.42
+C
+92
+HS1EK
+Akademia Finansów i Biznesu Vistula; Instytut Finansów
+104
+10.39
+40.00
+0.00
+0.00
+-85.03
+C
+93
+HS1EK
+Wyższa Szkoła Menedżerska w Warszawie; Wydział Zamiejscowy w Ciechanowie WSM w Warszawie
+57
+5.20
+21.00
+0.00
+0.00
+-90.27
+C
+94
+HS1FB
+Uniwersytet Jagielloński w Krakowie; Wydział Polonistyki
+367
+43.89
+577.00
+0.50
+100.00
+80.59
+A+
+95
+HS1FB
+Uniwersytet im. Adama Mickiewicza w Poznaniu; Wydział Filologii Polskiej i Klasycznej
+562
+43.42
+665.00
+1.72
+70.00
+77.90
+A
+96
+HS1FB
+Uniwersytet Warszawski; Wydział "Artes Liberales"
+548
+44.31
+134.00
+6.91
+85.00
+65.76
+A
+97
+HS1FB
+Uniwersytet Warszawski; Wydział Orientalistyczny
+956
+40.18
+412.00
+0.21
+50.00
+46.80
+A
+98
+HS1FB
+Uniwersytet Warszawski; Wydział Polonistyki
+837
+33.46
+669.00
+0.34
+70.00
+33.96
+A
+99
+HS1FB
+Uniwersytet Śląski w Katowicach; Wydział Filologiczny
+661
+32.56
+1097.00
+0.14
+70.00
+33.15
+A
+100
+HS1FB
+Uniwersytet Warszawski; Wydział Lingwistyki Stosowanej
+630
+34.13
+465.00
+0.69
+60.00
+27.39
+A
+101
+HS1FB
+Uniwersytet Wrocławski; Wydział Filologiczny
+121
+31.01
+901.00
+0.26
+70.00
+26.73
+A
+102
+HS1FB
+Uniwersytet Mikołaja Kopernika w Toruniu; Wydział Filologiczny
+900
+33.84
+532.00
+0.23
+50.00
+19.15
+B
+103
+HS1FB
+Uniwersytet Kardynała Stefana Wyszyńskiego w Warszawie; Wydział Nauk Humanistycznych
+836
+35.88
+173.00
+0.00
+45.00
+13.01
+B
+104
+HS1FB
+Szkoła Wyższa Psychologii Społecznej w Warszawie; Wydział Kulturoznawstwa i Filologii
+357
+32.54
+244.00
+0.17
+67.50
+12.18
+B
+105
+HS1FB
+Katolicki Uniwersytet Lubelski Jana Pawła II w Lublinie; Wydział Nauk Humanistycznych
+427
+30.59
+890.00
+0.20
+40.00
+9.15
+B
+106
+HS1FB
+Uniwersytet Łódzki; Wydział Filologiczny
+19
+27.63
+704.00
+0.37
+60.00
+6.68
+B
+107
+HS1FB
+Uniwersytet im. Adama Mickiewicza w Poznaniu; Wydział Neofilologii
+746
+29.01
+514.00
+0.12
+70.00
+6.07
+B
+108
+HS1FB
+Uniwersytet Jagielloński w Krakowie; Wydział Filologiczny
+204
+27.92
+627.00
+0.12
+70.00
+5.60
+B
+109
+HS1FB
+Uniwersytet Warszawski; Wydział Neofilologii
+242
+30.07
+576.00
+0.05
+50.00
+0.00
+B
+110
+HS1FB
+Uniwersytet Warmińsko-Mazurski w Olsztynie; Wydział Humanistyczny
+328
+29.99
+535.00
+0.08
+45.00
+-2.61
+B
+111
+HS1FB
+Uniwersytet Opolski; Wydział Filologiczny
+316
+29.99
+417.00
+0.05
+45.00
+-8.22
+B
+112
+HS1FB
+Uniwersytet Marii Curie-Skłodowskiej w Lublinie; Wydział Humanistyczny
+896
+24.11
+842.00
+0.19
+60.00
+-10.06
+B
+113
+HS1FB
+Uniwersytet w Białymstoku; Wydział Filologiczny
+165
+27.58
+214.00
+0.08
+60.00
+-14.78
+B
+114
+HS1FB
+Społeczna Akademia Nauk z siedzibą w Łodzi; Instytut Anglistyki
+143
+32.98
+84.00
+0.00
+5.00
+-17.13
+B
+115
+HS1FB
+Uniwersytet Rzeszowski; Wydział Filologiczny
+422
+28.67
+214.00
+0.00
+50.00
+-18.61
+B
+116
+HS1FB
+Uniwersytet im. Adama Mickiewicza w Poznaniu; Wydział Anglistyki
+388
+26.81
+390.00
+1.39
+30.00
+-22.37
+B
+117
+HS1FB
+Akademia Techniczno-Humanistyczna w Bielsku-Białej; Wydział Humanistyczno-Społeczny
+822
+28.53
+99.00
+0.14
+30.00
+-28.68
+B
+118
+HS1FB
+Uniwersytet Gdański; Wydział Filologiczny
+512
+23.90
+525.00
+0.03
+50.00
+-30.61
+B
+119
+HS1FB
+Uniwersytet Pedagogiczny im. Komisji Edukacji Narodowej w Krakowie; Wydział Filologiczny
+560
+23.68
+517.00
+0.04
+50.00
+-32.02
+B
+120
+HS1FB
+Uniwersytet Szczeciński; Wydział Filologiczny
+678
+25.75
+222.00
+0.06
+40.00
+-34.71
+B
+121
+HS1FB
+Politechnika Koszalińska; Instytut Neofilologii i Komunikacji Społecznej
+964
+14.26
+19.00
+0.00
+5.00
+-89.57
+C
+122
+HS1FB
+Wyższa Szkoła Zarządzania Marketingowego i Języków Obcych w Katowicach; Wydział Humanistyczny
+766
+6.69
+45.00
+0.00
+10.00
+-94.27
+C
+123
+HS1FT
+Uniwersytet Mikołaja Kopernika w Toruniu; Wydział Humanistyczny
+663
+42.05
+409.00
+0.19
+80.00
+69.68
+A+
+124
+HS1FT
+Uniwersytet Kardynała Stefana Wyszyńskiego w Warszawie; Wydział Filozofii Chrześcijańskiej
+930
+38.57
+383.00
+0.20
+65.00
+49.48
+A
+125
+HS1FT
+Katolicki Uniwersytet Lubelski Jana Pawła II w Lublinie; Wydział Filozofii
+155
+37.52
+357.00
+0.55
+40.00
+36.53
+A
+126
+HS1FT
+Uniwersytet im. Adama Mickiewicza w Poznaniu; Wydział Teologiczny
+542
+36.09
+276.00
+0.02
+75.00
+28.83
+A
+127
+HS1FT
+Katolicki Uniwersytet Lubelski Jana Pawła II w Lublinie; Wydział Teologii
+810
+30.90
+709.00
+0.23
+60.00
+15.90
+A
+128
+HS1FT
+Uniwersytet Kardynała Stefana Wyszyńskiego w Warszawie; Wydział Teologiczny
+174
+32.31
+566.00
+0.43
+40.00
+14.83
+A
+129
+HS1FT
+Uniwersytet Papieski Jana Pawła II w Krakowie; Wydział Filozoficzny
+774
+33.66
+184.00
+0.10
+75.00
+13.16
+A
+130
+HS1FT
+Uniwersytet Mikołaja Kopernika w Toruniu; Wydział Teologiczny
+261
+33.37
+261.00
+0.05
+60.00
+12.13
+A
+131
+HS1FT
+Uniwersytet Papieski Jana Pawła II w Krakowie; Wydział Teologiczny Sekcja w Tarnowie
+297
+40.01
+77.00
+0.00
+10.00
+5.68
+A
+132
+HS1FT
+Uniwersytet Warmińsko-Mazurski w Olsztynie; Wydział Teologii
+54
+36.09
+231.00
+0.02
+20.00
+4.65
+A
+133
+HS1FT
+Uniwersytet Śląski w Katowicach; Wydział Teologiczny
+455
+34.65
+189.00
+0.03
+25.00
+-4.67
+B
+134
+HS1FT
+Uniwersytet Opolski; Wydział Teologiczny
+961
+27.58
+296.00
+0.08
+70.00
+-11.51
+B
+135
+HS1FT
+Uniwersytet Papieski Jana Pawła II w Krakowie; Wydział Teologiczny
+372
+29.32
+288.00
+0.09
+42.50
+-12.97
+B
+136
+HS1FT
+Akademia Ignatianum; Wydział Filozoficzny
+619
+30.93
+112.00
+0.06
+20.00
+-28.77
+B
+137
+HS1FT
+Uniwersytet Szczeciński; Wydział Teologiczny
+416
+27.05
+118.00
+0.00
+15.00
+-53.68
+B
+138
+HS1FT
+Chrześcijańska Akademia Teologiczna w Warszawie; Wydział Teologiczny
+304
+25.17
+170.00
+0.00
+25.00
+-55.94
+B
+139
+HS1HS
+Uniwersytet Wrocławski; Wydział Nauk Historycznych i Pedagogicznych
+534
+38.81
+861.00
+0.88
+85.00
+69.88
+A+
+140
+HS1HS
+Uniwersytet Warszawski; Wydział Historyczny
+495
+35.48
+1101.00
+1.26
+100.00
+67.27
+A+
+141
+HS1HS
+Uniwersytet Jagielloński w Krakowie; Wydział Historyczny
+373
+35.92
+979.00
+0.59
+82.00
+62.08
+A
+142
+HS1HS
+Uniwersytet im. Adama Mickiewicza w Poznaniu; Wydział Historyczny
+515
+36.16
+904.00
+1.05
+75.00
+61.63
+A
+143
+HS1HS
+Uniwersytet Mikołaja Kopernika w Toruniu; Wydział Nauk Historycznych
+820
+35.39
+559.00
+0.90
+75.50
+52.93
+A
+144
+HS1HS
+Uniwersytet Warszawski; Ośrodek Badań nad Antykiem Europy Południowowschodniej
+698
+40.15
+10.00
+4.68
+67.00
+42.34
+A
+145
+HS1HS
+Uniwersytet w Białymstoku; Wydział Historyczno-Socjologiczny
+447
+37.40
+350.00
+0.15
+66.50
+42.14
+A
+146
+HS1HS
+Uniwersytet Gdański; Wydział Historyczny
+945
+33.19
+239.00
+0.07
+47.50
+8.23
+A
+147
+HS1HS
+Uniwersytet Łódzki; Wydział Filozoficzno-Historyczny
+867
+27.70
+582.00
+0.18
+73.00
+-2.06
+B
+148
+HS1HS
+Uniwersytet Rzeszowski; Wydział Socjologiczno-Historyczny
+988
+29.42
+471.00
+0.40
+53.00
+-3.27
+B
+149
+HS1HS
+Uniwersytet Szczeciński; Wydział Humanistyczny
+727
+25.71
+517.00
+0.26
+64.00
+-13.83
+B
+150
+HS1HS
+Uniwersytet Pedagogiczny im. Komisji Edukacji Narodowej w Krakowie; Wydział Humanistyczny
+528
+27.48
+493.00
+0.24
+50.00
+-16.21
+B
+151
+HS1HS
+Uniwersytet Zielonogórski; Wydział Humanistyczny
+276
+23.37
+412.00
+0.48
+65.00
+-23.82
+B
+152
+HS1HS
+Uniwersytet Jana Kochanowskiego w Kielcach; Wydział Humanistyczny
+580
+26.86
+366.00
+0.11
+50.00
+-26.75
+B
+153
+HS1HS
+Akademia Pomorska w Słupsku; Wydział Filologiczno-Historyczny
+58
+28.80
+172.00
+0.34
+34.50
+-28.45
+B
+154
+HS1HS
+Uniwersytet Papieski Jana Pawła II w Krakowie; Wydział Historii i Dziedzictwa Kulturowego
+96
+26.44
+270.00
+0.07
+52.50
+-31.67
+B
+155
+HS1HS
+Uniwersytet Kazimierza Wielkiego w Bydgoszczy; Wydział Humanistyczny
+631
+24.58
+430.00
+0.08
+48.00
+-32.66
+B
+156
+HS1HS
+Uniwersytet Jana Kochanowskiego w Kielcach; Filia w Piotrkowie Trybunalskim. Wydział Filologiczno-Historyczny
+849
+29.10
+101.00
+0.02
+33.00
+-34.05
+B
+157
+HS1HS
+Akademia im. Jana Długosza w Częstochowie; Wydział Filologiczno-Historyczny
+69
+23.05
+258.00
+0.06
+38.00
+-51.08
+B
+158
+HS1HS
+Uniwersytet Warszawski; Centrum Archeologii Śródziemnomorskiej UW im. prof. Kazimierza Michałowskiego
+477
+21.25
+9.00
+0.00
+57.50
+-58.82
+B
+159
+HS1PR
+Uniwersytet w Białymstoku; Wydział Prawa
+206
+33.53
+278.00
+0.63
+40.00
+61.49
+A
+160
+HS1PR
+Uniwersytet Jagielloński w Krakowie; Wydział Prawa i Administracji
+98
+29.83
+563.00
+0.53
+90.00
+59.62
+A
+161
+HS1PR
+Uniwersytet Śląski w Katowicach; Wydział Prawa i Administracji
+696
+30.75
+336.00
+0.51
+75.00
+56.25
+A
+162
+HS1PR
+Uniwersytet im. Adama Mickiewicza w Poznaniu; Wydział Prawa i Administracji
+99
+27.75
+497.00
+0.16
+75.00
+49.13
+A
+163
+HS1PR
+Uniwersytet Gdański; Wydział Prawa i Administracji
+380
+29.23
+339.00
+0.02
+50.00
+39.49
+A
+164
+HS1PR
+Uniwersytet Warszawski; Wydział Prawa i Administracji
+281
+28.84
+526.00
+0.11
+30.00
+38.96
+A
+165
+HS1PR
+Uniwersytet Wrocławski; Wydział Prawa. Administracji i Ekonomii
+517
+24.17
+521.00
+0.80
+65.00
+27.26
+B
+166
+HS1PR
+Katolicki Uniwersytet Lubelski Jana Pawła II w Lublinie; Wydział Prawa. Prawa Kanonicznego i Administracji
+664
+25.93
+505.00
+0.02
+30.00
+21.45
+B
+167
+HS1PR
+Uniwersytet Łódzki; Wydział Prawa i Administracji
+53
+25.15
+376.00
+0.10
+40.00
+21.33
+B
+168
+HS1PR
+Uniwersytet Mikołaja Kopernika w Toruniu; Wydział Prawa i Administracji
+366
+27.38
+333.00
+0.03
+25.00
+21.00
+B
+169
+HS1PR
+Wyższa Szkoła Finansów i Zarządzania w Warszawie; Wydział Prawa i Administracji
+708
+34.15
+17.00
+0.00
+0.00
+19.67
+B
+170
+HS1PR
+Uniwersytet Opolski; Wydział Prawa i Administracji
+56
+27.26
+162.00
+0.05
+32.50
+17.52
+B
+171
+HS1PR
+Uniwersytet Kardynała Stefana Wyszyńskiego w Warszawie; Wydział Prawa Kanonicznego
+251
+27.25
+203.00
+0.00
+30.00
+15.49
+B
+172
+HS1PR
+Uniwersytet Marii Curie-Skłodowskiej w Lublinie; Wydział Prawa i Administracji
+733
+25.19
+339.00
+0.01
+37.00
+14.81
+B
+173
+HS1PR
+Uniwersytet Kardynała Stefana Wyszyńskiego w Warszawie; Wydział Prawa i Administracji
+962
+26.97
+157.00
+0.05
+25.00
+11.97
+B
+174
+HS1PR
+Szkoła Wyższa Psychologii Społecznej w Warszawie; Wydział Prawa i Nauk Społecznych
+970
+27.42
+76.00
+0.06
+27.50
+8.43
+B
+175
+HS1PR
+Uczelnia Łazarskiego w Warszawie; Wydział Prawa i Administracji
+363
+22.42
+139.00
+1.19
+32.50
+-15.23
+B
+176
+HS1PR
+Uniwersytet Warmińsko-Mazurski w Olsztynie; Wydział Prawa i Administracji
+374
+22.30
+188.00
+0.08
+18.00
+-25.51
+B
+177
+HS1PR
+Uniwersytet Szczeciński; Wydział Prawa i Administracji
+592
+18.84
+209.00
+0.08
+40.00
+-28.75
+B
+178
+HS1PR
+Krakowska Akademia im. Andrzeja Frycza Modrzewskiego w Krakowie; Wydział Prawa. Administracji i Stosunków Międzynarodowych
+709
+20.00
+90.00
+0.11
+10.00
+-50.01
+B
+179
+HS1PR
+Uniwersytet Rzeszowski; Wydział Prawa i Administracji
+842
+18.92
+99.00
+0.00
+17.50
+-54.78
+B
+180
+HS1PR
+Katolicki Uniwersytet Lubelski Jana Pawła II w Lublinie; Wydział Zamiejscowy Nauk Prawnych i Ekonomicznych w Tomaszowie Lubelskim
+786
+19.61
+67.00
+0.00
+9.00
+-58.59
+B
+181
+HS1PR
+Katolicki Uniwersytet Lubelski Jana Pawła II w Lublinie; Wydział Zamiejscowy Prawa i Nauk o Gospodarce w Stalowej Woli
+484
+19.35
+53.00
+0.00
+10.00
+-60.00
+B
+182
+HS1PR
+Wyższa Szkoła Menedżerska w Warszawie; Wydział Prawa i Administracji
+701
+18.68
+32.00
+0.00
+0.00
+-66.41
+B
+183
+HS1PR
+Wyższa Szkoła Prawa i Administracji w Przemyślu; Zamiejscowy Wydział Prawa i Administracji w Rzeszowie
+313
+11.24
+111.00
+0.00
+20.00
+-78.78
+C
+184
+HS1SP
+Szkoła Wyższa Psychologii Społecznej w Warszawie; Wydział Zamiejscowy we Wrocławiu
+752
+86.65
+247.00
+2.48
+72.50
+87.07
+A+
+185
+HS1SP
+Uniwersytet Warszawski; Wydział Psychologii
+263
+51.92
+244.00
+1.18
+90.00
+86.36
+A+
+186
+HS1SP
+Szkoła Wyższa Psychologii Społecznej w Warszawie; Wydział Psychologii
+425
+43.18
+282.00
+0.82
+90.00
+83.11
+A
+187
+HS1SP
+Uniwersytet Warszawski; Wydział Filozofii i Socjologii
+577
+37.45
+537.00
+1.81
+90.00
+77.48
+A
+188
+HS1SP
+Uniwersytet im. Adama Mickiewicza w Poznaniu; Wydział Nauk Społecznych
+95
+35.16
+823.00
+0.69
+80.00
+71.16
+A
+189
+HS1SP
+Uniwersytet Jagielloński w Krakowie; Wydział Zarządzania i Komunikacji Społecznej
+906
+32.26
+652.00
+2.67
+90.00
+64.68
+A
+190
+HS1SP
+Uniwersytet Mikołaja Kopernika w Toruniu; Wydział Nauk Pedagogicznych
+581
+37.06
+287.00
+0.28
+65.00
+64.14
+A
+191
+HS1SP
+Uniwersytet Jagielloński w Krakowie; Wydział Filozoficzny
+362
+31.91
+881.00
+0.66
+95.00
+62.77
+A
+192
+HS1SP
+Uniwersytet im. Adama Mickiewicza w Poznaniu; Wydział Nauk Politycznych i Dziennikarstwa
+458
+35.96
+262.00
+0.36
+60.00
+60.52
+A
+193
+HS1SP
+Uniwersytet Mikołaja Kopernika w Toruniu; Wydział Politologii i Studiów Międzynarodowych
+792
+39.19
+269.00
+0.22
+24.00
+54.14
+A
+194
+HS1SP
+Wyższa Szkoła Policji w Szczytnie; Wydział Bezpieczeństwa Wewnętrznego
+412
+35.53
+142.00
+8.70
+45.00
+53.68
+A
+195
+HS1SP
+Uniwersytet Warszawski; Instytut Ameryk i Europy
+536
+34.49
+83.00
+5.86
+63.50
+51.46
+A
+196
+HS1SP
+Katolicki Uniwersytet Lubelski Jana Pawła II w Lublinie; Wydział Nauk Społecznych
+109
+30.67
+548.00
+0.72
+62.50
+50.82
+A
+197
+HS1SP
+Wyższa Szkoła Finansów i Zarządzania w Warszawie; Wydział Psychologii
+894
+46.01
+75.00
+1.95
+10.00
+50.35
+A
+198
+HS1SP
+Uniwersytet im. Adama Mickiewicza w Poznaniu; Wydział Studiów Edukacyjnych
+25
+30.86
+369.00
+0.96
+60.00
+50.00
+A
+199
+HS1SP
+Akademia Obrony Narodowej; Wydział Zarządzania i Dowodzenia
+657
+32.20
+349.00
+0.98
+45.00
+49.79
+A
+200
+HS1SP
+Collegium Civitas w Warszawie
+634
+31.97
+144.00
+2.35
+60.00
+47.66
+A
+201
+HS1SP
+Uniwersytet Warszawski; Wydział Dziennikarstwa i Nauk Politycznych
+737
+29.70
+515.00
+0.60
+57.50
+45.43
+A
+202
+HS1SP
+Uniwersytet Warszawski; Wydział Stosowanych Nauk Społecznych i Resocjalizacji
+413
+31.70
+261.00
+0.39
+34.00
+38.99
+B
+203
+HS1SP
+Akademia Obrony Narodowej; Wydział Bezpieczeństwa Narodowego
+565
+31.06
+223.00
+0.45
+41.50
+38.79
+B
+204
+HS1SP
+Uniwersytet Kazimierza Wielkiego w Bydgoszczy; Wydział Pedagogiki i Psychologii
+435
+30.01
+273.00
+0.12
+60.00
+38.54
+B
+205
+HS1SP
+Uniwersytet Warszawski; Instytut Studiów Społecznych im. Profesora Roberta Zajonca
+516
+32.81
+17.00
+16.55
+60.00
+38.51
+B
+206
+HS1SP
+Uniwersytet Warszawski; Ośrodek Badań nad Migracjami
+697
+30.40
+9.00
+4.56
+87.50
+33.39
+B
+207
+HS1SP
+Uniwersytet Papieski Jana Pawła II w Krakowie; Wydział Nauk Społecznych
+377
+34.50
+93.00
+0.00
+27.50
+32.87
+B
+208
+HS1SP
+Uniwersytet Jagielloński w Krakowie; Wydział Studiów Międzynarodowych i Politycznych
+195
+26.79
+555.00
+0.28
+60.00
+27.99
+B
+209
+HS1SP
+Akademia Marynarki Wojennej im. Bohaterów Westerplatte; Wydział Nauk Humanistycznych i Społecznych
+221
+33.51
+58.00
+0.00
+32.50
+27.30
+B
+210
+HS1SP
+Uniwersytet Kardynała Stefana Wyszyńskiego w Warszawie; Wydział Nauk Pedagogicznych
+445
+29.29
+122.00
+1.21
+40.00
+26.74
+B
+211
+HS1SP
+Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie; Wydział Humanistyczny
+408
+30.70
+85.00
+0.70
+32.50
+25.78
+B
+212
+HS1SP
+Uniwersytet Gdański; Wydział Nauk Społecznych
+288
+26.30
+380.00
+0.12
+75.00
+24.47
+B
+213
+HS1SP
+Uniwersytet Wrocławski; Wydział Nauk Społecznych
+615
+25.05
+741.00
+0.29
+66.00
+20.83
+B
+214
+HS1SP
+Szkoła Wyższa Psychologii Społecznej w Warszawie; Wydział Zamiejscowy w Sopocie
+653
+28.12
+33.00
+1.81
+60.00
+17.62
+B
+215
+HS1SP
+Uniwersytet Marii Curie-Skłodowskiej w Lublinie; Wydział Filozofii i Socjologii
+66
+26.14
+403.00
+0.06
+47.50
+15.89
+B
+216
+HS1SP
+Wyższa Szkoła Oficerska Wojsk Lądowych imienia generała Tadeusza Kościuszki; Wydział Nauk o Bezpieczeństwie
+682
+32.75
+50.00
+0.31
+5.00
+15.74
+B
+217
+HS1SP
+Uniwersytet Śląski w Katowicach; Wydział Nauk Społecznych
+390
+25.47
+801.00
+0.32
+39.00
+15.36
+B
+218
+HS1SP
+Wyższa Szkoła Oficerska Wojsk Lądowych imienia generała Tadeusza Kościuszki; Wydział Zarządzania
+946
+34.03
+38.00
+0.00
+5.00
+15.28
+B
+219
+HS1SP
+Uniwersytet Opolski; Wydział Historyczno-Pedagogiczny
+497
+25.87
+294.00
+0.38
+47.50
+14.85
+B
+220
+HS1SP
+Politechnika Warszawska; Wydział Administracji i Nauk Społecznych
+843
+30.21
+51.00
+0.03
+33.00
+14.45
+B
+221
+HS1SP
+Dolnośląska Szkoła Wyższa we Wrocławiu; Wydział Nauk Pedagogicznych
+80
+24.39
+226.00
+4.58
+60.00
+13.36
+B
+222
+HS1SP
+Akademia Marynarki Wojennej im. Bohaterów Westerplatte; Wydział Dowodzenia i Operacji Morskich
+878
+26.78
+177.00
+1.44
+35.00
+13.08
+B
+223
+HS1SP
+Uniwersytet Technologiczno-Humanistyczny im. Kazimierza Pułaskiego w Radomiu; Wydział Filologiczno-Pedagogiczny
+442
+30.30
+43.00
+0.00
+30.00
+12.67
+B
+224
+HS1SP
+Uniwersytet Jana Kochanowskiego w Kielcach; Wydział Zarządzania i Administracji
+706
+26.90
+153.00
+3.91
+30.00
+12.51
+B
+225
+HS1SP
+Uniwersytet Kardynała Stefana Wyszyńskiego w Warszawie; Wydział Nauk Historycznych i Społecznych
+202
+25.57
+729.00
+0.26
+26.50
+10.09
+B
+226
+HS1SP
+Politechnika Koszalińska; Instytut Polityki Społecznej i Stosunków Międzynarodowych
+699
+32.53
+25.00
+0.00
+3.00
+8.98
+B
+227
+HS1SP
+Uniwersytet Śląski w Katowicach; Wydział Pedagogiki i Psychologii
+29
+23.51
+323.00
+0.28
+65.00
+8.71
+B
+228
+HS1SP
+Uniwersytet Zielonogórski; Wydział Pedagogiki. Socjologii i Nauk o Zdrowiu
+933
+26.66
+163.00
+0.21
+25.00
+4.04
+B
+229
+HS1SP
+Uniwersytet Warszawski; Wydział Pedagogiczny
+257
+21.45
+243.00
+1.93
+72.50
+1.76
+B
+230
+HS1SP
+Uniwersytet Łódzki; Wydział Studiów Międzynarodowych i Politologicznych
+474
+26.91
+156.00
+0.57
+9.00
+0.96
+B
+231
+HS1SP
+Uniwersytet Kardynała Stefana Wyszyńskiego w Warszawie; Wydział Studiów nad Rodziną
+376
+27.98
+80.00
+0.00
+12.50
+-1.80
+B
+232
+HS1SP
+Uniwersytet Marii Curie-Skłodowskiej w Lublinie; Wydział Politologii
+102
+24.30
+317.00
+0.50
+20.00
+-2.46
+B
+233
+HS1SP
+Wyższa Szkoła Oficerska Sił Powietrznych; Wydział Bezpieczeństwa Narodowego i Logistyki
+130
+27.64
+23.00
+0.10
+25.50
+-4.23
+B
+234
+HS1SP
+Uniwersytet Marii Curie-Skłodowskiej w Lublinie; Wydział Pedagogiki i Psychologii
+334
+22.33
+313.00
+0.02
+47.50
+-4.54
+B
+235
+HS1SP
+Uniwersytet Łódzki; Wydział Nauk o Wychowaniu
+405
+21.24
+151.00
+3.64
+60.00
+-4.66
+B
+236
+HS1SP
+Wyższa Szkoła Informatyki i Zarządzania w Rzeszowie; Wydział Administracji i Nauk Społecznych
+294
+23.84
+42.00
+2.55
+50.00
+-7.38
+B
+237
+HS1SP
+Wyższa Szkoła Finansów i Zarządzania w Warszawie; Wydział Politologii
+578
+28.26
+17.00
+0.00
+10.00
+-8.32
+B
+238
+HS1SP
+Chrześcijańska Akademia Teologiczna w Warszawie; Wydział Pedagogiczny
+910
+23.19
+48.00
+0.33
+60.00
+-10.09
+B
+239
+HS1SP
+Wyższa Szkoła Administracji w Bielsku-Białej; Wydział Studiów Międzynarodowych
+119
+26.31
+77.00
+0.15
+14.50
+-10.52
+B
+240
+HS1SP
+Uniwersytet w Białymstoku; Wydział Pedagogiki i Psychologii
+720
+22.23
+108.00
+0.03
+55.00
+-11.19
+B
+241
+HS1SP
+Wyższa Szkoła Administracji w Bielsku-Białej; Wydział Nauk Humanistycznych i Społecznych
+192
+27.29
+6.00
+0.00
+16.00
+-12.85
+B
+242
+HS1SP
+Dolnośląska Szkoła Wyższa we Wrocławiu; Wydział Nauk Społecznych i Dziennikarstwa
+626
+23.66
+104.00
+0.10
+33.50
+-13.23
+B
+243
+HS1SP
+Akademia Pedagogiki Specjalnej im. Marii Grzegorzewskiej w Warszawie; Wydział Nauk Pedagogicznych
+70
+17.28
+367.00
+3.49
+65.00
+-13.35
+B
+244
+HS1SP
+Uniwersytet Warmińsko-Mazurski w Olsztynie; Wydział Nauk Społecznych
+809
+21.68
+257.00
+0.04
+31.00
+-15.66
+B
+245
+HS1SP
+Wałbrzyska Wyższa Szkoła Zarządzania i Przedsiębiorczości
+585
+27.51
+11.00
+0.00
+0.00
+-16.02
+B
+246
+HS1SP
+Akademia Pedagogiki Specjalnej im. Marii Grzegorzewskiej w Warszawie; Wydział Stosowanych Nauk Społecznych
+715
+21.61
+87.00
+1.21
+40.00
+-16.20
+B
+247
+HS1SP
+Szkoła Główna Gospodarstwa Wiejskiego w Warszawie; Wydział Nauk Społecznych
+958
+25.12
+53.00
+0.00
+20.00
+-18.54
+B
+248
+HS1SP
+Krakowska Akademia im. Andrzeja Frycza Modrzewskiego w Krakowie; Wydział Psychologii i Nauk Humanistycznych
+593
+23.26
+34.00
+0.61
+30.00
+-20.78
+B
+249
+HS1SP
+Uniwersytet Śląski w Katowicach; Wydział Etnologii i Nauk o Edukacji
+356
+21.30
+80.00
+0.11
+44.00
+-22.00
+B
+250
+HS1SP
+Uniwersytet Warszawski; Centrum Europejskie Uniwersytetu Warszawskiego
+793
+20.55
+36.00
+0.62
+60.00
+-22.15
+B
+251
+HS1SP
+Uniwersytet Kazimierza Wielkiego w Bydgoszczy; Wydział Administracji i Nauk Społecznych
+839
+23.92
+28.00
+0.00
+31.00
+-22.19
+B
+252
+HS1SP
+Akademia Ignatianum; Wydział Pedagogiczny
+308
+19.25
+113.00
+0.00
+55.00
+-24.64
+B
+253
+HS1SP
+Akademia Finansów i Biznesu Vistula; Instytut Spraw Społecznych i Stosunków Międzynarodowych
+72
+23.92
+1.00
+0.00
+25.00
+-26.89
+B
+254
+HS1SP
+Katolicki Uniwersytet Lubelski Jana Pawła II w Lublinie; Wydział Zamiejscowy Nauk o Społeczeństwie w Stalowej Woli
+821
+20.96
+107.00
+0.04
+25.00
+-28.88
+B
+255
+HS1SP
+Uniwersytet Przyrodniczo-Humanistyczny w Siedlcach; Wydział Humanistyczny
+594
+20.65
+198.00
+0.01
+15.00
+-30.39
+B
+256
+HS1SP
+Uniwersytet Pedagogiczny im. Komisji Edukacji Narodowej w Krakowie; Wydział Pedagogiczny
+205
+18.40
+239.00
+0.12
+30.00
+-30.87
+B
+257
+HS1SP
+Akademia im. Jana Długosza w Częstochowie; Wydział Nauk Społecznych
+780
+20.72
+42.00
+0.00
+37.50
+-33.03
+B
+258
+HS1SP
+Krakowska Akademia im. Andrzeja Frycza Modrzewskiego w Krakowie; Wydział Nauk o Bezpieczeństwie
+787
+22.06
+36.00
+0.00
+23.50
+-33.22
+B
+259
+HS1SP
+Krakowska Akademia im. Andrzeja Frycza Modrzewskiego w Krakowie; Wydział Zarządzania i Komunikacji Społecznej
+633
+18.92
+61.00
+0.00
+36.00
+-39.27
+B
+260
+HS1SP
+Akademia im. Jana Długosza w Częstochowie; Wydział Pedagogiczny
+470
+18.49
+43.00
+0.23
+30.00
+-43.88
+B
+261
+HS1SP
+Ateneum - Szkoła Wyższa w Gdańsku; Wydział Europeistyki. Politologii i Dziennikarstwa
+510
+17.31
+47.00
+1.63
+14.50
+-51.22
+B
+262
+HS1SP
+Akademia Pomorska w Słupsku; Wydział Edukacyjno-Filozoficzny
+30
+16.26
+91.00
+0.00
+20.00
+-52.09
+B
+263
+HS1SP
+Wyższa Szkoła Humanitas w Sosnowcu; Wydział Administracji i Zarządzania
+976
+14.64
+97.00
+2.43
+6.50
+-55.14
+B
+264
+HS1SP
+Państwowa Wyższa Szkoła Zawodowa w Nysie
+285
+15.70
+76.00
+0.05
+20.00
+-55.35
+B
+265
+HS1SP
+Wyższa Szkoła Studiów Międzynarodowych w Łodzi
+841
+15.98
+99.00
+0.00
+9.00
+-56.78
+B
+266
+HS1SP
+Uniwersytet Jana Kochanowskiego w Kielcach; Filia w Piotrkowie Trybunalskim. Wydział Nauk Społecznych
+71
+16.17
+70.00
+0.01
+9.50
+-59.25
+B
+267
+HS1SP
+Wyższa Szkoła Menedżerska w Warszawie; Wydział Nauk Społecznych
+270
+13.61
+51.00
+0.00
+22.50
+-64.12
+C
+268
+HS1SP
+Wyższa Szkoła Administracji w Bielsku-Białej; Wydział Administracji
+950
+15.27
+13.00
+0.00
+10.00
+-68.15
+C
+269
+HS1SP
+Dolnośląska Szkoła Wyższa we Wrocławiu; Wydział Zamiejscowy Dolnośląskiej Szkoły Wyższej w Kłodzku
+745
+10.27
+3.00
+0.00
+25.00
+-74.83
+C
+270
+HS1SP
+Wyższa Szkoła Bezpieczeństwa w Poznaniu
+83
+10.56
+41.00
+0.00
+14.50
+-76.16
+C
+271
+HS1SP
+Wyższa Szkoła Informatyki. Zarządzania i Administracji w Warszawie; Wydział Nauk Społecznych i Administracji
+637
+7.41
+37.00
+0.06
+15.00
+-79.99
+C
+272
+HS1SP
+Wyższa Szkoła Promocji w Warszawie
+214
+9.75
+11.00
+0.00
+10.00
+-81.50
+C
+273
+HS1SP
+Ateneum - Szkoła Wyższa w Gdańsku; Wydział Studiów Edukacyjnych
+889
+7.73
+31.00
+0.05
+10.00
+-81.95
+C
+274
+HS1SP
+Wyższa Szkoła Pedagogiczna TWP w Warszawie; Wydział Nauk Społecznych w Warszawie
+35
+9.25
+29.00
+0.00
+0.00
+-83.55
+C
+275
+HS1SP
+Wyższa Szkoła Pedagogiczna TWP w Warszawie; Wydział Nauk Humanistyczno - Społecznych w Olsztynie
+213
+7.58
+17.00
+0.00
+0.50
+-86.05
+C
+276
+HS1SP
+Wyższa Szkoła Pedagogiczna TWP w Warszawie; Wydział Nauk Społeczno - Pedagogicznych w Katowicach
+34
+4.17
+7.00
+0.00
+0.00
+-89.55
+C
+277
+HS2EK
+Instytut Rozwoju Wsi i Rolnictwa Polskiej Akademii Nauk
+260
+33.42
+160.00
+0.46
+50.00
+56.39
+A
+278
+HS2EK
+Instytut Nauk Ekonomicznych Polskiej Akademii Nauk
+947
+26.50
+173.00
+0.03
+30.00
+-11.75
+B
+279
+HS2FB
+Instytut Badań Literackich Polskiej Akademii Nauk
+748
+44.98
+322.00
+1.58
+100.00
+76.32
+A+
+280
+HS2FB
+Instytut Slawistyki Polskiej Akademii Nauk
+541
+41.87
+210.00
+0.64
+70.00
+36.96
+A
+281
+HS2FB
+Instytut Języka Polskiego Polskiej Akademii Nauk
+93
+33.08
+239.00
+2.45
+85.00
+5.21
+A
+282
+HS2HS
+Instytut Historii im. Tadeusza Manteuffla Polskiej Akademii Nauk
+101
+36.22
+414.00
+2.71
+82.00
+48.40
+A+
+283
+HS2HS
+Instytut Sztuki Polskiej Akademii Nauk
+246
+41.11
+333.00
+1.15
+55.00
+46.15
+A+
+284
+HS2HS
+Instytut Historii Nauki imienia Ludwika i Aleksandra Birkenmajerów Polskiej Akademii Nauk
+712
+39.99
+222.00
+0.86
+58.50
+33.13
+A
+285
+HS2HS
+Instytut Archeologii i Etnologii Polskiej Akademii Nauk
+147
+32.25
+396.00
+6.43
+83.00
+29.79
+A
+286
+HS2HS
+Instytut Kultur Śródziemnomorskich i Orientalnych Polskiej Akademii Nauk
+525
+24.00
+88.00
+0.34
+52.50
+-59.31
+B
+287
+HS2PR
+Instytut Nauk Prawnych Polskiej Akademii Nauk
+808
+29.29
+264.00
+0.20
+50.00
+56.25
+A
+288
+HS2SP
+Instytut Filozofii i Socjologii Polskiej Akademii Nauk
+486
+43.58
+445.00
+5.79
+90.00
+78.13
+A+
+289
+HS2SP
+Instytut Psychologii Polskiej Akademii Nauk
+28
+43.71
+213.00
+3.43
+75.00
+58.72
+A
+290
+HS2SP
+Instytut Studiów Politycznych Polskiej Akademii Nauk
+144
+32.17
+409.00
+0.35
+50.00
+-12.38
+A
+291
+HS3EK
+Instytut Pracy i Spraw Socjalnych
+114
+33.53
+138.00
+8.48
+55.00
+47.54
+A
+292
+HS3EK
+Instytut Organizacji i Zarządzania w Przemyśle "ORGMASZ"
+256
+34.78
+40.00
+6.07
+30.00
+15.72
+B
+293
+HS3EK
+Instytut Badań Rynku. Konsumpcji i Koniunktur
+265
+29.99
+31.00
+1.59
+50.00
+12.57
+B
+294
+HS3EK
+Instytut Ekonomiki Rolnictwa i Gospodarki Żywnościowej - Państwowy Instytut Badawczy
+824
+24.55
+176.00
+1.87
+35.00
+-23.86
+B
+295
+HS3HS
+Instytut Zachodni - Instytut Naukowo-Badawczy im. Zygmunta Wojciechowskiego
+20
+36.83
+105.00
+3.22
+57.50
+55.10
+A
+296
+HS3HS
+Instytut Europy Środkowo-Wschodniej
+395
+36.21
+19.00
+0.67
+43.00
+17.97
+B
+297
+HS3HS
+Ośrodek Badań Naukowych im. Wojciecha Kętrzyńskiego w Olsztynie
+547
+33.99
+27.00
+0.19
+39.50
+6.87
+B
+298
+HS3HS
+Państwowy Instytut Naukowy - Instytut Śląski w Opolu
+108
+26.97
+66.00
+0.97
+31.50
+-29.92
+B
+299
+HS3SP
+Instytut Badań Edukacyjnych
+571
+24.37
+145.00
+290.45
+72.50
+24.06
+B
+300
+HS4EK
+Centrum Badań i Innowacji Pro-Akademia
+86
+22.12
+20.00
+70.35
+30.00
+24.22
+B
+301
+HS4EK
+Instytut Rozwoju Biznesu Sp. z o.o.
+352
+0.00
+2.00
+7.21
+10.00
+-93.33
+C
+302
+HS4HS
+Muzeum Górnośląskie w Bytomiu
+133
+8.50
+0.00
+0.00
+5.00
+-100.00
+C
+303
+HS4SP
+Instytutu Statystyki Kościoła Katolickiego SAC
+478
+12.00
+0.00
+0.33
+19.50
+-63.54
+C
