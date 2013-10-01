@@ -1,0 +1,25 @@
+Ten wpis jest przygotowany przez Michala Kurtysa w ramach ciekawego wakacyjnego projektu.
+
+Pustynie dosępności do lekarzy specjalistów, czyli gdzie w Polsce najdalej trzeba jechać do specjalisty.
+Michał Kurtys
+
+Zainteresowany wakacyjnym wolontariatem dla Fundacji SmarterPoland zgłosiłem się do Pana Przemysława Biecka z pytaniem o interesujący temat. 
+Wziąwszy pod uwagę moje zainteresowania, interesującym tematem okazało się wizualizacja danych o czasach czekania w kolejnach do specjalisty. Dane te są publikowane przez NFZ i na tym blogu pojawiły się już dwa wpisy na ten temat
+http://smarterpoland.pl/index.php/2013/07/jak-dlugo-czeka-sie-w-kolejce-do-lekarza/
+http://smarterpoland.pl/index.php/2013/08/gdzie-w-polsce-czeka-sie-najdluzej-w-kolejce-do-lekarza-specjalisty/
+
+Bardziej niż czas czekania do specjalisty zainteresował mnie problem odległości, w jakiej dostępny jest pożądany specjalista. 
+Jak daleko musi pojechaÄ‡ pacjent, żeby dostać się do specjalisty, do którego nei musi czekać w wielomiesięcznej kolejce.
+I Lub podobne pytanie, jak wielu ,,dostępnych'' specjalistów znajduje się w umiarkowanej odległości od pacjenta.
+
+Dzisiaj zaprezentuję odpowiedź na pierwsze pytanie.
+Na początku, w celu przedstawienia dystansu eksperymentowałem z kolorami. Poniższa mapa przedstawia odległość do najbliższego dermatologa, u którego średni czas oczekiwania nie jest większy niż 14 dni.
+
+Innym podejściem (zasugerowanym na bazie artykułu http://flowingdata.com/2013/08/27/in-search-of-food-deserts/) jest przedstawiane odległości przez odcinki o różnych długościach.
+Poniżej przedstawiam przykładowe mapki, prezentujące w ten sposób odległość do specjalisty.
+Miejsca, z których daleko do specjalisty łątwo zauważyć, odpowiadające im długie czasrne linie rzucają się w oczy.
+
+
+
+
+
