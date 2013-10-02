@@ -1,0 +1,2330 @@
+304
+NZ1B
+Uniwersytet Wrocławski; Wydział Biotechnologii
+393
+87.98
+457.00
+8.25
+90.00
+70.50
+A+
+305
+NZ1B
+Uniwersytet Jagielloński w Krakowie; Wydział Biochemii. Biofizyki i Biotechnologii
+845
+80.78
+707.00
+12.39
+100.00
+67.48
+A+
+306
+NZ1B
+Uniwersytet Gdański; Międzyuczelniany Wydział Biotechnologii Uniwersytetu Gdańskiego i Gdańskiego Uniwersytetu Medycznego
+64
+78.59
+470.00
+6.70
+95.00
+53.75
+A
+307
+NZ1B
+Uniwersytet im. Adama Mickiewicza w Poznaniu; Wydział Biologii
+17
+78.52
+969.00
+6.12
+55.00
+47.79
+A
+308
+NZ1B
+Uniwersytet Łódzki; Wydział Biologii i Ochrony Środowiska
+870
+74.17
+1085.00
+6.29
+65.00
+43.50
+A
+309
+NZ1B
+Uniwersytet Jagielloński w Krakowie; Wydział Biologii i Nauk o Ziemi
+166
+77.29
+1061.00
+2.95
+75.00
+42.53
+A
+310
+NZ1B
+Uniwersytet Warszawski; Wydział Biologii
+183
+72.00
+657.00
+4.97
+90.00
+41.93
+A
+311
+NZ1B
+Uniwersytet Rzeszowski; Instytut Biotechnologii Stosowanej i Nauk Podstawowych
+431
+70.21
+125.00
+35.25
+40.00
+30.06
+A
+312
+NZ1B
+Uniwersytet Gdański; Wydział Biologii
+141
+72.16
+705.00
+2.14
+65.00
+27.43
+A
+313
+NZ1B
+Uniwersytet Wrocławski; Wydział Nauk Biologicznych
+689
+72.95
+540.00
+1.77
+65.00
+25.24
+A
+314
+NZ1B
+Uniwersytet w Białymstoku; Wydział Biologiczno-Chemiczny
+500
+66.82
+477.00
+6.47
+60.00
+23.51
+A
+315
+NZ1B
+Uniwersytet Warmińsko-Mazurski w Olsztynie; Wydział Biologii i Biotechnologii
+491
+61.02
+516.00
+10.59
+65.00
+15.52
+A
+316
+NZ1B
+Uniwersytet Śląski w Katowicach; Wydział Biologii i Ochrony Środowiska
+453
+62.56
+529.00
+5.23
+75.00
+14.28
+A
+317
+NZ1B
+Uniwersytet Marii Curie-Skłodowskiej w Lublinie; Wydział Biologii i Biotechnologii
+301
+60.25
+472.00
+5.82
+65.00
+4.65
+B
+318
+NZ1B
+Uniwersytet Mikołaja Kopernika w Toruniu; Wydział Biologii i Ochrony Środowiska
+461
+63.08
+421.00
+1.60
+60.00
+-0.18
+B
+319
+NZ1B
+Uniwersytet Szczeciński; Wydział Biologii
+469
+51.47
+441.00
+2.52
+50.00
+-36.01
+B
+320
+NZ1B
+Katolicki Uniwersytet Lubelski Jana Pawła II w Lublinie; Wydział Biotechnologii i Nauk o Środowisku
+406
+40.36
+268.00
+16.30
+55.00
+-38.16
+B
+321
+NZ1B
+Uniwersytet Kazimierza Wielkiego w Bydgoszczy; Wydział Nauk Przyrodniczych
+303
+42.56
+279.00
+4.01
+60.00
+-50.04
+B
+322
+NZ1B
+Uniwersytet Kardynała Stefana Wyszyńskiego w Warszawie; Wydział Biologii i Nauk o Środowisku
+557
+48.17
+47.00
+1.20
+20.00
+-60.00
+B
+323
+NZ1B
+Uniwersytet Zielonogórski; Wydział Nauk Biologicznych
+620
+45.18
+264.00
+0.76
+40.00
+-62.75
+B
+324
+NZ1B
+Uniwersytet Opolski; Wydział Przyrodniczo-Techniczny
+530
+41.76
+359.00
+0.32
+40.00
+-67.15
+C
+325
+NZ1B
+Uniwersytet Pedagogiczny im. Komisji Edukacji Narodowej w Krakowie; Wydział Geograficzno-Biologiczny
+189
+36.23
+505.00
+0.37
+42.00
+-68.87
+C
+326
+NZ1B
+Akademia Pomorska w Słupsku; Wydział Matematyczno-Przyrodniczy
+76
+39.48
+382.00
+0.57
+30.00
+-69.62
+C
+327
+NZ1M
+Uniwersytet Medyczny w Białymstoku; Wydział Farmaceutyczny z Oddziałem Medycyny Laboratoryjnej
+42
+62.44
+786.00
+15.43
+100.00
+84.79
+A+
+328
+NZ1M
+Gdański Uniwersytet Medyczny; Wydział Farmaceutyczny z Oddziałem Medycyny Laboratoryjnej
+135
+77.12
+519.00
+1.15
+100.00
+79.29
+A+
+329
+NZ1M
+Uniwersytet Jagielloński w Krakowie; Collegium Medicum; Wydział Farmaceutyczny
+65
+66.84
+591.00
+2.62
+65.00
+76.91
+A
+330
+NZ1M
+Uniwersytet Medyczny w Białymstoku; Wydział Lekarski z Oddziałem Stomatologii i Oddziałem Nauczania w Języku Angielskim
+139
+52.76
+1435.00
+6.21
+100.00
+68.36
+A
+331
+NZ1M
+Warszawski Uniwersytet Medyczny; Wydział Farmaceutyczny z Oddziałem Medycyny Laboratoryjnej
+348
+56.15
+623.00
+4.21
+65.00
+65.72
+A
+332
+NZ1M
+Uniwersytet Jagielloński w Krakowie; Collegium Medicum; Wydział Lekarski
+897
+51.30
+1831.00
+2.70
+100.00
+61.45
+A
+333
+NZ1M
+Uniwersytet Medyczny w Łodzi; Wydział Nauk Biomedycznych i Kształcenia Podyplomowego
+686
+61.16
+445.00
+1.25
+52.50
+59.80
+A
+334
+NZ1M
+Pomorski Uniwersytet Medyczny w Szczecinie; Wydział Lekarsko - Biotechnologiczny i Medycyny Laboratoryjnej
+158
+89.23
+367.00
+0.11
+40.00
+55.19
+A
+335
+NZ1M
+Uniwersytet Medyczny im. Karola Marcinkowskiego w Poznaniu; Wydział Farmaceutyczny
+283
+52.14
+558.00
+2.60
+57.50
+52.08
+A
+336
+NZ1M
+Uniwersytet Medyczny im. Karola Marcinkowskiego w Poznaniu; Wydział Lekarski II
+736
+50.20
+1364.00
+1.52
+75.00
+50.16
+A
+337
+NZ1M
+Uniwersytet Medyczny w Lublinie; Wydział Farmaceutyczny z Oddziałem Analityki Medycznej
+665
+66.06
+614.00
+0.45
+10.00
+49.70
+A
+338
+NZ1M
+Uniwersytet Medyczny w Łodzi; Wydział Lekarski
+230
+49.27
+1161.00
+2.23
+67.50
+48.94
+A
+339
+NZ1M
+Pomorski Uniwersytet Medyczny w Szczecinie; Wydział Lekarski z Oddziałem Nauczania w Języku Angielskim
+776
+59.12
+984.00
+0.00
+45.00
+45.01
+A
+340
+NZ1M
+Gdański Uniwersytet Medyczny; Wydział Lekarski z Oddziałem Stomatologicznym
+700
+47.24
+1427.00
+1.94
+69.00
+43.78
+A
+341
+NZ1M
+Uniwersytet Mikołaja Kopernika w Toruniu; Collegium Medicum im. Ludwika Rydygiera w Bydgoszczy; Wydział Lekarski
+188
+46.50
+827.00
+2.09
+82.50
+43.69
+A
+342
+NZ1M
+Uniwersytet Mikołaja Kopernika w Toruniu; Collegium Medicum im. Ludwika Rydygiera w Bydgoszczy; Wydział Farmaceutyczny
+136
+57.77
+431.00
+0.84
+12.50
+41.94
+A
+343
+NZ1M
+Gdański Uniwersytet Medyczny; Wydział Nauk o Zdrowiu z Oddziałem Pielęgniarstwa i Instytutem Medycyny Morskiej i Tropikalnej
+687
+50.09
+558.00
+1.45
+57.50
+41.73
+A
+344
+NZ1M
+Uniwersytet Medyczny im. Karola Marcinkowskiego w Poznaniu; Wydział Lekarski I
+216
+46.54
+624.00
+2.04
+77.50
+41.12
+A
+345
+NZ1M
+Uniwersytet Medyczny w Białymstoku; Wydział Nauk o Zdrowiu
+569
+48.59
+756.00
+0.91
+70.00
+38.78
+A
+346
+NZ1M
+Uniwersytet Medyczny w Łodzi; Wydział Farmaceutyczny
+936
+52.10
+472.00
+2.06
+0.00
+36.96
+A
+347
+NZ1M
+Uniwersytet Medyczny im. Piastów Śląskich we Wrocławiu; Wydział Lekarski Kształcenia Podyplomowego
+407
+48.42
+907.00
+0.38
+77.50
+34.56
+A
+348
+NZ1M
+Uniwersytet Medyczny w Łodzi; Wydział Nauk o Zdrowiu
+645
+50.48
+834.00
+0.00
+60.00
+31.68
+A
+349
+NZ1M
+Uniwersytet Medyczny w Lublinie; II Wydział Lekarski z Oddziałem Anglojęzycznym
+36
+44.27
+680.00
+2.08
+65.00
+31.64
+A
+350
+NZ1M
+Warszawski Uniwersytet Medyczny; Wydział Nauki o Zdrowiu z Oddziałem Pielęgniarstwa. Oddziałem Zdrowia Publicznego. Oddziałem Dietetyki
+681
+45.35
+564.00
+4.10
+37.50
+31.05
+A
+351
+NZ1M
+Uniwersytet Medyczny im. Piastów Śląskich we Wrocławiu; Wydział Nauk o Zdrowiu
+504
+44.29
+401.00
+3.49
+55.00
+30.39
+A
+352
+NZ1M
+Warszawski Uniwersytet Medyczny; I Wydział Lekarski
+711
+44.41
+1581.00
+0.96
+75.00
+30.37
+A
+353
+NZ1M
+Pomorski Uniwersytet Medyczny w Szczecinie; Wydział Nauk o Zdrowiu
+616
+49.94
+522.00
+0.75
+37.50
+29.30
+B
+354
+NZ1M
+Śląski Uniwersytet Medyczny w Katowicach; Wydział Farmaceutyczny z Oddziałem Medycyny Laboratoryjnej w Sosnowcu
+459
+50.22
+697.00
+0.38
+40.00
+27.66
+B
+355
+NZ1M
+Uniwersytet Medyczny im. Piastów Śląskich we Wrocławiu; Wydział Lekarski
+402
+41.05
+787.00
+1.56
+87.50
+23.40
+B
+356
+NZ1M
+Warszawski Uniwersytet Medyczny; Wydział Lekarsko-Dentystyczny
+336
+41.11
+500.00
+3.86
+60.00
+22.16
+B
+357
+NZ1M
+Uniwersytet Jagielloński w Krakowie; Collegium Medicum; Wydział Nauk o Zdrowiu
+781
+43.21
+522.00
+1.28
+45.00
+16.15
+B
+358
+NZ1M
+Warszawski Uniwersytet Medyczny; II Wydział Lekarski z Oddziałem Nauczania w Języku Angielskim. Oddziałem Fizjoterapii
+738
+38.63
+693.00
+2.67
+70.00
+14.45
+B
+359
+NZ1M
+Śląski Uniwersytet Medyczny w Katowicach; Wydział Zdrowia Publicznego
+305
+46.61
+283.00
+0.50
+20.00
+11.87
+B
+360
+NZ1M
+Uniwersytet Medyczny im. Piastów Śląskich we Wrocławiu; Wydział Farmaceutyczny z Oddziałem Analityki Medycznej
+943
+36.11
+540.00
+14.46
+77.50
+10.87
+B
+361
+NZ1M
+Akademia Wychowania Fizycznego im. Bronisława Czecha w Krakowie; Wydział Rehabilitacji Ruchowej
+527
+44.13
+365.00
+0.73
+37.00
+10.80
+B
+362
+NZ1M
+Centrum Medyczne Kształcenia Podyplomowego w Warszawie
+539
+41.51
+668.00
+0.47
+65.00
+9.93
+B
+363
+NZ1M
+Śląski Uniwersytet Medyczny w Katowicach; Wydział Lekarski w Katowicach
+456
+43.33
+1328.00
+0.00
+45.00
+7.38
+B
+364
+NZ1M
+Uniwersytet Medyczny im. Karola Marcinkowskiego w Poznaniu; Wydział Nauk o Zdrowiu
+915
+39.47
+724.00
+0.70
+60.00
+4.03
+B
+365
+NZ1M
+Uniwersytet Jana Kochanowskiego w Kielcach; Wydział Nauk o Zdrowiu
+523
+41.01
+448.00
+0.40
+57.50
+2.70
+B
+366
+NZ1M
+Pomorski Uniwersytet Medyczny w Szczecinie; Wydział Lekarsko-Stomatologiczny
+340
+40.78
+606.00
+0.37
+40.00
+-2.24
+B
+367
+NZ1M
+Śląski Uniwersytet Medyczny w Katowicach; Wydział Lekarski z Oddziałem Lekarsko-Dentystycznym w Zabrzu
+601
+41.20
+1137.00
+0.17
+27.50
+-2.64
+B
+368
+NZ1M
+Uniwersytet Medyczny w Lublinie; Wydział Pielęgniarstwa i Nauk o Zdrowiu
+176
+35.44
+324.00
+18.84
+42.50
+-3.20
+B
+369
+NZ1M
+Wyższa Szkoła Informatyki i Zarządzania w Rzeszowie; Wydział Turystyki i Nauk o Zdrowiu
+969
+35.78
+216.00
+5.21
+47.50
+-3.35
+B
+370
+NZ1M
+Uniwersytet Medyczny w Łodzi; Wydział Wojskowo-Lekarski
+529
+39.37
+645.00
+0.65
+24.00
+-7.05
+B
+371
+NZ1M
+Śląski Uniwersytet Medyczny w Katowicach; Wydział Nauk o Zdrowiu
+426
+39.81
+621.00
+0.50
+10.00
+-9.46
+B
+372
+NZ1M
+Uniwersytet Szczeciński; Wydział Kultury Fizycznej i Promocji Zdrowia
+218
+41.78
+41.00
+0.05
+20.00
+-11.15
+B
+373
+NZ1M
+Akademia Wychowania Fizycznego we Wrocławiu; Wydział Fizjoterapii
+354
+36.05
+439.00
+0.45
+67.50
+-12.14
+B
+374
+NZ1M
+Uniwersytet Medyczny im. Piastów Śląskich we Wrocławiu; Wydział Lekarsko-Stomatologiczny
+621
+35.08
+499.00
+0.46
+75.00
+-12.78
+B
+375
+NZ1M
+Uniwersytet Warmińsko-Mazurski w Olsztynie; Wydział Nauk Medycznych
+805
+34.52
+321.00
+1.96
+42.50
+-14.70
+B
+376
+NZ1M
+Akademia Wychowania Fizycznego im. Eugeniusza Piaseckiego w Poznaniu; Wydział Wychowania Fizycznego. Sportu i Rehabilitacji
+319
+30.81
+619.00
+2.40
+59.00
+-15.63
+B
+377
+NZ1M
+Akademia Wychowania Fizycznego im. Jerzego Kukuczki w Katowicach; Wydział Fizjoterapii
+749
+35.67
+66.00
+0.23
+68.50
+-19.71
+B
+378
+NZ1M
+Uniwersytet Mikołaja Kopernika w Toruniu; Collegium Medicum im. Ludwika Rydygiera w Bydgoszczy; Wydział Nauk o Zdrowiu
+656
+34.37
+529.00
+0.21
+60.00
+-21.61
+B
+379
+NZ1M
+Uniwersytet Rzeszowski; Wydział Medyczny
+454
+35.49
+378.00
+0.00
+57.50
+-21.81
+B
+380
+NZ1M
+Akademia Wychowania Fizycznego Józefa Piłsudskiego w Warszawie; Wydział Rehabilitacji
+757
+28.86
+313.00
+1.77
+62.50
+-28.24
+B
+381
+NZ1M
+Uniwersytet Medyczny w Lublinie; I Wydział Lekarski z Oddziałem Stomatologicznym
+77
+34.48
+1058.00
+0.08
+20.00
+-28.73
+B
+382
+NZ1M
+Akademia Wychowania Fizycznego im. Jerzego Kukuczki w Katowicach; Wydział Wychowania Fizycznego
+869
+32.03
+488.00
+0.21
+62.50
+-29.37
+B
+383
+NZ1M
+Krakowska Akademia im. Andrzeja Frycza Modrzewskiego w Krakowie; Wydział Zdrowia i Nauk Medycznych
+359
+29.70
+245.00
+6.35
+12.50
+-30.08
+B
+384
+NZ1M
+Akademia Wychowania Fizycznego we Wrocławiu; Wydział Wychowania Fizycznego
+153
+30.29
+425.00
+0.55
+67.50
+-30.42
+B
+385
+NZ1M
+Wyższa Szkoła Gospodarki w Bydgoszczy
+125
+37.20
+0.00
+0.00
+4.00
+-30.45
+B
+386
+NZ1M
+Państwowa Wyższa Szkoła Informatyki i Przedsiębiorczości w Łomży
+589
+33.50
+89.00
+0.55
+30.00
+-33.17
+B
+387
+NZ1M
+Akademia Wychowania Fizycznego we Wrocławiu; Wydział Nauk o Sporcie
+403
+33.03
+231.00
+0.00
+45.00
+-36.54
+B
+388
+NZ1M
+Akademia Wychowania Fizycznego im. Eugeniusza Piaseckiego w Poznaniu; Wydział Turystyki i Rekreacji
+364
+28.42
+255.00
+0.72
+55.00
+-39.36
+B
+389
+NZ1M
+Akademia Wychowania Fizycznego Józefa Piłsudskiego w Warszawie; Wydział Wychowania Fizycznego i Sportu w Białej Podlaskiej
+902
+28.77
+336.00
+0.30
+61.50
+-41.52
+B
+390
+NZ1M
+Akademia Wychowania Fizycznego i Sportu im. Jędrzeja Śniadeckiego w Gdańsku; Wydział Turystyki i Rekreacji
+826
+25.62
+236.00
+0.69
+60.00
+-45.50
+B
+391
+NZ1M
+Akademia Wychowania Fizycznego Józefa Piłsudskiego w Warszawie; Wydział Wychowania Fizycznego
+444
+22.86
+480.00
+0.90
+65.00
+-45.67
+B
+392
+NZ1M
+Akademia Wychowania Fizycznego im. Eugeniusza Piaseckiego w Poznaniu; Zamiejscowy Wydział Kultury Fizycznej w Gorzowie Wielkopolskim
+499
+22.24
+291.00
+2.94
+25.00
+-49.21
+B
+393
+NZ1M
+Wyższa Szkoła Zawodowa Kosmetyki i Pielęgnacji Zdrowia w Warszawie
+944
+15.20
+202.00
+21.47
+42.00
+-51.84
+C
+394
+NZ1M
+Politechnika Opolska; Wydział Wychowania Fizycznego i Fizjoterapii
+544
+26.65
+302.00
+0.21
+40.00
+-55.32
+C
+395
+NZ1M
+Akademia Wychowania Fizycznego im. Bronisława Czecha w Krakowie; Wydział Wychowania Fizycznego i Sportu
+513
+23.52
+550.00
+0.70
+13.00
+-57.59
+C
+396
+NZ1M
+Akademia Techniczno-Humanistyczna w Bielsku-Białej; Wydział Nauk o Zdrowiu
+690
+19.86
+40.00
+0.21
+60.00
+-63.54
+C
+397
+NZ1M
+Akademia Wychowania Fizycznego Józefa Piłsudskiego w Warszawie; Wydział Turystyki i Rekreacji
+955
+20.36
+31.00
+0.00
+52.50
+-66.83
+C
+398
+NZ1M
+Akademia Wychowania Fizycznego im. Bronisława Czecha w Krakowie; Wydział Turystyki i Rekreacji
+880
+22.44
+269.00
+0.00
+35.00
+-66.84
+C
+399
+NZ1M
+Wyższa Szkoła Administracji w Bielsku-Białej; Wydział Fizjoterapii
+50
+25.65
+1.00
+0.00
+0.00
+-67.28
+C
+400
+NZ1M
+Uniwersytet Technologiczno-Humanistyczny im. Kazimierza Pułaskiego w Radomiu; Wydział Nauk o Zdrowiu i Kultury Fizycznej
+667
+23.51
+25.00
+0.00
+0.00
+-72.17
+C
+401
+NZ1M
+ALMAMER Szkoła Wyższa z siedzibą w Warszawie
+368
+19.60
+42.00
+0.06
+32.50
+-72.75
+C
+402
+NZ1M
+Uniwersytet Kazimierza Wielkiego w Bydgoszczy; Wydział Kultury Fizycznej. Zdrowia i Turystyki
+587
+12.12
+257.00
+0.05
+56.00
+-74.97
+C
+403
+NZ1M
+Wyższa Szkoła Zarządzania w Gdańsku; Wydział Fizjoterapii i Nauk o Zdrowiu
+190
+1.11
+2.00
+0.89
+0.00
+-83.35
+C
+404
+NZ1M
+Państwowa Szkoła Wyższa im. Papieża Jana Pawła II w Białej Podlaskiej
+959
+8.66
+271.00
+0.00
+15.00
+-87.25
+C
+405
+NZ1R
+Uniwersytet Przyrodniczy we Wrocławiu; Wydział Nauk o Żywności
+262
+76.57
+687.00
+8.64
+85.00
+86.64
+A
+406
+NZ1R
+Uniwersytet Przyrodniczy we Wrocławiu; Wydział Biologii i Hodowli Zwierząt
+666
+70.40
+451.00
+4.04
+90.00
+72.74
+A
+407
+NZ1R
+Politechnika Łódzka; Wydział Biotechnologii i Nauk o Żywności
+572
+61.78
+579.00
+4.17
+100.00
+66.08
+A
+408
+NZ1R
+Uniwersytet Przyrodniczy w Poznaniu; Wydział Hodowli i Biologii Zwierząt
+928
+74.55
+454.00
+3.12
+62.50
+64.69
+A
+409
+NZ1R
+Uniwersytet Warmińsko-Mazurski w Olsztynie; Wydział Nauk o Środowisku
+617
+58.58
+472.00
+13.27
+75.00
+61.41
+A
+410
+NZ1R
+Uniwersytet Warmińsko-Mazurski w Olsztynie; Wydział Medycyny Weterynaryjnej
+247
+60.77
+509.00
+2.92
+87.50
+56.50
+A
+411
+NZ1R
+Uniwersytet Przyrodniczy w Poznaniu; Wydział Nauk o Żywności i Żywieniu
+640
+52.14
+570.00
+8.55
+100.00
+54.73
+A
+412
+NZ1R
+Szkoła Główna Gospodarstwa Wiejskiego w Warszawie; Wydział Medycyny Weterynaryjnej
+480
+58.30
+520.00
+3.67
+75.00
+51.94
+A
+413
+NZ1R
+Szkoła Główna Gospodarstwa Wiejskiego w Warszawie; Wydział Nauk o Zwierzętach
+140
+53.37
+472.00
+4.86
+89.50
+50.11
+A
+414
+NZ1R
+Uniwersytet Warmińsko-Mazurski w Olsztynie; Wydział Bioinżynierii Zwierząt
+487
+52.64
+520.00
+9.26
+75.00
+49.02
+A
+415
+NZ1R
+Uniwersytet Przyrodniczy we Wrocławiu; Wydział Medycyny Weterynaryjnej
+89
+55.84
+452.00
+2.38
+87.50
+45.11
+A
+416
+NZ1R
+Szkoła Główna Gospodarstwa Wiejskiego w Warszawie; Wydział Rolnictwa i Biologii
+452
+56.83
+521.00
+2.51
+72.50
+43.70
+A
+417
+NZ1R
+Uniwersytet Rolniczy im. Hugona Kołłątaja w Krakowie; Wydział Technologii Żywności
+606
+56.65
+536.00
+2.07
+70.00
+40.99
+A
+418
+NZ1R
+Uniwersytet Przyrodniczy w Lublinie; Wydział Nauk o Żywności i Biotechnologii
+296
+54.58
+315.00
+1.31
+72.50
+28.94
+A
+419
+NZ1R
+Uniwersytet Warmińsko-Mazurski w Olsztynie; Wydział Nauki o Żywności
+648
+45.99
+507.00
+11.70
+75.00
+24.90
+A
+420
+NZ1R
+Szkoła Główna Gospodarstwa Wiejskiego w Warszawie; Wydział Nauk o Żywności
+337
+48.49
+491.00
+1.58
+97.50
+21.73
+A
+421
+NZ1R
+Uniwersytet Przyrodniczy w Poznaniu; Wydział Technologii Drewna
+345
+48.82
+449.00
+3.30
+52.50
+19.34
+A
+422
+NZ1R
+Szkoła Główna Gospodarstwa Wiejskiego w Warszawie; Wydział Ogrodnictwa. Biotechnologii i Architektury Krajobrazu
+122
+42.07
+575.00
+5.26
+97.50
+12.03
+B
+423
+NZ1R
+Uniwersytet Warmińsko-Mazurski w Olsztynie; Wydział Kształtowania Środowiska i Rolnictwa
+446
+42.37
+738.00
+2.49
+97.50
+5.91
+B
+424
+NZ1R
+Uniwersytet Rolniczy im. Hugona Kołłątaja w Krakowie; Wydział Hodowli i Biologii Zwierząt
+794
+45.10
+416.00
+2.15
+80.00
+4.53
+B
+425
+NZ1R
+Uniwersytet Rzeszowski; Wydział Biologiczno-Rolniczy
+179
+42.56
+375.00
+12.56
+52.50
+2.78
+B
+426
+NZ1R
+Szkoła Główna Gospodarstwa Wiejskiego w Warszawie; Wydział Nauk o Żywieniu Człowieka i Konsumpcji
+411
+39.37
+524.00
+4.69
+92.50
+2.31
+B
+427
+NZ1R
+Uniwersytet Rolniczy im. Hugona Kołłątaja w Krakowie; Wydział Rolniczo-Ekonomiczny
+361
+46.62
+604.00
+1.29
+47.50
+1.23
+B
+428
+NZ1R
+Szkoła Główna Gospodarstwa Wiejskiego w Warszawie; Wydział Technologii Drewna
+679
+47.64
+380.00
+0.90
+57.50
+0.88
+B
+429
+NZ1R
+Uniwersytet Rolniczy im. Hugona Kołłątaja w Krakowie; Wydział Leśny
+546
+37.57
+564.00
+5.80
+85.00
+-1.43
+B
+430
+NZ1R
+Uniwersytet Przyrodniczy w Lublinie; Wydział Medycyny Weterynaryjnej
+436
+41.27
+286.00
+16.02
+45.00
+-2.48
+B
+431
+NZ1R
+Uniwersytet Przyrodniczy w Poznaniu; Wydział Rolnictwa i Bioinżynierii
+476
+37.67
+666.00
+3.81
+80.00
+-4.94
+B
+432
+NZ1R
+Uniwersytet Technologiczno-Przyrodniczy im. Jana i Jędrzeja Śniadeckich w Bydgoszczy; Wydział Hodowli i Biologii Zwierząt
+134
+42.99
+399.00
+1.37
+82.50
+-7.54
+B
+433
+NZ1R
+Uniwersytet Przyrodniczy w Poznaniu; Wydział Melioracji i Inżynierii Środowiska
+501
+35.79
+438.00
+5.61
+92.50
+-8.39
+B
+434
+NZ1R
+Zachodniopomorski Uniwersytet Technologiczny w Szczecinie; Wydział Nauk o Żywności i Rybactwa
+126
+38.67
+595.00
+3.12
+60.00
+-11.93
+B
+435
+NZ1R
+Zachodniopomorski Uniwersytet Technologiczny w Szczecinie; Wydział Biotechnologii i Hodowli Zwierząt
+428
+45.51
+345.00
+0.30
+35.00
+-15.84
+B
+436
+NZ1R
+Uniwersytet Rolniczy im. Hugona Kołłątaja w Krakowie; Wydział Ogrodniczy
+410
+39.03
+483.00
+1.94
+70.00
+-16.91
+B
+437
+NZ1R
+Szkoła Główna Gospodarstwa Wiejskiego w Warszawie; Wydział Leśny
+730
+38.37
+472.00
+2.24
+70.00
+-17.27
+B
+438
+NZ1R
+Uniwersytet Przyrodniczy w Poznaniu; Wydział Leśny
+912
+37.30
+435.00
+1.79
+87.50
+-17.96
+B
+439
+NZ1R
+Uniwersytet Technologiczno-Przyrodniczy im. Jana i Jędrzeja Śniadeckich w Bydgoszczy; Wydział Rolnictwa i Biotechnologii
+887
+37.46
+503.00
+1.91
+75.00
+-19.44
+B
+440
+NZ1R
+Uniwersytet Przyrodniczo-Humanistyczny w Siedlcach; Wydział Przyrodniczy
+172
+40.60
+614.00
+0.22
+62.50
+-20.56
+B
+441
+NZ1R
+Uniwersytet Przyrodniczy w Lublinie; Wydział Inżynierii Produkcji
+611
+37.34
+516.00
+0.50
+92.50
+-22.18
+B
+442
+NZ1R
+Uniwersytet Przyrodniczy w Lublinie; Wydział Biologii i Hodowli Zwierząt
+967
+37.74
+517.00
+0.78
+65.00
+-27.54
+B
+443
+NZ1R
+Uniwersytet Przyrodniczy w Poznaniu; Wydział Ogrodnictwa i Architektury Krajobrazu
+496
+38.45
+467.00
+0.97
+55.00
+-28.17
+B
+444
+NZ1R
+Uniwersytet Przyrodniczy we Wrocławiu; Wydział Przyrodniczo-Technologiczny
+532
+31.79
+807.00
+1.76
+97.50
+-29.71
+B
+445
+NZ1R
+Szkoła Główna Gospodarstwa Wiejskiego w Warszawie; Wydział Inżynierii Produkcji
+714
+36.50
+405.00
+1.31
+42.50
+-36.06
+B
+446
+NZ1R
+Zachodniopomorski Uniwersytet Technologiczny w Szczecinie; Wydział Kształtowania Środowiska i Rolnictwa
+978
+32.43
+734.00
+1.24
+32.50
+-45.68
+B
+447
+NZ1R
+Uniwersytet Przyrodniczy w Lublinie; Wydział Agrobioinżynierii
+325
+28.75
+495.00
+0.69
+100.00
+-50.52
+B
+448
+NZ1R
+Uniwersytet Warmińsko-Mazurski w Olsztynie; Wydział Nauk Technicznych
+282
+26.74
+501.00
+4.79
+45.00
+-51.13
+B
+449
+NZ1R
+Uniwersytet Rolniczy im. Hugona Kołłątaja w Krakowie; Wydział Inżynierii Produkcji i Energetyki
+639
+24.99
+466.00
+2.24
+100.00
+-52.43
+B
+450
+NZ1R
+Uniwersytet Rolniczy im. Hugona Kołłątaja w Krakowie; Wydział Inżynierii Środowiska i Geodezji
+215
+27.53
+520.00
+2.41
+65.00
+-52.86
+B
+451
+NZ1R
+Uniwersytet Przyrodniczy w Lublinie; Wydział Ogrodnictwa i Architektury Krajobrazu
+503
+33.00
+443.00
+0.38
+30.00
+-52.88
+B
+452
+NZ1R
+Politechnika Białostocka; Zamiejscowy Wydział Leśny w Hajnówce
+231
+19.54
+65.00
+8.66
+50.00
+-61.79
+B
+453
+NZ1R
+Uniwersytet Przyrodniczy w Lublinie; Wydział Nauk Rolniczych
+677
+27.69
+70.00
+0.00
+47.50
+-73.75
+C
+454
+NZ1R
+Wyższa Szkoła Ekologii i Zarządzania w Warszawie; Wydział Ekologii
+284
+21.76
+68.00
+0.00
+25.00
+-87.38
+C
+455
+NZ1Z
+Uniwersytet im. Adama Mickiewicza w Poznaniu; Wydział Nauk Geograficznych i Geologicznych
+113
+59.97
+714.00
+2.69
+90.00
+70.13
+A
+456
+NZ1Z
+Uniwersytet Warszawski; Wydział Geologii
+471
+58.04
+554.00
+3.04
+96.00
+67.57
+A
+457
+NZ1Z
+Uniwersytet Śląski w Katowicach; Wydział Nauk o Ziemi
+61
+49.19
+714.00
+1.73
+96.00
+43.55
+A
+458
+NZ1Z
+Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie; Wydział Geologii. Geofizyki i Ochrony Środowiska
+644
+41.93
+750.00
+9.22
+88.00
+42.83
+A
+459
+NZ1Z
+Uniwersytet Wrocławski; Wydział Nauk o Ziemi i Kształtowania Środowiska
+823
+41.93
+554.00
+1.34
+84.00
+14.79
+B
+460
+NZ1Z
+Uniwersytet Gdański; Wydział Oceanografii i Geografii
+751
+36.43
+551.00
+4.38
+90.00
+11.03
+B
+461
+NZ1Z
+Uniwersytet Marii Curie-Skłodowskiej w Lublinie; Wydział Nauk o Ziemi i Gospodarki Przestrzennej
+854
+31.35
+411.00
+7.45
+77.00
+-18.17
+B
+462
+NZ1Z
+Uniwersytet Mikołaja Kopernika w Toruniu; Wydział Nauk o Ziemi
+638
+31.02
+411.00
+1.53
+82.00
+-39.25
+B
+463
+NZ1Z
+Uniwersytet Szczeciński; Wydział Nauk o Ziemi
+765
+27.19
+390.00
+2.79
+71.00
+-42.93
+B
+464
+NZ1Z
+Uniwersytet Warszawski; Wydział Geografii i Studiów Regionalnych
+384
+29.42
+461.00
+0.44
+79.00
+-50.05
+B
+465
+NZ1Z
+Uniwersytet Łódzki; Wydział Nauk Geograficznych
+430
+26.22
+530.00
+0.88
+75.00
+-54.43
+B
+466
+NZ2B
+Miedzynarodowy Instytut Biologii Molekularnej i Komórkowej
+73
+105.59
+372.00
+27.05
+100.00
+72.32
+A+
+467
+NZ2B
+Instytut Biochemii i Biofizyki Polskiej Akademii Nauk
+741
+92.50
+794.00
+33.60
+90.00
+60.51
+A+
+468
+NZ2B
+Instytut Biologii Doświadczalnej im. Marcelego Nenckiego Polskiej Akademii Nauk
+94
+89.90
+589.00
+16.77
+90.00
+51.13
+A
+469
+NZ2B
+Instytut Paleobiologii im. Romana Kozłowskiego Polskiej Akademii Nauk
+879
+105.27
+292.00
+5.36
+40.00
+46.71
+A
+470
+NZ2B
+Instytut Chemii Bioorganicznej Polskiej Akademii Nauk
+41
+82.81
+567.00
+22.30
+90.00
+35.14
+A
+471
+NZ2B
+Muzeum i Instytut Zoologii Polskiej Akademii Nauk
+795
+91.33
+400.00
+8.82
+40.00
+35.13
+A
+472
+NZ2B
+Instytut Biologii Ssaków Polskiej Akademii Nauk
+538
+89.52
+311.00
+6.51
+25.00
+23.17
+A
+473
+NZ2B
+Instytut Systematyki i Ewolucji Zwierząt Polskiej Akademii Nauk
+543
+91.68
+184.00
+2.45
+25.00
+18.60
+A
+474
+NZ2B
+Instytut Ochrony Przyrody Polskiej Akademii Nauk
+777
+83.85
+305.00
+10.72
+40.00
+18.12
+A
+475
+NZ2B
+Instytut Immunologii i Terapii Doświadczalnej im. Ludwika Hirszfelda Polskiej Akademii Nauk
+623
+65.05
+534.00
+16.83
+80.00
+-14.78
+A
+476
+NZ2B
+Instytut Medycyny Doświadczalnej i Klinicznej im. Mirosława Mossakowskiego Polskiej Akademii Nauk
+850
+70.86
+562.00
+6.99
+70.00
+-15.65
+A
+477
+NZ2B
+Instytut Farmakologii Polskiej Akademii Nauk
+434
+66.48
+414.00
+18.41
+60.00
+-19.53
+A
+478
+NZ2B
+Instytut Botaniki im. Władysława Szafera Polskiej Akademii Nauk
+164
+76.26
+281.00
+3.81
+20.00
+-20.84
+A
+479
+NZ2B
+Instytut Genetyki Człowieka Polskiej Akademii Nauk
+551
+68.73
+390.00
+4.61
+75.00
+-24.51
+A
+480
+NZ2B
+Europejskie Regionalne Centrum Ekohydrologii
+729
+66.28
+235.00
+3.74
+20.00
+-45.38
+B
+481
+NZ2B
+Instytut Parazytologii im. Witolda Stefańskiego Polskiej Akademii Nauk
+450
+65.23
+155.00
+1.03
+15.00
+-51.37
+B
+482
+NZ2B
+Instytut Biologii Medycznej Polskiej Akademii Nauk
+321
+51.48
+323.00
+12.68
+25.00
+-58.65
+B
+483
+NZ2R
+Instytut Rozrodu Zwierząt i Badań Żywności Polskiej Akademii Nauk
+549
+82.90
+626.00
+11.47
+46.50
+65.21
+A+
+484
+NZ2R
+Instytut Agrofizyki im. Bohdana Dobrzańskiego Polskiej Akademii Nauk
+343
+80.46
+312.00
+36.65
+59.00
+65.12
+A
+485
+NZ2R
+Instytut Geofizyki Polskiej Akademii Nauk
+397
+76.12
+280.00
+8.43
+43.50
+40.57
+A
+486
+NZ2R
+Instytut Genetyki i Hodowli Zwierząt Polskiej Akademii Nauk
+168
+70.14
+468.00
+23.12
+51.00
+38.47
+A
+487
+NZ2R
+Instytut Dendrologii Polskiej Akademii Nauk
+127
+73.88
+296.00
+3.88
+30.50
+22.59
+A
+488
+NZ2R
+Instytut Oceanologii Polskiej Akademii Nauk
+432
+61.95
+477.00
+21.20
+55.00
+17.32
+A
+489
+NZ2R
+Instytut Nauk Geologicznych Polskiej Akademii Nauk
+182
+68.92
+379.00
+4.10
+37.50
+13.68
+A
+490
+NZ2R
+Instytut Fizjologii Roślin im. Franciszka Górskiego Polskiej Akademii Nauk
+816
+69.47
+384.00
+3.03
+33.50
+12.54
+A
+491
+NZ2R
+Instytut Genetyki Roślin Polskiej Akademii Nauk
+561
+58.89
+257.00
+6.61
+41.50
+-8.32
+B
+492
+NZ2R
+Instytut Fizjologii i Żywienia Zwierząt im. Jana Kielanowskiego Polskiej Akademii Nauk
+833
+62.93
+168.00
+1.97
+14.00
+-19.22
+B
+493
+NZ2R
+Instytut Środowiska Rolniczego i Leśnego Polskiej Akademii Nauk
+123
+59.14
+154.00
+2.10
+15.50
+-27.89
+B
+494
+NZ2R
+Instytut Geografii i Przestrzennego Zagospodarowania im. Stanisława Leszczyckiego Polskiej Akademii Nauk
+307
+32.14
+370.00
+5.54
+38.50
+-64.72
+B
+495
+NZ2R
+Instytut Podstaw Inżynierii Środowiska Polskiej Akademii Nauk
+409
+39.50
+285.00
+3.99
+11.50
+-77.67
+C
+496
+NZ3M
+Instytut "Pomnik - Centrum Zdrowia Dziecka"
+669
+87.15
+431.00
+23.00
+90.00
+80.20
+A+
+497
+NZ3M
+Instytut Fizjologii i Patologii Słuchu
+597
+75.87
+309.00
+324.82
+100.00
+74.56
+A+
+498
+NZ3M
+Wojskowy Instytut Medyczny
+194
+59.20
+691.00
+23.54
+60.00
+38.82
+A
+499
+NZ3M
+Instytut Psychiatrii i Neurologii
+225
+69.55
+376.00
+11.19
+80.00
+35.84
+A
+500
+NZ3M
+Centrum Onkologii - Instytut im. Marii Skłodowskiej-Curie
+812
+51.92
+801.00
+37.33
+95.00
+33.76
+A
+501
+NZ3M
+Instytut Medycyny Pracy im. prof. dr med. Jerzego Nofera
+624
+58.83
+616.00
+12.70
+100.00
+32.13
+A
+502
+NZ3M
+Instytut Medycyny Wsi im. Witolda Chodźki
+151
+80.93
+148.00
+5.31
+30.00
+26.52
+A
+503
+NZ3M
+Instytut Kardiologii im. Prymasa Tysiąclecia Stefana Kardynała Wyszyńskiego
+719
+66.90
+426.00
+9.28
+65.00
+24.64
+A
+504
+NZ3M
+Instytut "Centrum Zdrowia Matki Polki"
+333
+66.38
+398.00
+5.84
+88.00
+24.44
+A
+505
+NZ3M
+Instytut Hematologii i Transfuzjologii
+975
+63.61
+274.00
+7.33
+97.50
+20.96
+B
+506
+NZ3M
+Narodowy Instytut Leków
+567
+62.37
+230.00
+4.13
+100.00
+13.91
+B
+507
+NZ3M
+Instytut Matki i Dziecka
+87
+63.23
+211.00
+10.73
+5.00
+9.99
+B
+508
+NZ3M
+Wojskowy Instytut Medycyny Lotniczej
+84
+44.47
+342.00
+111.92
+47.50
+2.05
+B
+509
+NZ3M
+Instytut Gruźlicy i Chorób Płuc
+502
+43.24
+228.00
+14.15
+70.00
+-17.09
+B
+510
+NZ3M
+Instytut Farmaceutyczny
+440
+31.66
+318.00
+12.99
+90.00
+-28.46
+B
+511
+NZ3M
+Wojskowy Instytut Higieny i Epidemiologii im. gen. Karola Kaczkowskiego
+22
+36.80
+308.00
+8.65
+72.50
+-35.45
+B
+512
+NZ3M
+Narodowy Instytut Zdrowia Publicznego - Państwowy Zakład Higieny
+972
+37.97
+446.00
+4.95
+55.00
+-40.45
+B
+513
+NZ3M
+Instytut Reumatologii im. prof. dr hab. med. Eleonory Reicher
+167
+43.38
+247.00
+0.19
+50.00
+-45.75
+B
+514
+NZ3M
+Instytut Medycyny Pracy i Zdrowia Środowiskowego
+921
+32.78
+128.00
+5.79
+70.00
+-51.02
+B
+515
+NZ3M
+Instytut Żywności i Żywienia im. prof. dra med. Aleksandra Szczygła
+977
+29.04
+150.00
+4.70
+90.00
+-52.62
+B
+516
+NZ3M
+Instytut Biotechnologii i Antybiotyków
+187
+21.23
+254.00
+16.07
+0.00
+-54.94
+C
+517
+NZ3M
+Instytut Sportu
+383
+22.17
+117.00
+10.32
+50.00
+-62.47
+C
+518
+NZ3R
+Państwowy Instytut Weterynaryjny - Państwowy Instytut Badawczy
+322
+66.33
+339.00
+31.79
+95.00
+82.75
+A
+519
+NZ3R
+Morski Instytut Rybacki - Państwowy Instytut Badawczy
+332
+44.42
+284.00
+42.18
+65.00
+61.61
+A
+520
+NZ3R
+Instytut Zootechniki - Państwowy Instytut Badawczy
+306
+44.26
+442.00
+23.05
+72.50
+57.88
+A
+521
+NZ3R
+Instytut Ogrodnictwa
+245
+38.90
+392.00
+16.85
+79.50
+34.65
+A
+522
+NZ3R
+Instytut Ochrony Środowiska - Państwowy Instytut Badawczy
+342
+32.17
+178.00
+48.46
+77.50
+26.10
+A
+523
+NZ3R
+Instytut Uprawy Nawożenia i Gleboznawstwa - Państwowy Instytut Badawczy
+756
+35.59
+545.00
+12.46
+60.00
+9.12
+B
+524
+NZ3R
+Instytut Technologii Drewna
+156
+31.78
+328.00
+15.73
+75.00
+4.92
+B
+525
+NZ3R
+Instytut Rybactwa Śródlądowego im. Stanisława Sakowicza
+347
+37.48
+232.00
+6.92
+78.00
+3.04
+B
+526
+NZ3R
+Instytut Włókien Naturalnych i Roślin Zielarskich
+716
+33.18
+341.00
+9.81
+67.50
+-6.67
+B
+527
+NZ3R
+Instytut Ochrony Roślin - Państwowy Instytut Badawczy
+207
+30.34
+441.00
+10.21
+86.00
+-6.99
+B
+528
+NZ3R
+Instytut Hodowli i Aklimatyzacji Roślin - Państwowy Instytut Badawczy
+490
+27.22
+328.00
+11.71
+78.00
+-21.72
+B
+529
+NZ3R
+Instytut Morski w Gdańsku
+566
+13.73
+278.00
+40.77
+72.50
+-32.54
+B
+530
+NZ3R
+Instytut Technologiczno-Przyrodniczy
+883
+25.10
+657.00
+9.61
+70.00
+-32.55
+B
+531
+NZ3R
+Instytut Badawczy Leśnictwa
+863
+21.61
+472.00
+12.49
+75.00
+-38.99
+B
+532
+NZ3R
+Instytut Biotechnologii Przemysłu Rolno-Spożywczego
+177
+24.91
+227.00
+6.68
+80.00
+-44.83
+B
+533
+NZ3R
+Instytut Ekologii Terenów Uprzemysłowionych
+124
+16.43
+308.00
+15.84
+78.50
+-48.17
+B
+534
+NZ3Z
+Państwowy Instytut Geologiczny - Państwowy Instytut Badawczy
+355
+22.88
+388.00
+9.04
+95.00
+6.30
+B
+535
+NZ4B
+Instytut BioInfoBank
+23
+80.00
+210.00
+35.00
+5.00
+70.00
+A
+536
+NZ4M
+Fundacja Rozwoju Kardiochirurgii im. prof. Zbigniewa Religi
+856
+29.37
+220.00
+15.62
+65.00
+-15.00
+B
