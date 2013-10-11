@@ -11,7 +11,7 @@ showOutput2 <- function(outputId) {
 }
 
 shinyUI(pageWithSidebar(
-  headerPanel("Oceny jednostek naukowych 2013"),
+  headerPanel("Oceny jednostek, projekt fundacji SmarterPoland.pl"),
   
   sidebarPanel(
     tags$div(title="Wybierz interesującą Cię dziedzinę",
