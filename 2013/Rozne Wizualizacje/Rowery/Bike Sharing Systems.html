@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://ramnathv.github.io/bikeshare/ -->
+<html><script>var addthis={init:function(){}, toolbox:function(){}, button:function(){}, counter:function(){}};</script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Bike Sharing Systems</title>
+    <link rel="stylesheet" href="http://ramnathv.github.io/bikeshare/libraries/frameworks/minimal/stylesheets/styles.css">
+    <link rel="stylesheet" href="http://ramnathv.github.io/bikeshare/libraries/highlighters/prettify/css/twitter-bootstrap.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans">
+
+    
+  <style type="text/css"></style><style>#rdlchbnsqncdihqcznrtxflxrworrrxupdcdi{border:solid 2px #fff !important;box-sizing:content-box !important;color:#fff !important;display:block !important;height:auto !important;margin:0 !important;opacity:0.9 !important;padding:7px 10px !important;position:fixed !important;visibility:visible !important;width:auto !important;z-index:2147483647 !important;-webkit-border-radius:5px !important;-webkit-box-shadow:0px 0px 20px #000 !important;-webkit-box-sizing:content-box !important;}.rdlchbnsqncdihqcznrtxflxrworrrxupdcdi-blocked{color:#777 !important;display:inline !important;text-decoration:line-through !important;}#rdlchbnsqncdihqcznrtxflxrworrrxupdcdi br{display:block !important;}#rdlchbnsqncdihqcznrtxflxrworrrxupdcdi span{background:transparent !important;}#rdlchbnsqncdihqcznrtxflxrworrrxupdcdi div{border:0 !important;margin:0 !important;padding:0 !important;width:auto !important;letter-spacing:normal !important;font:13px Arial,Helvetica !important;text-align:left !important;text-shadow:none !important;text-transform:none !important;word-spacing:normal !important;}#rdlchbnsqncdihqcznrtxflxrworrrxupdcdi a{font-weight:normal !important;background:none !important;text-decoration:underline !important;color:#fff !important;}@media print{#rdlchbnsqncdihqcznrtxflxrworrrxupdcdi{display:none !important;}}</style></head>
+  <body style="">
+    <div class="wrapper">
+<header>
+  <h2>Bike Sharing Systems</h2>
+  <p>rCharts + Shiny</p>
+  <p class="view">
+    <a href="http://github.com/ramnathv/bikeshare">
+     View the Project on GitHub <small>ramnathv/bikeshare</small>
+    </a>
+  </p>
+  <ul class="buttons">
+    <li><a href="https://github.com/ramnathv/bikeshare/zipball/gh-pages">
+      Download <strong>ZIP File</strong>
+    </a></li>
+    <li><a href="https://github.com/ramnathv/bikeshare/tarball/gh-pages">
+      Download <strong>TAR Ball</strong>
+    </a></li>
+    <li><a href="http://github.com/ramnathv/bikeshare">
+      Fork On <strong>GitHub</strong></a>
+    </li>
+  </ul>
+    <ol>
+    </ol>
+</header>
+
+      <section>
+        
+<style>
+ /* body{background: white;} */
+ ol.linenums{margin-left: -8px;}
+ p, li{text-align: justify;font-size: 15px;line-height:1.5em;font-family: "PT Sans"}
+</style>
+
+<h2>Visualizing Bike Sharing Networks</h2>
+
+<!-- AddThis Button BEGIN -->
+
+<div class="addthis_toolbox addthis_default_style ">
+<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+<a class="addthis_button_tweet"></a>
+<a class="addthis_button_pinterest_pinit"></a>
+<a class="addthis_counter addthis_pill_style"></a>
+</div>
+
+<script type="text/javascript">
+  var addthis_config = {"data_track_addressbar":false};
+</script>
+
+<script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4fdfcfd4773d48d3" class="disconnect-collapsed"></script>
+
+<!-- AddThis Button END -->
+
+<p>A couple of months ago I had posted an interesting application of using rCharts and Shiny to visualize the CitiBike system in NYC. I had always wanted to write a tutorial about its inner workings, so that it would be useful to others looking to build similar visualizations, and I finally got around to doing it. Along the way, I managed to extend the visualization to around 100 bike sharing systems across the world. The final application can be viewed <a href="http://glimmer.rstudio.com/ramnathv/BikeShare">here</a>. </p>
+
+<p><a href="http://glimmer.rstudio.com/ramnathv/BikeShare">
+<img src="./Bike Sharing Systems_files/c">
+
+</a></p>
+
+<p>If you are impatient, you can view all the code on my <a href="http://github.com/ramnathv/bikeshare">github repo</a> and run the application directly from github.</p>
+
+<pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><code class="r"><span class="kwd">require</span><span class="pun">(</span><span class="pln">shiny</span><span class="pun">)</span></code></li><li class="L1"><code class="r"><span class="pln">runGitHub</span><span class="pun">(</span><span class="str">"bikeshare"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"ramnathv"</span><span class="pun">,</span><span class="pln"> </span><span class="kwd">ref</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="str">"gh-pages"</span><span class="pun">,</span><span class="pln"> subdir </span><span class="pun">=</span><span class="pln"> </span><span class="str">"app"</span><span class="pun">)</span></code></li></ol></pre>
+
+<p>If you want a more detailed explanation of how the app was built, read on.</p>
+
+<h3>Introduction</h3>
+
+<p>My mantra for building interactive visualizations involves three steps, and it has worked well for me most of the time.</p>
+
+<ol>
+<li>Get Data.</li>
+<li>Create Visualization.</li>
+<li>Wrap in Shiny/AngularJS!</li>
+</ol>
+
+<p>Let me expand on this and build the web app one step at a time.</p>
+
+<h3>Get Data</h3>
+
+<p>The first step is to get the data on availability of bikes in a city. Thankfully, the folks at <a href="http://ramnathv.github.io/bikeshare/CityBikes">http://api.citybik.es/</a> have provided an API that allows one to programatically retrieve the availabilities across more than 100 bike sharing networks across the world. I like to wrap my analysis workflow into small functions, so that it is modular. There are two things that my <code>getData</code> function does.</p>
+
+<ol>
+<li>Fetch data for a given network using <code>httr</code>. (thanks @hadley)</li>
+<li>Add <code>fillColor</code> and <code>popup</code> to each station of the network.</li>
+</ol>
+
+<pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><code class="r"><span class="pln">getData </span><span class="pun">&lt;-</span><span class="pln"> </span><span class="kwd">function</span><span class="pun">(</span><span class="pln">network </span><span class="pun">=</span><span class="pln"> </span><span class="str">'citibikenyc'</span><span class="pun">){</span></code></li><li class="L1"><code class="r"><span class="pln">  </span><span class="kwd">require</span><span class="pun">(</span><span class="pln">httr</span><span class="pun">)</span></code></li><li class="L2"><code class="r"><span class="pln">  url </span><span class="pun">=</span><span class="pln"> sprintf</span><span class="pun">(</span><span class="str">'http://api.citybik.es/%s.json'</span><span class="pun">,</span><span class="pln"> network</span><span class="pun">)</span></code></li><li class="L3"><code class="r"><span class="pln">  bike </span><span class="pun">=</span><span class="pln"> fromJSON</span><span class="pun">(</span><span class="pln">content</span><span class="pun">(</span><span class="pln">GET</span><span class="pun">(</span><span class="pln">url</span><span class="pun">)))</span></code></li><li class="L4"><code class="r"><span class="pln">  lapply</span><span class="pun">(</span><span class="pln">bike</span><span class="pun">,</span><span class="pln"> </span><span class="kwd">function</span><span class="pun">(</span><span class="pln">station</span><span class="pun">){</span><span class="pln">within</span><span class="pun">(</span><span class="pln">station</span><span class="pun">,</span><span class="pln"> </span><span class="pun">{</span><span class="pln"> </span></code></li><li class="L5"><code class="r"><span class="pln">   fillColor </span><span class="pun">=</span><span class="pln"> cut</span><span class="pun">(</span></code></li><li class="L6"><code class="r"><span class="pln">     </span><span class="kwd">as</span><span class="pun">.</span><span class="pln">numeric</span><span class="pun">(</span><span class="pln">bikes</span><span class="pun">)/(</span><span class="kwd">as</span><span class="pun">.</span><span class="pln">numeric</span><span class="pun">(</span><span class="pln">bikes</span><span class="pun">)</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> </span><span class="kwd">as</span><span class="pun">.</span><span class="pln">numeric</span><span class="pun">(</span><span class="pln">free</span><span class="pun">)),</span><span class="pln"> </span></code></li><li class="L7"><code class="r"><span class="pln">     breaks </span><span class="pun">=</span><span class="pln"> c</span><span class="pun">(</span><span class="lit">0</span><span class="pun">,</span><span class="pln"> </span><span class="lit">0.20</span><span class="pun">,</span><span class="pln"> </span><span class="lit">0.40</span><span class="pun">,</span><span class="pln"> </span><span class="lit">0.60</span><span class="pun">,</span><span class="pln"> </span><span class="lit">0.80</span><span class="pun">,</span><span class="pln"> </span><span class="lit">1</span><span class="pun">),</span><span class="pln"> </span></code></li><li class="L8"><code class="r"><span class="pln">     labels </span><span class="pun">=</span><span class="pln"> brewer</span><span class="pun">.</span><span class="pln">pal</span><span class="pun">(</span><span class="lit">5</span><span class="pun">,</span><span class="pln"> </span><span class="str">'RdYlGn'</span><span class="pun">),</span></code></li><li class="L9"><code class="r"><span class="pln">     include</span><span class="pun">.</span><span class="pln">lowest </span><span class="pun">=</span><span class="pln"> TRUE</span></code></li><li class="L0"><code class="r"><span class="pln">   </span><span class="pun">)</span><span class="pln"> </span></code></li><li class="L1"><code class="r"><span class="pln">   popup </span><span class="pun">=</span><span class="pln"> iconv</span><span class="pun">(</span><span class="pln">whisker</span><span class="pun">::</span><span class="pln">whisker</span><span class="pun">.</span><span class="pln">render</span><span class="pun">(</span></code></li><li class="L2"><code class="r"><span class="pln">      </span><span class="str">'&lt;b&gt;&lt;/b&gt;&lt;br&gt;</span></code></li><li class="L3"><code class="r"><span class="str">        &lt;b&gt;Free Docks: &lt;/b&gt;  &lt;br&gt;</span></code></li><li class="L4"><code class="r"><span class="str">         &lt;b&gt;Available Bikes:&lt;/b&gt; </span></code></li><li class="L5"><code class="r"><span class="str">        &lt;p&gt;Retreived At: &lt;/p&gt;'</span></code></li><li class="L6"><code class="r"><span class="pln">   </span><span class="pun">),</span><span class="pln"> </span><span class="kwd">from</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="str">'latin1'</span><span class="pun">,</span><span class="pln"> to </span><span class="pun">=</span><span class="pln"> </span><span class="str">'UTF-8'</span><span class="pun">)</span></code></li><li class="L7"><code class="r"><span class="pln">   latitude </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">as</span><span class="pun">.</span><span class="pln">numeric</span><span class="pun">(</span><span class="pln">lat</span><span class="pun">)/</span><span class="lit">10</span><span class="pun">^</span><span class="lit">6</span></code></li><li class="L8"><code class="r"><span class="pln">   longitude </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">as</span><span class="pun">.</span><span class="pln">numeric</span><span class="pun">(</span><span class="pln">lng</span><span class="pun">)/</span><span class="lit">10</span><span class="pun">^</span><span class="lit">6</span></code></li><li class="L9"><code class="r"><span class="pln">   lat </span><span class="pun">&lt;-</span><span class="pln"> lng </span><span class="pun">&lt;-</span><span class="pln"> NULL</span><span class="pun">})</span></code></li><li class="L0"><code class="r"><span class="pln">  </span><span class="pun">})</span></code></li><li class="L1"><code class="r"><span class="pun">}</span></code></li></ol></pre>
+
+<p>Now that we have the data, it is time to visualize it.</p>
+
+<h3>Create Visualization</h3>
+
+<p>Given the nature of the data, it is best to visualize on a map. <a href="http://rcharts.io/">rCharts</a> provides bindings to the <a href="http://ramnathv.github.io/bikeshare/leafletjs.com">Leaflet</a> library, which makes mapping really easy. The <code>plotMap</code> function essentially does the following:</p>
+
+<ol>
+<li>Creates a new instances of a Leaflet map.</li>
+<li>Sets the map's provider, width, height, center and zoom level.</li>
+<li>Adds the network data retrieved as a geoJSON layer.</li>
+<li>Configures the properties of each point and popup to display on click.</li>
+</ol>
+
+<pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><code class="r"><span class="pln">plotMap </span><span class="pun">&lt;-</span><span class="pln"> </span><span class="kwd">function</span><span class="pun">(</span><span class="pln">network </span><span class="pun">=</span><span class="pln"> </span><span class="str">'citibikenyc'</span><span class="pun">,</span><span class="pln"> width </span><span class="pun">=</span><span class="pln"> </span><span class="lit">1600</span><span class="pun">,</span><span class="pln"> height </span><span class="pun">=</span><span class="pln"> </span><span class="lit">800</span><span class="pun">){</span></code></li><li class="L1"><code class="r"><span class="pln">  data_ </span><span class="pun">&lt;-</span><span class="pln"> getData</span><span class="pun">(</span><span class="pln">network</span><span class="pun">);</span><span class="pln"> center_ </span><span class="pun">&lt;-</span><span class="pln"> getCenter</span><span class="pun">(</span><span class="pln">network</span><span class="pun">,</span><span class="pln"> networks</span><span class="pun">)</span></code></li><li class="L2"><code class="r"><span class="pln">  L1 </span><span class="pun">&lt;-</span><span class="pln"> </span><span class="typ">Leaflet$new</span><span class="pun">()</span></code></li><li class="L3"><code class="r"><span class="pln">  L1$tileLayer</span><span class="pun">(</span><span class="pln">provider </span><span class="pun">=</span><span class="pln"> </span><span class="str">'Stamen.TonerLite'</span><span class="pun">)</span></code></li><li class="L4"><code class="r"><span class="pln">  L1$set</span><span class="pun">(</span><span class="pln">width </span><span class="pun">=</span><span class="pln"> width</span><span class="pun">,</span><span class="pln"> height </span><span class="pun">=</span><span class="pln"> height</span><span class="pun">)</span></code></li><li class="L5"><code class="r"><span class="pln">  L1$setView</span><span class="pun">(</span><span class="pln">c</span><span class="pun">(</span><span class="pln">center_$lat</span><span class="pun">,</span><span class="pln"> center_$lng</span><span class="pun">),</span><span class="pln"> </span><span class="lit">13</span><span class="pun">)</span></code></li><li class="L6"><code class="r"><span class="pln">  L1$geoJson</span><span class="pun">(</span><span class="pln">toGeoJSON</span><span class="pun">(</span><span class="pln">data_</span><span class="pun">),</span><span class="pln"> </span></code></li><li class="L7"><code class="r"><span class="pln">    onEachFeature </span><span class="pun">=</span><span class="pln"> </span><span class="str">'#! function(feature, layer){</span></code></li><li class="L8"><code class="r"><span class="str">      layer.bindPopup(feature.properties.popup)</span></code></li><li class="L9"><code class="r"><span class="str">    } !#'</span><span class="pun">,</span></code></li><li class="L0"><code class="r"><span class="pln">    pointToLayer </span><span class="pun">=</span><span class="pln">  </span><span class="str">"#! function(feature, latlng){</span></code></li><li class="L1"><code class="r"><span class="str">      return L.circleMarker(latlng, {</span></code></li><li class="L2"><code class="r"><span class="str">        radius: 4,</span></code></li><li class="L3"><code class="r"><span class="str">        fillColor: feature.properties.fillColor || 'red',    </span></code></li><li class="L4"><code class="r"><span class="str">        color: '#000',</span></code></li><li class="L5"><code class="r"><span class="str">        weight: 1,</span></code></li><li class="L6"><code class="r"><span class="str">        fillOpacity: 0.8</span></code></li><li class="L7"><code class="r"><span class="str">      })</span></code></li><li class="L8"><code class="r"><span class="str">    } !#"</span><span class="pun">)</span></code></li><li class="L9"><code class="r"><span class="pln">  L1$enablePopover</span><span class="pun">(</span><span class="pln">TRUE</span><span class="pun">)</span></code></li><li class="L0"><code class="r"><span class="pln">  L1$fullScreen</span><span class="pun">(</span><span class="pln">TRUE</span><span class="pun">)</span></code></li><li class="L1"><code class="r"><span class="pln">  </span><span class="kwd">return</span><span class="pun">(</span><span class="pln">L1</span><span class="pun">)</span></code></li><li class="L2"><code class="r"><span class="pun">}</span></code></li></ol></pre>
+
+<p>We can test this function by plotting the availabilities of bikes in NYC. You can play with <code>plotMap</code> and change the default color palette, or popup details, and see how it affects the map.</p>
+
+<pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><code class="r"><span class="pln">plotMap</span><span class="pun">(</span><span class="str">'citibikenyc'</span><span class="pun">,</span><span class="pln"> </span><span class="lit">600</span><span class="pun">,</span><span class="pln"> </span><span class="lit">300</span><span class="pun">)</span></code></li></ol></pre>
+
+<iframe src="./Bike Sharing Systems_files/citibikenyc.html" width="600" frameborder="0"></iframe>
+
+<p>Now that we have successfully visualized the bike sharing system for NYC, we can get to the exciting task of wrapping this up in a Shiny application, where the user can interactively choose the bike sharing system, whose availabilities they want to visualize. Before, we can do that, we need the names of these systems to passed to <code>plotMap</code>. Thankfully, the <a href="http://ramnathv.github.io/bikeshare/CityBikes">http://api.citybik.es/</a> API provides easy access to this. The <code>getNetworks</code> function retrieves this data.</p>
+
+<pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><code class="r"><span class="pln">getNetworks </span><span class="pun">&lt;-</span><span class="pln"> </span><span class="kwd">function</span><span class="pun">(){</span></code></li><li class="L1"><code class="r"><span class="pln">  </span><span class="kwd">require</span><span class="pun">(</span><span class="pln">httr</span><span class="pun">)</span></code></li><li class="L2"><code class="r"><span class="pln">  </span><span class="kwd">if</span><span class="pln"> </span><span class="pun">(!</span><span class="pln">file</span><span class="pun">.</span><span class="pln">exists</span><span class="pun">(</span><span class="str">'networks.json'</span><span class="pun">)){</span></code></li><li class="L3"><code class="r"><span class="pln">    url </span><span class="pun">&lt;-</span><span class="pln"> </span><span class="str">'http://api.citybik.es/networks.json'</span></code></li><li class="L4"><code class="r"><span class="pln">    dat </span><span class="pun">&lt;-</span><span class="pln"> content</span><span class="pun">(</span><span class="pln">GET</span><span class="pun">(</span><span class="pln">url</span><span class="pun">))</span></code></li><li class="L5"><code class="r"><span class="pln">    writeLines</span><span class="pun">(</span><span class="pln">dat</span><span class="pun">,</span><span class="pln"> </span><span class="str">'networks.json'</span><span class="pun">)</span></code></li><li class="L6"><code class="r"><span class="pln">  </span><span class="pun">}</span></code></li><li class="L7"><code class="r"><span class="pln">  networks </span><span class="pun">&lt;-</span><span class="pln"> RJSONIO</span><span class="pun">::</span><span class="pln">fromJSON</span><span class="pun">(</span><span class="str">'networks.json'</span><span class="pun">)</span></code></li><li class="L8"><code class="r"><span class="pln">  nms </span><span class="pun">&lt;-</span><span class="pln"> lapply</span><span class="pun">(</span><span class="pln">networks</span><span class="pun">,</span><span class="pln"> </span><span class="str">'[['</span><span class="pun">,</span><span class="pln"> </span><span class="str">'name'</span><span class="pun">)</span></code></li><li class="L9"><code class="r"><span class="pln">  names</span><span class="pun">(</span><span class="pln">networks</span><span class="pun">)</span><span class="pln"> </span><span class="pun">&lt;-</span><span class="pln"> nms</span></code></li><li class="L0"><code class="r"><span class="pln">  </span><span class="kwd">return</span><span class="pun">(</span><span class="pln">networks</span><span class="pun">)</span></code></li><li class="L1"><code class="r"><span class="pun">}</span></code></li></ol></pre>
+
+<h3>Wrap in Shiny</h3>
+
+<p>This is the easiest part of the whole tutorial. Shiny requires two files <code>ui.R</code> and <code>server.R</code>, that contain the UI and server logic respectively.</p>
+
+<p>For the UI, I make use of a basic bootstrap page that ships with Shiny. Lines 5 - 7 add links to a custom style file and javascript file that allow me to add a collapsible <strong>credits</strong> box at the bottom left of the page. I use a <code>selectInput</code> for users to select the network they want to visualize, and populate it with an alphabetically sorted list of names of all the networks, initialized to <code>citibikenyc</code>. Finally, I use the <code>mapOutput</code> function which adds a div containter named <code>map_container</code> that houses the map.</p>
+
+<pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><code class="r"><span class="kwd">require</span><span class="pun">(</span><span class="pln">shiny</span><span class="pun">)</span></code></li><li class="L1"><code class="r"><span class="kwd">require</span><span class="pun">(</span><span class="pln">rCharts</span><span class="pun">)</span></code></li><li class="L2"><code class="r"><span class="pln">networks </span><span class="pun">&lt;-</span><span class="pln"> getNetworks</span><span class="pun">()</span></code></li><li class="L3"><code class="r"><span class="pln">shinyUI</span><span class="pun">(</span><span class="pln">bootstrapPage</span><span class="pun">(</span><span class="pln"> </span></code></li><li class="L4"><code class="r"><span class="pln">  tags$link</span><span class="pun">(</span><span class="pln">href</span><span class="pun">=</span><span class="str">'style.css'</span><span class="pun">,</span><span class="pln"> rel</span><span class="pun">=</span><span class="str">'stylesheet'</span><span class="pun">),</span></code></li><li class="L5"><code class="r"><span class="pln">  tags$script</span><span class="pun">(</span><span class="pln">src</span><span class="pun">=</span><span class="str">'app.js'</span><span class="pun">),</span></code></li><li class="L6"><code class="r"><span class="pln">  includeHTML</span><span class="pun">(</span><span class="str">'www/credits.html'</span><span class="pun">),</span></code></li><li class="L7"><code class="r"><span class="pln">  selectInput</span><span class="pun">(</span><span class="str">'network'</span><span class="pun">,</span><span class="pln"> </span><span class="str">''</span><span class="pun">,</span><span class="pln"> sort</span><span class="pun">(</span><span class="pln">names</span><span class="pun">(</span><span class="pln">networks</span><span class="pun">)),</span><span class="pln"> </span><span class="str">'citibikenyc'</span><span class="pun">),</span></code></li><li class="L8"><code class="r"><span class="pln">  mapOutput</span><span class="pun">(</span><span class="str">'map_container'</span><span class="pun">)</span></code></li><li class="L9"><code class="r"><span class="pun">))</span></code></li></ol></pre>
+
+<p>The server side code is even simpler than the UI and merely wraps the <code>plotMap</code> call inside <code>renderMap</code>, and passes the name of the network chosen by the user, <code>input$network</code> in place of the hard-coded <code>citibikenyc</code>.</p>
+
+<pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><code class="r"><span class="kwd">require</span><span class="pun">(</span><span class="pln">shiny</span><span class="pun">)</span></code></li><li class="L1"><code class="r"><span class="kwd">require</span><span class="pun">(</span><span class="pln">rCharts</span><span class="pun">)</span></code></li><li class="L2"><code class="r"><span class="pln">shinyServer</span><span class="pun">(</span><span class="kwd">function</span><span class="pun">(</span><span class="pln">input</span><span class="pun">,</span><span class="pln"> output</span><span class="pun">,</span><span class="pln"> session</span><span class="pun">){</span></code></li><li class="L3"><code class="r"><span class="pln">  output$map_container </span><span class="pun">&lt;-</span><span class="pln"> renderMap</span><span class="pun">({</span></code></li><li class="L4"><code class="r"><span class="pln">    plotMap</span><span class="pun">(</span><span class="pln">input$network</span><span class="pun">)</span></code></li><li class="L5"><code class="r"><span class="pln">  </span><span class="pun">})</span></code></li><li class="L6"><code class="r"><span class="pun">})</span></code></li></ol></pre>
+
+<h3>Acknowledgements</h3>
+
+<ol>
+<li><a href="http://leafletjs.com/">Vladimir Agafonkin</a> for Leaflet.</li>
+<li><a href="http://citybik.es/">CitiBikes</a> for easy access to data.</li>
+<li><a href="http://github.com/jcheng5">Joe Cheng</a> and RStudio for Shiny.</li>
+<li><a href="http://github.com/timelyportfolio">Kenton Russell</a> and <a href="http://github.com/reinholdsson">Thomas Reinholdsson</a> for some awesome work on rCharts.</li>
+<li><a href="http://github.com/yihui">Yihui Xie</a> for knitr.</li>
+<li><a href="http://github.com/yihui">Hadley Wickham</a> for httr and several other packages.</li>
+</ol>
+
+      </section>
+      <footer>
+        <p>Maintained by <a href="http://github.com/ramnathv">
+          Ramnath Vaidyanathan
+        </a></p>
+        <p><small>Hosted on GitHub Pages — Theme by 
+          <a href="https://github.com/orderedlist">orderedlist</a></small>
+        </p>
+      </footer>    </div>
+    <script src="./Bike Sharing Systems_files/scale.fix.js"></script>
+  
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- Google Prettify -->
+  <script src="./Bike Sharing Systems_files/prettify.js"></script>
+  <script src="./Bike Sharing Systems_files/lang-r.js"></script>
+  <script>
+    var pres = document.getElementsByTagName("pre");
+    for (var i=0; i < pres.length; ++i) {
+      pres[i].className = "prettyprint linenums";
+    }
+    prettyPrint();
+  </script>
+  <!-- End Google Prettify --> 
+  </body></html>
