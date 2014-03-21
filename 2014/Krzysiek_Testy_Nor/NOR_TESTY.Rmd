@@ -1,0 +1,366 @@
+Porównanie jednej, dwóch i kilku zmiennych losowych 
+========================================================
+Wprowadzenie
+-----------------
+
+Prezentacja wybranych testów statystycznych badających zgodność z wybranym rozkładem prawdopodobieństwa będzie się opierać w głównej mierze na dwóch pakietach: *PoweR* oraz *EnvStats*. Pakiet *EnvStats* jest przeznaczony głównie dla osób wykonujących statystyczne analizy danych związane z ochroną środowiska. Zaznaczmy jednak że, wszystkie funkcje z tej biblioteki są przydatne dla każdego a więc nie tylko do analiz danych środowiskowych. Osoby zainteresowane możliwościami tego pakietu z pewnością zainteresuje książka *EnvStats. An R Package for Environmental Statistics - Steven P. Millard* która jest poświęcona w całości tej bibliotece.
+Warto podkreślić że w tym dokumencie zostanie dokonany przegląd tylko kilku procedur dostępnych w tych pakietach tzn. testowanie zgodności z rozkładem normalnym, z wybranym rozkładem prawdopodobieństwa oraz porównywanie dystrybuant.
+Dodatkowo to opracowanie zostało uzupełnione o kilka ciekawych metod które są dostępne w takich pakietach jak: *dbEmpLikeGOF*, *dbEmpLikeNorm* oraz *exptest* i *kSamples*. 
+
+Testy dla jednej zmiennej
+------------------
+**Testowanie zgodności z rozkładem normalnym**
+
+Środowisko R oferuje bardzo wiele różnych testów normalności. W tym opracowaniu zostaną przedstawione tylko te najbardziej popularne np. Shapiro-Wilka, $\chi^2$ Pearsona, Andersona-Darlinga oraz kilka bardzo ciekawych alternatywnych rozwiązań. W pierwszej kolejności zostanie przedstawiony test Shapiro-Wilka który jest najczęściej wykorzystywany do badania zgodności z rozkładem normalnym.
+
+```{r}
+# przykładowe dane:
+set.seed(24)
+s=rnorm(50,0,1)
+# przygotowanie danych:
+y= quantile(s, c(0.25, 0.75))
+x= qnorm(c(0.25, 0.75), mean(s), sd(s))
+slope= diff(y) / diff(x)
+int= y[1L] - slope * x[1L]
+library(ggplot2)
+# wykres kwantylowy:
+QQ1= ggplot(NULL, aes(sample= s))+
+stat_qq(distribution= qnorm , dparams= list(mean= mean(s), sd= sd(s)),
+colour= "orange",size=3)+ geom_abline(slope= slope, intercept= int, size=2,alpha=0.3)+labs(title="Dane vs. rozkład normalny")
+# wykres gęstości:
+DE1 = ggplot( data = with(density(s), data.frame(x,y)), aes(x = x, y = y))+
+geom_line(size=1 , col = "orange" )+
+geom_area(aes(x=x,y=y) , fill="orange", alpha =0.3)+
+stat_function( fun = dnorm, arg= list(mean = mean(s), sd=sd(s)),
+col = "black",size=2,alpha=0.3)+
+theme(legend.position = "none")+labs(title="Dane vs. rozkład normalny")
+```
+```{r fig.width=12, fig.height=5}
+library(grid)
+pushViewport(viewport(layout = grid.layout(1, 2)))
+print(QQ1, vp= viewport(layout.pos.row= 1, layout.pos.col= 1))
+print(DE1, vp= viewport(layout.pos.row= 1, layout.pos.col= 2))
+```
+$$H_{0}: \text{ rozkład normalny}$$
+Test Shapiro-Wilk:
+```{r}
+shapiro.test(s)
+```
+
+Jak już wyżej wspomniano testów badających normalność rozkładu jest bardzo dużo. Kilka z nich jest zaimplementowanych w bibliotece *nortest*.
+
+Test Pearsona:
+```{r}
+library(nortest)
+pearson.test(s)
+```
+Ciekawą alternatywą dla testu *nortest::ad.test* jest funkcja *qualityTools::adSim*. Dzięki niej możemy wyznaczyć wartość p-value z wykorzystaniem metody bootstrap. Jeśli dodamy opcję *b=NA* to p-value będzie obliczona bez wykorzystania symulacji. 
+```{r}
+library(qualityTools)
+adSim(s, distribution = "normal", b = NA)
+adSim(s, distribution = "normal", b = 10000)
+```
+Warto  pamiętać, że funkcja adSim może badać zgodność z takimi rozkładami jak: "cauchy", "exponential", "gumbel", "gamma", "log-normal", "lognormal", "logistic" oraz "weibull". 
+
+Ponieważ testy mają różną skuteczność w badaniu odstępstw od normalności warto porównać ich moc.
+
+Moc testu Shapiro-Wilka.
+```{r}
+mocSW= replicate(10000,shapiro.test(sample(s,50,T))$p.value)
+mean(mocSW < 0.05)
+```
+Moc testu Pearsona.
+```{r}
+mocP= replicate(10000,pearson.test(sample(s,50,T))$p.value)
+mean(mocP < 0.05)
+```
+Moc testu Andersona-Darlinga.
+```{r}
+mocAD= replicate(10000,ad.test(sample(s,50,T))$p.value)
+mean(mocAD < 0.05)
+```
+
+Osoby zainteresowane tematem przydatności niektórych testów normalności dla pewnych alternatyw z pewnością zainteresuje dokument: [Przemysław Biecek, Wybrane testy normalności, 2013. Materiały Fundacji SmarterPoland.pl](http://smarterpoland.pl/index.php/2013/04/wybrane-testy-normalnoci/).
+
+
+Na szczególną uwagę zasługuje pakiet *PoweR* w którym znajdziemy ponad czterdzieści wybranych testów normalności. Każdy z nich jest przypisany do odpowiedniej liczby  np. test Shapiro-Wilka ma numer 21.
+Lista wszystkich testów normalności jest dostępna w pliku pomocy którą można wywołać poleceniem: *?Normality.tests*.
+```{r}
+library(PoweR)
+getindex(,21)
+```
+
+Test Shapiro-Wilka.
+```{r}
+statcompute(21, s)
+```
+Wyznaczymy teraz wartość p-value za pomocą symulacji Monte Carlo.
+```{r}
+pvalueMC(s, stat.index = 21, null.law.index = 2, M = 10^4,alter=4)
+```
+Zaznaczmy, że opcja *null.law.index* oznacza funkcję prawdopodobieństwa. Pod numerem 2 znajduje się rozkład normalny o parametrach $\mu=0$ oraz $\sigma=1$.
+```{r}
+getindex(2)
+```
+W przypadku zmiany domyślnie ustawionych wartości parametrów $\mu$ i $\sigma$ na $\mu=2$ oraz $\sigma=3$ należy dodać opcję *null.law.pars=c(mu=2,sigma=3)*.
+
+Warto również wspomnieć o funkcji *gensample* dzięki której możemy wygenerować zmienne losowe z określonego rozkładu.
+```{r}
+set.seed(24)
+e <- gensample(2,50,law.pars=c(0,1))$sample
+```
+
+Ciekawą opcją jest także możliwość wygenerowania wartości krytycznych z wykorzystaniem symulacji Monte Carlo. Poniżej przykład dla testu Shapiro-Wilka.
+
+Wartości krytyczne dla $n=50$ oraz $\alpha=0.1$, $\alpha=0.05$, $\alpha=0.025$ i $\alpha=0.01$.
+```{r}
+compquant(n = 50, probs=c(0.1,0.05,0.025,0.01), law.index = 2, stat.index = 21, M = 10^5)$quant
+```
+Przykładowa tablica wartości krytycznych dla testu Shapiro-Wilka oraz testu Andersona-Darlinga dla $n=10,20...,100$ oraz  $\alpha=0.1$, $\alpha=0.05$, $\alpha=0.025$ i $\alpha=0.01$
+```{r}
+tableSW_AD <- many.crit(law.index=2,stat.indices=c(21,2),M=10^5,vectn=seq(10,100,10),
+level=c(0.1,0.05,0.025,0.01),alter=list(stat21=4,stat2=3),law.pars=NULL,parstats=NULL)
+tableSW_AD
+```
+Osoby składające swoje dokumenty w systemie LaTeX na pewno zinteresuje opcja za pomocą której można wygenerować kod powyższej tabeli dla systemu LaTeX.
+```{r results="hide"}
+print(tableSW_AD,digits=3,latex.output=TRUE)
+```
+Należy również zaznaczyć, że mamy możliwość wywołać graficzny interfejs użytkownika wpisując polecenie *power.gui()*. Poniżej przykład wygenerowania tabeli wartości krytycznych *tableSW_AD* ale z wykorzystaniem interfejsu graficznego -- zakładka **Critical values**.
+```
+power.gui()
+```
+
+<img src="figure/GUIpower.png" width=802 height=659>
+
+Warto zaznaczyć, że do uruchomienia GUI wymagana jest instalacja dodatku *iwidgets4*. Dla użytkowników Linuksa np. dystrybucji Ubuntu  sprawa jest bardzo prosta wystarczy wpisać w konsoli poleceń: *sudo apt-get install iwidgets4*.
+
+
+Jest to tylko część możliwości tego pakietu.
+Więcej informacji można znaleźć w dokumencie [Le progiciel PoweR : un outil de recherche reproductible pour faciliter les calculs de puissance de certains tests d’hypothèses au moyen de simulations de Monte Carlo](https://papyrus.bib.umontreal.ca/xmlui/bitstream/handle/1866/9922/Tran_Viet_Anh_2013_memoire.pdf;jsessionid=0E7E817594ADC045112B3303E09194C5?sequence=2). Warto także zapoznać się z informacjami zawartymi na stronie: http://siod.tdt.edu.vn/Proceedings/rLafayes%28258%29.htm.
+
+Gdy badamy normalność zmiennej warto zwracać uwagę także na ciekawe alternatywy dla klasycznych testów normalności.
+```{r}
+library(SuppDists)
+set.seed(2)
+w <- rJohnson(50,JohnsonFit(t=c(0, 1, -0.2, 2.2),moment="use"))
+# przygotowanie danych:
+y= quantile(w, c(0.25, 0.75))
+x= qnorm(c(0.25, 0.75), mean(w), sd(w))
+slope= diff(y) / diff(x)
+int= y[1L] - slope * x[1L]
+# wykres kwantylowy:
+QQ2= ggplot(NULL, aes(sample= w))+
+stat_qq(distribution= qnorm , dparams= list(mean= mean(w), sd= sd(w)),
+colour= "orange",size=3)+ geom_abline(slope= slope, intercept= int, size=2,alpha=0.3)+labs(title="Dane vs. rozkład normalny")
+# wykres gęstości:
+DE2 = ggplot( data = with(density(w), data.frame(x,y)), aes(x = x, y = y))+
+geom_line(size=1 , col = "orange" )+
+geom_area(aes(x=x,y=y) , fill="orange", alpha =0.3)+
+stat_function( fun = dnorm, arg= list(mean = mean(w), sd=sd(w)),
+col = "black",size=2,alpha=0.3)+
+theme(legend.position = "none")+labs(title="Dane vs. rozkład normalny")
+```
+```{r fig.width=12, fig.height=5}
+pushViewport(viewport(layout = grid.layout(1, 2)))
+print(QQ2, vp= viewport(layout.pos.row= 1, layout.pos.col= 1))
+print(DE2, vp= viewport(layout.pos.row= 1, layout.pos.col= 2))
+```
+$$H_{0}: \text{ rozkład normalny}$$
+```{r}
+library(dbEmpLikeGOF)
+dbEmpLikeGOF(w, testcall="normal")
+```
+```{r}
+pearson.test(w)
+```
+```{r}
+shapiro.test(w)
+```
+Warto prześledzić wyniki symulacji dotyczące mocy poszczególnych testów.
+```
+MOCdb <- replicate(10000, dbEmpLikeGOF(sample(w, 50, T), testcall = "normal" )$pvalue)
+mean(MOCdb < 0.05)
+```
+```
+## [1] 0.8421
+```
+```
+MOCsw <- replicate(10000, pearson.test(sample(w, 50, T))$p.value)
+mean(MOCsw < 0.05)
+```
+```
+## [1] 0.2388
+```
+```
+MOCsw <- replicate(10000, shapiro.test(sample(w, 50, T))$p.value)
+mean(MOCsw < 0.05)
+```
+```
+## [1] 0.5427
+```
+
+Podobnie jak w przypadku testów normalności są też całe zestawy testów przeznaczonych do badania konkretnego rozkładu prawdopodobieństwa. Do badania zgodności z rozkładem Laplace możemy wykorzystać szereg testów zaimplementowanych we wcześniej już omawianym pakiecie *PoweR*. Testy te są przypisane do indeksów od 42 do 60.
+Natomiast testy o indeksach od 63 do 82 służą do badania zgodności z rozkładem jednostajnym. Więcej informacji możemy uzyskać edytując plik pomocy dla wybranej rodziny testów: *?Laplace.tests* lub *?Uniformity.tests*. Zwróćmy uwagę, że funkcja *dbEmpLikeGOF::dbEmpLikeGOF* także może być wykorzystana do testowania zgodności z rozkładem jednostajnym. Z kolei szeroki wybór testów dla rozkładu wykładniczego jest dostępny w pakiecie *exptest*. Poniżej kilka przykładów.
+
+```{r}
+set.seed(28)
+g= rgamma(50,1,3)
+```
+$$H_{0}: \text{ rozkład wykładniczy}$$
+```{r}
+library(exptest)
+ep.exp.test(g)
+shapiro.exp.test(g)
+ks.exp.test(g)
+```
+Zwróćmy uwagę na to że, wartość p-value dla testów: Shapiro-Wilka oraz Kołmogorowa jest zawsze wyznaczona za pomocą symulacji Monte Carlo. Natomiast w teście Eppsa- Pulleya możemy sami zdecydować w jaki sposób wyznaczyć p-value. W domyślnych ustawieniach symulacja Monte Carlo dla tego testu jest wyłączona. 
+
+
+**Testowanie zgodności z dowolnym rozkładem**
+
+Bardzo często zdarza się że, chcemy testować zgodność z dowolnie wybranym rozkładem prawdopodobieństwa.
+W takich przypadkach są używane bardziej uniwersalne testy. W literaturze najczęściej jest proponowany test Kołmogorowa lub $\chi^2$ Pearsona, rzadziej Andersona-Darlinga. Poniżej zostaną zaprezentowane wybrane procedury które są dostępne w bibliotece *EnvStats*.
+
+```{r}
+set.seed(224)
+e=rnorm(50,0,1)
+# wykres dystrybuanty:
+QQ3= ggplot(NULL, aes(e)) + stat_ecdf(col = "orange",size = 1)+
+stat_function(fun= pnorm, arg= list(mean =mean(e),sd=sd(e)),aes(), size=2,alpha=0.3,col= "black")+
+  theme(legend.position = "none")+labs(title="Dane vs. rozkład normalny")
+# wykres gęstości:
+DE3 = ggplot( data = with(density(e), data.frame(x,y)), aes(x = x, y = y))+
+geom_line(size=1 , col = "orange" )+
+geom_area(aes(x=x,y=y) , fill="orange", alpha =0.3)+
+stat_function( fun = dnorm, arg= list(mean = mean(e), sd=sd(e)),
+col = "black",size=2,alpha=0.3)+
+theme(legend.position = "none")+labs(title="Dane vs. rozkład normalny")
+```
+```{r fig.width=12, fig.height=5}
+pushViewport(viewport(layout = grid.layout(1, 2)))
+print(QQ3, vp= viewport(layout.pos.row= 1, layout.pos.col= 1))
+print(DE3, vp= viewport(layout.pos.row= 1, layout.pos.col= 2))
+```
+```{r}
+library(EnvStats)
+gofTest(e,test="sw",distribution="norm")
+```
+Zaznaczmy, że dystrybuanta rozkładu normalnego jest ustawieniem domyślnym.
+Listę wszystkich dystrybuant jakie są dostępne dla funkcji *EnvStats::gofTest* możemy edytować za pomocą polecenia *?Distribution.df*. Poniżej przykład testu zgodności Shapiro-Wilka dla uogólnionego rozkładu wartości ekstremalnych. Na początek oszacujemy parametry rozpatrywanego rozkladu.
+```{r}
+egevd(e, method = "mle",ci = TRUE, conf.level = 0.95)
+```
+Następnie wykonamy dwa wykresy diagnostyczne.
+```{r}
+# wykres dystrybuanty:
+QQ4= ggplot(NULL, aes(e)) + stat_ecdf(col = "orange",size = 1)+
+stat_function(fun= pgevd, arg= list(location= -0.41493, scale= 0.79646, shape = 0.03012),aes(), size=2,alpha=0.3,col= "black")+
+  theme(legend.position = "none")+labs(title="Dane vs. rozkład wartości ekstremalnych")
+# wykres gęstości:
+DE4 = ggplot( data = with(density(e), data.frame(x,y)), aes(x = x, y = y))+
+geom_line(size=1 , col = "orange" )+
+geom_area(aes(x=x,y=y) , fill="orange", alpha =0.3)+
+stat_function( fun = dgevd, arg= list(location= -0.41493, scale= 0.79646, shape = 0.03012),
+col = "black",size=2,alpha=0.3)+
+theme(legend.position = "none")+labs(title="Dane vs. rozkład wartości ekstremalnych")
+```
+```{r fig.width=12, fig.height=5}
+pushViewport(viewport(layout = grid.layout(1, 2)))
+print(QQ4, vp= viewport(layout.pos.row= 1, layout.pos.col= 1))
+print(DE4, vp= viewport(layout.pos.row= 1, layout.pos.col= 2))
+```
+Test zgodności Shapiro-Wilka z uogólnionym rozkładem wartości ekstremalnych.
+```{r}
+gofTest(e,test="sw",distribution="gevd")
+```
+Jeśli interesuje nas dystrybuanta która jest dostępna w innej bibliotece np. rozkład stabilny powinniśmy skorzystać np. z testu zgodności Andersona-Darlinga *ADGofTest::ad.test*. Nie ma on żadnych ograniczeń co do wyboru dystrybuanty. Można także zastosować test zgodności Kołmogorowa *stats::ks.test* jednak w pewnych sytuacjach lepiej skorzystać z tego pierwszego testu.
+
+Oszacowanie parametrów rozkładu stabilnego:
+```{r}
+library(stabledist)
+library(fBasics)
+stableFit(e,doplot=T)
+```
+Wykresy diagnostyczne.
+```{r}
+# wykres dystrybuanty:
+QQ5= ggplot(NULL, aes(e)) + stat_ecdf(col = "orange",size = 1)+
+stat_function(fun= pstable, arg= list(alpha=1.2010, beta=0.3570, gamma=0.4286, delta=-0.3007),aes(), size=2,alpha=0.3,col= "black")+
+  theme(legend.position = "none")+labs(title="Dane vs. rozkład stabilny")
+# wykres gęstości:
+DE5 = ggplot( data = with(density(e), data.frame(x,y)), aes(x = x, y = y))+
+geom_line(size=1 , col = "orange" )+
+geom_area(aes(x=x,y=y) , fill="orange", alpha =0.3)+
+stat_function( fun = dstable, arg= list(alpha=1.2010, beta=0.3570, gamma=0.4286, delta=-0.3007),
+col = "black",size=2,alpha=0.3)+
+theme(legend.position = "none")+labs(title="Dane vs. rozkład stabilny")
+```
+```{r fig.width=12, fig.height=5}
+pushViewport(viewport(layout = grid.layout(1, 2)))
+print(QQ5, vp= viewport(layout.pos.row= 1, layout.pos.col= 1))
+print(DE5, vp= viewport(layout.pos.row= 1, layout.pos.col= 2))
+```
+Test zgodności Andersona-Darlinga z rozkładem stabilnym:
+```{r}
+library("ADGofTest")
+ad.test(e,pstable,alpha=1.2010, beta=0.3570, gamma=0.4286, delta=-0.3007)
+```
+Sprawdźmy jeszcze jaki wynik uzyskamy dla rozkładu wartości ekstremalnych.
+```{r}
+ad.test(e,pgevd,location = -0.41493, scale = 0.79646, shape = 0.03012)
+```
+
+Testy dla dwóch zmiennych
+---------------
+**Porównanie dystrybuant**
+
+W tej części tego opracowania
+zostaną przedstawione alternatywne rozwiązania dla testu Kołmogorowa-Smirnowa *stats::ks.test*. Jednym z nich jest bardzo interesująca funkcja *kSamples::ad.test* która umożliwia ocenę czy lista zmiennych pochodzi z tej samej populacji.
+Podobne zastosowanie ma funkcja *dbEmpLikeGOF* z pakietu o tej samej nazwie.
+
+```{r}
+set.seed(1);a=rnorm(50,0,1)
+set.seed(2);b=rnorm(50,0,2)
+Y=c(a,b);X=rep(letters[1:2],each=50)
+D2=data.frame(Y,X)
+```
+```{r}
+ECDF2= ggplot(D2,aes(Y, colour = X)) + stat_ecdf(size=1)
+DEN2=ggplot(D2, aes(x = Y, fill = factor(X))) + geom_density(alpha = 0.5,size=0)
+BOX2= ggplot(D2, aes(x =factor(X) ,y=Y, fill = factor(X))) + geom_boxplot(alpha = 0.5,size=0.5)+ coord_flip()
+POIN2= ggplot(D2, aes(x =factor(X) ,y=Y, colour = factor(X))) + geom_point(alpha = 0.5,size=3)+ coord_flip()
+```
+```{r fig.width=12, fig.height=6}
+pushViewport(viewport(layout = grid.layout(3, 2)))
+print(ECDF2, vp= viewport(layout.pos.row= 1:2, layout.pos.col= 1))
+print(DEN2, vp= viewport(layout.pos.row= 1:2, layout.pos.col= 2))
+print(POIN2, vp= viewport(layout.pos.row= 3, layout.pos.col= 1))
+print(BOX2, vp= viewport(layout.pos.row= 3, layout.pos.col= 2))
+```
+Sprawdźmy jaki wynik otrzymamy w teście Kołmogorowa-Smirnowa.
+$$H_{0}: \text{ takie same dystrybuanty}$$
+```{r}
+ks.test(a,b)
+```
+Jak można zauważyć test Kołmogorowa-Smirnowa nie odrzucił hipotezy zerowej (równe dystrybuanty) dla $\alpha=0.05$. Teraz sprawdzimy jakie wyniki uzyskamy po zastosowaniu dwóch alternatywnych rozwiązań.
+```{r}
+dbEmpLikeGOF(a,b)
+library(kSamples)
+ad.test(list(a,b),method="simulated",Nsim=10000)
+```
+Dwie alternatywne procedury dla testu Kołmogorowa-Smirnowa hipotezę zerową odrzuciły. Można więc sądzić, że zmienne pochodzą z różnych populacji. Dodajmy że, funkcja *kSamples::ad.test* może badać hipotezę zerową nie tylko dla dwóch zmiennych ale rówież wtedy gdy jest ich więcej.
+
+**Testowanie zgodności z rozkładem normalnym**
+
+Pomimo tego iż dwie analizowane zmienne nie pochodzą z tej samej populacji to możemy być zainteresowani odpowiedzią na pytanie czy mają ten sam rozkład np. normalny. Warto podkreślić, że zmienne mogą pochodzić z tego samego rozkładu np. normalnego ale mogą mieć np. różne średnie, wariancje. W analizowanym przypadku różnią się wariancjami. Te parametry mają wpływ na kształt funkcji prawdopodobieństwa i dystrybuanty.
+$$H_{0}: \text{ zmienne mają rozkład normalny}$$
+```{r}
+gofGroupTest(list(a,b),test="sw",distribution="norm")
+library(dbEmpLikeNorm)
+dbELnorm(list(a,b))
+```
+Na zakończenie dodajmy, że lista może zawierać kilka zmiennych.
+
+
+
