@@ -1,4 +1,3 @@
-# dane HF
 nazwy <- c("SURGE", "STORMER", "EVO", "ROCKA", "BULK", "BREEZ", "FURNO")
 pancerz <- c(2700, 2800, 2500, 2700, 2700, 2700, 2900)
 ogien <- c(238, 244, 228, 239, 247, 243, 232)
