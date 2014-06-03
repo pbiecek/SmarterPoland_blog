@@ -1,4 +1,7 @@
 library(ggplot2)
+library(reshape2)
+library(likert)
+library(intsvy)
 
 #
 # read students data from PISA 2012
@@ -7,35 +10,51 @@ con <- url("http://beta.icm.edu.pl/PISAcontest/data/student2012.rda")
 load(con)
 
 #
-# calcualte weighted mean from math / reading scores
-# W_FSTUWT stands for final weights
-mathScores <- unclass(by(student2012[,c("PV1MATH", "W_FSTUWT")], 
-                 student2012$CNT,
-                 function(x) weighted.mean(x[,1], x[,2])) )
+# variable ST87Q07 codes 'Sense of Belonging - Feel Happy at School'
+# pisa.table calculates weighted fractions and it's standard errors
+tab <- pisa.table(variable="ST87Q07", by="CNT", data=student2012)
+ptab <- acast(tab, CNT~ST87Q07, value.var="Percentage")
 
-readScores <- unclass(by(student2012[,c("PV1READ", "W_FSTUWT")], 
-                 student2012$CNT,
-                 function(x) weighted.mean(x[,1], x[,2])) )
+# remove single states and plot it
+ddat <- data.frame(Item=rownames(ptab), cbind(ptab[,4:3], 0, ptab[,2:1]))
+ddat <- ddat[-grep(rownames(ddat),pattern="(", fixed=TRUE),]
+plot1 <- likert.bar.plot(likert(summary=ddat),  plot.percent.neutral=FALSE) + 
+  ggtitle("Sense of Belonging - Feel Happy at School") 
 
-sizeScores <- unclass(by(student2012[,"W_FSTUWT"], 
-                         student2012$CNT,
-                         sum) )
 
 #
-# create a data.frame with scores, sizes and country names
-# remove names with ( in name)
-readMathScores <- data.frame(Country=names(readScores), readScores, mathScores, sizeScores)
-readMathScores <- readMathScores[-grep(readMathScores$Country, pattern="(", fixed=TRUE),]
+# variable ST62Q13 codes familiarity with 'Declarative Fraction'
+tab <- pisa.table(variable="ST62Q13", by="ST04Q01", data=student2012)
+ptab <- acast(tab, ST04Q01~ST62Q13, value.var="Percentage")
+
+ddat <- data.frame(Item=rownames(ptab), ptab)
+plot2 <- likert.bar.plot(likert(summary=ddat), center=2) + 
+  ggtitle("Declarative Fraction") + theme_bw()
 
 #
-# two plots in ggplot2
-plot1 <- ggplot(readMathScores, aes(x=mathScores + readScores, y = mathScores - readScores, label = Country)) + 
-  geom_text() +
-  theme_bw()
+# variable ST62Q13 codes familiarity with 'Declarative Fraction'
+tab <- pisa.table(variable="ST62Q13", by="CNT", data=student2012)
+ptab <- acast(tab, CNT~ST62Q13, value.var="Percentage")
 
-plot2 <- ggplot(readMathScores, aes(x=mathScores + readScores, y = mathScores - readScores, label = Country, size = sqrt(sizeScores))) + 
-  geom_text() +
-  theme_bw() + theme(legend.position="none")
+ddat <- na.omit(data.frame(Item=rownames(ptab), ptab[,1:5]))
+ddat <- ddat[-grep(rownames(ddat),pattern="(", fixed=TRUE),]
+plot4 <- likert.bar.plot(likert(summary=ddat),  plot.percent.neutral=FALSE) + 
+  ggtitle("Declarative Fraction") 
 
-ggsave(plot1, filename="mathReading.png")
-ggsave(plot2, filename="mathReadingSize.png")
+#
+# variable ST88Q02 codes 'Attitude towards School - Waste of Time'
+tab <- pisa.table(variable="ST88Q02", by="CNT", data=student2012)
+ptab <- acast(tab, CNT~ST88Q02, value.var="Percentage")
+
+ddat <- data.frame(Item=rownames(ptab), cbind(ptab[,4:3], 0, ptab[,2:1]))
+ddat <- ddat[-grep(rownames(ddat),pattern="(", fixed=TRUE),]
+plot3 <- likert.bar.plot(likert(summary=ddat),  plot.percent.neutral=FALSE) + 
+  ggtitle("Attitude towards School - Waste of Time") 
+
+
+#
+# save plots
+ggsave(plot1, filename="feelHappy.png", width=8, height=10)
+ggsave(plot2, filename="DeclarativeFraction.png", width=8, height=2)
+ggsave(plot3, filename="WasteofTime.png", width=8, height=10)
+ggsave(plot4, filename="DeclarativeFraction2.png", width=8, height=10)
