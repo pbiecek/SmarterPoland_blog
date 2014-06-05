@@ -2,7 +2,7 @@
 # required packages
 library(ggplot2)
 library(reshape2)
-library(likert)
+library(likert) # version 1.2
 library(intsvy)
 
 #
