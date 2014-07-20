@@ -18,7 +18,7 @@ std::vector< Vec4i > get_h_lines(Mat& img)
 		Vec4i longest_line(0, 0, 0, 0);
 		for (int y = 0; y<h; y++)
 		{
-			if (img.at<unsigned char>(y, x) < 180)
+			if (img.at<unsigned char>(y, x) < 140)
 			{
 				if (in_row == 0)
 					y1 = y;
@@ -59,7 +59,7 @@ std::vector< Vec4i > get_v_lines(Mat& img)
 
 		for (int x = 0; x<w; x++)
 		{
-			if (img.at<unsigned char>(y, x) < 180)
+			if (img.at<unsigned char>(y, x) < 140)
 			{
 				if (in_row == 0)
 					x1 = x;

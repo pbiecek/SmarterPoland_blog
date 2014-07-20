@@ -11,7 +11,7 @@ void process_headers(std::vector<TextArea>& text_area, std::vector<std::string>*
 	for (unsigned int i = 0; i < text_area.size(); i++)
 		parents[i] = -1;
 
-	unsigned int i = 0;
+	 int i = 0;
 	int max_y_first_row = 0;
 	while (i < text_area.size() && text_area[0].minimal.y == text_area[i].minimal.y)
 	{
