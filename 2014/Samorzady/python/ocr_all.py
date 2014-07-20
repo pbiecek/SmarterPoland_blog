@@ -32,6 +32,12 @@ for pdfile in pdf_files:
 	files = [ f for f in os.listdir(directory) if os.path.isfile(os.path.join(directory,f)) and not os.path.splitext(f)[1]==".txt" ]
 	for file in files:
 		file_path = os.path.join(directory,file)
+		#subpixel_outfile= os.path.splitext(file_path)[0]+"_sub"+os.path.splitext(file_path)[1]
+		#cmd = "{0} {1} {2} {3}".format(python_executable,subpixel_script,file_path,subpixel_outfile)
+		#print cmd
+		#os.system(cmd)
+		
+		#cmd = "textractvs.exe {0}".format( file_path )
 		cmd =  "textractvs.exe {0}".format( directory+"/"+file)
 		print cmd
 		os.system(cmd)

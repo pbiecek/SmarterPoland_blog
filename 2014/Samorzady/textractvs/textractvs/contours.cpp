@@ -36,10 +36,15 @@ std::vector<vector<Point> > find_squares(std::vector<vector<Point> >&  contours)
 
 			if (maxcosine < 0.3)
 			{
+				//printf("ooo!");
 				squares.push_back(contours[c]);
 			}
+			//else
+			//	cout << "maxcosine: " << maxcosine;
 
 		}
+		//else
+		//	cout << "Squares. Bad Length" << length << endl;
 	}
 
 
@@ -61,19 +66,25 @@ std::vector<vector<Point> > find_squares_approximate(std::vector<vector<Point> >
 
 		if (length == 4)
 		{
+			//printf("good length");
 			float maxcosine = 0;
+			//printf("%d\n", (-1)%4);
 			for (unsigned int i = 1; i < length + 1; i++)
 				maxcosine = max(maxcosine, fabs(angle(approx[(i - 1) % length], approx[(i + 1) % length], approx[i%length])));
 
 
 			if (maxcosine < 0.3)
 			{
+				//printf("ooo!");
 				squares.push_back(approx);
 
 			}
-
+			//else
+			//	cout << "maxcosine: " << maxcosine << endl;
 
 		}
+		//else
+		//	cout << "Bad length " << length << endl;
 	}
 
 
@@ -114,6 +125,9 @@ std::vector<vector<Point> > filter_flat(std::vector<vector<Point> >& contours, f
 	float r = 0;
 	for (std::vector<vector<Point> >::iterator c = contours.begin(); c != contours.end(); c++)
 	{
+		//perhaps there is one-line method
+		//line1 =  (c[0],c[1]) )
+		//line2 =  (c[1],c[2]) )
 
 		line1[0] = (*c)[0];
 		line1[1] = (*c)[1];

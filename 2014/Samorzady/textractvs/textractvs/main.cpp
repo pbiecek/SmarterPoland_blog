@@ -107,11 +107,9 @@ int main( int argc, char** argv)
 
 	//it would be nice to pass threshold level here!
     Mat lines_img = strengthen_lines(imgray);
-
-
 	//imwrite("nolines.png", imgray - lines_img);
     //imshow("lines_img", lines_img);
-    imwrite("i1.png", lines_img);
+   // imwrite("i1.png", lines_img);
 
 
 	vector<vector<Point> > contours;
@@ -142,11 +140,9 @@ int main( int argc, char** argv)
 	cout<<"Flat "<<sq.size()<<endl;
 
 
-	//main part, pass cells coordinates to TesseractOCR and get results!
+
     std::vector<std::string> contours_strings = ocr_contours_no_files(imgray, sq);
 
-
-	//TextArea simplify contour to square. It holds coordinates and string of a cell
 	std::vector<TextArea> text_area(contours_strings.size());
 	//std::vector<TextArea> text_area_cols(contours_strings.size());
 
@@ -172,15 +168,8 @@ int main( int argc, char** argv)
 	std::sort(text_area.begin(), text_area.end(), TextArea::cmp_rows_first);
 	//std::sort(text_area_cols.begin(), text_area_cols.end(), TextArea::cmp_cols_first);
 
-	//headers strings
 	std::vector<std::string> colNames;
-	
-	//find headers
 	process_headers(text_area, &colNames);
-
-	//
-	//write out table in fancy form
-	//
 
 	ofstream out_stream;
 	out_stream.open("table.txt");
@@ -243,10 +232,6 @@ int main( int argc, char** argv)
 	out_stream.close();
 
 
-	//
-	//write just contours
-	//
-
 	 ofstream f("contours.txt");
 	 for (unsigned int i = 0; i < sq.size(); i++)
 	 {
@@ -274,25 +259,8 @@ int main( int argc, char** argv)
 
 		 std::ostringstream outstream;
 		 outstream << i;
+		 putText(lines_img, outstream.str(), Point(minx, maxy), FONT_HERSHEY_COMPLEX, 1.0, Scalar(0), 2);
 
-
-
-		 //putText(lines_img, outstream.str(), Point(minx, maxy), FONT_HERSHEY_COMPLEX, 1.0, Scalar(0), 2);
-		 //Mat subimg = imgray(Range(miny, maxy), Range(minx, maxx));
-		 //char buffer[128];
-		 //sprintf(buffer, "out%2d.png", i);
-		 //imwrite(buffer, subimg);
-		 /*Mat cpy = lines_img.clone();
-		 Mat scaled;
-		 putText(cpy, outstream.str(), Point(minx, maxy), FONT_HERSHEY_COMPLEX, 1.0, Scalar(0), 2);
-		 drawContours(cpy, sq, i, Scalar(255, 0, 0), 10);
-		 resize(cpy, scaled, Size(800, 600));
-		 drawContours(lines_img, sq, i, Scalar(0, 0, 0));
-
-		 imshow("cont", scaled);
-
-		 cvWaitKey(0);*/
-		 
 	 }
 	 f.close();
 	 imwrite("i2.png", lines_img);

@@ -3,11 +3,26 @@ from selenium.common.exceptions import NoSuchElementException
 import time
 import sys
 
-
+#class DzCrawler():
+#
+#
+#	def __init__(self, start_url):
+#		self.driver = webdriver.Firefox()
+#		self.start_url = start_url
+#		self.url_queue = [start_url]
+#		
+#	def parse():
+#		url = url_queue.pop()
+#		print url
+#		
+##driver.close()		
+#	
 
 driver = webdriver.Firefox()
+#driver.get("http://edzienniki.duw.pl/duw/ActByMonthYear.aspx")
 driver.get("http://edzienniki.duw.pl/duw/ActByMonthYear.aspx?year=2014")
 driver.implicitly_wait(10)
+#f = open("lista2014.csv","w")
 f = open("lista2014.csv","w")
 while(True):
 	
@@ -19,18 +34,29 @@ while(True):
 	rows = table.find_elements_by_xpath('.//tr[@class="dxgvDataRow_Office2003Silver"]')
 	
 	items = []
-
+	#for row in rows:
+	#	print "*"
+	#	print row.get_attribute("id")
+	#	print row.get_attribute("class")
+	#	print "*\n"
 	
 	
 	for row in rows:
+		#print row
 		print "*"
 		print row.get_attribute("id")
 		print row.get_attribute("class")
 			
 		
+		#data_cells = row.find_elements_by_xpath('.//td[not(@class="dxgvHeader_Office2003Silver")]')
 		data_cells = row.find_elements_by_xpath('.//td')
+		#item = UstawyItem()
 		item = {}
 		for n,cell in enumerate(data_cells):
+			#print cell.get_attribute("innerHTML")
+			#print "\t"+cell.get_attribute("id")
+			sys.stdout.flush()
+			#print cell
 			if n==0:
 				item['pozycja'] = cell.get_attribute("innerHTML")
 			elif n==1:

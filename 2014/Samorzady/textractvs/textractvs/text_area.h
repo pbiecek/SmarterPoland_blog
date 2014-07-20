@@ -4,7 +4,6 @@
 #include "opencv2/highgui/highgui.hpp"
 #include <stack>
 #include <vector>
-#include <iostream>
 #include <algorithm>
 using namespace std;
 using namespace cv;

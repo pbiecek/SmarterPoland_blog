@@ -1,0 +1,72 @@
+Dział, Rozdział, §, Nazwa, Plan, Z tego
+Wydatki
+bieżące, z tego:, Wydatki
+majatkowe, z tego:
+inwestycje i
+zakupy
+inwestycyjne, wtym:, zakup i objęcie
+
+akcji i udziałów
+
+oraz virniesienie
+wkładów do
+spółek prawa
+handlowego.
+wydatki
+jednostek
+budżetowych,, z tego:, dotacje na
+zadania bieżące, swiadczenia na
+rzecz osób
+fizycznych;, wydatki na
+
+Programy
+ñnansowane z
+
+udziałem
+
+srodków, o
+których mowa w
+art. 5 ust. 1 pkt, Wypłaty Z tytułu
+DOFĘCZeń i
+gwarancji, obsuga U1119”
+na programy
+finansowane z
+udziałem
+srodków, o
+których mowa w
+art. 5 ust. 1 pkt 2
+wynagrodzenia i
+składki od nich
+naliczane, wydatki zwiazane
+z realizacja ich
+statutowych
+zadań;
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18
+10, , , Rolnictwo i łowiectwo, 60070, 60070, 60070, 0, 60070, 0, 0, 0, 0, 0, 0, 0, 0, 0
+, 1008, , Melioracje wodne, 50000, 50000, 50000, 0, 50000, 0, 0, 0, 0, 0, 0, 0, 0, 0
+, 1030, , Izby rolnicze, 8070, 8070, 8070, 0, 8070, 0, 0, 0, 0, 0, 0, 0, 0, 0
+, 1095, , Pozostała działalność, 2000, 2000, 2000, 0, 2000, 0, 0, 0, 0, 0, 0, 0, 0, 0
+600, , , Transport i łączność, 6718315, 1548315, 520000, 0, 520000, 1028315, 0, 0, 0, 0, 5170000, 5170000, 2830000, 0
+, 60004, , Lokalny transport zbiorowy, 823315, 403315, 0, 0, 0, 403315, 0, 0, 0, 0, 420000, 420000, 0, 0
+, 60013, , Drogi publiczne mjewodücie, 1000000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1000000, 1000000, 0, 0
+, 60016, , Drogi publiczne gminne, 4875000, 1125000, 500000, 0, 500000, 625000, 0, 0, 0, 0, 3750000, 3750000, 2830000, 0
+, 60017, , Drogi wewnetrzne, 20000, 20000, 20000, 0, 20000, 0, 0, 0, 0, 0, 0, 0, 0, 0
+700, , , Gospodarka mieszkaniowa, 6245176, 5980176, 5975376, 1464000, 4511376, 0, 4800, 0, 0, 0, 265000, 265000, 0, 0
+, 70004, , Różnejednostki obslugi gospodarki mieszkaniowej, 5710176, 5610176, 5605376, 1464000, 4141376, 0, 4800, 0, 0, 0, 100000, 100000, 0, 0
+, 70005, , Gospodarka gmntami i nieruchomosciami, 535000, 370000, 370000, 0, 370000, 0, 0, 0, 0, 0, 165000, 165000, 0, 0
+710, , , Dzialalność uslugowa, 285000, 285000, 285000, 0, 285000, 0, 0, 0, 0, 0, 0, 0, 0, 0
+, 71004, , Plany zagospodarowania przestrzennego, 100000, 100000, 100000, 0, 100000, 0, 0, 0, 0, 0, 0, 0, 0, 0
+, 71013, , Prace geodezyjne i kartograficzne (nieinwestycyjne), 60000, 60000, 60000, 0, 60000, 0, 0, 0, 0, 0, 0, 0, 0, 0
+, 71035, , Cmentarze, 125000, 125000, 125000, 0, 125000, 0, 0, 0, 0, 0, 0, 0, 0, 0
+750, , , Administracja publiczna, 6099078, 6044078, 5717078, 4284070, 1433008, 25000, 302000, 0, 0, 0, 55000, 55000, 0, 0
+, 75011, , Urzędy wojewódzkie, 420478, 420478, 420478, 392870, 27608, 0, 0, 0, 0, 0, 0, 0, 0, 0
+, 75022, , Rady gmin (miast i miast na prawach powiatu), 340200, 340200, 40200, 0, 40200, 0, 300000, 0, 0, 0, 0, 0, 0, 0
+, 75023, , Urzędy gmin (miast i miast na prawach powiatu), 4857700, 4802700, 4800700, 3836700, 964000, 0, 2000, 0, 0, 0, 55000, 55000, 0, 0
+, 75075, , Promocja jednostek samorządu terytorialnego, 478200, 478200, 453200, 54500, 398700, 25000, 0, 0, 0, 0, 0, 0, 0, 0
+, 75095, , Pozostala działalność, 2500, 2500, 2500, 0, 2500, 0, 0, 0, 0, 0, 0, 0, 0, 0
+751, , , Urzędy naczelnych organów władzy państwowej,
+kontroli i ochrony prawa oraz sądownictwa, 4018, 4018, 4018, 2835, 1183, 0, 0, 0, 0, 0, 0, 0, 0, 0
+, 75101, , Urzędy naczelnych organów władzy państwowej,
+kontroli i ochrony prawa, 4018, 4018, 4018, 2835, 1183, 0, 0, 0, 0, 0, 0, 0, 0, 0
+752, , , Obrona narodowa, 1400, 1400, 1400, 0, 1400, 0, 0, 0, 0, 0, 0, 0, 0, 0
+, 75212, , Pozostałe wydatki obronne, 400, 400, 40D, O, 40D, O, O, O, O, O, O, O, O, O
