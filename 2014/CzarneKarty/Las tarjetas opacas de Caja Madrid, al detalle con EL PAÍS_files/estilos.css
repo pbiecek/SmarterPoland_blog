@@ -1,0 +1,59 @@
+
+.barra_compartir{text-align:center;}
+.barra_compartir .list-compartir{list-style:none;display:inline-block;margin:0 auto;}
+.barra_compartir li{float:left;margin-left:2px;}
+.barra_compartir li a{width:36px;height:36px;text-indent:-9999px;display:block;background:url(../img/sprite.png);}
+.barra_compartir li a:hover{opacity:.7;}
+.barra_compartir li .twitter{background-position:-22px -114px;}
+.barra_compartir li .facebook{background-position:-22px -153px;}
+.barra_compartir li .googlemas1{background-position:-22px -193px;}
+
+.contenido_especial{margin-bottom:60px;}
+.contenido_especial .cabecera{text-align:center;margin-bottom:10px;}
+.contenido_especial .cabecera h1 span, .contenido_especial .cabecera h1 a{display:block;height:120px;width:980px;text-indent:-9999px;background:url(../img/facturacion.jpg) 0 0 no-repeat;margin-bottom:14px;}
+.contenido_especial .cabecera h2{font-family:'Roboto',sans-serif; color:#444444; font-size:18px;line-height:32px;margin-bottom:11px;}
+.contenido_especial .cabecera p{margin-bottom:15px; font-size:18px;}
+.contenido_especial .cabecera .volver{text-align:right;}
+.contenido_especial .cabecera .volver a{color:#fff;font-family:'Roboto',sans-serif;font-size:13px;line-height:17px;  font-weight:bold; font-size:14px; text-transform:uppercase; background-color:#3a5a70; padding: 0 6px;}
+.contenido_especial .cabecera .volver a:hover {background-color:#89C1E0;}
+.contenido_especial .listado_nombres{background:#F4F4F4;list-style:none;font-family:'Roboto',sans-serif;font-size:14px;line-height:20px;padding: 32px 20px 38px;position:relative;display:block;border-bottom:1px solid #D6D6D6;}
+.contenido_especial .listado_nombres:before{content: '';position: absolute;border-style: solid;border-width: 15px 18px 0;border-color: #fff transparent;display: block;width: 0;z-index: 1;top: 0;left: 48%;}
+.contenido_especial .listado_nombres li{border-bottom:1px solid #D6D6D6;padding:2px 0;width:303px;margin-left:10px; float:left; font-size:12px;}
+.contenido_especial .listado_nombres a{color:#444444;display:block;}
+.contenido_especial .listado_nombres a:hover {color:#000;display:block; background-color: #FFF;}
+.contenido_especial .listado_nombres .marcado{}
+.contenido_especial .listado_nombres .marcado a{color:#FFFFFF;background:#89C1E0;font-style:italic;padding-left:4px;font-weight:bold;}
+
+.contenido_especial .ayuda{}
+.contenido_especial .tarjeta{margin-top:30px;position:relative;z-index:5;border-top:1px solid #D6D6D6;position:relative;}
+.contenido_especial .tarjeta:after{content:'';display:block;background:url(../img/sprite.png) right 0 no-repeat;width:147px;height:108px;position:absolute;top:-20px;right:0;}
+.contenido_especial .tarjeta h3{font-size:25px;lfont-weight:bold;margin-right:10px;border-top:7px solid #D6D6D6;color:#444; padding: 11px 15px 0; letter-spacing:0px; width:612px;}
+.contenido_especial .nombre{width:100%;border-bottom:1px solid #D6D6D6;height:88px;}
+.contenido_especial .tarjeta .cargos {color: #89c1e0; display: inline-block; font-family: "Roboto",sans-serif; font-size: 16px; font-weight: bold; padding-left: 16px;}
+.contenido_especial .cargo{color:#444444;font-size:16px;line-height:21px;padding:20px;display:block;}
+.contenido_especial .buscador_cargos{background:#E9E9E9;padding:15px 20px;line-height:43px;color:#444444;font-family:'Roboto',sans-serif;}
+.contenido_especial .buscador_cargos label{font-size:16px;font-weight:bold;text-transform:uppercase;display:inline-block;}
+.contenido_especial .buscador_cargos input{border:1px solid #E8E8E8;border-radius:4px;box-shadow:1p 1px 0 #fff;height:43px;padding:0 0px 0 10px;display:inline-block;width:400px;margin:0 10px; border: 1px solid #d6d6d6}
+.contenido_especial .buscador_cargos .nota{font-weight:normal;font-size:13px;font-style:italic;}
+.contenido_especial table{font-family:'Roboto',sans-serif;font-size:12px;}
+.contenido_especial table thead th{padding:10px 30px 10px 16px;background:url(../img/sprite.png) right -233px no-repeat;cursor:pointer;border-bottom:1px solid #B1B1B1; white-space: nowrap; }
+.contenido_especial table tbody td{border-bottom:1px solid #D6D6D6; padding: 5px 3px 5px 16px;}
+.contenido_especial table tbody tr:hover{background:#F3F9FC;}
+.contenido_especial .fecha, .contenido_especial .fecha {white-space:nowrap;}
+.contenido_especial .importe {text-align:right; font-weight:bold;}
+.contenido_especial .operacion {}
+
+
+.contenido_especial .ayuda {text-align:center;font-size: 13px; font-style: italic; font-weight: normal;font-family: "Roboto",sans-serif; padding-bottom: 12px; color: #999;}
+
+
+
+.contenido_especial .creditos {font-family:'Roboto',sans-serif; color:#777; font-size:11px;line-height:32px; padding: 10px 0 0 0px; text-align:right;}
+
+
+.contenido_principal {margin-top: 0;}
+.header .seccion {
+
+    display: none;
+
+}
