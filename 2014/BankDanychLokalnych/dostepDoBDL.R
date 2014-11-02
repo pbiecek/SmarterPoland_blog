@@ -2,6 +2,12 @@ library(SmarterPoland)
 
 getBDLsearch("czas")
 
+(pracujacy <- getBDLseries(metric_id = "440", wojewodztwo_id = "02"))
+
+(pracujacy <- getBDLseries(metric_id = "440", wojewodztwo_id = ""))
+
+(pracujacy <- getBDLseries(metric_id = "440"))
+
 (pracujacy <- getBDLseries(metric_id = "744"))
 pracujacy <- pracujacy %>%
   mutate(value = as.numeric(value)) %>%
