@@ -1,0 +1,45 @@
+Chrzty, śluby i zgony w parafii prawosłwanej św. Mikołaja Cudotwórcy w Białowieży
+ks. Sergiusz Korch
+
+
+
+Statystyk w Białowieży
+
+W poprzednim tygodniu miałem przyjemność prowadzić warsztaty z programu R w instytucie PAN w Białowieży (tak jak przystało na misjonarza R).
+Blisko instytutu znajduje się cerkiew prawosławna. W cerkwii tej kupić można broszurkę szkicującą ważniejsze wydarzenia z historii Białowieży i cerkwii.
+W tej broszurce natknąłem sie na tabelę przedstawiającą liczbę chrztów, ślubów i pogrzebów udzielonych w parafii prawosłwanej św. Mikołaja Cudotwórcy w Białowieży w latach 1878-2004. 
+
+Jeżeli Wy też odczuwacie dreszcz emocji na widok tabelki z liczbami, to zrozumiecie dlaczego zrobiłem to co zrobiłem. Jeżeli nie odczuwacie, to prawdopodobnie reszta wpisu będzie dla Was jedynie przykładem na kolejny wykres punktowy.
+
+Po powrocie do domu dzielnie przepisałem dane z broszurki. Dane można pobrać z pliku csv pod tym adresem....
+
+Ponieważ jeden wykres może być wart więcej niż tabelka z 127 wierszami, postanowiłem zrobić ten wykres.
+
+Kod w programie R użyty do tego celu znajdziecie tutaj....
+
+A sam wykres wygląda nastepująco (po klikniciu otworzy się wersja powiększona).
+
+
+
+
+Cóż też ciekawego możemy zauwazyć na tym wykresie?
+- bilans chrztów do pogrzebów był największy w roku 1978, po tym roku pogrzeby w parafii odbywają się częściej niż chrzty
+- przez całą druga wojnę światową liczba chrztów i zgonów spadała, po drugiej wojnie ani chrztów ani ślubów nie było juz tyle co przed wojną
+- dane sa niepełne, najdłuższa przerwa dotyczy lat 1914-1917, a więc przed pierwszą wojną światową. Niestety nie wiem co się wtedy działo że brakło danych
+- wyjątkowo duża liczba zgonów zanotowano w roku 1894 i 1900
+- do roku 1912 rosła z roku na rok liniowo, Białowieża jak widać się rozrastała, później liczba chrztów spadła prawdopodobnie z uwagi na złe warunki ale już w dziesięcioleciu 1922 do 1932 powróciła do liczby poródów bliskiej 150 na rok.
+- w roku 1918 liczba chrztów i pogrzebów była wyjątkowo niska, ... wyjasnić
+
+
+pod koniec I wojny swiatowej front przebiegal w poblizu bialowiezy, nic dziwnego ze wszyscy uciekli i troche trwalo zanim wrocili
+I wojna światowa – konflikt zbrojny trwający od 28 lipca 1914 do 11 listopada 1918 roku
+
+
+W sierpniu 1915 r. prawosławna ludność Białowieży została zmuszona do ewakuacji w głąb Rosji. Wywieziono wtedy większość wyposażenia cerkwi, w tym dzwon o wadze 125 kg, którego donośny głos docierał, przy sprzyjających warunkach atmosferycznych, nawet na obrzeża Puszczy Białowieskiej. Trafił on do Niżnego Nowogrodu. Podobno dzisiaj jest eksponowany w muzeum dzwonów. Ikonostas został pozbawiony ikon oraz wrót carskich i diakońskich.
+
+
+http://www.bialowieza.cerkiew.pl/historia.php
+
+
+Świątynię wzniesiono w latach 1894-1897.
+
