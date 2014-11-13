@@ -1,12 +1,6 @@
 library(ggplot2)
-library(dplyt)
+library(dplyr)
 load("df.rda")
-
-df2 <- df %>% 
-  group_by(posel = paste(imie, partia)) %>% 
-  arrange(kwota) %>%
-  summarise(suma=sum(kwota)/0.8358, 
-            liczba=n(), srednia=suma/liczba)
 
 df2 <- df %>% 
   arrange(-kwota) %>%
