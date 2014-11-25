@@ -1,0 +1,606 @@
+
+<!-- saved from url=(0117)http://mp.pianomedia.eu/js/bp.html#mp.pianomedia.eu%261416903261695%26http%253A%252F%252Fwyborcza.pl%26g%26ns_hid%26_ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<title>bp</title>
+</head>
+<body><script type="text/javascript" src="ping"></script><img style="left: -10000px; position: absolute; top: -10000px; visibility: hidden; z-index: -1000;">
+	
+	bp
+	
+	<script type="text/javascript">
+
+try {
+	if (!ns_functions)
+		ns_functions = null;
+} catch (e) {
+	ns_functions = null;
+}
+if (!ns_functions)
+	var ns_functions = (function() {
+		var protocol = "http" + ((document.location.protocol == "https:") ? "s" : "") + ":";
+		var user_agent = navigator.userAgent.toLowerCase();
+		var is_linux = (user_agent.indexOf('linux') > -1);
+		var is_opera = (user_agent.indexOf('opera') > -1);
+		var is_safari = (user_agent.indexOf('safari') > -1);
+		var is_chrome = (user_agent.indexOf('chrome') > -1);
+		var is_gecko = (!is_opera && !is_safari && !is_chrome && user_agent.indexOf('gecko') > -1);
+		var is_konqueror = (is_gecko && user_agent.indexOf('konqueror') > -1);
+		var is_ie = (!is_opera && user_agent.indexOf('msie') > -1);
+		return {
+			protocol : protocol,
+			domain_url : "",
+			tracker_url : "",
+			set_domain_url : function(url) {
+				this.domain_url = url;
+				this.tracker_url = this.protocol + "//" + this.domain_url;
+			},
+			is_linux : is_linux,
+			is_opera : is_opera,
+			is_safari : is_safari,
+			is_gecko : is_gecko,
+			is_chrome : is_chrome,
+			is_konqueror : is_konqueror,
+			is_ie : is_ie,
+			ping : function() {
+				var hid = null;
+				return {
+					load : function() {
+						var src = ns_functions.tracker_url + "/ping";
+						var script = ns_functions.create_remote_script(src);
+						var body = document.body || document.documentElement || document.getElementsByTagName("BODY")[0];
+						if (body.firstChild) {
+							if (body.firstChild) {
+								body.insertBefore(script, body.firstChild);
+							} else {
+								body.appendChild(script);
+							}
+						}
+					},
+					set_hid : function(h) {
+						hid = h;
+					},
+					get_hid : function(defvalue) {
+						return hid || defvalue;
+					}
+				};
+			}(),
+			image : function() {
+				var hid = null;
+				return {
+					load : function() {
+						try {
+							
+							var canvas = document.createElement("canvas");
+							canvas.width = 1;
+							canvas.height = 16;	
+							
+							var ctx = canvas.getContext("2d");
+							var img = new Image();
+							
+							img.onload = function() {
+								try {
+									
+									ctx.drawImage(img, 0, 0);
+									
+									try {
+										var imgd = ctx.getImageData(0, 0, canvas.width, canvas.height);
+									}
+									catch (e) {
+										throw new Error("Unable to access image data: " + e)
+									}
+									
+									var pixs = imgd.data;
+									hid = "";
+									for (var i = 0, n = pixs.length; i < n; i += 4) {
+										hid += String.fromCharCode(pixs[i+1]);
+										hid += String.fromCharCode(pixs[i+2]);
+									}
+									
+								}
+								catch (e) {
+								}
+							}
+							
+							img.src = ns_functions.tracker_url + "/image";
+						}
+						catch (e) {
+						}
+					},
+					get_hid : function(defvalue) {
+						return hid || defvalue;
+					}
+				};
+			}(),
+			encode : function() {
+				var esc = null;
+				try {
+					esc = encodeURIComponent;
+				} catch(e) {
+					esc = escape;
+				}
+				return esc;
+			}(),
+			decode : function() {
+				var esc = null;
+				try {
+					esc = function(value) {
+						try {
+							return decodeURIComponent(value);
+						}
+						catch (e) {
+							try {
+								return decodeURIComponent(unescape(value));
+							}
+							catch (e) {
+								return unescape(value);
+							}
+						}
+					};
+				} catch(e) {
+					esc = unescape;
+				}
+				return esc;
+			}(),
+			packer : function() {
+				var delimiter = "&";
+				var process = function(value, fn) {
+					var tmp = [];
+					for (var i = 0; i < value.length; i++) {
+						tmp.push(fn(value[i]));
+					}
+					return tmp;
+				};
+				return {
+					pack : function(value) {
+						return process(value, function(v) {
+							return ns_functions.encode(v);
+						}).join(delimiter);
+					},
+					unpack : function(packed) {
+						return process(packed.split(delimiter), function(v) {
+							return ns_functions.decode(v);
+						});
+					}
+				};
+			}(),
+			create_remote_script : function(src) {
+				var new_script=document.createElement("SCRIPT");
+				new_script.type="text/javascript";
+				new_script.language="javascript";
+				new_script.src=src;
+				return new_script;
+			},
+			user : {}
+		};
+	})();
+
+if(!ns_functions.dom)
+	ns_functions.dom = {
+		create_element:function(element) {
+			var elm=document.createElement(element.tag.toUpperCase());
+			for(var i in element) {
+				if(i!="tag"&&typeof(element[i]!="function")) {
+					switch(typeof(element[i])) {
+					case"object":
+						for(var j in element[i])
+							elm[i][j]=element[i][j]
+						break;
+					default:
+						elm[i]=element[i];
+					break;
+					}
+				}
+			}
+			return elm;
+		}
+};
+
+if (!ns_functions.user_data) {
+	ns_functions.user_data = function() {
+		var user_data_supported = ns_functions.is_ie;
+
+		var branch = "NSBranch";
+
+		var fingerprint_img = ns_functions.dom.create_element({
+			tag : "IMG",
+			style : {
+				behavior : "url(#default#userData)",
+				left: "-10000px",
+				position : "absolute",
+				top: "-10000px",
+				visibility : "hidden",
+				zIndex : "-1000"
+			}
+		});
+
+		var body = document.body || document.documentElement || document.getElementsByTagName("BODY")[0];
+		if (body.firstChild) {
+			body.insertBefore(fingerprint_img, body.firstChild);
+		} else {
+			body.appendChild(fingerprint_img);
+		}
+
+		return {
+			get:function(key, defvalue){
+				try {
+					if (user_data_supported) {
+						fingerprint_img.load(branch);
+
+						var fingerprint;
+						if (null == (fingerprint = fingerprint_img.getAttribute(key))) {
+							return defvalue;
+						}
+						else {
+							return fingerprint;
+						}
+					}
+					else {
+						return defvalue;
+					}
+				} catch (e){
+					return defvalue;
+				}
+
+			},
+			set:function(key, value) {
+				try {
+					if (user_data_supported) {
+						fingerprint_img.load(branch);
+
+						fingerprint_img.setAttribute(key, value);
+
+						fingerprint_img.save(branch);
+					}
+				} catch (e){}
+			}
+		};
+	}();
+}
+
+if (!ns_functions.cookies) {
+	ns_functions.cookies = {
+		get:function(name,defvalue){
+			var result=null;
+			var cookies=document.cookie;
+			cookies=cookies.split(';');
+			for(var i=0;i<cookies.length;i++){
+				var cookie=cookies[i];
+				while(cookie.charAt(0)==" ")
+					cookie=cookie.substring(1,cookie.length);
+				var s=cookie.indexOf(name+"=");
+				if(s!=-1){
+					s+=name.length+1;
+					result=unescape(cookie.substring(s,cookie.length));
+				}
+			}
+			if(!result)
+				result=defvalue;
+			return result;
+		},
+		set:function(name,value,expires,path,domain,secure){
+			var cookie=name+"="+escape(value);
+			if(expires)
+				cookie+=";expires="+expires;
+			if(path)
+				cookie+=";path="+path;
+			if(domain)
+				cookie+=";domain="+domain;
+			if(secure)
+				cookie+=";secure="+secure;
+			document.cookie=cookie;
+		},
+		is_enabled:function(){
+			var now=new Date();
+			var value=now.getTime();
+			var name="ns_cookies_test";
+			this.set(name,value);
+			var enabled = (this.get(name,null)==value);
+			this.set(name,value, 0);
+			return enabled;
+		}
+	};
+}
+
+if (!ns_functions.local_storage) {
+	ns_functions.local_storage = function() {
+
+		var local_storage_supported = false;
+		try { // < FF 3.6 bugfix
+			local_storage_supported = (('localStorage' in window) && (window['localStorage'] !== null) && (typeof(localStorage) != 'undefined'));
+		}
+		catch (e) {}
+		return {
+			get : function(key, defvalue) {
+				try {
+					if (local_storage_supported) {
+						return localStorage.getItem(key) || defvalue;
+					}
+					else {
+						return defvalue;
+					}
+				} catch (e){
+					return defvalue;
+				}
+			},
+			set : function(key, value) {
+				if (local_storage_supported) {
+					try {
+						localStorage.setItem(key, value);
+					} catch (e) {
+					}
+				}
+			}
+		}
+	}();
+}
+
+if (!ns_functions.websql_storage) {
+	ns_functions.websql_storage = function() {
+		var db = null;
+		var db_name = "ns_storage";
+		var db_table = "ns_web_storage";
+		try {
+			if (('openDatabase' in window) && (window['openDatabase'] !== null) && (typeof(openDatabase) != 'undefined')) {
+				db = window.openDatabase(db_name, "", "Store database", 1024);
+			}
+		}
+		catch (e) {}
+		
+		return {
+			create : function() {
+				if (db) {
+					db.transaction(function(tx) {
+						try {
+							tx.executeSql("CREATE TABLE IF NOT EXISTS " + db_table + " (key TEXT, value TEXT)", [], null, null);
+						}
+						catch(e) {}
+					});
+				}
+			},
+			get : function(key, defvalue, callback) {
+					var db_result = defvalue;
+					if (db) {
+						try {
+							ns_functions.websql_storage.create();
+						}
+						catch(e) {}
+						try {
+							db.transaction(function(tx) {
+								tx.executeSql("SELECT value FROM " + db_table + " WHERE key = ?",
+									[key],
+									function(tx, result) {
+										for(var i = 0; i < result.rows.length; i++) {
+											db_result = result.rows.item(i)['value'];
+										}
+										callback(db_result);
+									}),
+									function() {
+										callback(db_result);
+									}
+								});
+						}
+						catch (e) {
+							callback(db_result);
+						}
+					}
+					else {
+						callback(db_result);
+					}
+				},
+			set : function(key, value, callback) {
+				if (db) {
+						try {
+							ns_functions.websql_storage.create();
+						}
+						catch(e) {}
+						if (key != "") {
+							db.transaction(function(tx) {
+								tx.executeSql("SELECT * FROM " + db_table + " WHERE key = ?",
+									[key],
+									function(tx, result) {
+										if (result.rows.length > 0) {
+											tx.executeSql("UPDATE " + db_table + " SET value = ? WHERE key = ?", [value, key], function() {
+												callback(true);
+											}, function() {
+												callback(false);
+											});
+										}
+										else {
+											tx.executeSql("INSERT INTO " + db_table + " (key, value) values(?, ?)", [key, value], function() {
+												callback(true);
+											}, function() {
+												callback(false);
+											});
+										}
+									},
+									function() {
+										ns_functions.websql_storage.create();
+										ns_functions.websql_storage.set(key, value, callback);
+									});
+							});
+						}
+					}
+					else {
+						callback(false);
+					}
+				}
+		}
+	}();
+}
+
+if (!ns_functions.events) {
+	ns_functions.events = {
+			add:function(){
+				if(window.addEventListener)
+					return function(o,e,fn,c){o.addEventListener(e,fn,(c));}
+				else if(window.attachEvent)
+					return function(o,e,fn){o.attachEvent("on"+e,fn);}
+				else
+					return function(o,e,fn){var old_fn=o["on"+e];if(old_fn==null)
+						o["on"+e]=fn;else
+							o["on"+e]=function(e){old_fn(e);fn(e);}}}(),
+							add_event:function(o,e,fn,c){
+								if(typeof(o)=="string")
+									var elm=document.getElementById(o);
+								else
+									var elm=o;
+								this.add(elm,e,fn,c);
+							},
+							stop_propagation:function(e){
+								if(e.stopPropagation)
+									e.stopPropagation();
+								else
+									e.cancelBubble=true;
+							},
+							prevent_default:function(e){
+								if(e.preventDefault)
+									e.preventDefault();
+								else
+									e.returnValue=false;
+							},
+							stop_event:function(e){
+								this.stop_propagation(e);
+								this.prevent_default(e);
+							},
+							get_target:function(e){
+								return e.target||e.srcElement;
+							},
+							get_current_target:function(e){
+								return e.currentTarget;
+							},
+							get_page_coor:function(e){
+								var x=e.pageX;
+								var y=e.pageY;
+								if(!x&&x!==0)
+									x=e.clientX;
+								if(!y&&y!==0)
+									y=e.clientY;
+								if(ns_functions.is_ie){
+									if(document.documentElement){
+										x+=document.documentElement.scrollLeft;
+										y+=document.documentElement.scrollTop;
+									}
+									else if(document.body){
+										x+=documentElement.scrollLeft;y+=documentElement.scrollTop;
+									}
+								}
+								return{x:x,y:y}
+							}
+	};
+}
+
+if (!ns_functions.send)
+	ns_functions.send = function(message, target_origin){
+	if (window.parent.postMessage) {
+		try {
+			window.parent.postMessage(message, target_origin);
+		}
+		catch (e) {}
+	} else {
+		try {
+			window.name = message;
+			setTimeout(function() {
+				window.location = "about:blank";
+			}, 50);
+		}
+		catch (e) {}
+	} 
+}
+
+var runscript = function(){
+	var params = window.location.hash;
+	params = (params.charAt(0) == "#") ? (params.substring(1, params.length)) : (params);
+	params = ns_functions.decode(params);
+	params = ns_functions.packer.unpack(params);
+	
+	if (params) {
+		var domain_url = params[0] || "";
+		ns_functions.set_domain_url(domain_url);
+		var message_id = params[1] || "";
+		var target_origin = params[2] || "";
+		var command = params[3] || "";
+		
+		var error = function(target_origin) {
+			var message = ns_functions.packer.pack([message_id, ns_functions.packer.pack([])]);
+			ns_functions.send(message, target_origin);
+		}
+		
+		switch (command) {
+			case "s" :
+				var key = params[4] || null;
+				var value = params[5] || null;
+				if (value !== null && key !== null) {
+					var cse = params[6] || "1";
+					if (cse == "1") {
+						var expires = new Date();
+						expires.setTime(expires.getTime() + (1000 * 60 * 60 * 24 * 365 * 10));
+						expires = expires.toGMTString();
+						var path = "/";
+						ns_functions.cookies.set(key, value, expires, path);
+					}
+					ns_functions.local_storage.set(key, value);
+					ns_functions.user_data.set(key, value);
+					ns_functions.websql_storage.set(key, value, function(result) {
+						var message = ns_functions.packer.pack([message_id, ns_functions.packer.pack([true])]);
+						ns_functions.send(message, target_origin);
+					});
+				} else {
+					error(target_origin);
+				}
+				break;
+			case "g" :
+				var key = params[4] || null;
+				var defvalue = params[5] || null;
+				if (key !== null && defvalue !== null) {
+					ns_functions.ping.load();
+					ns_functions.image.load();
+					var c = ns_functions.cookies.get(key, defvalue);
+					var l = ns_functions.local_storage.get(key, defvalue);
+					var u = ns_functions.user_data.get(key, defvalue);
+					ns_functions.websql_storage.get(key, defvalue, function(w) {
+						var counter = 0;
+						var wait = function() {
+							var p = ns_functions.ping.get_hid(defvalue);
+							var i = ns_functions.image.get_hid(defvalue);
+							if ((p == defvalue || i == defvalue) && counter < 5) {
+								counter++;
+								setTimeout(wait, 100);
+							}
+							else {
+								var message = ns_functions.packer.pack([
+									message_id,
+									ns_functions.packer.pack([
+										c,
+										l,
+										u,
+										i,
+										w,
+										p
+									])
+								]);
+								ns_functions.send(message, target_origin);
+							}
+						};
+						wait();
+					});
+				} else {
+					error(target_origin);
+				}
+				break;
+			default :
+				error(target_origin);
+				break;
+		}
+	}
+}
+if (window.parent.postMessage) {
+	runscript();
+}
+else {
+	ns_functions.events.add_event(window, "load", function () {
+		runscript();
+	});
+}
+</script>
+
+</body></html>
