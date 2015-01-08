@@ -1,0 +1,76 @@
+*{
+    font-family: 'Noto Serif'!important; 
+    background-color: #ffffff!important;
+}
+
+.shiny-input-container {
+  margin-left: auto;
+  margin-right: auto  
+}
+
+p{
+    font-size: 13px!important;
+    line-height: 30px;
+    font-weight: normal;
+}
+.shiny-download-link {
+  width:170px!important;
+}
+.jslider {
+  width:170px!important;
+}
+
+.well {
+    background-color: #ffffff!important;
+  border:0px!important;
+  padding:0px!important;
+  width:170px!important;
+}
+.span4 {
+    background-color: #ffffff!important;
+  width:175px!important;
+  font-size: 13px!important;
+  float:left!important;
+}
+.span8 {
+    background-color: #ffffff!important;
+  width:420px!important;
+   font-size: 13px!important;
+   margin-left: 0px!important;
+  float:right!important;
+}
+.row-fluid {
+    background-color: #ffffff!important;
+  width:600px!important;
+}
+label {
+    font-size: 13px!important;
+}
+select {
+    font-size: 13px!important;
+}
+span {
+    font-size: 13px!important;
+}
+li{
+	background-color: #ffffff!important;
+	border:1px solid #e3e3e3!important;
+}
+.nav{
+	margin-bottom: 0px!important;
+}
+h1{
+	font-size: 24px!important;
+	font-weight: normal;
+    line-height: 25px;
+    padding-left: 13px;
+}
+a{
+    background-color: transparent;
+}
+center{
+    background-color: transparent;
+}
+body {
+  padding: 0px
+}
