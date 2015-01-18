@@ -1,0 +1,321 @@
+---
+title: "PISA - analiza z wykorzystaniem pakietu survey"
+author: "Maciej Beręsewicz"
+date: ""
+output: html_document
+bibliography: bibliography.bib
+---
+
+# Wstęp
+
+Poniższy wpis ma na celu przybliżenie wykorzystania pakietu **survey** do analizy danych pochodzących z badania PISA. W szczególności następujące cele mają zostać osiągnięte:
+
+* przybliżenie pakietu survey,
+* przybliżenie podejścia wykorzystanego w badaniu PISA do estymacji wariancji,
+* wykorzystanie pakietu survey w badaniu PISA.
+
+# Pakiet survey
+
+Pakiet survey został przygotowany przez [Thomasa Lumleya](https://www.stat.auckland.ac.nz/showperson?firstname=Thomas&surname=Lumley) z Uniwersytetu w Auckland w Nowej Zelandii. Szczegółowy opis dostępnych w pakiecie funkcji można znaleźć na stronie http://r-survey.r-forge.r-project.org/survey/, jak również w publikacji  [@lumley2004analysis]. Obecnie pakiet dostępny jest w wersji `r packageVersion('survey')`. Pakiet **survey** przeznaczony jest głównie do estymacji charakterystyk populacji z wykorzystaniem prób nieprostych (ang. *complex surveys*) - np. losowań dwustopniowych jak w BAEL czy EU-SILC. Pakiet umożliwia pracę zarówno ze zbiorami wczytanymi do R, jak i łączenia się z bazami danych. Niedawno powstał również drugi pakiet (eksperymentalny) [sqlsurvey](http://sqlsurvey.r-forge.r-project.org), który rozszerza pakiet **survey** o połączenie z bazą typu [MonetDB](https://www.monetdb.org/Home).
+
+Aby rozpocząć pracę z pakietem **survey** należy w pierwszym kroku zadeklarować schemat doboru jednostek do próby (schemat losowania). Jest to najważniejszy krok pracy z pakietem **survey**, który wpływa na poprawne oszacowanie wariancji (błędów szacunku) estymatorów. Zadeklarowany obiekt będzie również wykorzystywany w przypadku korzystania z metod replikacyjnych (np. *bootstrap*) w którym należy odtworzyć sposób losowania jednostek do badania.
+
+Deklarujemy schemat losowania funkcją *svydesign*, która ma następujące parametry:
+
+* ids - formuła lub ramka danych w której określamy losowane zespoły jednostek (od pierwszego do kolejnych etapów). Jeżeli w badaniu nie były losowane jednostki wpisujemy ~0 lub ~1.
+* probs  - formuła lub ramka danych określająca prawdopodobieństwa inkluzji.
+* strata - formuła lub wektor określający warstwy, w przypadku ich braku określamy NULL.
+* variables  - formuła lub ramka danych określająca zmienne wybrane do analizy. Jeżeli nie zostaną określone wybrany zostanie cały zbiór danych.
+* fpc	- poprawka na skończoną populację (ang. *Finite population correction*).
+* weights	- formuła lub wektor określający wagi wynikające z losowania (alternatywa dla prob).
+* data - ramka danych, która zawiera zmienne określone we wcześniejszych formułach. Można również wykorzystać połączenie do bazy danych czy obiekt imputationList.
+* nest - jeżeli TRUE wskazuje, że należy stworzyć nowe ID na podstawie zadeklarowanych zmiennych w argumencie ids.
+* check.strata - jeżeli TRUE wskazuje, że należy sprawdzić czy zespoły jednostek są zawarte w warstwach określonych w argumencie strata.
+* pps	- metody określające proste losowanie bez zwracania - "brewer" lub "overton".
+* dbtype - wskazujemy z jakiej bazy danych korzystamy.
+* dbname - wskazujemy nazwę bazy danych.
+* variance - określamy w przypadku losowania prostego bez zwracania (variance="YG"). W takim przypadku zostanie zastosowany estymator wariancji [Yatesa-Grundiego](http://goga.perso.math.cnrs.fr/ChapVar1_coursBesan.pdf).
+
+Argumenty wymagane: ids oraz data. Zmienne, które posłużą do określenia warstw nie mogą zawierać braków danych.
+
+# Schemat losowania w badaniu PISA - wariancja w przypadku losowania dwustopniowego
+
+W badaniu PISA zastosowany jest dwustopniowy schemat losowania. W pierwszym stopniu losowane są szkoły, a w drugim stopniu studenci. Co to oznacza? Wariancja estymatorów składa się z dwóch elementów: wariancji w pierwszym stopnia (szkoły) oraz wariancja w drugim stopniu (uczniowie). W związku z tym estymator wariancji dla losowania dwu-stopniowego ma następującą postać.
+
+
+Jednostka losowania pierwszego stopnia (ang. *Primary Sampling Unit*) określa jednostki losowanie w pierwszej kolejności.
+
+Estymatorem [Horvitza-Thompsona](http://en.wikipedia.org/wiki/Horvitz–Thompson_estimator) dla losowania dwustopniowego jest następująca wartość  (za książką [@lohr2009sampling]):
+
+$$\hat{y}_{HT} = \sum_{i \in \mathcal{S}}\frac{\hat{y}_i}{\pi_i} = \sum_{i=1}^{N}Z_i\frac{\hat{t}_i}{\pi_i}$$
+
+gdzie $Z_i=1$ jeżeli jednostka $i$ została wylosowana do badania. Natomiast wariancja estymatora HT jest określona wzorem:
+
+$$\hat{V}_{HT}(\hat{y}_{HT})=\sum_{i \in \mathcal{S}}(1-\pi_i)\frac{\hat{t}_i^2}{\pi_i^2} + \sum_{i \in \mathcal{S}}\sum_{k \in \mathcal{S}, k \neq i} \frac{\pi_{ik}-\pi_i\pi_k}{\pi_{ik}}\frac{\hat{t}_i}{\pi_i}\frac{\hat{t}_k}{\pi_k} + \sum_{i \in \mathcal{S}} \frac{\hat{V}(\hat{t}_i)}{\pi_i}$$
+
+
+# Estymacja wariancji w badaniu PISA
+
+## Balanced Repeated Replication (BRR)
+
+Idea - dzielimy w każdym przekroju na dwie części i nadajemy im odpowiednią wagę. Zacznijmy od następujących oznaczeń (za książką [@lohr2009sampling]).
+
+Niech $r$ oznacza próbę podzieloną na dwie części, $\mathbf{\alpha}_r = (\alpha_{r1},\alpha_{r2},\ldots, \alpha_{rH})$. Następnie niech
+
+$$
+y_h(\mathbf{\alpha}_r) = \left\{
+  \begin{array}{lr}
+    y_{h1} & \mbox{jeżeli } \alpha_{rh} = 1\\
+    y_{h2} & \mbox{jeżeli } \alpha_{rh} = -1
+  \end{array}
+\right.
+$$
+
+Co równoważnie oznacza
+
+$$
+y_h(\mathbf{\alpha}_r) = \frac{\alpha_{rh}+1}{2}y_{h1} - \frac{\alpha_{rh}-1}{2}y_{h2}
+$$
+
+Próba jest tak zbalansowana żeby spełnione było:
+
+$$
+\sum_{r=1}^{R} \alpha_{rh}\alpha_{rl}=0 \mbox{, dla każdego $l \neq h$}
+$$
+
+Następnie dla każdej replikacji $r$, obliczamy $\hat{\theta}(\mathbf{\alpha}_r)$ ale tylko na podstawie połowy próby wyznaczonej przez $\mathbf{\alpha}_r$. W związku z tym estymator dla wariancji jest opisany następująco:
+
+$$
+\hat{V}_{BRR}(\hat{\theta}) = \frac{1}{R} \sum_{r=1}^{R} (\hat{\theta(\mathbf{\alpha}_r)} - \hat{\theta})^2
+$$
+
+W przypadku losowania z wykorzystaniem procedury wielostopniowej dodatkowo tworzone są wagi zgodnie z 
+
+$$
+w_i(\mathbf{\alpha}_r) = \left\{
+  \begin{array}{lr}
+    2w_i & \mbox{jeżeli jednostka $i$ jest w pół-próbie $r$} \\
+    0 & \mbox{w przeciwnym wypadku}
+  \end{array}
+\right.
+$$
+
+Natomiast w podejściu Fay'a proponowana jest poprawka na te wagi oznaczana jako $\rho$, gdzie zwykle przyjmuje się wartości 
+
+$$
+w_i(\mathbf{\alpha}_r) = \left\{
+  \begin{array}{lr}
+    (2-\rho) w_i & \mbox{jeżeli jednostka $i$ jest w pół-próbie $r$} \\
+    \rho & \mbox{w przeciwnym wypadku}
+  \end{array}
+\right.
+$$
+
+Natomiast estymator dla wariancji (dowolnego) estymatora zostaje taki sam. W badaniu PISA przyjęta została poprawka Faya $\rho=0.5$. Dyskusję na temat tego podejścia do estymacji można znaleźć w [@judkins1990fay].
+
+Powyższy etap tłumaczy powstanie wag replikacyjnych, które znajdziemy w zbiorach PISA. Natomiast aby poprawnie obliczyć wariancje dla zmiennych PV zgodnie z metodologią PISA należy zastosować poniższy wzór:
+
+$$
+\sigma^2_{(Total)} = \sigma^2_{(PV)} + 1.2\sigma^2_{(test)}
+$$
+
+gdzie: $\sigma^2_{(PV)} = \sum_{i=1}^5 \sigma^2_{PV_i}/5$, a $\sigma^2_{(test)} = \sum_{i=1}^5 ( \mu_{PV_i} - \mu_{PV})^2 /4$. $\sigma^2_{PV_i}$ powstaje w wyniku zastosowania wag replikacyjnych utworzonych w wyniku metody BRR, natomiast $\sigma^2_{(test)}$ jest tak zwaną wariancją imputowaną ([Raport PISA, rozdział 7](http://www.oecd.org/edu/school/programmeforinternationalstudentassessmentpisa/35002956.pdf))
+
+# Estymacja z wykorzystaniem pakietu survey
+
+W pierwszej kolejności wczytujemy pakiety
+
+```{r wczytaniePakietow,warning=FALSE,message=FALSE}
+library(survey)
+library(ggplot2)
+library(dplyr)
+library(xtable)
+library(tidyr)
+```
+
+Wczytujemy dane z badania z 2009 roku korzystając z pakietu [PISA2009lite](https://github.com/pbiecek/PISA2009lite).
+
+```{r readData}
+# jeżeli nie jest zainstalowany pakiet to instalujemy
+# library(devtools)
+# install_github('pbiecek/PISA2009lite')
+library(PISA2009lite)
+```
+
+Wczytujemy dane z pakietu
+
+```{r wczytaniedanych}
+studenci <- student2009
+szkoly <- school2009
+```
+
+Poniższy wydruk oraz wykres zawiera liczbę szkół według krajów. 
+
+```{r kraje,warning=FALSE}
+tab <- as.data.frame(table(szkoly$CNT))
+names(tab) <- c('Kraje','N')
+summary(tab$N)
+tab$Kolor <- as.factor(ifelse(tab$Kraje=='Poland',1,2))
+ggplot(data = tab,
+       aes(x = reorder(Kraje,N),
+           y = N,
+           fill = Kolor)) +
+  geom_bar(stat='identity',
+           colour='black') +
+  theme_bw() +
+  theme(axis.text.x = element_text(angle=90,hjust=1,vjust=1,size=8),
+        legend.position='none') +
+  xlab('Kraje') +
+  ylab('Liczba wylosowanych szkół') +
+  scale_fill_manual(values = c('red','white'),
+                    breaks = 1:2)
+```
+
+Natomiast kolejny wykres przedstawia wielkość próby w poszczególnych krajach.
+
+```{r studenci,warning=FALSE}
+tab <- as.data.frame(table(studenci$CNT))
+names(tab) <- c('Kraje','N')
+summary(tab$N)
+tab$Kolor <- as.factor(ifelse(tab$Kraje=='Poland',1,2))
+ggplot(data = tab,
+       aes(x = reorder(Kraje,N),
+           y = N,
+           fill = Kolor)) +
+  geom_bar(stat='identity',
+           colour='black') +
+  theme_bw() +
+  theme(axis.text.x = element_text(angle=90,hjust=1,vjust=1,size=8),
+        legend.position='none') +
+  xlab('Kraje') +
+  ylab('Liczba wylosowanych studentów') +
+  scale_fill_manual(values = c('red','white'),
+                    breaks = 1:2)
+```
+
+Aby poprawnie oszacować wariancję zgodnie z podejściem zaproponowanym w badaniu PISA (Fay BRR) musimy określić w pakiecie **survey** obiekt svydesign. Najpierw musimy usunąć atrybuty value.label ponieważ powodują błędy w funkcji.
+
+```{r valuelabels}
+cnames <- names(studenci)
+attr(studenci$PV1MATH,'value.labels') <- NULL
+attr(studenci$PV2MATH,'value.labels') <- NULL
+attr(studenci$PV3MATH,'value.labels') <- NULL
+attr(studenci$PV4MATH,'value.labels') <- NULL
+attr(studenci$PV5MATH,'value.labels') <- NULL
+attr(studenci$W_FSTUWT,'value.labels') <- NULL
+for (i in which(cnames=='W_FSTR1'):which(cnames=='W_FSTR80')) {
+  attr(studenci[,i],'value.labels') <- NULL
+}
+```
+
+A następnie deklarujemy schemat losowania poprzez survey::svydesign i wykorzystamy funkcję dplyr::do ponieważ działa zdecydowanie szybciej niż survey::svyby.
+
+```{r okreslamydesign}
+badanie <- studenci %>%
+  select(CNT, ## kraj
+         SCHOOLID, ## identyfikator szkoły
+         ST04Q01, ## płeć
+         PV1MATH:PV5MATH, ## wartości PV
+         W_FSTR1:W_FSTR80, ## wagi replikacyjne
+         W_FSTUWT ## wagi ostateczne
+         ) %>%
+  group_by(CNT) %>% 
+  do(schemat = svrepdesign(ids= ~SCHOOLID,
+              type = 'Fay',
+              weight = ~ W_FSTUWT,
+              repweight = 'W_FSTR[1-80]+',
+              data = .,
+              rho = 0.5))
+
+### podgląd obiektu
+badanie
+```
+
+Szacujemy teraz wartości dla zmiennej PV1MATH oraz błąd szacunku
+
+```{r szacujemy}
+wynik <- badanie %>%
+    do(data.frame(svymean(~PV1MATH,design = .$schemat)))
+wynik$CNT <- badanie$CNT
+names(wynik)[1] <- 'PV1MATH'
+```
+
+Przedstawimy graficznie z wykorzystaniem pakietu ggplot2. Wykorzystamy do tego wykres punktowy (geom_point), a także zaznaczymy 95% przedział ufności dla średniej (geom_errorbar).
+
+```{r graficznie}
+### przedział ufności
+alpha <- 0.05
+z_alpha <- qnorm(1-alpha/2)
+wynik$Kolor <- ifelse(wynik$CNT=='Poland','red','black')
+### wykresy
+ggplot(data = wynik,
+       aes(x=reorder(CNT,PV1MATH),
+           y=PV1MATH)) +
+  geom_errorbar(aes(ymin=PV1MATH-z_alpha*SE,
+                    ymax=PV1MATH+z_alpha*SE)) +
+  geom_point(colour='red') +
+  theme_bw() + 
+  theme(axis.text.x = element_text(angle=90,
+                                   hjust=1,
+                                   vjust=1,
+                                   size = 8,
+                                   colour=wynik$Kolor[order(wynik$PV1MATH)]),
+        legend.position = 'none') +
+  xlab('Kraj') +
+  ylab('PV1MATH')
+
+```
+
+Oszacujemy teraz wariancję dla zmiennych określających umiejętności z matematyki (PV1MATH do PV5MATH) zgodnie z metodologią PISA. Niestety nie możemy skorzystać tylko raz z funkcji svymean ponieważ zwraca ona te same błędy standardowe (nie ustaliłem jeszcze przyczyny). Obejdziemy to stosując pięć razy funkcję svymean.
+
+```{r wynikiPISA}
+wynik_matematyka <- badanie %>%
+          do(data.frame(PV1 = svymean(~PV1MATH,design = .$schemat),
+                        PV2 = svymean(~PV2MATH,design = .$schemat),
+                        PV3 = svymean(~PV3MATH,design = .$schemat),
+                        PV4 = svymean(~PV4MATH,design = .$schemat),
+                        PV5 = svymean(~PV5MATH,design = .$schemat))) %>%
+          ungroup() %>%
+          mutate(CNT = badanie$CNT) %>%
+          gather(Stat,Value,-CNT) %>%
+          separate(Stat,c('PV','STAT'),sep='\\.') %>%
+          group_by(CNT,STAT) %>%
+          summarise(PV = mean(Value),
+                    SE_test = sd(Value)) %>%
+          spread(STAT,PV) %>%
+          mutate(SE_all = SE + 1.2*SE_test) %>%
+          select(-SE_test,-SE) %>%
+          group_by(CNT) %>%
+          summarise_each(funs(m=mean(.,na.rm=T)),mean,SE_all) %>%
+          rename(PV=mean,SE=SE_all)
+wynik_matematyka
+```
+
+Porównajmy teraz wyniki między krajami:
+
+```{r porownanieWynikowKraje, warning=FALSE}
+wynik_matematyka$Kolor <- ifelse(wynik_matematyka$CNT=='Poland','red','black')
+OECD_mean <- mean(wynik_matematyka$PV)
+### wykresy
+ggplot(data = wynik_matematyka,
+       aes(x=reorder(CNT,PV),
+           y=PV)) +
+  geom_errorbar(aes(ymin=PV-z_alpha*SE,
+                    ymax=PV+z_alpha*SE)) +
+  geom_point(colour='red') +
+  theme_bw() + 
+  theme(axis.text.x = element_text(angle=90,
+                                   hjust=1,
+                                   vjust=1,
+                                   size = 8,
+                                   colour=wynik_matematyka$Kolor[order(wynik_matematyka$PV)]),
+        legend.position = 'none') +
+  geom_hline(aes(yintercept=OECD_mean)) + 
+  xlab('Kraj') +
+  ylab('Umiejętości matematyczne')
+```
+
+Na czele stawki Shanghai, Polska powyżej średniej, a na samym końcu Kirgistan.
+
+# Bibliografia
+
