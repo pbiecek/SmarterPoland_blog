@@ -1,6 +1,6 @@
  library(heplots)
 
-diagnozas <- diagnoza[sample(1:nrow(diagnoza),1000),]
+diagnozas <- diagnoza[sample(1:nrow(diagnoza),10000),]
 
 model <- lm(cbind(gp113, gp61, gp60)~plec+wojewodztwo, diagnozas)
 
@@ -10,5 +10,11 @@ model <- lm(cbind(gp113, gp61, gp60)~plec, diagnozas)
 
 heplot(model)
 
-candisc
+library(candisc)
+
+
+model <- lm(cbind(gp113, gp61, gp60)~wojewodztwo+plec, diagnoza)
+modelc <- candisc(model)
+
+heplot(modelc)
 
