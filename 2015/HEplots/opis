@@ -18,3 +18,27 @@ modelc <- candisc(model)
 
 heplot(modelc)
 
+
+
+library(PISA2012lite)
+
+
+model <- lm(cbind(PV1MATH, PV1READ, PV1SCIE)~ST04Q01 + , diagnozas)
+
+
+pol <- student2012[student2012$CNT == "Poland",]
+model <- lm(cbind(PV1MATH, PV1READ, PV1SCIE)~ST04Q01 + ST17Q01+ST13Q01, pol)
+modelc <- candisc(model)
+
+
+heplot(model)
+heplot(modelc)
+
+
+
+model <- lm(cbind(PV1MATH, PV1READ, PV1SCIE)~ST17Q01+ST13Q01+ST04Q01, pol)
+modelc <- candisc(model)
+
+
+heplot(model)
+heplot(modelc)
