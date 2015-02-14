@@ -1,3 +1,30 @@
+Visual Hypothesis Tests in Multivariate Linear Models: The heplots Package for R
+John Fox Michael Friendly Georges Monette
+http://www.datavis.ca/papers/dsc-paper.pdf
+
+
+HE Plots for Multivariate Linear Models
+Michael Friendly
+http://www.datavis.ca/papers/jcgs-heplots.pdf
+
+HE Plots for Repeated Measures Designs
+Michael Friendly
+http://www.jstatsoft.org/v37/i04/paper
+
+
+Visualizing Generalized Canonical Discriminant and Canonical Correlation Analysis
+Michael Friendly and John Fox
+http://cran.r-project.org/web/packages/candisc/candisc.pdf
+
+Canonical Variate Analysisand Related Methods with Longitudinal Data
+Michael Beaghen
+http://www.leidenuniv.nl/fsw/three-mode/bibliogr/beaghenm_thesis/beaghenthesis.pdf
+
+
+
+
+
+
  library(heplots)
 
 diagnozas <- diagnoza[sample(1:nrow(diagnoza),10000),]
@@ -41,4 +68,13 @@ modelc <- candisc(model)
 
 
 heplot(model)
+heplot(modelc)
+
+
+
+model <- lm(cbind(PV1MATH, PV1READ, PV1SCIE)~ST13Q01*ST04Q01, pol)
+modelc <- candisc(model)
+
+
+heplot(model, size="effect.size")
 heplot(modelc)
