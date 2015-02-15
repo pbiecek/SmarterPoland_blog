@@ -49,7 +49,6 @@ heplot(modelc)
 
 library(PISA2012lite)
 
-
 model <- lm(cbind(PV1MATH, PV1READ, PV1SCIE)~ST04Q01 + , diagnozas)
 
 
@@ -91,12 +90,34 @@ heplot(model, size="effect.size")
 heplot(modelc)
 
 
+library(PISA2012lite)
+pol <- student2012[student2012$CNT == "Poland",]
+model <- lm(cbind(PV1MATH, PV1READ, PV1SCIE)~ST28Q01+ST04Q01, pol)
+heplot(model, size="effect.size", las=1, term.labels=F)
+pairs(model, size="effect.size")
 
-model <- lm(cbind(PV1MATH, PV1READ, PV1SCIE)~ST28Q01+ST04Q01, cnt)
-modelc <- candisc(model)
 
 
+library(PISA2012lite)
+pol <- student2012[student2012$CNT == "Poland",]
+model <- lm(cbind(PV1MATH, PV1READ, PV1SCIE)~ST28Q01+ST04Q01, pol)
+
+modelc <- candisc(model, "ST28Q01")
+heplot(modelc)
+
+modelc <- candisc(model, "ST04Q01")
+heplot(modelc)
+
+
+
+
+
+
+model <- lm(cbind(PV1MATH, PV1READ, PV1SCIE)~ST42Q08, pol)
 heplot(model, size="effect.size")
+
+model <- lm(cbind(PV1MATH, PV1READ, PV1SCIE)~ST42Q08, pol[1:300,])
+modelc <- candisc(model)
 heplot(modelc)
 
 
