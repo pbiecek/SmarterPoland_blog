@@ -78,3 +78,32 @@ modelc <- candisc(model)
 
 heplot(model, size="effect.size")
 heplot(modelc)
+
+
+cnt <- student2012[student2012$CNT %in% c("Poland", "Germany", "Finland", "Korea"),]
+
+
+model <- lm(cbind(PV1MATH, PV1READ, PV1SCIE)~CNT+ST04Q01, cnt)
+modelc <- candisc(model)
+
+
+heplot(model, size="effect.size")
+heplot(modelc)
+
+
+
+model <- lm(cbind(PV1MATH, PV1READ, PV1SCIE)~ST28Q01+ST04Q01, cnt)
+modelc <- candisc(model)
+
+
+heplot(model, size="effect.size")
+heplot(modelc)
+
+
+
+
+
+
+
+load("PISAeurope.rda")
+
