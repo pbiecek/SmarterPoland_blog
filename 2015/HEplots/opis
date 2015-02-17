@@ -111,8 +111,6 @@ heplot(modelc)
 
 
 
-
-
 model <- lm(cbind(PV1MATH, PV1READ, PV1SCIE)~ST42Q08, pol)
 heplot(model, size="effect.size")
 
