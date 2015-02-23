@@ -1,0 +1,140 @@
+---
+title: "Ile są warte dane? <br/> Tyle, ile w nich zobaczymy."
+author: "Przemysław Biecek <br/><br/> Fundacja Naukowa SmarterPoland.pl <br/> Interdyscyplinarne Centrum Modelowania Matematycznego i Komputerowego Uniwersytet Warszawski"
+date: "Big Data Technology Summit, 26 lutego 2015"
+output:
+  slidy_presentation:
+    highlight: default
+    font_adjustment: 0
+    footer: "Ile są warte dane? Tyle, ile w nich zobaczymy."
+---
+
+# Big Data problems
+
+<table>
+<tr><td>Syllogomania (zespół zbieractwa, patologiczne zbieractwo) – nabywanie lub trudności z pozbywaniem się rzeczy nieużytecznych bądź o małej dla innych osób wartości. 
+
+Najczęstsze powody zbieractwa:
+
+* obawa przed pozbyciem się czegoś użytecznego,
+* poczucie bezpieczeństwa zbudowane na posiadaniu różnych przedmiotów,
+* stosunek emocjonalny do posiadanych rzeczy.
+
+</td>
+<td><img height="450px" src="Hoard.jpg"></td></tr>
+</table>
+
+
+# Na tropach cholery, John Snow
+
+<center><img height="600px" src="snowCholera.png"></center>
+
+# Na tropach cholery, John Snow
+
+<center><img height="600px" src="SnowR.png"></center>
+
+# Wizualizacja pomaga zrozumieć biznes
+
+```{r, results='asis', comment=NA, echo=FALSE, message=FALSE}
+#library(knitr)
+#setwd("~/Dropbox/_Prezentacje_I_Szkolenia_/2015_BigData_Tech_Summit/")
+#require(rCharts)
+#load("mmGrupy3.rda")
+#p1 <- nPlot(value ~ daty, group = "variable", data = mmGrupy3, type = "multiBarChart")
+#p1$chart(stacked = TRUE)
+#p1$save('mychart2.html', standalone = TRUE)
+```
+
+<center><iframe frameBorder="0" width="900" height="600" src="https://rawgithub.com/pbiecek/SmarterPoland_blog/master/2015/2015_BigData_Tech_Summit/mychart2.html"></iframe></center>
+
+# Lub oglądaniu imprez sportowych - Mecze
+
+<center><img height="600px" src="PremierLeague5.png"></center>
+
+# Lub oglądaniu imprez sportowych - Olimpiada
+
+<center><img height="600px" src="g12345.jpg"></center>
+
+# Lub oglądaniu imprez sportowych - Olimpiada
+
+<center><img height="600px" src="g1.jpg"></center>
+
+# Lub oglądaniu imprez sportowych - Olimpiada
+
+<center><img height="600px" src="g3.jpg"></center>
+
+# Lub oglądaniu imprez sportowych - Olimpiada
+
+<center><img height="600px" src="g5.jpg"></center>
+
+# Grafy Facebooka
+
+<center><img height="600px" src="siecMarkowa.png"></center>
+
+
+# Seriale a baza IMDB
+
+<center><iframe frameBorder="0" width="900" height="600" src="http://beta.icm.edu.pl/IMDB"></iframe></center>
+
+# Seriale a baza IMDB
+
+<center><iframe frameBorder="0" width="900" height="600" src="http://beta.icm.edu.pl/IMDB2"></iframe></center>
+
+# Znaj historię, którą chcesz pokazać
+
+<center><img height="500px" src="coJEstWazne.png"></center>
+
+# Znaj historię, którą chcesz pokazać
+
+<center><img height="550px" src="MlodziNowy2.png"></center>
+
+# Błąd czy celowa dezinformacja? Energia
+
+<center><img height="500px" src="Drozejaca.png"></center>
+
+# Błąd czy celowa dezinformacja? Podręczniki
+
+<center><img height="550px" src="podreczniki2.png"></center>
+
+# Błąd czy celowa dezinformacja? SAS
+
+<center><img height="500px" src="600534271.png"></center>
+
+# Błąd czy celowa dezinformacja? Ministerstwo Nauki
+
+<center><img height="600px" src="pomylkiTitle.png"></center>
+
+# Błąd czy celowa dezinformacja? OFE
+
+<center><img height="600px" src="ZUSOFE.png"></center>
+
+
+
+# Co dalej - FlowingData [http://flowingdata.com/]
+
+<center><img height="600px" src="FD.png"></center>
+
+# Co dalej - Information is Beautiful [http://www.informationisbeautiful.net/]
+
+<center><img height="600px" src="IiB.png"></center>
+
+# Co dalej - Charts and Things [http://chartsnthings.tumblr.com/]
+
+<center><img height="600px" src="CnT.png"></center>
+
+# Co dalej - SmarterPoland [http://smarterpoland.pl/]
+
+<center><img height="600px" src="podstawowkiStamenWater2.png"></center>
+
+# Co dalej - Eseje o wizualizacji danych [http://biecek.pl/Eseje/]
+
+<center><img height="600px" src="Eseje.png"></center>
+
+# Co dalej 
+
+* Shiny / ggvis / R http://shiny.rstudio.com/
+* D3 i pochodne biblioteki http://d3js.org/
+* Kibana http://www.elasticsearch.org/overview/kibana/
+* Tableau http://www.tableau.com/
+* IBM Many Eyes http://www-969.ibm.com/
+* coraz więcej innych bibliotek...
