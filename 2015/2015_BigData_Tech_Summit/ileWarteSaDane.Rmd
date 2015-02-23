@@ -9,7 +9,7 @@ output:
     footer: "Ile są warte dane? Tyle, ile w nich zobaczymy. Przemysław Biecek"
 ---
 
-<img height="600px" src="BDTS.png">
+<center><img height="800px" src="BDTS.png"></center>
 
 ---
 # Big Data problems
