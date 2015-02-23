@@ -6,7 +6,7 @@ output:
   slidy_presentation:
     highlight: default
     font_adjustment: 0
-    footer: "Ile są warte dane? Tyle, ile w nich zobaczymy."
+    footer: "Ile są warte dane? Tyle, ile w nich zobaczymy. Przemysław Biecek. SmarterPoland / ICM UW"
 ---
 
 # Big Data problems
@@ -129,6 +129,11 @@ Najczęstsze powody zbieractwa:
 # Co dalej - Eseje o wizualizacji danych [http://biecek.pl/Eseje/]
 
 <center><img height="600px" src="Eseje.png"></center>
+
+#  Co dalej - Tabelau
+
+<center><iframe frameBorder="0" width="900" height="600" src="https://public.tableausoftware.com/profile/nick.bignell#!/vizhome/IsabelsWeatherHomeworkblog/IsabelsWeatherHomework"></iframe></center>
+
 
 # Co dalej 
 
