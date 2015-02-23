@@ -1,5 +1,5 @@
 ---
-title: "Ile są warte dane? <br/> Tyle, ile w nich zobaczymy."
+title: "Ile są warte dane? <br/> Tyle, ile w nich zobaczymy!"
 author: "Przemysław Biecek <br/><br/> Fundacja Naukowa SmarterPoland.pl <br/> Interdyscyplinarne Centrum Modelowania Matematycznego i Komputerowego Uniwersytet Warszawski"
 date: "Big Data Technology Summit, 26 lutego 2015"
 output:
@@ -12,7 +12,7 @@ output:
 <center><img height="800px" src="BDTS.png"></center>
 
 ---
-# Big Data problems
+# Problemy Big Data
 
 <table>
 <tr><td>Syllogomania (zespół zbieractwa, patologiczne zbieractwo) – nabywanie lub trudności z pozbywaniem się rzeczy nieużytecznych bądź o małej dla innych osób wartości. 
