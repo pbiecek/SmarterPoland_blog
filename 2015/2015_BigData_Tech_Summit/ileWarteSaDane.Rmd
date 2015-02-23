@@ -6,7 +6,7 @@ output:
   slidy_presentation:
     highlight: default
     font_adjustment: 0
-    footer: "Ile są warte dane? Tyle, ile w nich zobaczymy. Przemysław Biecek. SmarterPoland / ICM UW"
+    footer: "Ile są warte dane? Tyle, ile w nich zobaczymy. Przemysław Biecek"
 ---
 
 # Big Data problems
