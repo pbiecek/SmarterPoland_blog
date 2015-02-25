@@ -38,13 +38,19 @@ Najczęstsze powody zbieractwa:
 
 # Seriale a baza IMDB
 
+<br/><br/>
+
 <center><iframe frameBorder="0" width="900" height="600" src="http://beta.icm.edu.pl/IMDB"></iframe></center>
 
 # Seriale a baza IMDB
 
+<br/><br/>
+
 <center><iframe frameBorder="0" width="900" height="600" src="http://beta.icm.edu.pl/IMDB2"></iframe></center>
 
 # Wizualizacja pomaga zrozumieć biznes
+
+<br/><br/>
 
 ```{r, results='asis', comment=NA, echo=FALSE, message=FALSE}
 #library(knitr)
@@ -60,9 +66,13 @@ Najczęstsze powody zbieractwa:
 
 # Pomaga zrozumieć problem
 
+<br/><br/>
+
 <center><img height="600px" src="bio3.png"></center>
 
 # Pomaga zrozumieć problem
+
+<br/><br/>
 
 <center><img height="600px" src="bio2.png"></center>
 
@@ -91,44 +101,60 @@ Najczęstsze powody zbieractwa:
 
 <center><img height="600px" src="gorillalargecopyright.png"></center>
 
-Selective attention test 
-
-http://www.youtube.com/watch?v=vJG698U2Mvo
+Selective attention test  http://www.youtube.com/watch?v=vJG698U2Mvo
 
 # Pułapki percepcji obrazu
+
+<br/><br/>
 
 <center><img height="600px" src="G3.png"></center>
 
 # Precyzja prezentacji
 
+<br/><br/>
+
 <center><img height="600px" src="G4.png"></center>
 
 # Znaj historię, którą chcesz pokazać
 
-<center><img height="500px" src="coJEstWazne.png"></center>
+<br/><br/>
+
+<center><img height="600px" src="coJEstWazne.png"></center>
 
 # Znaj historię, którą chcesz pokazać
 
-<center><img height="550px" src="MlodziNowy2.png"></center>
+<br/><br/>
+
+<center><img height="600px" src="MlodziNowy2.png"></center>
 
 # Zła wizualizacja wypacza historię
+
+<br/><br/>
 
 <center><img height="500px" src="Drozejaca.png"></center>
 
 # Zła wizualizacja wypacza historię
 
+<br/><br/>
+
 <center><img height="500px" src="600534271.png"></center>
 
 # Zła wizualizacja wypacza historię
+
+<br/><br/>
 
 <center><img height="600px" src="pomylkiTitle.png"></center>
 
 # Zła wizualizacja wypacza historię
 
+<br/><br/>
+
 <center><img height="600px" src="ZUSOFE.png"></center>
 
 
 # Co dalej - FlowingData [http://flowingdata.com/]
+
+<br/><br/>
 
 <center><img height="600px" src="FD.png"></center>
 
@@ -146,11 +172,17 @@ http://www.youtube.com/watch?v=vJG698U2Mvo
 
 # Co dalej - SmarterPoland [http://smarterpoland.pl/]
 
+<br/><br/>
+
 <center><img height="600px" src="podstawowkiStamenWater2.png"></center>
 
-# Co dalej - Eseje o wizualizacji danych [http://biecek.pl/Eseje/]
+# Eseje o wizualizacji danych [http://biecek.pl/Eseje/]
 
-<center><img height="600px" src="Eseje.png"></center>
+<center><img height="650px" src="Eseje.png"></center>
+
+# pogRomcy danych - MOOC o R, wizualizacji i modelowaniu danych
+
+<center><img height="600px" src="PogDa.png"></center>
 
 
 # Co dalej 
