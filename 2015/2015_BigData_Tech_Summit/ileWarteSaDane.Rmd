@@ -1,7 +1,7 @@
 ---
 title: "Ile są warte dane? <br/> Tyle, ile w nich zobaczymy!"
-author: "Przemyslaw.Biecek@gmail.com <br/><br/> Interdyscyplinarne Centrum Modelowania Matematycznego i Komputerowego Uniwersytet Warszawski<br/> <br/> Fundacja Naukowa SmarterPoland.pl "
-date: "Big Data Technology Summit, 26 lutego 2015"
+author: "Przemyslaw.Biecek@gmail.com <br/><br/> Interdyscyplinarne Centrum Modelowania UW + Fundacja Naukowa SmarterPoland.pl "
+date: "<center><img height='500px' src='BDTS.png'></center>"
 output:
   slidy_presentation:
     highlight: default
@@ -9,9 +9,6 @@ output:
     footer: "Ile są warte dane? Tyle, ile w nich zobaczymy. Przemysław Biecek"
 ---
 
-<center><img height="800px" src="BDTS.png"></center>
-
----
 # Problemy Big Data
 
 <table>
