@@ -1,6 +1,6 @@
 ---
 title: "Ile są warte dane? <br/> Tyle, ile w nich zobaczymy!"
-author: "Przemysław Biecek <br/><br/> Fundacja Naukowa SmarterPoland.pl <br/> Interdyscyplinarne Centrum Modelowania Matematycznego i Komputerowego Uniwersytet Warszawski"
+author: "Przemyslaw.Biecek@gmail.com <br/><br/> Interdyscyplinarne Centrum Modelowania Matematycznego i Komputerowego Uniwersytet Warszawski<br/> <br/> Fundacja Naukowa SmarterPoland.pl "
 date: "Big Data Technology Summit, 26 lutego 2015"
 output:
   slidy_presentation:
@@ -27,14 +27,25 @@ Najczęstsze powody zbieractwa:
 <td><img height="450px" src="Hoard.jpg"></td></tr>
 </table>
 
+# Wojna Krymska, Florence Nightingale
+
+<center><img height="700px" src="G2.png"></center>
 
 # Na tropach cholery, John Snow
 
-<center><img height="600px" src="snowCholera.png"></center>
+<center><img height="700px" src="G1.png"></center>
 
-# Na tropach cholery, John Snow
+# Na tropach cholery, John Snow [gdyby znał program R]
 
-<center><img height="600px" src="SnowR.png"></center>
+<center><img height="700px" src="SnowR.png"></center>
+
+# Seriale a baza IMDB
+
+<center><iframe frameBorder="0" width="900" height="600" src="http://beta.icm.edu.pl/IMDB"></iframe></center>
+
+# Seriale a baza IMDB
+
+<center><iframe frameBorder="0" width="900" height="600" src="http://beta.icm.edu.pl/IMDB2"></iframe></center>
 
 # Wizualizacja pomaga zrozumieć biznes
 
@@ -50,38 +61,50 @@ Najczęstsze powody zbieractwa:
 
 <center><iframe frameBorder="0" width="900" height="600" src="https://rawgithub.com/pbiecek/SmarterPoland_blog/master/2015/2015_BigData_Tech_Summit/mychart2.html"></iframe></center>
 
-# Lub oglądaniu imprez sportowych - Mecze
+# Pomaga zrozumieć problem
 
-<center><img height="600px" src="PremierLeague5.png"></center>
+<center><img height="600px" src="bio3.png"></center>
 
-# Lub oglądaniu imprez sportowych - Olimpiada
+# Pomaga zrozumieć problem
 
-<center><img height="600px" src="g12345.jpg"></center>
-
-# Lub oglądaniu imprez sportowych - Olimpiada
-
-<center><img height="600px" src="g1.jpg"></center>
-
-# Lub oglądaniu imprez sportowych - Olimpiada
-
-<center><img height="600px" src="g3.jpg"></center>
-
-# Lub oglądaniu imprez sportowych - Olimpiada
-
-<center><img height="600px" src="g5.jpg"></center>
-
-# Grafy Facebooka
-
-<center><img height="600px" src="siecMarkowa.png"></center>
+<center><img height="600px" src="bio2.png"></center>
 
 
-# Seriale a baza IMDB
+# Lub przyglądać się imprezom sportowym - Mecze
 
-<center><iframe frameBorder="0" width="900" height="600" src="http://beta.icm.edu.pl/IMDB"></iframe></center>
+<center><img height="700px" src="PremierLeague5.png"></center>
 
-# Seriale a baza IMDB
+# Lub przyglądać się imprezom sportowym - Olimpiada
 
-<center><iframe frameBorder="0" width="900" height="600" src="http://beta.icm.edu.pl/IMDB2"></iframe></center>
+<center><img height="700px" src="g12345.jpg"></center>
+
+# Lub przyglądać się imprezom sportowym - Olimpiada
+
+<center><img height="700px" src="g1.jpg"></center>
+
+# Lub przyglądać się imprezom sportowym - Olimpiada
+
+<center><img height="700px" src="g3.jpg"></center>
+
+# Lub przyglądać się imprezom sportowym - Olimpiada
+
+<center><img height="700px" src="g5.jpg"></center>
+
+# To co widzimy nie zawsze jest tym co jest pokazane
+
+<center><img height="600px" src="gorillalargecopyright.png"></center>
+
+Selective attention test 
+
+http://www.youtube.com/watch?v=vJG698U2Mvo
+
+# Pułapki percepcji obrazu
+
+<center><img height="600px" src="G3.png"></center>
+
+# Precyzja prezentacji
+
+<center><img height="600px" src="G4.png"></center>
 
 # Znaj historię, którą chcesz pokazać
 
@@ -91,26 +114,21 @@ Najczęstsze powody zbieractwa:
 
 <center><img height="550px" src="MlodziNowy2.png"></center>
 
-# Błąd czy celowa dezinformacja? Energia
+# Zła wizualizacja wypacza historię
 
 <center><img height="500px" src="Drozejaca.png"></center>
 
-# Błąd czy celowa dezinformacja? Podręczniki
-
-<center><img height="550px" src="podreczniki2.png"></center>
-
-# Błąd czy celowa dezinformacja? SAS
+# Zła wizualizacja wypacza historię
 
 <center><img height="500px" src="600534271.png"></center>
 
-# Błąd czy celowa dezinformacja? Ministerstwo Nauki
+# Zła wizualizacja wypacza historię
 
 <center><img height="600px" src="pomylkiTitle.png"></center>
 
-# Błąd czy celowa dezinformacja? OFE
+# Zła wizualizacja wypacza historię
 
 <center><img height="600px" src="ZUSOFE.png"></center>
-
 
 
 # Co dalej - FlowingData [http://flowingdata.com/]
@@ -125,6 +143,10 @@ Najczęstsze powody zbieractwa:
 
 <center><img height="600px" src="CnT.png"></center>
 
+#  Co dalej - Tabelau
+
+<center><iframe frameBorder="0" width="900" height="600" src="https://public.tableausoftware.com/profile/nick.bignell#!/vizhome/IsabelsWeatherHomeworkblog/IsabelsWeatherHomework"></iframe></center>
+
 # Co dalej - SmarterPoland [http://smarterpoland.pl/]
 
 <center><img height="600px" src="podstawowkiStamenWater2.png"></center>
@@ -132,10 +154,6 @@ Najczęstsze powody zbieractwa:
 # Co dalej - Eseje o wizualizacji danych [http://biecek.pl/Eseje/]
 
 <center><img height="600px" src="Eseje.png"></center>
-
-#  Co dalej - Tabelau
-
-<center><iframe frameBorder="0" width="900" height="600" src="https://public.tableausoftware.com/profile/nick.bignell#!/vizhome/IsabelsWeatherHomeworkblog/IsabelsWeatherHomework"></iframe></center>
 
 
 # Co dalej 
