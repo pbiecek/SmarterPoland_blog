@@ -5,6 +5,7 @@ date: "<center><img height='500px' src='BDTS.png'></center>"
 output:
   slidy_presentation:
     highlight: default
+    css: style.css
     font_adjustment: 0
     footer: "Ile są warte dane? Tyle, ile w nich zobaczymy. Przemysław Biecek"
 ---
@@ -38,19 +39,19 @@ Najczęstsze powody zbieractwa:
 
 # Seriale a baza IMDB
 
-<br/><br/>
+<br/>
 
 <center><iframe frameBorder="0" width="900" height="600" src="http://beta.icm.edu.pl/IMDB"></iframe></center>
 
 # Seriale a baza IMDB
 
-<br/><br/>
+<br/>
 
 <center><iframe frameBorder="0" width="900" height="600" src="http://beta.icm.edu.pl/IMDB2"></iframe></center>
 
 # Wizualizacja pomaga zrozumieć biznes
 
-<br/><br/>
+<br/>
 
 ```{r, results='asis', comment=NA, echo=FALSE, message=FALSE}
 #library(knitr)
@@ -66,13 +67,13 @@ Najczęstsze powody zbieractwa:
 
 # Pomaga zrozumieć problem
 
-<br/><br/>
+<br/>
 
 <center><img height="600px" src="bio3.png"></center>
 
 # Pomaga zrozumieć problem
 
-<br/><br/>
+<br/>
 
 <center><img height="600px" src="bio2.png"></center>
 
@@ -105,31 +106,31 @@ Selective attention test  http://www.youtube.com/watch?v=vJG698U2Mvo
 
 # Pułapki percepcji obrazu
 
-<br/><br/>
+<br/>
 
 <center><img height="600px" src="G3.png"></center>
 
 # Precyzja prezentacji
 
-<br/><br/>
+<br/>
 
 <center><img height="600px" src="G4.png"></center>
 
 # Znaj historię, którą chcesz pokazać
 
-<br/><br/>
+<br/>
 
 <center><img height="600px" src="coJEstWazne.png"></center>
 
 # Znaj historię, którą chcesz pokazać
 
-<br/><br/>
+<br/>
 
 <center><img height="600px" src="MlodziNowy2.png"></center>
 
 # Zła wizualizacja wypacza historię
 
-<br/><br/>
+<br/>
 
 <center><img height="500px" src="Drozejaca.png"></center>
 
@@ -141,20 +142,20 @@ Selective attention test  http://www.youtube.com/watch?v=vJG698U2Mvo
 
 # Zła wizualizacja wypacza historię
 
-<br/><br/>
+<br/>
 
 <center><img height="600px" src="pomylkiTitle.png"></center>
 
 # Zła wizualizacja wypacza historię
 
-<br/><br/>
+<br/>
 
 <center><img height="600px" src="ZUSOFE.png"></center>
 
 
 # Co dalej - FlowingData [http://flowingdata.com/]
 
-<br/><br/>
+<br/>
 
 <center><img height="600px" src="FD.png"></center>
 
@@ -172,13 +173,13 @@ Selective attention test  http://www.youtube.com/watch?v=vJG698U2Mvo
 
 # Co dalej - SmarterPoland [http://smarterpoland.pl/]
 
-<br/><br/>
+<br/>
 
 <center><img height="600px" src="podstawowkiStamenWater2.png"></center>
 
 # Eseje o wizualizacji danych [http://biecek.pl/Eseje/]
 
-<center><img height="650px" src="Eseje.png"></center>
+<center><img height="700px" src="Eseje.png"></center>
 
 # pogRomcy danych - MOOC o R, wizualizacji i modelowaniu danych
 
