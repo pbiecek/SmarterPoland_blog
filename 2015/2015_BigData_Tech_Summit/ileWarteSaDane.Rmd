@@ -41,12 +41,6 @@ Najczęstsze powody zbieractwa:
 
 <br/>
 
-<center><iframe frameBorder="0" width="900" height="600" src="http://beta.icm.edu.pl/IMDB"></iframe></center>
-
-# Seriale a baza IMDB
-
-<br/>
-
 <center><iframe frameBorder="0" width="900" height="600" src="http://beta.icm.edu.pl/IMDB2"></iframe></center>
 
 # Wizualizacja pomaga zrozumieć biznes
