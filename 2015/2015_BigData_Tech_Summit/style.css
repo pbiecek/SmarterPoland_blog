@@ -1,0 +1,12 @@
+body {
+	font-family: 'Noto Serif', 'serif';
+#	font-size: 20px!important;
+#	color: #cfcfcf!important;
+#	background-color: #460744!important;
+}
+
+h1 {
+	padding-bottom: 10px;
+	border-bottom: 2px solid #000000;
+}
+
