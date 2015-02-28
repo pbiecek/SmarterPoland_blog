@@ -187,4 +187,5 @@ Selective attention test  http://www.youtube.com/watch?v=vJG698U2Mvo
 * Kibana http://www.elasticsearch.org/overview/kibana/
 * Tableau http://www.tableau.com/
 * IBM Many Eyes http://www-969.ibm.com/
+* SAS Visual Analytics http://www.sas.com/en_us/software/business-intelligence/visual-analytics.html
 * coraz więcej innych bibliotek...
