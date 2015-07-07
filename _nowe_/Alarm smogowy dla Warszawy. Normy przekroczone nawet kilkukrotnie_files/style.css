@@ -1,0 +1,1930 @@
+a { color: #0e5c9d; }
+
+#banP76 { margin: 0 auto; }
+#banP56 * { margin: 0 auto 5px; }
+.banP4footer { margin: 0 auto !important; background: #fff; width: 960px; text-align: center; }
+.banP4footer .banLabel { float: none; width: 620px; margin: 0 auto; }
+.banP4footer .banB4 { width: 620px; margin: 0 auto; }
+
+#banP22 { margin-bottom: 10px; }
+#banP22 .banLabel { float: none; }
+.banB22 { padding-bottom: 10px; }
+.banB22 img { display: block; }
+.banB22 .banTitle { font-size: 11px; padding-top: 4px; }
+
+#col_right #AdTaily1 { margin-bottom: 20px; }
+
+/* tla body.path_107573, body.path_34894 #page, */
+body { background: #f1f1f1 url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/tlo_warszawa.jpg') repeat-x 50% 0; }
+body.path_bydgoszcz, body.path_fordon, body.path_bartodzieje, body.path_kapusciska, body.path_szwederowo, body.path_wyzyny { background-image: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/bydgoszcz-bg.png'); }
+body.path_czestochowa { background-image: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/tlo_czestochowa.jpg'); }
+body.path_lublin { background-image: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/tlo_lublin.jpg'); }
+body.path_krakow { background-image: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/tlo_krakow.jpg'); }
+body.path_radom { background-image: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/tlo_radom.jpg'); }
+body.path_szczecin { background-image: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/tlo_szczecin.jpg'); }
+body.path_lodz, body.path_lodzfabryczna { background-image: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/tlo_lodz.jpg'); }
+body.path_wroclaw { background-image: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/lokalne_wroclaw.jpg'); }
+body.path_opole { background-image: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/tlo_opole.jpg'); }
+body.path_poznan { background-image: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/tlo_poznan1.jpg'); }
+body.path_olsztyn { background-image: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/tlo_olsztyn1.jpg'); }
+body.path_trojmiasto { background-image: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/tlo_trojmiasto.jpg'); }
+body.path_torun { background-image: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/tlo_torun.jpg'); }
+body.path_kielce { background-image: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/tlo_kielce.jpg'); }
+body.path_zielonagora { background-image: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/tlo_zielona_gora1.jpg'); }
+body.path_plock { background-image: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/tlo_plock.jpg'); }
+body.path_bialystok { background-image: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/tlo_bialystok.jpg'); }
+body.path_bielskobiala { background-image: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/tlo_bielskobiala.jpg'); }
+body.path_katowice { background-image: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/tlo_katowice.jpg'); }
+body.path_gorzow { background-image: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/tlo_gorzow2.jpg'); }
+body.path_rzeszow { background-image: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/tlo_rzeszow.jpg'); }
+body.path_gazetasosnowiec, body.path_gazetagliwice, body.path_gazetaelblag { background-image: none; }
+/*body.path_34894 #page,*/
+body.path_112655 { background: #fff url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/zakupy-bg-top.jpg') no-repeat 50% 19px !important; }
+/*body.path_34894 #page, */
+body.path_112655 #page { background: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/zakupy-bg-bottom.jpg') no-repeat 50% 100% !important; }
+#content, #footer, #navH, #navtop_wrap, #navbot_wrap, #sWlbg { background: #fff; }
+#footer { margin: 0 auto; padding: 10px 10px; }
+
+/* layout */
+#navtop_wrap { position: relative; z-index: 3; }
+#navbot_wrap { padding: 15px 10px 0; }
+.layout_uniwersalny #navbot_wrap .c0 { float: none; }
+#content { position: relative; z-index: 1; }
+
+/* clear */
+#mod_offer_small .head, .quiz, .quiz .entry, .mod_zi_lokale1 .tags, .mod_zi_lokale1 .wrap_1, .mod_zi_lokale1 .wrap_3, .index .forumNew ul, .mod_zr_lokale6 ul, .mod_obituary_premium .clearfix, .mod_obituary_premium .node_head, .SONwrp .head { zoom: 1; }
+#mod_offer_small .head:after, .quiz:after, .quiz .entry:after, .mod_zi_lokale1 .tags:after, .mod_zi_lokale1 .wrap_1:after, .mod_zi_lokale1 .wrap_3:after, .index .forumNew ul:after, .mod_zr_lokale6 ul:after, .mod_obituary_premium .clearfix:after, .mod_obituary_premium .node_head:after, .SONwrp .head:after { content: '.'; display: block; height: 0; width: 0; visibility: hidden; clear: both; }
+
+/* naglowki */
+.index .body h2, .index .body h3 { font-size: 22px; line-height: 25px; font-family: Arial, sans-serif; margin-bottom: 10px; }
+.bs_mostread_head, #newslzaj h3, .mod .node_head, .index .head, #mod_offer_small .head, .indABC h3, .mod_obituary_premium .node_head, .mod_zr7 .super, .alertTxtForm h3, .blogBox h3, .mod_cjg_repertory_finder .head, .mod_loaction_map .head, #ea_mostread .head, .SONwrp h3 { padding-bottom: 3px; border-bottom: 2px solid #dadada; margin-bottom: 10px; }
+.bs_mostread_head p, #newslzaj h3, .mod .node_head h2, .index .head h2, #mod_offer_small .head h2, .indABC h3, .mod_obituary_premium .node_head h4, .mod_zr7 .super, .mod_forum_threads .node_head strong, .alertTxtForm h3, .blogBox h3, .mod_loaction_map .head strong, #ea_mostread .head strong, .SONwrp h3, .mod_locals_head .node_body h2 { font-family: Arial, sans-serif; font-weight: bold; font-size: 11px; color: #2b2b2b; text-transform: uppercase; margin: 0; line-height: normal; }
+.bs_mostread_head strong { font-weight: bold; }
+.mod_zi_lokale1 .head h1, .mod .node_body h3, .mod_zr_lokale3 .node_head h1, .mod_zr_lokale3 .node_head h2, .quiz .quizHead h1, .blogBox h4 { font-size: 18px; font-family: Arial, sans-serif; }
+.mod_zi_lokale1 .head { border-bottom-width: 1px; }
+.mod_zi_lokale1 .head h1, .mod_zr_lokale3 .node_head h1, .mod_zr_lokale3 .node_head h2, .quiz .quizHead h1 { font-family: Arial, sans-serif; line-height: normal; font-weight: normal; color: #5a5a5a; text-transform: none; }
+.alertTxtForm h2 { font-size: 18px; color: #5a5a5a; border-bottom: 1px solid #dadada; padding-bottom: 5px; margin-bottom: 10px; }
+.mod_cjg_repertory_finder .head h2 a { color: #333;  }
+.mod_cjg_repertory_finder .head h2 a span { text-transform: lowercase; }
+.mod .node_head h2 a:hover, .indexMT .header h1 a:hover, .indexMT .header h2 a:hover, .index .head h1 a:hover, .index .head h2 a:hover, .blogBox h3 a:hover, .NFwrp h3 a:hover, .indABC h3 a:hover, .wideoIndex .index_head h2 a:hover, .mod_cjg_repertory_finder .head h2 a:hover { color: #0e5c9d; background: #fff; }
+
+.mod_locals_head { margin-bottom:0}
+
+/* winieta */
+#sWlbg { width: 940px; padding: 0 10px; margin: 0 auto; }
+.Ww2 { position: relative; overflow: hidden; padding: 0; border-bottom: 1px solid #ccc; }
+.Ww2 .Wimg3 { position: relative; z-index: 2; display: block; }
+.Ww2 .Whtm { position: absolute; top: 0; left: 0; width: 100%; }
+.Wseohtm { position: absolute; top: 0; right: 0; z-index: 2; height: 100%; }
+#banP71 { position: absolute; right: 0; top: 0; z-index: 1; }
+.wLogo { position: absolute; right: 0px; top: 10px; }
+.wLogo:hover { background: none; }
+header#pageHead #banP71 { left: 10px; }
+header#pageHead .c1 {
+    display:none;
+}
+
+header#pageHead p.pageTitle {
+    padding-left:0;
+    border-left:none;
+}
+
+header#pageHead p.pageTitle span, 
+header#pageHead p.claim span {
+    font:400 26px Arial, sans-serif;
+    color:#d7172c;
+}
+
+/* sciezka */
+#pagetype_index #sitePath, #sitePath small, #sitePath span { display: none; }
+#sitePath { font-size: 11px; line-height: 32px; }
+#sitePath a.s { padding-left: 9px; margin-left: 4px; background: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/path-sep.png') no-repeat 0 5px; }
+#sitePath a.go-to-gazetapl {
+    display: block;
+    height: 54px;
+    line-height: 54px;
+    margin-left: 20px;
+
+    /* gradient */
+    background: -moz-linear-gradient(left,  rgba(228,228,228,1) 0%, rgba(237,237,237,1) 32%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(228,228,228,1)), color-stop(32%,rgba(237,237,237,1)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  rgba(228,228,228,1) 0%,rgba(237,237,237,1) 32%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  rgba(228,228,228,1) 0%,rgba(237,237,237,1) 32%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  rgba(228,228,228,1) 0%,rgba(237,237,237,1) 32%,rgba(255,255,255,0) 100%); /* IE10+ */
+    background: linear-gradient(to right,  rgba(228,228,228,1) 0%,rgba(237,237,237,1) 32%,rgba(255,255,255,0) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4e4e4', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
+}
+
+#sitePath a.go-to-gazetapl > span {
+    position: absolute;
+    top: 0;
+    left: 200px;
+    display: block;
+    color: #0E5C9D;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#sitePath a.go-to-gazetapl:before {
+    display: block;
+    margin-left: -20px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 27px 20px 27px 0;
+    border-color: transparent #e4e4e4 transparent transparent;
+    content: '';
+}
+
+/* ie8 cant render arrow from pseudoelements, so margin is not necessary */
+.internet_explorer_8 #sitePath a.go-to-gazetapl {
+    margin-left: 0;
+}
+
+#sitePath a.go-to-gazetapl > img {
+    position: absolute;
+    top: 12px;
+    left: 30px;
+    display: block;
+    margin:0;
+    padding:0;
+}
+
+/* szukaj */
+#searchH { height: 26px; zoom: 1; width: 310px; position: relative; margin: 4px 0; }
+#searchH0 { position: absolute; top: 0; left: 0; }
+#searchH_param, #searchH_sel, #searchH .selectedVal, #searchH img { display: none; }
+#searchH #VE_szukaj_id { border: 1px solid #ccc; font: 13px/16px Georgia, serif; color: #000; padding: 4px; width: 215px; float: left; }
+#searchH #VE_szukaj_id.serwis { background: #fff url('http://bi.gazeta.pl/i/obrazki/wybory2010/search-sprite.gif') no-repeat 5px 0; }
+#searchH #VE_szukaj_id.gazeta { background: #fff url('http://bi.gazeta.pl/i/obrazki/wybory2010/search-sprite.gif') no-repeat 5px -24px; }
+#searchH #VE_szukaj_id.gielda { background: #fff  url('http://bi.gazeta.pl/i/obrazki/wybory2010/search-sprite.gif') no-repeat 5px -48px; }
+#searchH #VE_szukaj_id.internet { background: #fff url('http://bi.gazeta.pl/i/obrazki/wybory2010/search-sprite.gif') no-repeat 5px -72px; }
+#searchH #VE_szukaj_id.inEdit, #searchH #VE_szukaj_id.hasQuery { background: #fff; }
+#searchH .searchSel0 { display: none; }
+#searchH .searchSel, #searchH .searchSel0 { float: left; }
+#searchH .arrow { width: 14px; height: 26px; background: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/search-arrows.png') no-repeat 0 0; cursor: pointer; float: left; }
+#searchH .searchExpanded .arrow { background-position: -14px 0; }
+#searchH .searchSel ul { position: absolute; left: -2px; top: 26px; width: 240px; background: url('http://bi.gazeta.pl/i/obrazki/tokfm09/search-list-bg.png') no-repeat 0 100%; padding: 0px 2px 3px; display: none; }
+#searchH .searchExpanded ul { display: block; }
+#searchH .searchSel li { font: 12px Arial, sans-serif; color: #656565; }
+#searchH .searchSel li a { display: block; outline: 0; color: #656565; margin: 0 1px; }
+#searchH .searchSel li a span { display: block; margin: 0 9px; padding: 4px 0; border-top: 1px solid #e9e9e9; }
+#searchH .searchSel li.first a span { border: 0; }
+#searchH .searchSel li a:hover { background: #eee; }
+#searchH .searchSel li a.internet { background-image: url('http://bi.gazeta.pl/i/obrazki/tokfm09/search-google-tr.gif'); background-repeat: no-repeat;  background-position: 87px 8px; }
+#searchH .b { height: 26px; width: 65px; border: 0; font: bold 12px Arial, sans-serif; text-align: center; color: #fff; padding-bottom: 1px; background: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/search-bg.png') repeat-x 0 0; cursor: pointer; float: left; }
+
+/* nawigacja */
+#navH { position: relative; z-index: 2; }
+#navH:hover { z-index: 105; }
+#navH .p0 { background: #251e32; height: 35px; }
+#navH .p0 > li { float: left; line-height: 35px; font-size: 14px; background: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/nav-sep.png') no-repeat 100% 50%; }
+#navH .p0 li.before { background: none; }
+#navH .p0 li a, #navH .p0 li a:hover { color: #fff; background: none; }
+#navH .p0 li a:hover { text-decoration: underline; }
+#navH .p0 > li > a { display: block; padding: 0 9px; }
+#navH .p0 > li > a:hover { background: #372d4a; text-decoration: none; }
+#navH .p0 li.dropdown > a { padding: 0 25px 0 9px; background-image: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/nav-arrow.png'); background-repeat: no-repeat; background-position: 100% 50%; }
+#navH .p0 li.home a { text-indent: -9999px; width: 15px; background-image: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/home-bg.png'); background-repeat: no-repeat; background-position: 50% 50%; }
+#navH .p0 li.info { float: right; border: 0; padding: 5px; font-size: 12px; height: 25px; line-height: 23px; }
+#navH .p0 li.info a { border: 1px solid #c12636; background: #c12636 url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/info-bg.png') repeat-x 0 0; }
+#navH .p0 li.info a:hover { background-color: #d52b3d; background-image: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/info-bg-hover.png'); border-color: #d52b3d; }
+#navH .p0 li.dropdown:hover > a { background-color: #372d4a; }
+#navH .p0 li.dropdown:hover .p1 { display: block; }
+#navH .p1 { position: absolute; background: #372d4a; padding: 10px 15px; display: none; }
+#navH .p1 li { font-size: 12px; line-height: 19px; }
+#navH .p1 a { white-space: nowrap; }
+#navH .p1 > li, #navH .p2 > li { float: left; margin-left: 15px; }
+#navH .p1 > li { margin-left: 30px; }
+#navH .p1 > li:first-child, #navH .p2 > li:first-child { margin: 0; }
+#navH .p1 > li > a, #navH .p1 > li > a:hover { font-size: 10px; color: #b7b7b7; text-transform: uppercase; text-decoration: none; cursor: default; display: block; padding-bottom: 5px; }
+#navH .p2 > li > a { display: none; }
+#navH .p3 li a:hover { color: #bdb2d1; text-decoration: none; }
+
+.uzr_breakingNews {
+    margin: -5px 0 10px 0;
+}
+
+/* pogoda */
+.mod_waether { background: url("http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/pogoda-sprite.2.png") no-repeat scroll 0 0 transparent;float: right;margin: 0 0 4px;padding-bottom: 5px;padding-left: 32px;padding-top: 9px;}
+#navtop_wrap .mod_waether .c0, #navtop_wrap .mod_waether .c1 { float: none; display: inline; }
+.mod_waether span { font-size: 15px; display: inline; padding: 9px 0 5px; vertical-align: baseline; }
+.mod_waether a { display: inline; vertical-align: baseline; }
+.mod_waether .c1 { background: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/sep.png') no-repeat 0 3px; margin-left: 4px; padding-left: 9px; }
+.mod_waether_sniegDeszcz { background-position: 0 0; }
+.mod_waether_snieg { background-position: 0 -30px; }
+.mod_waether_slonceSnieg { background-position: 0 -60px; }
+.mod_waether_slonceDeszcz { background-position: 0 -90px; }
+.mod_waether_slonceChmury { background-position: 0 -120px; }
+.mod_waether_slonceChmura { background-position: 0 -150px; }
+.mod_waether_slonce { background-position: 0 -180px; }
+.mod_waether_ksiezycSnieg { background-position: 0 -210px; }
+.mod_waether_ksiezycDeszcz { background-position: 0 -240px; }
+.mod_waether_ksiezycChmury { background-position: 0 -270px; }
+.mod_waether_ksiezycChmura { background-position: 0 -300px; }
+.mod_waether_ksiezyc { background-position: 0 -330px; }
+.mod_waether_grad { background-position: 0 -360px; }
+.mod_waether_deszczMaly { background-position: 0 -390px; }
+.mod_waether_deszcz { background-position: 0 -420px; }
+.mod_waether_chmury { background-position: 0 -450px; }
+.mod_waether_burza { background-position: 0 -480px; }
+.mod_waether_sniegMaly { background-position: 0 -510px; }
+
+/* ukrycie napisu prognoza pogody */
+.path_bialystok #navtop_wrap .mod_waether .c1, 
+.path_bielskobiala #navtop_wrap .mod_waether .c1,
+.path_bydgoszcz #navtop_wrap .mod_waether .c1,
+.path_torun #navtop_wrap .mod_waether .c1,
+.path_czestochowa #navtop_wrap .mod_waether .c1,
+.path_trojmiasto #navtop_wrap .mod_waether .c1,
+.path_katowice #navtop_wrap .mod_waether .c1,
+.path_kielce #navtop_wrap .mod_waether .c1,
+.path_krakow #navtop_wrap .mod_waether .c1,
+.path_lodz #navtop_wrap .mod_waether .c1,
+.path_lublin #navtop_wrap .mod_waether .c1,
+.path_olsztyn #navtop_wrap .mod_waether .c1,
+.path_opole #navtop_wrap .mod_waether .c1,
+.path_plock #navtop_wrap .mod_waether .c1,
+.path_poznan #navtop_wrap .mod_waether .c1,
+.path_radom #navtop_wrap .mod_waether .c1,
+.path_rzeszow #navtop_wrap .mod_waether .c1,
+.path_szczecin #navtop_wrap .mod_waether .c1,
+.path_warszawa #navtop_wrap .mod_waether .c1,
+.path_wroclaw #navtop_wrap .mod_waether .c1,
+.path_gorzow #navtop_wrap .mod_waether .c1,
+.path_zielonagora #navtop_wrap .mod_waether .c1 { display: none; }
+
+/* zmien miasto */
+.mod_zr_lokale1 { position: relative; margin: 0; float: right; }
+.mod_zr_lokale1 .node_head { border: 0; padding: 0; margin: 0 0 0 7px; height: 34px;  }
+.mod_zr_lokale1 .node_inner_head { background: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/sep.png') no-repeat 0 13px; padding: 10px 0 0 9px; }
+.mod_zr_lokale1 p { color: #0e5c9d; padding-right: 9px; margin-right: 7px; background: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/city-arrows.png') no-repeat 100% 6px; }
+.mod_zr_lokale1 .node_body { position: absolute; right: 0; top: 34px; width: 180px; padding: 11px 15px; background: #ab1928; line-height: 19px; display: none; }
+.mod_zr_lokale1 a, .mod_zr_lokale1 a:hover { background: 0; color: #fff; }
+.mod_zr_lokale1 a:hover { color: #e0abb1; }
+.mod_zr_lokale1 ul { float: left; width: 85px; margin-right: 5px; }
+.mod_zr_lokale1:hover .node_body { display: block; }
+.mod_zr_lokale1:hover .node_head { background: #ab1928; }
+.mod_zr_lokale1:hover .node_inner_head { background: none; }
+.mod_zr_lokale1:hover p { color: #fff; background-position: 100% -31px; }
+
+/* naglowek dzielnicy */
+.mod_zr_lokale2 { margin-bottom: 10px; padding-bottom: 10px; border-bottom: 1px solid #dadada; }
+.mod_zr_lokale2 p { font-size: 26px; line-height: normal; display: inline; }
+.mod_zr_lokale2 ul, .mod_zr_lokale2 li { display: inline; font-size: 14px; line-height: normal; }
+.mod_zr_lokale2 li { margin-left: 10px; padding-left: 10px; border-left: 1px solid #dfdfdf; }
+.mod_zr_lokale2 li.first { margin-left: 15px; padding: 0; border: 0; }
+
+/* mt, mt sprzedazowy, naglowek redakcyjny */
+.mod_zr_lokale3 { font-size: 11px; line-height: normal; margin-bottom: 0; }
+.mod_zr_lokale3 img { display: block; }
+.mod_zr_lokale3 .node_content { position: absolute; left: 0; bottom: 0; width: 580px; margin: 10px; padding: 10px; background: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/mt-bg.png') repeat 0 0; }
+.mod_zr_lokale3 .node_content h1 { font-size: 24px; line-height: normal; margin-bottom: 5px; }
+.mod_zr_lokale3 .node_head { border-bottom: 1px solid #dadada; padding-bottom: 8px; margin-bottom: 15px; }
+.mod_zr_lokale3 .node_body { margin-bottom: 15px; position: relative; }
+.mod_zr_lokale3 .node_head h1, .mod_zr_lokale3 .node_head h2 { display: inline; margin-right: 10px; }
+.mod_zr_lokale3 .node_head h2 { font-size: 12px; }
+
+/* indeks */
+.mod_zi_lokale1 .entry { padding-bottom: 10px; margin-bottom: 10px; border-bottom: 1px solid #e2e2e2; }
+.mod_zi_lokale1 .tags li { float: left; font-size: 11px; line-height: normal; padding-left: 7px; margin: 0 0 3px 7px; border-left: 1px solid #e4e4e4; white-space: nowrap; }
+.mod_zi_lokale1 .tags li.first { margin-left: 0; padding: 0; border: 0; }
+.mod_zi_lokale1 .imgw { float: left; }
+.mod_zi_lokale1 .imgw img { display: block; border: 1px solid #e9e9e9; margin-right: 10px; float: left; }
+.mod_zi_lokale1 .imgw li { position: relative; }
+.mod_zi_lokale1 .imgw .playbtn { position: absolute; left: 34px; top: 19px; border: 0; margin: 0; float: none; }
+/*.mod_zi_lokale1 .big .imgw .playbtn { left: 90px; top: 55px; }*/
+.mod_zi_lokale1 .wrap_2 { overflow: hidden; zoom: 1; position: relative; top: -2px; margin-bottom: -2px; }
+.mod_zi_lokale1 .when { font-size: 10px; color: #7e7e7e; line-height: normal; margin-bottom: 2px; display: block; }
+.mod_zi_lokale1 .lead { line-height: 16px; }
+.mod_zi_lokale1 .entry .more { float: right; font-size: 11px; padding: 0; }
+.mod_zi_lokale1 .entry .comments { float: left; color: #565656; font-size: 11px; margin-right: 6px; }
+.mod_zi_lokale1 .gallery .imgw li { float: left; }
+.mod_zi_lokale1 .gallery .imgw li img { margin: 0 0 0 17px; }
+.mod_zi_lokale1 .gallery .imgw li:first-child img { margin: 0; }
+/* srodindeksy */
+/* forum */
+.forumNew { padding: 10px; background: #ededed; }
+.index .forumNew h2, .forumNew h2 { margin: 0; }
+.forumNew li { width: 48%; float: left; height: 50px; margin-top: 10px; }
+.forumNew .even { float: right; }
+.index .forumNew .more, .forumNew .more { float: none; margin-top: 10px; }
+.forumNew li a { font-size: 14px; line-height: normal; }
+.forumNew li a span { color: #373737; }
+.forumNew .nick { color: #717171; font-size: 11px; margin-top: 2px; display: block; }
+/* cytat */
+.mod_zr_lokale4 { padding: 25px 10px 10px 40px; background: #eee9f8 url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/cite.png') no-repeat 10px 10px; margin: 0; }
+.mod_zr_lokale4 .node_body h3 { font-size: 16px; line-height: normal; font-style: italic; margin-bottom: 8px; }
+.mod_zr_lokale4 p { font-size: 10px; color: #565656; text-transform: uppercase; }
+/* przeslij informacje */
+.mod_zr_lokale5 { margin: 0; }
+.mod_zr_lokale5 .node_body h3 { font-size: 22px; }
+.mod_zr_lokale5 .node_imgw img { display: block; border: 1px solid #e9e9e9; margin-right: 10px; float: left; }
+.mod_zr_lokale5 .node_content { overflow: hidden; zoom: 1; }
+.mod_zr_lokale5 .node_content .more { float: left; line-height: 22px; text-align: left; font-size: 12px; }
+.mod_zr_lokale5 .node_content .more a, .mod_zr_lokale5 .node_content .more a:hover { display: block; padding: 0 10px; border: 1px solid #c12636; background: #c12636 url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/info-bg.png') repeat-x 0 0; color: #fff; }
+.mod_zr_lokale5 .node_content .more a:hover { background-color: #d52b3d; background-image: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/info-bg-hover.png'); border-color: #d52b3d; }
+/* art sponsorowany */
+.mod_zr_lokale6 { background: #faeecc; padding: 10px; margin: 0; }
+.mod_zr_lokale6 li { float: left; font-size: 11px; line-height: normal; padding-left: 7px; margin: 0 0 3px 7px; border-left: 1px solid #e4e4e4; }
+.mod_zr_lokale6 li.first { margin-left: 0; padding: 0; border: 0; }
+.mod_zr_lokale6 .node_body h3 { font-size: 22px; }
+.mod_zr_lokale6 .node_content { overflow: hidden; zoom: 1; }
+.mod_zr_lokale6 .node_imgw img { display: block; border: 1px solid #e9e9e9; margin-right: 10px; float: left; }
+.mod_zr_lokale6 .node_comments { float: left; color: #565656; font-size: 11px; }
+
+/* naglowek maly */
+.mod_zr_lokale7 { margin-bottom: 10px; }
+.mod_zr_lokale7 .node_head { margin: 0; color: #5a5a5a; font-size: 10px; line-height: normal; text-transform: uppercase; border-bottom-width: 1px; }
+
+/* zegarek */
+.mod_zr_lokale10 { border: 1px solid #dbdbdb; padding: 3px 10px; font-size: 15px; color: #4c4c4c; }
+.mod_zr_lokale10 img { vertical-align: middle; margin-right: 15px; }
+.mod_zr_lokale10 span { color: #000; visibility: hidden; }
+
+/* naj czytane */
+.bs_mostread0 { margin-bottom: 20px; }
+.bs_mostread_head, #ea_mostread .head { margin-bottom: 0; }
+.bs_mostread_body li, #ea_mostread .body li { line-height: normal; padding: 5px 0 0 8px; background: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/dot.png') no-repeat 0 12px; }
+#ea_mostread .body { border: 0; }
+#ea_mostread .body li { margin: 0; list-style: none; }
+#ea_mostread .body li a { font-family: Arial, sans-serif; }
+#ea_mostread_24h_t, #ea_mostread_week_t { font: 10px Arial, sans-serif; color: #0e5c9d; padding-top: 4px; }
+#ea_mostread_24h_t { right: 50px; }
+#ea_mostread .head .active { border-width: 2px; border-color: #DADADA; padding-bottom: 4px; }
+
+/* zajnewsletter */
+#newslzaj h3 { margin-bottom: 10px; }
+#newslzaj #nltZajNewField, #newslzaj .t { border: 1px solid #cacaca; color: #b8b8b8; padding: 4px 2px 5px; }
+
+/* cukierek */
+.mod_zr9 { margin-bottom: 6px; }
+.mod_zr9 .node_head { border: 0; margin: 0; }
+.mod_zr9 .node_main { background: #eaeaea; }
+.mod_zr9 ul { margin-bottom: 11px; }
+.mod_zr9 li { line-height: normal; padding: 0 0 4px 8px; background: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/dot.png') no-repeat 0 7px; margin: 0 0 4px; font-family: Arial, sans-serif; }
+
+/* blogi */
+.blogBox h3 { margin-bottom: 5px; }
+.blogBox .bl a { color: #0E5C9D; }
+.blogBox .bl a:hover { color: #000; }
+.blogBox .wiecej { font-size: 11px; }
+.layout_uniwersalny #holder_229 .blogBox .wpisBox { margin: 0 0 6px; padding-bottom: 6px; float: none; display: block; width: auto; }
+.layout_uniwersalny #holder_229 .blogBox .wpisBox h4 { font-size: 11px; line-height: normal; font-weight: bold; }
+.layout_uniwersalny #holder_229 .blogBox .kR { overflow: visible; }
+
+/* waska szpalta */
+#holder_229 .mod_zr1 .node_imgw { padding: 4px 0; }
+#holder_229 .mod_zr1 .node_imgw a, #holder_229 .mod_zi6 .imgw a { display: block; width: 138px; overflow: hidden; border: 1px solid #e9e9e9; }
+#holder_229 .mod_zr1 .node_body .node_imgw h3 { margin: 0; padding: 2px 0 0; }
+#holder_229 .mod_zr1 .node_body .node_imgw h3 a { display: inline; border: 0; }
+#holder_229 .mod_zr1 .node_head, #holder_229 .mod_zi6 .head { margin-bottom: 2px; }
+#holder_229 .mod_zr1 li { font-family: Arial, sans-serif; font-size: 11px; line-height: normal; padding: 4px 0 0 8px; background: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/dot.png') no-repeat 0 10px; margin: 0; border: 0; }
+#holder_229 .mod_zr1 .node_body h3 { font-size: 11px; font-weight: bold; line-height: normal; margin: 0; padding: 0 0 4px; }
+#holder_229 .mod_zi6 .entry { padding-top: 4px; }
+#holder_229 .mod_zi6 .body h3 { font-family: Arial, sans-serif; font-size: 11px; font-weight: bold; line-height: normal; margin: 0; }
+#holder_229 .mod_zi6 .body .imgw + h3 { padding: 2px 0 4px; }
+#holder_229 .mod_zi6 .imgw { padding-top: 1px; }
+#holder_229 .mod_zi6 .imgw img { display: block; }
+#holder_229 .mod_zr1 .red .node_imgw { padding-top: 0; }
+#holder_229 .mod_zr1 .red .node_imgw, #holder_229 .mod_zr1 .red h3 { background: #d02c5f; }
+#holder_229 .mod_zr1 .red h3, #holder_229 .mod_zr1 .red .node_imgw h3 { padding-left: 5px; padding-right: 5px; }
+#holder_229 .mod_zr1 .red h3 a { color: #fff; }
+#holder_229 .mod_zr1 .red h3 a:hover { background: 0; text-decoration: underline; }
+
+/* repertuar kin */
+.mod_cjg_repertory_finder .head { margin-bottom: 0; }
+.mod_cjg_repertory_finder .head h2 { font-family: Arial, sans-serif; font-size: 18px; line-height: normal; font-weight: normal; text-transform: none; }
+.mod_cjg_repertory_finder .formrow { padding-top: 5px; }
+.mod_cjg_repertory_finder label { display: block; font-size: 12px; color: #7e7e7e; float: left; margin: 5px 5px 0 0; }
+.mod_cjg_repertory_finder select { border: 1px solid #e9e9e9; width: 140px; font: 12px Arial, sans-serif; padding: 2px; }
+.mod_cjg_repertory_finder .sb { height: 26px; width: 65px; border: 0; font: bold 12px Arial, sans-serif; text-align: center; color: #fff; padding-bottom: 1px; background: #0e5c9d; cursor: pointer; float: right; }
+#col_left .mod_cjg_repertory_finder .formrow { float: left; }
+#col_left .mod_cjg_repertory_finder .formrow:first-child { margin-right: 20px; }
+#col_left .mod_cjg_repertory_finder .formrow:first-child + .formrow { width: 425px; }
+#col_left .mod_cjg_repertory_finder .sb { float: right; }
+
+.index.mod_zi_cjg2 .body h3 { font-size: 16px; line-height: 20px; margin-bottom: 5px; }
+#col_right .index.mod_zi_cjg4 { margin-top: 20px; }
+#col_right .index.mod_zi_cjg4 .imgw { float: left; margin-right: 10px; }
+.index.mod_zi_cjg2 .head img { position: static; }
+
+/* repertuar */
+#page .mod_cjg_repertory .head { border-bottom: 0; margin-bottom: 8px; }
+#page .mod_cjg_repertory .head h2 { text-align: center; color: #333; font: bold 16px Arial,sans-serif; margin: 15px 0; }
+.mod_cjg_repertory .selection_bar { border-bottom: 2px solid #00aeef; height: 37px; }
+.mod_cjg_repertory .selection_bar li { float: left; border: 2px solid #ccc; border-width: 2px 2px 0; font: bold 11px Arial,sans-serif; text-align: center; display: inline; margin-left: 3px; text-transform: uppercase; }
+.mod_cjg_repertory .selection_bar li span { text-align: center; font-size: 10px; display: block; }
+.mod_cjg_repertory .selection_bar li.active { border-color: #00aeef; border-bottom: 2px solid #fff; }
+.mod_cjg_repertory .selection_bar li.active a { color: #000; cursor: default; }
+.mod_cjg_repertory .selection_bar li a { display: block; padding: 4px 9px; }
+.mod_cjg_repertory .selection_bar #el_1 a { padding: 4px 11px; }
+.mod_cjg_repertory .selection_bar #el_1 { margin-left: 0; }
+.mod_cjg_repertory .selection_bar li a:hover { background: 0; }
+.mod_cjg_repertory .tools { padding: 8px 0; font: normal 11px Arial,sans-serif; margin-bottom: 12px; }
+.mod_cjg_repertory .tools li { display: inline; margin-left: 4px; padding-left: 6px; background: url('http://bi.gazeta.pl/i/obrazki/cjg/2010/sort-sep.png') no-repeat 0 50%; }
+.mod_cjg_repertory .tools .caption, .mod_cjg_repertory .tools .first { background: 0; padding: 0; margin: 0; }
+.mod_cjg_repertory .tools .active { font-weight: bold; }
+.mod_cjg_repertory .tools .active a { cursor: default; color: #000; font-weight: bold; }
+.mod_cjg_repertory .tools a:hover { background-color: #fff; }
+.mod_cjg_repertory .tools a.sort_desc, .mod_cjg_repertory .tools a.sort_asc { cursor: pointer; }
+.mod_cjg_repertory .tools .print { float: right; }
+.mod_cjg_repertory .tools img { vertical-align: middle; }
+.mod_cjg_cinema_info table, .mod_cjg_repertory table { width: 100%; margin-bottom: 24px; border-collapse: collapse; }
+.mod_cjg_repertory caption { background: #f7f7f7; padding: 6px 0 8px; border: 1px solid #e7e7e7; border-width: 1px 0; }
+.mod_cjg_repertory caption p { text-align: left; }
+.mod_cjg_repertory caption .title { font: bold 20px Arial,sans-serif; }
+.mod_cjg_repertory caption .info { font: normal 11px Arial,sans-serif; color: #7e7e7e; }
+.mod_cjg_cinema_info td, .mod_cjg_repertory td { border-bottom: 1px solid #e7e7e7; font: normal 12px Arial,sans-serif; vertical-align: top; padding: 6px 0; }
+.mod_cjg_cinema_info td.movie, .mod_cjg_repertory td.movie, .mod_cjg_repertory td.cinema { width: 270px; font-weight: bold; padding-right: 8px; }
+.mod_cjg_cinema_info td.movie .info, .mod_cjg_repertory td.movie .info { font-weight: normal; color: #7e7e7e; font-size: 11px; line-height: 14px; }
+.mod_cjg_cinema_info, .mod_cjg_repertory td.cinema a { display: block; line-height: 16px; }
+.mod_cjg_cinema_info td.time, .mod_cjg_repertory td.time { font-size: 14px; }
+.mod_cjg_cinema_info td.time span, .mod_cjg_repertory td.time span { margin-right: 8px; }
+.mod_cjg_repertory .print a { background: url('http://bi.gazeta.pl/i/obrazki/cjg/2010/printer.png') no-repeat 0 50%; padding-left: 18px; }
+.mod_cjg_repertory .footer { text-align: right; }
+
+/* film - produkt */
+.mod_cjg_movie dl { margin: 0; }
+.mod_cjg_movie dd { font: normal 12px/18px Arial,sans-serif; display: inline; margin: 0 0 0 4px; }
+.mod_cjg_movie dt { text-transform: uppercase; display: inline; }
+.mod_cjg_movie .head, .mod_cjg_location .head, .mod_cjg_cinema_info .head { border-bottom: 3px solid #e7e7e7; padding-bottom: 0; margin-bottom: 8px; text-transform: uppercase; }
+.mod_cjg_movie .head h2, .mod_cjg_location .head h2, .mod_cjg_cinema_info .head h2 { text-align: center; color: #333; font: bold 16px Arial,sans-serif; }
+.mod_cjg_movie .head .genre { text-align: center; font-size: 10px; color: #666; margin-bottom: 2px; }
+.mod_cjg_movie .body { border-bottom: 2px solid #e7e7e7; padding-bottom: 10px; overflow: hidden; }
+.mod_cjg_movie .footer { text-align: right; font: bold 12px/18px Arial,sans-serif; }
+.mod_cjg_movie .imgw { float: left; width: 180px; }
+.mod_cjg_movie .imgw img { display: block; border: 1px solid #e7e7e7; }
+.mod_cjg_movie .content { float: right; width: 420px; }
+.mod_cjg_movie .content .lead { font: normal 12px/16px Arial,sans-serif; }
+.mod_cjg_movie .attributes { font: bold 12px/18px Arial,sans-serif; margin-bottom: 1em; }
+.mod_cjg_movie .print, .mod_cjg_location .print { float: right; }
+.mod_cjg_movie .print a, .mod_cjg_location .print a { background: url('http://bi.gazeta.pl/i/obrazki/cjg/2010/printer.png') no-repeat 0 50%; padding-left: 18px; }
+.mod_cjg_location dl { margin: 0; }
+.mod_cjg_location dt { font: bold 10px/18px Arial,sans-serif; text-transform: uppercase; display: inline; }
+.mod_cjg_location dd { font: normal 12px/18px Arial,sans-serif; display: inline; margin: 0 0 0 4px; }
+
+/* oferty male - dol strony */
+#mod_offer_small {  margin-bottom: 20px; visibility: hidden; }
+#mod_offer_small .head h2 { float: left; }
+#mod_offer_small .head p { float: right; font-size: 11px; font-weight: bold; line-height: normal; }
+#mod_offer_small .body { position: relative; zoom: 1;}
+#mod_offer_small .body li { width: 176px; border: 1px solid #ccc; float: left; display: inline; margin-left: 3px; padding: 4px; font-size: 12px; font-weight: bold; }
+#mod_offer_small .body .first { margin-left: 0; }
+#mod_offer_small .body li li { border: 0; width: auto; height: auto; float: none; padding: 0; margin: 0; }
+#mod_offer_small .body img { float: left; display: inline; margin-right: 6px; }
+#mod_offer_small .body ul { width: 942px; height: 60px; overflow: hidden; }
+#mod_offer_small .body ul ul { width: auto; height: auto; overflow: visible; }
+.tradedoublerHolder iframe { display: block; }
+.tradedoublerHolder.lokalBottom { margin-bottom: 20px; }
+
+/* seo dol */
+.mod_zr7 { margin-bottom: 10px; }
+.mod_zr7 .super { margin-bottom: 5px; }
+.mod_zr7 ul { margin-bottom: 15px; }
+.mod_zr7 li { font: 11px Arial, sans-serif; line-height: normal; }
+.mod_zr7 strong { font-size: 11px; color: #333; }
+.mod_zr7 .node_entry { border-color: #fff; margin-bottom: 0; }
+.mod_zr7 .node_body { background: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/seo.png') repeat-y 150px 0; }
+
+/* forum dol strony */
+.mod_forum_threads .node_head { margin: 0; }
+.mod_forum_threads .node_entry { float: left; width: 300px; margin-left: 20px; }
+.mod_forum_threads .node_entry:first-child { margin: 0; }
+.mod_forum_threads p, .mod_forum_threads .more { font-weight: bold; text-align: left; line-height: normal; padding-top: 5px; }
+.mod_forum_threads li { line-height: normal; padding: 5px 0 0 8px; background: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/dot.png') no-repeat 0 12px; }
+
+/* artykul */
+#k0 h1, #art0 h1 { color: #000; font-size: 24px; font-family: Arial, sans-serif; }
+#k0 h5, #k0 h6 { color: #4e4e4e; }
+#art { color: #0f0f0f; }
+#art h4 { margin: 15px 0; }
+#article_toolbar { margin-bottom: 15px; }
+#article_toolbar .body li { font-size: 12px; line-height: 16px; }
+/* belka alert / belka w artykule */
+.mod_zr_lokale8, .txt_upl { padding: 3px 10px 4px; border: 1px solid #c12636; background: #c12636 url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/info-bg.png') repeat-x 0 0; color: #dedede; font-size: 14px; line-height: normal; }
+.txt_upl { border-color: #261f33;  background-color: #261f33; background-image: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/txt_upl.png'); overflow: hidden; }
+.txt_up2 { background: #f0f0f0 url('http://bi.gazeta.pl/i/obrazki/wyborcza/art-quote.gif') no-repeat 4px 4px; padding: 12px 12px 12px 44px; border: 1px solid #eaeaea; color: #666; overflow:hidden; zoom:1 }
+#artykul .txt_srodtytul {font-size: 110%;}
+#artykul .txt_pytanie {font-style: italic;}
+.mod_zr_lokale8 .node_c0 { float: left; }
+.mod_zr_lokale8 .node_c1 { float: right; }
+.mod_zr_lokale8 a, .mod_zr_lokale8 a:hover, .txt_upl a, .txt_upl a:hover { color: #fff; background: none; }
+.mod_zr_lokale8 a:hover, .txt_upl a:hover { text-decoration: underline; }
+/* naglowek i indeks podartykul */
+.mod_zr_lokale9 { margin: 0; }
+.mod_zr_lokale9 .node_head { font-size: 16px; line-height: normal; color: #2b2b2b; font-weight: bold; margin: 0 0 5px; }
+.mod_zr_lokale9 .node_head strong { font-weight: bold; }
+#pagetype_art .mod_zi6 { margin: 0 0 5px; }
+#pagetype_art .mod_zi6 .head, #pagetype_photo .mod_zi6 .head { border: 0; margin: 0; padding: 0; }
+#pagetype_art .mod_zi6 .head h2, #pagetype_photo .mod_zi6 .head h2 { font-size: 12px; text-transform: none; }
+#pagetype_art .mod_zi6 .head h2 a, #pagetype_photo .mod_zi6 .head h2 a { color: #0E5C9D; }
+#pagetype_art .mod_zi6 .body h3, #pagetype_photo .mod_zi6 .body h3 { font-family: Arial, sans-serif; font-size: 12px; line-height: normal; padding: 3px 0 0 8px; background: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/dot.png') no-repeat 0 10px; margin: 0; border: 0; }
+
+/* mapka */
+.mod_loaction_map .top { margin-bottom: 5px; }
+.mod_loaction_map .bottom { margin-top: 5px; }
+
+/* formatka alert24 */
+.alertTxtForm { margin-bottom: 20px; }
+.alertTxtForm h3 { margin: 15px 0; }
+.alertTxtForm h3 .redInfo { float: right; font-size: 10px; font-weight: normal; text-transform: none; }
+.alertTxtForm .kL { float: left; width: 210px; text-align: right; padding-bottom: 10px; }
+.alertTxtForm .kR { float: right; width: 400px; padding-bottom: 10px; }
+.alertTxtForm .clr { clear: both; }
+.alertTxtForm .req { color: #c12636; }
+.alertTxtForm .hid { display:none; }
+.alertTxtForm .small { color: #909090; font-size: 11px; display: block; text-align: right; line-height: normal; }
+.alertTxtForm .small br { display: none; }
+.alertTxtForm .kR .small { text-align: left; }
+.alertTxtForm .txtA { border: 1px solid #bdbbcd; height: 106px; width: 398px; font: 12px Arial, sans-serif; color: #000; }
+.alertTxtForm .F1, .alertTxtForm .F2 { border: 1px solid #bdbbcd; padding: 2px 0; font: 12px Arial, sans-serif; color: #000; width: 398px; }
+.alertTxtForm .F2 { width: 325px; }
+.alertTxtForm .S1 { width: 200px; padding: 0; height: 20px; }
+.alertTxtForm .podpis { display: block; font-size: 10px; text-align: right; }
+.alertTxtForm .btn { display: inline-block; border: 1px solid #c12636; background: #c12636 url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/info-bg.png') repeat-x 0 0; color: #fff; line-height: 22px; padding: 0 15px; }
+.alertTxtForm .btn span { padding-left: 20px; margin-left: -10px; background-repeat: no-repeat; background-position: 0 0; }
+.alertTxtForm .light { float: right; }
+.alertTxtForm .attachPhotosBtn { background-image: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/add-photo.png'); }
+.alertTxtForm .attachVideosBtn { background-image: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/add-video.png'); }
+.alertTxtForm .removePhotoBtn { background-image: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/remove-photo.png'); }
+.alertTxtForm input[type="checkbox"] { vertical-align: bottom; }
+.alertTxtForm label { color: #909090; }
+.errorList { margin-bottom: 10px; color: #c12636; font-weight: bold; }
+
+/* quizy */
+.quiz { width: 620px; margin: 0 0 20px; font-size: 14px; line-height: 19px; }
+.quizHead { margin-bottom: 25px; }
+.quizHead h1 { color: #000; margin: 20px 0 15px; }
+.quizHead p { color: #000; }
+
+.quiz .entry { padding: 10px 0; }
+.quiz .entry h2 { margin-bottom: 15px; font-size: 14px; font-weight: bold; }
+.quiz .entry h2 span { font-weight: bold; font-size: 18px; background: #eee; border: 2px solid #eee; position: relative; top: -2px; margin-right: 8px; }
+.quiz .entry ul {width: 420px; overflow: hidden; zoom: 1;}
+.quiz .entry li {padding: 6px; border: 1px solid #fff; overflow: hidden; zoom: 1;}
+.quiz .entry li * {vertical-align: middle;}
+.quiz .entry .sel {border: 1px solid #f2f0ed; background: #f2f0ed url('http://bi.gazeta.pl/i/quizy/q_ansSelected.gif') repeat-x 0 0;}
+.quiz .entry .i {float: left; display: inline; margin-right: 10px !important; margin-right: 7px;}
+.quiz .entry .i img {display: block; background: #fff; padding: 3px; border: 1px solid #f2f0ed;}
+.quiz .entry .wide {width: 100%;}
+.quiz .entry .wide li {padding: 3px; margin-bottom: 15px; border: 1px solid #f2f0ed;}
+.quiz .entry .wide .i {float: left; background: none; padding: 3px; overflow: hidden; zoom: 1;}
+.quiz .entry .wide .i img {float: left; display: inline; padding: 0; border: none; background: none;}
+.quiz .entry .wide .i input {float: left; display: inline; padding: 0; height: 15px; width: 15px; margin: 0 6px 0 8px;}
+.quiz .entry .wide .sel .i, .quiz .entry .wide .i img {background: none;}
+.quiz .entry .wide span {display: block; overflow: hidden; zoom: 1; background: url('http://bi.gazeta.pl/i/quizy/q_ansBg.gif') no-repeat 0 5px; padding-left: 12px; }
+
+.quiz .str, .quiz .q_submit {border-top: 1px solid #f0eeeb; padding-top: 10px; overflow: hidden; zoom: 1;}
+.quiz .str ul, .quiz .str .next {float: right;}
+.quiz .str .next input { background: #aaa; border: 0; height: 20px; width: 104px; color: #fff; text-align: center; cursor: pointer; font: bold 14px Arial,sans-serif; padding-bottom: 2px; }
+.quiz .str ul {overflow: hidden; zoom: 1; margin-right: 25px; margin-top: 3px; list-style: none;}
+.quiz .str li {float: left; display: inline; height: 15px; padding-top: 22px; width: 29px; color: #000; background: url('http://bi.gazeta.pl/i/quizy/q_strBg.gif') no-repeat 0 0; text-align: center;}
+.quiz .str li.current { background-image: url('http://bi.gazeta.pl/i/quizy/q_strCurrentBg.gif'); }
+.quiz .q_submit .q_submitWrp {float: right; width: 129px; height: 22px; margin-top: 10px; background: url('http://bi.gazeta.pl/i/quizy/q_submit.gif') no-repeat 0 0;}
+.quiz .q_submit .q_submitWrp input {background: none; border: none; height: 20px; width: 129px; color: #fff; text-align: center; cursor: pointer;}
+
+.quiz .wyniki {overflow: hidden; zoom: 1; margin-top: 25px;}
+.quiz .wynikHead {overflow: hidden; zoom: 1; padding-bottom: 25px; margin-bottom: 15px; border-bottom: 1px solid #f0eeeb;}
+.quiz .wynikHead h5 {float: left; display: inline; color: #000; line-height: 29px;}
+.quiz .wynikHead0 div {overflow: hidden; zoom: 1; float: left; display: inline; margin-left: 15px;}
+.quiz .wynikHead0 div span {float: left; display: inline; line-height: 29px;}
+.quiz .wynikHead0 div .ile {font-weight: bold; margin-right: 8px; width: auto; height: 29px; padding: 0 7px; line-height: 29px; background: #ededed url('http://bi.gazeta.pl/i/quizy/q_ileBg.gif') repeat-x 0 0; text-align: center; margin-top: 0;}
+.quiz .wynikHead0 .dobre {color: #07aa01;}
+.quiz .wynikHead0 .zle {color: #c90604;}
+.quiz .wynikHead0 .dobre .ile {border: 1px solid #07aa01;}
+.quiz .wynikHead0 .zle .ile {border: 1px solid #c90604;}
+.quiz .wynikHead0 .punkty {position: relative; top: -5px; margin-bottom: -5px;}
+.quiz .legenda {overflow: hidden; zoom: 1; margin-top: 15px;}
+.quiz .legenda span { float: left; display: inline; margin-right: 10px; color: #000; text-transform: uppercase;}
+.quiz .legenda ul {float: left; display: inline; list-style: none; overflow: hidden; zoom: 1;}
+.quiz .legenda li { color: #949494; float: left; display: inline; padding-left: 17px;}
+.quiz .legenda .dobre {background: url('http://bi.gazeta.pl/i/quizy/q_LegendaGood.gif') no-repeat 0 3px; padding-right: 10px; margin-right: 10px; border-right: 1px solid #949494;}
+.quiz .legenda .zle {background: url('http://bi.gazeta.pl/i/quizy/q_LegendaBad.gif') no-repeat 0 3px;}
+.quiz .entry .good, .quiz .entry .wide .good {border: 2px solid #07aa01; background: #f2f0ed url('http://bi.gazeta.pl/i/quizy/q_ansSelected.gif') repeat-x 0 0;}
+.quiz .entry .bad, .quiz .entry .wide .bad {border: 2px solid #c90604; background: #f2f0ed url('http://bi.gazeta.pl/i/quizy/q_ansSelected.gif') repeat-x 0 0;}
+.quiz .more {margin-top: 10px; text-align: right;}
+.quiz .more a { color: #148; text-decoration: none;}
+.quiz .more a:hover {text-decoration: underline;}
+.quiz .quizLogin, .quiz .quizAlreadyDone { color: #000;}
+.quiz .quizLogin .row {overflow: hidden; zoom: 1; padding-top: 10px;}
+.quiz .quizLogin .headerRow {padding: 0; font-weight: bold;}
+.quiz .quizLogin .c0, .quiz .quizLogin .c1 {float: left; display: inline; margin-right: 10px;}
+.quiz .quizLogin .iTxt {border: 1px solid #ababab; width: 200px; padding: 2px 3px 3px;}
+.quiz .quizLogin .sbtBtn { background: #fff url('http://bi.gazeta.pl/i/drabinki/przypSbtBg.gif') repeat-x 0 0; border: 1px solid #dfdfdf; text-align: center; width: 100px; height: 22px; color: #484848; cursor: pointer; padding-bottom: 2px;}
+.quiz .quizAlreadyDone p {font-weight: bold; margin-bottom: 10px;}
+.quiz .quizAlreadyDone li {font-weight: bold; padding-bottom: 2px;}
+
+/* sondaz */
+#col_left .kL { float: left; }
+#col_left .kR { float: right; }
+#col_left .clr { clear: both; }
+
+#col_left .pollBox { font-family: Verdana,sans-serif; font-size: 12px; text-align: left; padding: 0 0 20px; }
+#col_left .pollBox h2 { font-size: 16px; line-height: 20px; margin-bottom: 20px; }
+#col_left .pollBox h2 span { font-size: 12px; color: #f5f5f5; background: #bbb; border: solid #bbb; position: relative; top: -1px; border-width: 1px 4px 2px 4px; }
+#col_left .pollQuestion img { float: left; margin: 0 20px 10px 0; border: 2px solid #e6e6e6; padding: 1px; }
+#col_left .pollQuestion ul { list-style: none; float: right; width: 400px; margin-right: 10px; display: inline; }
+#col_left .pollQuestion li { line-height: 22px; padding: 2px 8px; height: auto; zoom: 1; border: 1px solid #fff; float: left; clear: both; width: 390px; }
+#col_left .pollQuestion li.sel { background: url('http://bi.gazeta.pl/i/obrazki/sondaze/qbg.gif') repeat; border: 1px solid #c4c4c4; padding: 2px 8px; }
+#col_left .pollQuestion input { vertical-align: middle; margin: 0; }
+#col_left .pollQuestion input, #article .pollQuestion span { position: relative; top: 0 !important; top: 5px; left: 0 !important; left: -2px; }
+#col_left .pollQuestion { background: url('http://bi.gazeta.pl/i/obrazki/sondaze/qbrd.gif') repeat-x bottom; padding-bottom: 20px; margin-bottom: 20px; width: 620px; }
+
+#col_left .pollQuestionImg { width: 620px; }
+#col_left .pollQuestionImg .entry { border-bottom: 21px solid #fff; zoom: 1; text-align: left; }
+#col_left .pollQuestionImg .kL { width: 215px; background: #e6e6e6; border: 1px solid #e6e6e6; padding: 3px; zoom: 1; }
+#col_left .pollQuestionImg img, #article .pollQuestionImg input { vertical-align: middle; cursor: pointer; }
+#col_left .pollQuestionImg img { border: 1px solid #fff; margin-right: 6px; }
+#col_left .pollQuestionImg .kR { width: 380px; padding-top: 64px; }
+#col_left .pollQuestionImg .kL { cursor: pointer; }
+#col_left .pollQuestionImg .sel { width: 215px; background: url('http://bi.gazeta.pl/i/obrazki/sondaze/qbg.gif') repeat; border: 1px solid #c4c4c4; padding: 3px; zoom: 1; }
+#col_left .pollQuestionImg { background: url('http://bi.gazeta.pl/i/obrazki/sondaze/qbrd.gif') repeat-x bottom; padding-bottom: 20px; margin-bottom: 20px; }
+#col_left .pollQuestionImg a { margin: 0px; padding: 0px; }
+#col_left .pollQuestionImg img.sel { width: auto; background: none; padding: 0px; border: 1px solid #fff; }
+#col_left .pollQuestionImg input.sel { width: auto; background: none; padding: 0px; border: 0; }
+#col_left div.pollSubmit { text-align: right; width: 620px; margin-left: 0; }
+
+#col_left .pollResults { font-family: Verdana,sans-serif; font-size: 12px; text-align: left; }
+#col_left .pollResults h2 { font-size: 16px; margin-bottom: 20px; }
+#col_left .pollResults h2 span { font-size: 12px; color: #f5f5f5; background: #bbb; border: solid #bbb; position: relative; top: -1px; border-width: 1px 4px 2px 4px; }
+#col_left .pollResult { background: url('http://bi.gazeta.pl/i/obrazki/sondaze/qbrd.gif') repeat-x bottom; padding-bottom: 20px; margin-bottom: 20px; }
+#col_left .pollResultBox { border: 1px solid #ebebeb; zoom: 1; }
+#col_left .pollResultBox0 { border: 1px solid #fff; background: #fafafa; padding: 9px 12px 12px; zoom: 1; }
+#col_left .pollResultBox .bar { background: url('http://bi.gazeta.pl/i/obrazki/sondaze/rbar.gif') repeat-x; height: 27px; margin: 0 14px 0 6px; }
+#col_left .pollResultBox .bar0 { float: left; }
+#col_left .pollResultBox .kL { width: 480px; padding: 9px 0 0; }
+#col_left .pollResultBox .kR { width: 95px; color: #9e9e9e; padding: 9px 0 12px 16px; line-height: 24px; border-bottom: 1px solid #ededed; border-left: 1px solid #ededed; }
+#col_left .pollResultBox .kL .kL { width: 240px; text-align: right; padding: 0; border: 0; }
+#col_left .pollResultBox .kL .kR { width: 240px; color: #000; padding: 0 0 9px; border-bottom: 1px solid #ededed; border-left: 0; }
+#col_left .pollResultBox .kL .kL span { padding-right: 16px; line-height: 24px; }
+#col_left .pollResultBox .kL .kR span { line-height: 24px; }
+#col_left .pollResultBox .caption { font-size: 10px; line-height: 14px; border-bottom: 0; padding-top: 2px; }
+#col_left .pollResultBox .best .kR { padding: 0 0 3px; }
+#col_left .pollResultBox .best .kL span { border: solid #d4d4d4; border-width: 1px 0 1px 1px; display: block; float: right; padding: 3px 16px 4px 6px; background: #efefef; position: relative; top: -2px; }
+#col_left .pollResultBox .best .bar0 { border: solid #d4d4d4; border-width: 1px 0; position: relative; top: -2px; padding: 2px 0; background: #efefef; }
+#col_left .pollResultBox .best .kR span { border: solid #d4d4d4; border-width: 1px 1px 1px 0; display: block; float: left; padding: 3px 6px 4px 0; background: #efefef; position: relative; top: -2px; }
+#col_left .pollResultBox .clr { margin: 0 !important; margin-top: -9px; }
+#col_left .pollResultBox .sum { border-bottom: 0; font-weight: bold; }
+
+#col_left .rankPollHead { font-family: Verdana,sans-serif; font-size: 12px; text-align: left; }
+#col_left .rankPollHead h2 { font-size: 16px; margin-bottom: 20px; }
+#col_left .rankPollHead h2 span { font-size: 12px; color: #f5f5f5; background: #bbb; border: solid #bbb; position: relative; top: -1px; border-width: 1px 4px 2px 4px; }
+#col_left .rankPollHead p { font-size: 14px; font-weight: bold; line-height: 19px; margin-bottom: 14px; }
+#col_left #rankPoll { list-style: none; width: 620px; text-align: left; }
+#col_left #rankPoll li { border: 1px solid #ececec; padding: 5px; margin-bottom: 6px; height: 146px; overflow: hidden; width: 608px; z-index: 1; position: relative; }
+#col_left #rankPoll li.sel { background: url('http://bi.gazeta.pl/i/obrazki/sondaze/qbg.gif') repeat; cursor: move; z-index: 2; }
+#col_left #rankPoll .imgL { float: left; background: #e6e6e6; padding: 2px; }
+#col_left #rankPoll li.sel .imgL { padding: 2px; background: transparent; }
+#col_left #rankPoll .imgL img { background: #fff; padding: 1px; }
+#col_left #rankPoll .txtL { float: left; width: 283px; font-family: Verdana,sans-serif; font-size: 12px; height: 146px; padding-left: 20px; }
+#col_left #rankPoll .movR { width: 108px; position: absolute; left: 500px; }
+#col_left #rankPoll .txtL .txtL2 { width: 283px; }
+#col_left #rankPoll .txtL0 { height: 146px; overflow: hidden; position: relative; }
+#col_left #rankPoll .txtL0[class] { display: table; position: static; }
+#col_left #rankPoll .txtL1 { position: absolute; top: 50%; } /* for explorer only*/
+#col_left #rankPoll .txtL1[class] { display: table-cell; vertical-align: middle; position: static; }
+#col_left #rankPoll .txtL2 { position: relative; top: -50%} /* for explorer only */
+#col_left #rankPoll .txtL2[class] { position: static; }
+#col_left #rankPoll .movU { padding-bottom: 6px; }
+#col_left #rankPoll .movR img { cursor: pointer; }
+#col_left #rankPoll .mark { padding-bottom: 8px; background: url('http://bi.gazeta.pl/i/obrazki/sondaze/dotsarrow.gif') no-repeat 0 3px; padding-left: 10px; }
+#col_left #rankPoll .mark div { color: #727272; margin-left:-10px; width: 300px; margin-top: 5px; }
+#col_left #rankPoll .mark div a { zoom: 1; display: block; border-top: 1px solid #cdcdcd; margin-top: 5px; padding-top: 4px; background: url('http://bi.gazeta.pl/i/obrazki/sondaze/rankLinkBtn.gif') no-repeat left 5px; padding-left: 20px; padding-bottom: 2px; }
+#col_left #rankPoll { background: url('http://bi.gazeta.pl/i/obrazki/sondaze/qbrd.gif') repeat-x bottom; padding-bottom: 10px; margin-bottom: 20px; }
+
+#col_left #rankPollWnk { list-style: none; overflow: hidden; width: 620px; text-align: left; }
+#col_left #rankPollWnk li { border: 1px solid #ececec; padding: 5px; margin-bottom: 6px; height: 146px; overflow: hidden; width: 608px; z-index: 1; }
+#col_left #rankPollWnk .imgL { float: left; background: #e6e6e6; padding: 2px; }
+#col_left #rankPollWnk .imgL img { background: #fff; padding: 1px; }
+#col_left #rankPollWnk .txtL { float: left; width: 320px; font-family: Verdana,sans-serif; font-size: 12px; height: 146px; padding-left: 20px; }
+#col_left #rankPollWnk .movR { float: right; overflow: hidden; margin: 0; }
+#col_left #rankPollWnk .movR .txtL0 span { background: url('http://bi.gazeta.pl/i/obrazki/sondaze/wynik.gif') no-repeat center center; padding: 15px 25px 20px 25px; line-height: 48px; font-family:Verdana; font-size: 22px; font-weight: bold; }
+#col_left #rankPollWnk .txtL0 { height: 146px; overflow: hidden; position: relative; top: 50px; right: 0px !important; right:-20px; margin-right: 10px; }
+#col_left #rankPollWnk .mark { padding-bottom: 8px; background: url('http://bi.gazeta.pl/i/obrazki/sondaze/dotsarrow.gif') no-repeat 0 3px; padding-left: 10px; }
+#col_left #rankPollWnk .mark div { color: #727272; margin-left:-10px; width: 300px; margin-top: 5px; }
+#col_left #rankPollWnk .mark div a { zoom: 1; display: block; border-top: 1px solid #cdcdcd; margin-top: 10px; padding-top: 6px; background: url('http://bi.gazeta.pl/i/obrazki/sondaze/rankLinkBtn.gif') no-repeat left 6px; padding-left: 20px; }
+#col_left #rankPollWnk h2 { font-size: 16px; margin-bottom: 20px; }
+#col_left #rankPollWnk h2 span { font-size: 12px; color: #f5f5f5; background: #bbb; border: solid #bbb; position: relative; top: -1px; border-width: 1px 4px 2px 4px; }
+#col_left #rankPollWnk .txtWnk { font-size: 12px; color: #727272; line-height: 17px; }
+#col_left #rankPollWnk .txtWnk span { color: #000; font-weight: bold; }
+#col_left #rankPollWnk ul.rankPollWnk { margin-top: 17px; }
+
+#col_left .pollBoxWnk { font-family: Verdana,sans-serif; line-height: 20px; font-size: 12px; text-align: left; width: 620px; padding: 0 0 20px; }
+#col_left .pollBoxWnk h2 { font-size: 16px; margin-bottom: 20px; }
+#col_left .pollBoxWnk h2 span { font-size: 12px; color: #f5f5f5; background: #bbb; border: solid #bbb; position: relative; top: -1px; border-width: 1px 4px 2px 4px; }
+#col_left .pollBoxWnk img { vertical-align: middle; margin-right: 6px; }
+#col_left .pollBoxWnk .entry { border-bottom: 21px solid #fff; zoom: 1; }
+#col_left .pollBoxWnk .kL { width: 210px; padding: 3px; zoom: 1; margin: 0; }
+#col_left .pollBoxWnk .kL img { border: 3px solid #e6e6e6; padding: 1px; background-color: #fff; margin: 0; }
+#col_left .pollBoxWnk .kR { width: 400px; padding-top: 20px; }
+#col_left .pollBoxWnk .bar { background: url('http://bi.gazeta.pl/i/obrazki/sondaze/rbar.gif') repeat-x; height: 27px; margin: 0 11px 0 0px; float: left; }
+#col_left .pollBoxWnk .bar0 { float: left; background-color: #fafafa; border: 1px solid #ebebeb; padding: 10px 0px 10px 11px; width: 378px; margin-top: 10px; }
+#col_left .pollBoxWnk .bar0 span { line-height: 27px; }
+#col_left .pollBoxWnk .bar0 .il { color: #9e9e9e; font-size: 10px; padding-top: 9px; }
+#col_left .pollBoxWnk .spec { border: 1px solid #c4c4c4; background: url('http://bi.gazeta.pl/i/obrazki/sondaze/specBg.gif'); }
+
+/* petycje */
+#lewa_kolumna h4 { margin-bottom: 10px; }
+#lewa_kolumna #podpisz { margin: 0 27px 0 0; padding-top: 15px; text-align: right; clear: both; }
+#lewa_kolumna #podpisz input { font: 12px Georgia, serif; height: 22px; width: 150px; cursor: pointer; background: #7a0000; text-align: center; }
+#lewa_kolumna #dane { margin-right: 10px; line-height: 21px; font-size: 14px; }
+#lewa_kolumna #textinput { float: none; line-height: 21px; }
+#lewa_kolumna #textinput input { border: 1px solid #ccc; font: 12px Arial, sans-serif; color: #000; padding: 1px 3px; width: 200px; }
+
+/* nekrologi - przewijarka */
+.mod_obituary_premium {
+    margin-bottom: 20px;
+    width: 940px;
+    font-family: Georgia, serif;
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;    
+}
+.mod_obituary_premium .slider_nekrologi {
+    visibility: hidden;
+}
+.mod_obituary_premium .slide {
+    display: block;
+    float: left;
+    width: 900px;
+    height: 600px;
+}
+.mod_obituary_premium .node_head h4 { float:left; }
+.mod_obituary_premium .node_head h4 a { float:none; color:#2b2b2b; }
+.mod_obituary_premium .node_head a { font-family: Arial, sans-serif; }
+.mod_obituary_premium .node_head li { display:inline; background:url("http://bi.gazeta.pl/i/obrazki/wyborcza2008/mt_dot.gif") no-repeat scroll 0 6px transparent; font-size:12px; padding-left:8px; list-style-type:none; margin-right:5px; line-height: 16px; }
+.mod_obituary_premium .node_head ul { position:relative; width:780px; text-align:center; }
+.mod_obituary_premium li.n1 { background-image:none; }
+.mod_obituary_premium ul { float:left; }
+.mod_obituary_premium li a { color:#000; float:none; font-weight:normal; }
+.mod_obituary_premium li a img { margin-left: -2px; margin-top: -2px; }
+.mod_obituary_premium .node_head > a { margin-left: 10px; }
+.mod_obituary_premium a { float: right; font-weight:bold; }
+.mod_obituary_premium .node_body { overflow: hidden; }
+.mod_obituary_premium .node_body .slider { overflow:hidden; }
+.mod_obituary_premium .node_body .slider .prev, .mod_obituary_premium .node_body .slider .node_entries, .mod_obituary_premium .node_body .slider .next { float:left; }
+.mod_obituary_premium .node_body .slider .prev, .mod_obituary_premium .node_body .slider .next { width:8px; height:510px; cursor:pointer; }
+.mod_obituary_premium .node_body .slider .prev a, .mod_obituary_premium .node_body .slider .next a { display:block; height:100%; background-image:none; margin:0; padding:0; }
+.mod_obituary_premium .node_body .slider .node_inner_entries { width:90000px; left:0; position:absolute; top:0; }
+.mod_obituary_premium .node_body .slider .node_entries { position:relative; overflow:hidden; width:890px; height:510px; }
+.mod_obituary_premium .node_body .slider ul { overflow:hidden; }
+.mod_obituary_premium .node_body .slider ul li { float:left; border:2px solid #ababab; background: #f8f6f9; width:286px; margin:0px 10px 10px 0px; padding:0px; overflow:hidden; height:115px; position:relative; }
+.mod_obituary_premium .node_body .slider .node_prev div {
+    background:url("http://bi.gazeta.pl/i/obrazki/wyborcza/nekrologi/przewijarka/arrow-red-left.gif") no-repeat center center transparent;
+    padding-right: 10px;
+    padding-left: 7px;
+}
+.mod_obituary_premium .node_body .slider .node_prev .inactive { background:url("http://bi.gazeta.pl/i/obrazki/wyborcza/nekrologi/przewijarka/arrow-gray-left.gif") no-repeat left center transparent; }
+.mod_obituary_premium .node_body .slider .node_next div {
+    background:url("http://bi.gazeta.pl/i/obrazki/wyborcza/nekrologi/przewijarka/arrow-red-right.gif") no-repeat center center transparent;
+    padding-right: 10px;
+    padding-left: 7px;
+}
+.mod_obituary_premium .node_body .slider .node_next .inactive { background:url("http://bi.gazeta.pl/i/obrazki/wyborcza/nekrologi/przewijarka/arrow-gray-right.gif") no-repeat left center transparent; }
+.mod_obituary_premium .node_body  h5 { text-align:center; padding:15px 0px 10px; font-size:17px; font-style:italic; font-weight:normal; }
+.mod_obituary_premium .node_body  span, .mod_obituary_premium .node_body p { color:#696868; text-align:center; font-size:11px; line-height:14px; }
+.mod_obituary_premium .node_body  span { display:block; }
+.mod_obituary_premium .node_body .with-icon { background:url("http://bi.gazeta.pl/i/obrazki/wyborcza/nekrologi/przewijarka/indeksZniczMaly.gif") no-repeat left 2px transparent; padding-left:13px; }
+.mod_obituary_premium .node_body .more { padding-left: 15px;  position:absolute; bottom:8px; right:17px; }
+.mod_obituary_premium .node_body p span { text-align:left; display:inline; font-size:11px; }
+.mod_obituary_premium .node_body .slider .special_notice h2 { font-size:17px; font-weight:normal; padding:12px 0 8px 20px; text-transform:uppercase; }
+.mod_obituary_premium .node_body .slider .special_notice ul { width:286px; overflow:hidden; }
+.mod_obituary_premium .node_body .slider .special_notice ul li {  height:auto; border:none; margin:0px; margin-left:20px; line-height:18px; float:none; background: url("http://bi.gazeta.pl/i/obrazki/wyborcza2008/mt_dot.gif") no-repeat scroll 0 8px transparent;  padding-left:8px; }
+.mod_obituary_premium .node_body .slider .special_notice ul li a { position:static; }
+/* ie7 */
+.mod_obituary_premium_ie7h .node_body .slider ul li { margin:0 11px 10px 0; list-style-type:none; }
+.mod_obituary_premium_ie7h .node_body .slider ul li.br { clear:none; }
+.mod_obituary_premium_ie7h .node_body .slider ul li.beforeBr { float:none; }
+
+/* sondaz */
+.SONwrp { margin-bottom: 20px; border-bottom: 1px solid #e2e2e2; display: none; }
+.SONwrp .head { margin: 10px 0 8px; }
+.SONwrp .head img { float: left; margin-right: 10px; }
+.SONwrp .head strong { font-size: 14px; }
+.SONwrp li { padding-top: 2px; }
+.SONwrp li input { vertical-align: middle; }
+.SONwrp .sbt { text-align: right; margin: 10px 0 6px; }
+.SONwrp .results li { padding-bottom: 2px; border-top: 1px solid #e2e2e2; }
+.SONwrp .results li em { font-weight: bold; margin-right: 10px; vertical-align: middle; }
+.SONwrp .results li > span { background: #c12636; height: 12px; line-height: 12px; display: inline-block; vertical-align: middle; margin-right: 4px; }
+.SONwrp .results > p { padding: 6px 0; border-top: 1px solid #e2e2e2; }
+.SONwrp .results p span, .SONwrp .results p strong { font-weight: bold; }
+
+/* sondaz europa na widelcu */
+.SONwrp.enw { border-bottom: 0; }
+.SONwrp.enw h3 { font: bold 16px/38px Tahoma, sans-serif; color: #fff; border: 0; padding: 0 0 0 20px; background: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/europa_na_widelcu/son-head.png') no-repeat 0 0; height: 38px; }
+.SONwrp.enw .SONwrp2 { background: #f66720 url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/europa_na_widelcu/son-body.png') no-repeat 0 38px; }
+.SONwrp.enw .head { margin: 15px 20px 10px; }
+.SONwrp.enw .head strong { font: 18px Tahoma, sans-serif; color: #fff; }
+.SONwrp.enw ul { margin: 0 20px; }
+.SONwrp.enw li { padding-top: 4px; }
+.SONwrp.enw li input { vertical-align: middle; }
+.SONwrp.enw li label { font: 16px Tahoma, sans-serif; color: #fff; vertical-align: middle; }
+.SONwrp.enw .sbt { margin: 0 20px; padding: 10px 0; text-align: left; }
+.SONwrp.enw .bottom { background: #790f07; padding: 10px 7px 10px 20px; overflow: hidden; zoom: 1; }
+.SONwrp.enw .bottom p { color: #fff; font: 16px Tahoma, sans-serif; float: left; width: 175px; }
+.SONwrp.enw .bottom p strong { font-weight: bold; }
+.SONwrp.enw .bottom img { float: right; display: block; }
+.SONwrp.enw .ss { font: 9px/19px Tahoma, sans-serif; color: #fff; background: #e3001b; height: 19px; padding-right: 7px; text-align: right; }
+.SONwrp.enw .results li { border: 0; padding: 4px 0; }
+.SONwrp.enw .results li em { font: bold 14px Tahoma, sans-serif; color: #fff; }
+.SONwrp.enw .results li > span { background: #790F07; }
+.SONwrp.enw .results li p { font: 14px Tahoma, sans-serif; color: #fff; }
+.SONwrp .results > p { padding: 10px 20px; border: 0; color: #000; font: 12px Tahoma, sans-serif; }
+.SONwrp .head .SONimg { display: block; float: none; margin: 0 0 13px; }
+/* sondaz mnk */
+.SONwrp.mnk .results > p { display: none; }
+.SONwrp .mnkAddress { margin: 8px 0; font-size: 11px; line-height: 14px; }
+.SONwrp .results p.mnkAddress { color: #000; padding: 0; font-size: 11px; line-height: 14px; display: block; }
+.SONwrp .results h3.mnkContact { margin: 12px 0 0; }
+
+/* sondaz allegro gra eko */
+body.path_poznan .SONwrp { border: none; }
+body.path_poznan .SONwrp h3 { font: normal 16px/24px Arial,sans-serif; background: #013472; color: #fff; border: none; padding: 0 10px; text-transform: none; height: 25px; }
+body.path_poznan .SONwrp .head { margin: 0; }
+body.path_poznan .SONwrp .head strong { font-size: 12px; font-weight: bold; display: block; margin: 10px 10px 5px; line-height: 14px; }
+body.path_poznan .SONwrp ul li { font-size: 11px; padding-bottom: 10px; }
+body.path_poznan .SONwrp2 ul { padding: 0 0 0 30px; }
+body.path_poznan .SONwrp .results li { border-top: none; padding-bottom: 2px; }
+body.path_poznan .SONwrp .results li p { line-height: 10px; }
+body.path_poznan .SONwrp .results li > span { background: #013472; height: 7px; }
+body.path_poznan .SONwrp .results li > em { font-size: 10px; }
+body.path_poznan .SONwrp .results li p > em span, body.path_poznan .SONwrp .results li p > span { display: none; }
+body.path_poznan .SONwrp .footer { background: #013472; font-size: 8px; color: #fff; text-align: right; padding: 0 5px; }
+body.path_poznan .SONwrp a.btn { margin: 10px auto; width: 120px; display: block; }
+body.path_poznan .SONwrp a.btn:hover { background: none; }
+
+/* fotostory - wiecej */
+#container_gal .gal_navi_wrp .gal_navi { float: right; overflow: hidden; height: 27px; }
+#container_gal .gal_navi_wrp .gal_navi li.paging { float: left; text-align: center; font: 20px/21px Georgia,sans-serif; color: #000; height: 26px; }
+#container_gal .gal_navi_wrp .gal_navi .gal_btn_prev { text-align: right; }
+#container_gal .gal_navi_wrp .gal_navi .gal_btn_prev,  #container_gal .gal_navi_wrp .gal_navi .gal_btn_next { width: 85px; float: left; height: 26px; }
+#container_gal .gal_navi_wrp .gal_navi { list-style: none; float: right; margin-left: 0; padding-left: 0; margin-bottom: 15px; }
+#container_gal .gal_navi_wrp .gal_navi li { float: left;  margin: 0px 0px 0px 3px; padding-top: 3px; }
+#container_gal .gal_navi_wrp .gal_navi, #container_gal .gal_navi_wrp .gal_navi .gal_btn_prev, #container_gal .gal_navi_wrp .gal_navi .gal_btn_prev a, #container_gal .gal_navi_wrp .gal_navi .gal_btn_next, #container_gal #gal_navi_wrp .gal_navi .gal_btn_next a{ display: block; padding: 3px 0px; font-weight: normal;}
+#container_gal .gal_navi_wrp .gal_navi a, #container_gal .gal_navi_wrp .gal_navi .gal_btn_prev { padding: 3px 2px; padding-top: 3px;}
+#art #container_gal .gal_navi_wrp .gal_navi a { display: block;  font-weight: normal;   }
+#container_gal .gal_navi_wrp .gal_navi .gal_btn_prev { background: url('http://bi.gazeta.pl/i/obrazki/global/ga_left_arrow.png') no-repeat 0 0; }
+#container_gal .gal_navi_wrp .gal_navi .gal_btn_next { background: url('http://bi.gazeta.pl/i/obrazki/global/ga_right_arrow.png') no-repeat 0 0; width: 82px; }
+#container_gal .gal_navi_wrp .gal_navi .gal_btn_prev a { width: 82px; float: left; height: 21px; color: #666; background: url('http://bi.gazeta.pl/i/obrazki/global/ga_left_arrow_bg.png') -2px 0px no-repeat; margin-top: -3px; text-align: right; padding:3px 5px 3px 0;}
+#container_gal .gal_navi_wrp .gal_navi .gal_btn_prev a:hover { background: url('http://bi.gazeta.pl/i/obrazki/global/ga_left_arrow_bg.png') 100% 0px no-repeat; background-position: -2px -27px; }
+#container_gal .gal_navi_wrp .gal_navi .gal_btn_next a { width: 82px; float: left; height: 21px; color: #666; background: url('http://bi.gazeta.pl/i/obrazki/global/ga_right_arrow_bg.png') 0px 0px no-repeat; margin-top: -3px; padding:3px 0 3px 5px; }
+#container_gal .gal_navi_wrp .gal_navi .gal_btn_next a:hover { background: url('http://bi.gazeta.pl/i/obrazki/global/ga_right_arrow_bg.png') 100% 0px no-repeat; background-position: 0px -27px; }
+
+/* fix iframe */
+#col_left iframe {overflow: hidden;}
+
+/* sondaz eskk */
+.eskk_poll {font-family: Arial, san-serif;}
+.SONwrp.eskk_poll .results > p {padding-top:5px; margin-left: 7px; margin-right: 7px; padding-left:0;margin-bottom: 62px; color: #333; font-size: 12px; font-family: Arial,san-serif; border-top: 1px solid #E2E2E2;}
+.eskk_poll h3.ad {font-size: 16px; line-height: 25px; padding: 0; padding-left: 15px; border: 0; background: #039; color: #fff; text-transform: none; font-family: Times New Roman,sans-serif; display: block;}
+.eskk_poll h3 {display: none;}
+.eskk_poll .head strong {padding-left: 7px; padding-right: 7px; font-weight: bold; display: block;}
+.eskk_poll .sponsor .info {background: #039; font-size: 10px; line-height: 12px; color: #fff; text-align: right; padding: 2px;}
+.eskk_poll .SONwrp2 {background: #fbfbfa url('http://bi.gazeta.pl/i/obrazki/lokalne/eskk_bg_vote.png') no-repeat left bottom;}
+.eskk_poll .sponsor {margin-top: 20px;}
+.eskk_poll .sponsor .more {padding-left: 130px; font-size: 12px; line-height: 14px; margin-bottom: 7px;}
+.eskk_poll .sponsor .more a {color: #fc7517;}
+.eskk_poll .sbt input {margin-right: 15px;}
+.eskk_poll ul {padding-left: 7px; padding-right: 7px; margin-bottom: 5px;}
+.eskk_poll .results ul p {margin: 0; font-size: 11px;}
+.eskk_poll .results p {margin-bottom: 0px;}
+.eskk_poll ul li label {font-size: 11px; color: #1a171b;}
+.eskk_poll ul li {margin-bottom: 2px;}
+.SONwrp.eskk_poll .results li > span { background: #fc7617; height: 12px; line-height: 12px; display: inline-block; vertical-align: middle; }
+.SONwrp.eskk_poll .results li {border: 0;}
+.SONwrp.eskk_poll .results li p span {display: none;}
+
+/* korki link */
+.mod_zr20 { float: right; padding: 4px 0 0 }
+.mod_zr20 .node_inner .node { padding: 0; border: 0; }
+.mod_zr20 p { background: url("http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/sep.png") no-repeat scroll 0 3px transparent; padding-left: 9px; margin-left: 7px; }
+.mod_zr20 .node_inner p a { padding: 0; }
+.mod_zr20 .node_inner p a:hover { background: #dedede; color: #000; text-decoration: none; }
+
+/* feed live */
+.mod_liveFeedSmall { margin-bottom: 10px; color: #2a2a2a; font-size: 14px; line-height: normal; }
+.mod_liveFeedSmall h2 { margin-bottom: 5px; font: bold 20px Arial, sans-serif; }
+.mod_liveFeedSmall h2 a, .mod_zi12 .mod_liveFeedSmall h2 iframe { vertical-align: middle; }
+.mod_liveFeedSmall li strong { font-weight: bold; }
+.mod_liveFeedSmall .node_more { margin-left: 5px; font-weight: bold; }
+.mod_liveFeedSmall .node_body, .mod_liveFeedSmall .node_body ul, .mod_liveFeedSmall .node_body li, .mod_liveFeedSmall .node_more { display: inline; }
+
+article.mod > header, article.mod_uzr8 section.body header {border-bottom-color: #dadada }
+
+article.mod_uzr6.class1 > header h1, article.mod_uzr6.class1 > header h2 {font-size: 18px; line-height: 24px; font-weight: bold;}
+article.mod_uzr6.class1 .body > ul {margin-right: -3%;}
+article.mod_uzr6.class1 .body > ul > li {width: 47%; margin-left: 0; margin-right:3%; }
+
+/* new HP */
+
+/* headers BIG */
+.mod_locals_mt2 .node_inner_head h2, .mod_zi_lokale1.hps .head h2, .mod_zi6.hps .head h2,
+.mod_zr_lokale2.hps h1, .mod_zr_lokale2.ctx h1, .mod_locals_head .node_body h2, .mod_cjg_repertory_finder .head h2
+    { font-weight: bold; font-size: 18px; line-height: 24px; color: #444344; text-transform: none; padding-bottom: 3px }
+.mod_zr_lokale2.hps, .mod_zr_lokale2.ctx { border: none; padding:0; margin-bottom: 6px}
+
+.mod_zr_lokale2.hps { line-height: 1em}
+    /* headers */
+.mod_zr6.hps .node_inner_head h2, .mod_zr_traffic.hps .node_body h3 { font-weight: bold; font-size: 14px; line-height: 18px; color: #404040; text-transform: none;}
+
+/* MT double */
+.mod_locals_mt2 .node_entry{ width: 300px; margin-left: 20px }
+.mod_locals_mt2 .node_entry:first-child { margin-left: 0}
+.mod_locals_mt2 .node_body h3 { font-size: 16px; line-height: 18px; padding-top: 9px}
+.mod_locals_mt2 p.lead { font-size: 12px; line-height: 18px; color: #434343 }
+
+/* Index */
+.fb_button_simple:hover { background: url("http://static.ak.fbcdn.net/rsrc.php/v1/yH/r/eIpbnVKI9lR.png") 0 0 no-repeat;}
+.mod_zi_lokale1.hps {margin-bottom:10px;}
+.mod_zi_lokale1.hps h3 { font-size: 16px; font-weight: bold }
+.mod_zi_lokale1.hps.short h2 { font-size: 16px; font-weight: bold }
+.mod_zi_lokale1.hps .entry { margin-bottom: 0; padding: 8px 0}
+
+.mod_zi_lokale1.hps .head { position: relative}
+.mod_zi_lokale1.hps .header_bin { position: absolute; right: 0; bottom: 6px}
+.mod_zi_lokale1.hps .imgw img, .mod_zi_lokale1.hps .gallery .imgw li:first-child img { margin-right: 15px}
+.mod_zi_lokale1.hps .comments { display: none }
+.mod_zi_lokale1.hps .comments.vis { display: block; }
+.mod_zi_lokale1.hps .comments > a span { margin-left: 4px }
+.mod_zi_lokale1.hps .when, .mod_zi_lokale1.hps .commments { float: left; }
+.mod_zi_lokale1.hps .when { margin-right: 12px; font-size: 11px; line-height: 17px;display: none }
+.mod_zi_lokale1.hps .when.vis { display: inline-block; }
+.mod_zi_lokale1.hps .entry.article:first-child .when { color: #e72727}
+.mod_zi_lokale1.hps .footer .more { font-size: 13px; line-height: 2em }
+/* index w/lead */
+.mod_zi_lokale1.hps.wlead h3 { line-height: 18px; margin-bottom: 0 }
+.mod_zi_lokale1.hps.wlead .entry .more, .mod_zi_lokale1.hps.wlead .entry .lead { display: inline; float: none }
+.index.mod_zi_lokale1.hps.wlead .lead { font-size: 12px; }
+.mod_zi_lokale1.hps.wlead .wrap_0 { overflow: hidden}
+.mod_zi_lokale1.hps.wlead .wrap_1{ margin-top: 6px; margin-bottom: 12px}
+.mod_zi_lokale1.hps.wlead .wrap_1:after { clear: none;  }
+.mod_zi_lokale1.hps.wlead .wrap_2 { margin-top: 13px}
+.mod_zi_lokale1.hps.wlead .comments { line-height: 13px; min-width:300px}
+.mod_zi_lokale1.hps.wlead .comments img { vertical-align: text-bottom }
+.mod_zi_lokale1.hps .fbShare { margin-left: 8px; display: inline; height:15px; display: inline-block;vertical-align:bottom; width:300px}
+.mod_zi_lokale1.hps .fbShare a:hover { background-color: transparent}
+
+/* index noimg */
+.mod_zi_lokale1.hps.short .head { display: none}
+.mod_zi_lokale1.hps.short h2 { float:none; margin: 0 4px 0 0; font-weight: bold; display: inline }
+.mod_zi_lokale1.hps.short .wrap_0 { display: inline;}
+.mod_zi_lokale1.hps.short .when { float:none; }
+.mod_zi_lokale1.hps.short .comments.vis { display: inline;float:none;}
+
+.mod_zi_lokale1.hps.short.rozrywka .head { display: block; border-bottom: none; }
+.mod_zi_lokale1.hps.short.rozrywka .header_bin, .mod_zi_lokale1.hps.short.rozrywka .head img { position: static; }
+.mod_zi_lokale1.hps.short.rozrywka h2 { display: block; font: bold 16px/18px Georgia,serif; text-transform: uppercase; text-align: center; }
+/* polecamy 4 kafle */
+.mod_zi6.hps .body .entry { float: left; margin-left: 20px; display: block; width: 140px}
+.mod_zi6.hps .body .entry:first-child { margin-left: 0 }
+.mod_zi6.hps .body h3 { font-weight: bold; font-size: 13px; line-height: 18px}
+
+.mod_zi6_2.hps .node_inner_body {margin-right: -20px;}
+.mod_zi6_2.hps .node_inner_body:after {content:""; display: none; height: auto; width: auto; visibility: visible;}
+.mod_zi6_2.hps .node_entry { float: left; margin-left: 0; margin-right: 20px; display: block; width: 140px}
+.mod_zi6_2.hps .node_entry:first-child { margin-left: 0}
+.mod_zi6_2.hps .node_entry h3 { font-weight: bold; font-size: 13px; line-height: 18px; }
+
+/* polecane serwisy */
+.mod_zr6.hps { margin-bottom:12px}
+.mod_zr6.hps .node_head { margin-bottom:0}
+.mod_zr6.hps .node_entry { display: block; position: relative; height: 37px; padding-bottom:0 !important; margin-bottom: 0 !important}
+.mod_zr6.hps .node_inner_entry { height: 37px; display: block; position: relative; }
+.mod_zr6.hps .node_inner_entry:hover { background: #DEDEDE}
+.mod_zr6.hps .node_body h3 { font-weight: bold; font-size: 14px; position: absolute; top: 8px; left: 120px;  }
+.mod_zr6.hps .node_inner_entry > a { width: 120px; height: 36px; text-align: center; display: block; line-height: 37px; }
+.mod_zr6.hps .node_inner_entry img { vertical-align: middle; float: none; }
+
+.mod_zr_bigImg.hps { position: relative; margin-bottom: 8px;}
+.mod_zr_bigImg.hps .node_content { position:absolute; bottom: 10px; left: 8px; background: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/alfa79.png') 0 0 repeat transparent; display: block; height: auto; width: 582px; padding: 10px 12px  }
+.mod_zr_bigImg.hps h1 a { font-size: 20px;  }
+.mod_zr_bigImg.hps a:hover { text-decoration: underline; background: transparent; }
+.mod_zr_bigImg.hps .lead { font-size: 13px; line-height: 18px; }
+.mod_zr_bigImg.hps .lead a { color: #434343 }
+
+/* link przeslij zdjecie */
+.mod_zr_sendfoto { background: #e1e1e1; padding: 9px 8px}
+.mod_zr_sendfoto .node_inner_content  { text-align:right; }
+.mod_zr_sendfoto span { display: inline-block}
+.mod_zr_sendfoto span.link { width: 100px; height: 30px; background: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/button_3s.png') 50% 0 no-repeat transparent ; text-shadow: 1px 1px 1px #000; line-height: 27px; margin-left: 12px; display: inline-block; vertical-align: middle}
+.mod_zr_sendfoto span.link:hover { background-position: 50% -30px}
+.mod_zr_sendfoto span.link:active { background-position: 50% -61px; margin-top:1px; margin-bottom: -1px}
+.mod_zr_sendfoto span.link a { display: block; width: 100%; height: 100%; font-weight: bold; text-align: center }
+
+.mod_zr_sendfoto a, .mod_zr_sendfoto a:hover { color: #fff; background: none}
+
+/* kontakt page*/
+.mod_zr_contact.ctx { margin-bottom: 0}
+.mod_zr_lokale2.ctx p, .mod_zr_contact.ctx { font-size: 14px; color: #444344; line-height: 18px; }
+.mod_zr_contact.ctx strong { padding-top: 16px; display: block;}
+.mod_zr_contact .node_body h2 {font: bold 18px/24px Arial, sans-serif; margin-top: 24px}
+
+.alertTxtForm { font-size: 12px; line-height: 18px; color: #434343}
+.alertTxtForm h2, .alertTxtForm h2 + p { display: none; }
+.alertTxtForm h3 { font-size: 14px; text-transform: none; color: #434343; height: 50px; position: relative; line-height: 80px; margin: 0 0 22px  }
+.alertTxtForm h3 .redInfo { position: absolute; right: 0; top: 0; background: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/alert_logo.png') no-repeat 100% 7px transparent; line-height: 128px }
+.alertTxtForm .req + .small { margin-top: 12px}
+
+.mod_zr_yournews .node_inner_body { width: 242px }
+.mod_zr_yournews .node_body { width: 242px; overflow: visible; background: #f5f4fa; padding: 10px 16px 0 }
+.mod_zr_yournews img { float: right; margin: 8px -42px 8px 0;  }
+.mod_zr_yournews p { margin-bottom: 12px; line-height: 16px}
+.mod_zr_yournews p.lead a { font-weight: bold; }
+.mod_zr_yournews .node_body .node_inner_body h3 { font-weight: bold; font-size: 18px; line-height: 22px; margin-bottom: 12px; color: #333251}
+
+.mod_uzr5 section.body li { border-bottom: 1px solid #d6d6d6; padding: 4px 0; margin:0  }
+article.mod_uzr5 > header { margin-bottom: 0}
+.mod_uzr5 span { text-align: center}
+.mod_uzr5 section.body li span.imgw { width:auto;}
+
+.nadMod2, .mod_zr_lokale5 { margin-bottom: 12px; }
+
+/* zdjecia przed i po */
+.mod_zr_photo { position: relative; width: 940px; z-index: 100; margin-bottom: 32px; }
+.mod_zr_photo .node_head { padding: 0; margin: 0; border: 0; }
+.mod_zr_photo .node_head h2 { font-size: 26px; line-height: 29px; margin-bottom: 16px; }
+.mod_zr_photo .node_head h3 { font-size: 22px; font-weight: normal; line-height: 27px; margin-bottom: 4px; }
+.mod_zr_photo .node_head p { font-size: 14px; line-height: 19px; margin-bottom: 16px; }
+.mod_zr_photo .node_photo { border-bottom: 1px solid #ccc; margin-bottom: 16px; padding-bottom: 16px; }
+.mod_zr_photo .node_container, .mod_zr_photo .node_before { width: 940px; height: 600px; overflow: hidden; }
+.mod_zr_photo .node_container .node_inner_after { width: 100%; overflow: hidden; position: relative; height: 600px; }
+.mod_zr_photo .node_container { position: relative; margin-bottom: 12px; cursor: w-resize; }
+.mod_zr_photo .node_container img { width: 940px; height: 600px; }
+.mod_zr_photo .node_container span { display: none; }
+.mod_zr_photo .node_container .scroll { position: absolute; width: 9px; height: 55px; background: url('http://bi.gazeta.pl/i/obrazki/wiadomosci/tsunami/photo-scroll-blue.png') no-repeat 0 0; top: 272px; left: -6px; display: block; }
+.mod_zr_photo .node_container p { position: absolute; top: 0; background: #fff; background: rgba(255,255,255,0.7); padding: 4px 8px; font-size: 16px; font-weight: bold; top: 0; z-index: 5; }
+.mod_zr_photo .node_before, .mod_zr_photo .node_after { position: absolute; }
+.mod_zr_photo .node_before { left: 0; }
+.mod_zr_photo .node_after { right: 0; width: 480px; border-left: 2px solid #000; }
+.mod_zr_photo .node_after img { position: absolute; right: 0; }
+.mod_zr_photo .node_after p { right: 0; }
+.mod_zr_photo .node_more { font: normal 14px/27px Arial,sans-serif; zoom: 1; }
+.mod_zr_photo .node_more:after { content: '.'; visibility: hidden; clear: both; width: 0; height: 0; display: block; }
+.mod_zr_photo .node_more .c0 { float: left; }
+.mod_zr_photo .node_more .c1 { float: right; }
+.mod_map_facebook { width: auto; text-align: right; float: right; display: block; z-index: 101; padding-top:3px; margin-left: 10px;}
+
+/* sondaz pw */
+.pw_poll > a { display: none; }
+.pw_poll { margin: 20px 0; border: 0; background: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/pw-son-body.jpg') no-repeat 0 100%; padding-bottom: 130px; }
+.pw_poll h3 { height: 32px; background: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/pw-son-header.jpg') no-repeat 0 0; text-indent: -9999px; border: 0; margin: 0; padding: 0; }
+.pw_poll .head { padding: 0 10px 5px; }
+.pw_poll .head strong { font-weight: bold; }
+.pw_poll ul { padding: 0 10px; }
+.pw_poll li { padding: 0 0 8px; }
+.pw_poll .sbt { text-align: left; padding: 0 10px; margin-bottom: 0; }
+.pw_poll .results li { padding: 3px 0 5px; }
+.pw_poll .results > p { color: #000; padding: 10px 150px 0 10px; }
+.pw_poll .results li > span { background: #931b1d; }
+
+/* sonda? sponsorowany - smiecenie odpada */
+.pw_poll.smiecenieodpada { position: relative; background: 0; }
+.pw_poll.smiecenieodpada .SONwrp2  { height: 500px; background: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/poll-sp--smiecenie-odpada-backg-4.png') no-repeat 0 0;  }
+.pw_poll.smiecenieodpada h3 { background: 0; display: none; }
+.pw_poll.smiecenieodpada ul { padding: 20px 10px 0 15px; }
+.pw_poll.smiecenieodpada .head a, .pw_poll.smiecenieodpada .head strong { color: #fff; font-size: 13px; line-height: 15px; }
+.pw_poll.smiecenieodpada .head { margin: 0; padding-left: 13px; padding-right: 0; padding-top: 38px; width: 173px; }
+.pw_poll.smiecenieodpada .head { padding-bottom: 20px; }
+.pw_poll.smiecenieodpada li input { margin: 3px 0 0; float: left; }
+.pw_poll.smiecenieodpada li label { margin-left: 5px; float: left; width: 150px; line-height: 18px; font: normal 13px Arial, sans-serif; }
+.pw_poll.smiecenieodpada li { overflow: hidden; }
+.pw_poll.smiecenieodpada li:after { content: ""; position: absolute; bottom: 100%; left: 35%; top: 23px; width: 0; height: 0; border-color: #333 transparent transparent;  border-width: 5px; border-style: solid;  }
+.pw_poll.smiecenieodpada li label[for="frm_opt_0"] { width: 150px; }
+.pw_poll.smiecenieodpada li label[for="frm_opt_1"] { width: 150px; }
+.pw_poll.smiecenieodpada li label[for="frm_opt_2"] { width: 150px; }
+.pw_poll.smiecenieodpada .sbt { margin-top: 6px; }
+.pw_poll.smiecenieodpada .sponsor p { padding-bottom: 2px; color: #999; font: 10px Arial,sans-serif; text-align: left; text-transform: uppercase; }
+.pw_poll.smiecenieodpada .results li > span { margin-right: 10px;  height: 5px; background: #0c5800; }
+.pw_poll.smiecenieodpada .results  p , .pw_poll.smiecenieodpada .results p span, .pw_poll.smiecenieodpada .results p strong { display: none; }
+.SONwrp .results li em { font-weight: normal; }
+.pw_poll.smiecenieodpada .results li > em { font-weight: bold; }
+.pw_poll.smiecenieodpada .results li { padding-bottom: 0; border: 0; font-size: 14px; line-height: 14px; }
+.pw_poll.smiecenieodpada .results { background: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/poll-sp--smiecenie-odpada-backg-4a.png') no-repeat 0 0; }
+.pw_poll.smiecenieodpada .results ul { padding: 2px 60px 0 17px; }
+.pw_poll.smiecenieodpada .results  li p  { margin-bottom: 2px; display: block; }
+.pw_poll.smiecenieodpada .sbt { position: absolute; bottom: 77px; left: 5px; }
+.pw_poll.smiecenieodpada { padding-bottom: 0; }
+
+/* winieta fix */
+header#pageHead { margin: 0 auto; padding: 0 10px 12px; background: #fff; }
+
+
+/* zajawka teraz ogladane */
+.mod_similar_bdk .body li {height:145px;}
+.mod_similar_bdk header {border-bottom: 2px solid #DADADA !important;padding-bottom: 3px;}
+.mod_similar_bdk header h2 {color: #2B2B2B;font-family: Arial,sans-serif;font-size: 11px;font-weight: bold;line-height: normal;margin: 0;text-transform: uppercase; }
+
+/* 60 losowych */
+.mod_product_random_seo dl {width:136px !important;}
+.mod_product_random_seo h2 {color: #2B2B2B;font: bold 11px Arial,sans-serif;text-transform:uppercase;}
+/* --- */
+
+/* mapa inwestycji */
+.mod_development_investments #content { border: 3px solid #cecece; padding: 9px; width: 595px; }
+.mod_development_investments #content h2, a.back, .row article { font-family: arial, sans-serif; }
+.mod_development_investments #content h2 { color: 414141; font-size: 18px; font-weight: bold; margin: 0; padding: 3px 0; }
+.mod_development_investments #content h2, a.back { text-transform: uppercase; }
+.mod_development_investments a.back { text-decoration: none; font-size: 10px; color: #a2a2a2; background: url('http://bi.gazeta.pl/i/obrazki/serwisy_lokalne/powrot.jpg') no-repeat center right; float: right; padding-right: 15px; }
+.mod_development_investments a.back:hover { text-decoration: underline; }
+.mod_development_investments img.photo { float: left; margin-right: 10px; }
+.mod_development_investments .row article { overflow: hidden; border: 1px solid #e1e1e1; padding: 9px; }
+.mod_development_investments .row article h1 { font-size: 18px; font-weight: normal; color: #0e5c9d; margin: 0 0 5px; padding: 0; }
+.mod_development_investments p { margin: 0; }
+.mod_development_investments p.address, p.desc { color: #333; }
+.mod_development_investments p.address, p.price { font-size: 12px; font-weight: bold; }
+.mod_development_investments p.price { float: right; color: #c22737; }
+.mod_development_investments p.address {  float: left; }
+.mod_development_investments p.desc { font-size: 11px; margin-left: 130px; }
+.mod_development_investments .row article .head { overflow: hidden; margin: 0 0 10px; }
+.mod_development_investments a.row { text-decoration: none; display: block; margin: 8px 0 0; clear: both; }
+.mod_development_investments a.row:hover { background: #dedede; }
+.mod_development_investments .promo { background: #efedf7; }
+.mod_development_investments img.logo { float: left; margin: 0 37px 10px 0; }
+.mod_development_investments header { margin: 20px 0 0; }
+
+/* najczesciej nowe */
+.mod_most_read.mod_most_read1 .number, .mod_most_read.mod_most_read1_premium .number {background:#372d4a;color:#fff; }
+.mod_most_read.mod_most_read1 li:hover,.mod_most_read.mod_most_read1 .title a:hover,.mod_most_read.mod_most_read1 li:hover .number,
+.mod_most_read.mod_most_read1_premium .tabbed_items ul li:hover, .mod_most_read.mod_most_read1_premium .title a:hover, .mod_most_read.mod_most_read1_premium .tabbed_items ul li:hover .number, .mod_most_read.mod_most_read1_premium .title li:hover a, .mod_most_read.mod_most_read1 li:hover .title a {background:#251e32; color: #fff}
+
+
+
+div.fb_iframe_widget { display: block !important; position: relative !important; }
+.mod_sociallist .fb-like.fb_edge_widget_with_comment.fb_iframe_widget {height:62px !important;}
+.mod_liveFeedSmall .fb-like.fb_edge_widget_with_comment.fb_iframe_widget {height:20px !important; display: inline-block !important;}
+
+#pagetype_art #tab { margin-bottom: 20px; }
+#pagetype_art #tab tr.p td { border: none; color: #333; padding: 0; }
+#pagetype_art #tab tr.p td.b { font-weight: normal; font: 14px/18px Arial,sans-serif; background-color: transparent; }
+#pagetype_art #tab tr td { padding-left: 0; padding-right: 10px; }
+
+
+.index.mod_zi6.hps .head .header_bin img {border-left:none;}
+
+/*kalendarz 25.06.2010*/
+html body #columns_wrap .c1 #calendar_table { font-weight: bold;}
+html body #columns_wrap .c1 #calendar_table .mname {color: #03a1eb; text-transform: uppercase; margin: 0 5px;}
+html body #columns_wrap .c1 #calendar_table #ctb_prev_month, html body .holder_top .c1 #calendar_table #ctb_next_month {}
+html body #columns_wrap .c1 #calendar_table {border: 2px solid #3d3d3d;}
+html body #columns_wrap .c1 #calendar_table caption { margin-bottom: 7px;}
+html body #columns_wrap .c1 #calendar_table  thead { background: #ccc; }
+
+html body #columns_wrap .c1 #calendar_table  thead th {width: 18px; height: 18px; font-size: 10px;}
+html body #columns_wrap .c1 #calendar_table tbody#ctb_body tr td{ width: 18px; height: 18px; border-left: 1px solid #ccc; border-bottom: 1px solid #ccc; vertical-align: middle; text-align: center;  font-size: 10px;}
+html body #columns_wrap .c1 #calendar_table tbody#ctb_body tr td.sun { color: #03a1eb; border-right: 1px solid #ccc;}
+html body #columns_wrap .c1 #calendar_table tbody#ctb_body tr td.today { color: #fff; background: #03a1eb;}
+html body #columns_wrap .c1 .mod_filter { margin-top:15px;}
+html body #columns_wrap .c1 .mod_filter strong{ color: #333;  font-weight: bold; margin-top:15px;}
+html body #columns_wrap .c1 .mod_filter ul { width: 140px;}
+html body #columns_wrap .c1 .mod_filter ul li { border-bottom: 1px solid #ccc; padding-bottom: 5px; margin-top: 5px; Tahoma}
+
+html body #columns_wrap .c1 .mod_filter ul li a{ font-family: Tahoma,serif; font-size: 11px; font-weight: bold;}
+
+html body #columns_wrap #calendar_index { width: 620px; zoom: 1; }
+html body #columns_wrap #calendar_index:after { content: '.'; visibility: hidden; width: 0; height: 0; display: block; clear: both; }
+html body #columns_wrap #calendar_index .c0 { width: 450px; float: left; }
+html body #columns_wrap #calendar_index .c1 { width: 140px; float: right; }
+
+/*kalendarz event*/
+#row_3 #calendar_event h2 {color:#000; font-size: 24px; margin-bottom: 15px; font-weight: bold;}
+#row_3 #calendar_event h2 {color:#000;}
+#row_3 #calendar_event ul li{margin-bottom: 5px;}
+#row_3 #calendar_event ul li span {font-size: 12px; color: #000; font-weight: bold; }
+#row_3 #calendar_event p {margin-top: 10px;}
+
+/* zajawka Najpopularniejsze wideo test */
+.most_popular_videos li h3 a { font-weight: bold; }
+
+#location_map { width: 620px; height: 280px; }
+.mod_cjg_location .body .attributes { display: block; margin-bottom: 1em; }
+.mod_cjg_cinema_info table { margin-bottom: 10px; }
+.mod_cjg_cinema_info { font-size: 16px; }
+.mod_cjg_cinema_info .body > table .movie>.title { font-size: 20px; }
+
+
+/* Samsung lokale */
+
+
+@font-face {
+    font-family: 'samsung_interfacemedium';
+    src: url('http://biv.gazeta.pl/css/projects/lubie_tu_pracowac/samsungif_md-samsung.eot');
+    src: url('http://biv.gazeta.pl/css/projects/lubie_tu_pracowac/samsungif_md-samsung.eot?#iefix') format('embedded-opentype'),
+    url('http://biv.gazeta.pl/css/projects/lubie_tu_pracowac/samsungif_md-samsung.woff2') format('woff2'),
+    url('http://biv.gazeta.pl/css/projects/lubie_tu_pracowac/samsungif_md-samsung.woff') format('woff'),
+    url('http://biv.gazeta.pl/css/projects/lubie_tu_pracowac/samsungif_md-samsung.ttf') format('truetype'),
+    url('http://biv.gazeta.pl/css/projects/lubie_tu_pracowac/samsungif_md-samsung.svg#samsung_interfacemedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+section.sg_moderateMagenta > div > div.textw {
+    background: -moz-linear-gradient(top, rgba(176, 76, 179, 0) 0%, rgba(176, 76, 179, 1) 75%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(176, 76, 179, 0)), color-stop(75%, rgba(176, 76, 179, 1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(176, 76, 179, 0) 0%, rgba(176, 76, 179, 1) 75%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(176, 76, 179, 0) 0%, rgba(176, 76, 179, 1) 75%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(176, 76, 179, 0) 0%, rgba(176, 76, 179, 1) 75%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(176, 76, 179, 0) 0%, rgba(176, 76, 179, 1) 75%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00b04cb3', endColorstr='#b04cb3', GradientType=0); /* IE6-9 */
+
+}
+
+section.sg_softRed > div > div.textw {
+    background: -moz-linear-gradient(top, rgba(233, 114, 114, 0) 0%, rgba(233, 114, 114, 1) 75%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(233, 114, 114, 0)), color-stop(75%, rgba(233, 114, 114, 1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(233, 114, 114, 0) 0%, rgba(233, 114, 114, 1) 75%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(233, 114, 114, 0) 0%, rgba(233, 114, 114, 1) 75%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(233, 114, 114, 0) 0%, rgba(233, 114, 114, 1) 75%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(233, 114, 114, 0) 0%, rgba(233, 114, 114, 1) 75%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00e97272', endColorstr='#e97272', GradientType=0); /* IE6-9 */
+
+}
+
+section.sg_moderateCyan > div > div.textw {
+    background: -moz-linear-gradient(top, rgba(60, 185, 212, 0) 0%, rgba(60, 185, 212, 1) 75%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(60, 185, 212, 0)), color-stop(75%, rgba(60, 185, 212, 1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(60, 185, 212, 0) 0%, rgba(60, 185, 212, 1) 75%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(60, 185, 212, 0) 0%, rgba(60, 185, 212, 1) 75%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(60, 185, 212, 0) 0%, rgba(60, 185, 212, 1) 75%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(60, 185, 212, 0) 0%, rgba(60, 185, 212, 1) 75%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#003cb9d4', endColorstr='#3cb9d4', GradientType=0); /* IE6-9 */
+
+}
+
+section.sg_veryDarkBlue > div > div.textw {
+    background: -moz-linear-gradient(top, rgba(34, 32, 110, 0) 0%, rgba(34, 32, 110, 1) 75%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(34, 32, 110, 0)), color-stop(75%, rgba(34, 32, 110, 1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(34, 32, 110, 0) 0%, rgba(34, 32, 110, 1) 75%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(34, 32, 110, 0) 0%, rgba(34, 32, 110, 1) 75%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(34, 32, 110, 0) 0%, rgba(34, 32, 110, 1) 75%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(34, 32, 110, 0) 0%, rgba(34, 32, 110, 1) 75%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0022206e', endColorstr='#22206e', GradientType=0); /* IE6-9 */
+
+}
+
+section.sg_darkModerateBlue > div > div.textw {
+    background: -moz-linear-gradient(top, rgba(55, 75, 158, 0) 0%, rgba(55, 75, 158, 1) 75%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(55, 75, 158, 0)), color-stop(75%, rgba(55, 75, 158, 1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(55, 75, 158, 0) 0%, rgba(55, 75, 158, 1) 75%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(55, 75, 158, 0) 0%, rgba(55, 75, 158, 1) 75%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(55, 75, 158, 0) 0%, rgba(55, 75, 158, 1) 75%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(55, 75, 158, 0) 0%, rgba(55, 75, 158, 1) 75%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00374b9e', endColorstr='#374b9e', GradientType=0); /* IE6-9 */
+
+}
+
+section.sg_darkBlue > div > div.textw {
+    background: -moz-linear-gradient(top, rgba(17, 81, 162, 0) 0%, rgba(17, 81, 162, 1) 75%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(17, 81, 162, 0)), color-stop(75%, rgba(17, 81, 162, 1)));
+    background: -webkit-linear-gradient(top, rgba(17, 81, 162, 0) 0%, rgba(17, 81, 162, 1) 75%);
+    background: -o-linear-gradient(top, rgba(17, 81, 162, 0) 0%, rgba(17, 81, 162, 1) 75%);
+    background: -ms-linear-gradient(top, rgba(17, 81, 162, 0) 0%, rgba(17, 81, 162, 1) 75%);
+    background: linear-gradient(to bottom, rgba(17, 81, 162, 0) 0%, rgba(17, 81, 162, 1) 75%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#001151a2', endColorstr='#1151a2', GradientType=0);
+
+}
+
+section.sg_brightBlue > div > div.textw {
+    background: -moz-linear-gradient(top, rgba(60, 185, 212, 0) 0%, rgba(60, 185, 212, 1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(60, 185, 212, 0)), color-stop(100%, rgba(60, 185, 212, 1)));
+    background: -webkit-linear-gradient(top, rgba(60, 185, 212, 0) 0%, rgba(60, 185, 212, 1) 100%);
+    background: -o-linear-gradient(top, rgba(60, 185, 212, 0) 0%, rgba(60, 185, 212, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(60, 185, 212, 0) 0%, rgba(60, 185, 212, 1) 100%);
+    background: linear-gradient(to bottom, rgba(60, 185, 212, 0) 0%, rgba(60, 185, 212, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#003cb9d4', endColorstr='#3cb9d4', GradientType=0);
+
+}
+
+section.sg_slightlyDesaturatedBlue > div > div.textw {
+    background: -moz-linear-gradient(top, rgba(141, 178, 203, 0) 0%, rgba(141, 178, 203, 1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(141, 178, 203, 0)), color-stop(100%, rgba(141, 178, 203, 1)));
+    background: -webkit-linear-gradient(top, rgba(141, 178, 203, 0) 0%, rgba(141, 178, 203, 1) 100%);
+    background: -o-linear-gradient(top, rgba(141, 178, 203, 0) 0%, rgba(141, 178, 203, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(141, 178, 203, 0) 0%, rgba(141, 178, 203, 1) 100%);
+    background: linear-gradient(to bottom, rgba(141, 178, 203, 0) 0%, rgba(141, 178, 203, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#008db2cb', endColorstr='#8db2cb', GradientType=0);
+
+}
+
+.path_142164 .mod_samsungPartnerBanner,
+.path_142161 .mod_samsungPartnerBanner,
+.path_80200 .mod_samsungPartnerBanner,
+.path_142146 .mod_samsungPartnerBanner,
+.path_36044 .mod_samsungPartnerBanner,
+.path_142325 .mod_samsungPartnerBanner,
+.path_142326 .mod_samsungPartnerBanner,
+.path_142327 .mod_samsungPartnerBanner,
+.path_142328 .mod_samsungPartnerBanner,
+.path_142329 .mod_samsungPartnerBanner {
+    height: 200px;
+    width: 300px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.path_142164 .mod_samsungPartnerBanner .wapper,
+.path_142161 .mod_samsungPartnerBanner .wapper,
+.path_80200 .mod_samsungPartnerBanner .wapper,
+.path_142146 .mod_samsungPartnerBanner .wapper,
+.path_36044 .mod_samsungPartnerBanner .wapper,
+.path_142325 .mod_samsungPartnerBanner .wapper,
+.path_142326 .mod_samsungPartnerBanner .wapper,
+.path_142327 .mod_samsungPartnerBanner .wapper,
+.path_142328 .mod_samsungPartnerBanner .wapper,
+.path_142329 .mod_samsungPartnerBanner .wapper {
+    position: relative;
+}
+
+.path_142164 .mod_samsungPartnerBanner .wapper .textw,
+.path_142161 .mod_samsungPartnerBanner .wapper .textw,
+.path_80200 .mod_samsungPartnerBanner .wapper .textw,
+.path_142146 .mod_samsungPartnerBanner .wapper .textw,
+.path_36044 .mod_samsungPartnerBanner .wapper .textw,
+.path_142325 .mod_samsungPartnerBanner .wapper .textw,
+.path_142326 .mod_samsungPartnerBanner .wapper .textw,
+.path_142327 .mod_samsungPartnerBanner .wapper .textw,
+.path_142328 .mod_samsungPartnerBanner .wapper .textw,
+.path_142329 .mod_samsungPartnerBanner .wapper .textw {
+    position: absolute;
+    bottom: 4px;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    height: 82px;
+    transition: all .5s ease-in-out;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    padding-bottom: 5px;
+    flex-direction: column;
+}
+
+.path_142164 .mod_samsungPartnerBanner:hover .wapper .textw,
+.path_142161 .mod_samsungPartnerBanner:hover .wapper .textw,
+.path_80200 .mod_samsungPartnerBanner:hover .wapper .textw,
+.path_142146 .mod_samsungPartnerBanner:hover .wapper .textw,
+.path_36044 .mod_samsungPartnerBanner:hover .wapper .textw,
+.path_142325 .mod_samsungPartnerBanner:hover .wapper .textw,
+.path_142326 .mod_samsungPartnerBanner:hover .wapper .textw,
+.path_142327 .mod_samsungPartnerBanner:hover .wapper .textw,
+.path_142328 .mod_samsungPartnerBanner:hover .wapper .textw,
+.path_142329 .mod_samsungPartnerBanner:hover .wapper .textw {
+    height: 139px;
+}
+
+.path_142164 .mod_samsungPartnerBanner .wapper .textw p,
+.path_142161 .mod_samsungPartnerBanner .wapper .textw p,
+.path_80200 .mod_samsungPartnerBanner .wapper .textw p,
+.path_142146 .mod_samsungPartnerBanner .wapper .textw p,
+.path_36044 .mod_samsungPartnerBanner .wapper .textw p,
+.path_142325 .mod_samsungPartnerBanner .wapper .textw p,
+.path_142326 .mod_samsungPartnerBanner .wapper .textw p,
+.path_142327 .mod_samsungPartnerBanner .wapper .textw p,
+.path_142328 .mod_samsungPartnerBanner .wapper .textw p,
+.path_142329 .mod_samsungPartnerBanner .wapper .textw p {
+    max-width: 300px;
+    width: 300px;
+    align-self: flex-end;
+}
+
+.path_142164 .mod_samsungPartnerBanner .wapper .textw p a,
+.path_142161 .mod_samsungPartnerBanner .wapper .textw p a,
+.path_80200 .mod_samsungPartnerBanner .wapper .textw p a,
+.path_142146 .mod_samsungPartnerBanner .wapper .textw p a,
+.path_36044 .mod_samsungPartnerBanner .wapper .textw p a,
+.path_142325 .mod_samsungPartnerBanner .wapper .textw p a,
+.path_142326 .mod_samsungPartnerBanner .wapper .textw p a,
+.path_142327 .mod_samsungPartnerBanner .wapper .textw p a,
+.path_142328 .mod_samsungPartnerBanner .wapper .textw p a,
+.path_142329 .mod_samsungPartnerBanner .wapper .textw p a {
+    font: normal 14px 'samsung_interfacemedium';
+    color: #fff;
+    letter-spacing: 4px;
+}
+
+.path_142164 .mod_samsungPartnerBanner .wapper .textw p a:hover,
+.path_142161 .mod_samsungPartnerBanner .wapper .textw p a:hover,
+.path_80200 .mod_samsungPartnerBanner .wapper .textw p a:hover,
+.path_142146 .mod_samsungPartnerBanner .wapper .textw p a:hover,
+.path_36044 .mod_samsungPartnerBanner .wapper .textw p a:hover,
+.path_142325 .mod_samsungPartnerBanner .wapper .textw p a:hover,
+.path_142326 .mod_samsungPartnerBanner .wapper .textw p a:hover,
+.path_142327 .mod_samsungPartnerBanner .wapper .textw p a:hover,
+.path_142328 .mod_samsungPartnerBanner .wapper .textw p a:hover,
+.path_142329 .mod_samsungPartnerBanner .wapper .textw p a:hover {
+    background: none;
+}
+
+.path_142164 header#pageHead,
+.path_142161 header#pageHead,
+.path_80200 header#pageHead,
+.path_142146 header#pageHead,
+.path_36044 header#pageHead,
+.path_142325 header#pageHead,
+.path_142326 header#pageHead,
+.path_142327 header#pageHead,
+.path_142328 header#pageHead,
+.path_142329 header#pageHead {
+    background: transparent;
+}
+
+.path_142164 nav#navH,
+.path_142161 nav#navH,
+.path_80200 nav#navH,
+.path_142146 nav#navH,
+.path_36044 nav#navH,
+.path_142325 nav#navH,
+.path_142326 nav#navH,
+.path_142327 nav#navH,
+.path_142328 nav#navH,
+.path_142329 nav#navH {
+    background: transparent;
+    padding: 0;
+    width: 960px;
+}
+
+.path_142164 nav#navH ul.p0,
+.path_142161 nav#navH ul.p0,
+.path_80200 nav#navH ul.p0,
+.path_142146 nav#navH ul.p0,
+.path_36044 nav#navH ul.p0,
+.path_142325 nav#navH ul.p0,
+.path_142326 nav#navH ul.p0,
+.path_142327 nav#navH ul.p0,
+.path_142328 nav#navH ul.p0,
+.path_142329 nav#navH ul.p0 {
+    width: 697px;
+    height: 30px;
+    list-style: none;
+    text-align: center;
+    margin-bottom: 10px;
+    line-height: 25px;
+    background: url('http://bi.gazeta.pl/i/obrazki/projects/lubie_tu_pracowac/belka.png') top left no-repeat transparent;
+}
+
+.path_142164 nav#navH ul.p0 li,
+.path_142161 nav#navH ul.p0 li,
+.path_80200 nav#navH ul.p0 li,
+.path_142146 nav#navH ul.p0 li,
+.path_36044 nav#navH ul.p0 li,
+.path_142325 nav#navH ul.p0 li,
+.path_142326 nav#navH ul.p0 li,
+.path_142327 nav#navH ul.p0 li,
+.path_142328 nav#navH ul.p0 li,
+.path_142329 nav#navH ul.p0 li {
+    position: relative;
+    float: left;
+    padding: 0 0 0 14px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #4e7b19;
+    letter-spacing: -1px;
+    height: 25px;
+    background: none;
+}
+
+.path_142164 nav#navH ul.p0 li a,
+.path_142161 nav#navH ul.p0 li a,
+.path_80200 nav#navH ul.p0 li a,
+.path_142146 nav#navH ul.p0 li a,
+.path_36044 nav#navH ul.p0 li a,
+.path_142325 nav#navH ul.p0 li a,
+.path_142326 nav#navH ul.p0 li a,
+.path_142327 nav#navH ul.p0 li a,
+.path_142328 nav#navH ul.p0 li a,
+.path_142329 nav#navH ul.p0 li a {
+    border-right: 1px solid #fff;
+    padding-right: 14px;
+    color: #fff;
+    display: inline;
+    font: normal 14px Arial;
+    letter-spacing: 0;
+}
+
+.path_142164 nav#navH ul.p0 li a:hover,
+.path_142161 nav#navH ul.p0 li a:hover,
+.path_80200 nav#navH ul.p0 li a:hover,
+.path_142146 nav#navH ul.p0 li a:hover,
+.path_36044 nav#navH ul.p0 li a:hover,
+.path_142325 nav#navH ul.p0 li a:hover,
+.path_142326 nav#navH ul.p0 li a:hover,
+.path_142327 nav#navH ul.p0 li a:hover,
+.path_142328 nav#navH ul.p0 li a:hover,
+.path_142329 nav#navH ul.p0 li a:hover {
+    color: #ea5e3a;
+    background: transparent;
+}
+
+.path_142164 #navH .p1 > li > a, .path_142164 #navH .p1 > li > a:hover,
+.path_142161 #navH .p1 > li > a, .path_142161 #navH .p1 > li > a:hover,
+.path_80200 #navH .p1 > li > a, .path_80200 #navH .p1 > li > a:hover,
+.path_142146 #navH .p1 > li > a, .path_142146 #navH .p1 > li > a:hover,
+.path_36044 #navH .p1 > li > a, .path_36044 #navH .p1 > li > a:hover,
+.path_142325 #navH .p1 > li > a, .path_142325 #navH .p1 > li > a:hover,
+.path_142326 #navH .p1 > li > a, .path_142326 #navH .p1 > li > a:hover,
+.path_142327 #navH .p1 > li > a, .path_142327 #navH .p1 > li > a:hover,
+.path_142328 #navH .p1 > li > a, .path_142328 #navH .p1 > li > a:hover,
+.path_142329 #navH .p1 > li > a, .path_142329 #navH .p1 > li > a:hover {
+    cursor: pointer;
+}
+
+.path_142164 #navH .p0 #e2 > a, .path_142164 #navH .p0 #e2 > a:hover,
+.path_142161 #navH .p0 #e2 > a, .path_142161 #navH .p0 #e2 > a:hover,
+.path_80200 #navH .p0 #e2 > a, .path_80200 #navH .p0 #e2 > a:hover,
+.path_142146 #navH .p0 #e2 > a, .path_142146 #navH .p0 #e2 > a:hover,
+.path_36044 #navH .p0 #e2 > a, .path_36044 #navH .p0 #e2 > a:hover,
+.path_142325 #navH .p0 #e2 > a, .path_142325 #navH .p0 #e2 > a:hover,
+.path_142326 #navH .p0 #e2 > a, .path_142326 #navH .p0 #e2 > a:hover,
+.path_142327 #navH .p0 #e2 > a, .path_142327 #navH .p0 #e2 > a:hover,
+.path_142328 #navH .p0 #e2 > a, .path_142328 #navH .p0 #e2 > a:hover,
+.path_142329 #navH .p0 #e2 > a, .path_142329 #navH .p0 #e2 > a:hover {
+    cursor: default;
+    color: #fff;
+}
+
+.path_142164 nav#navH ul.p0 li:last-child,
+.path_142161 nav#navH ul.p0 li:last-child,
+.path_80200 nav#navH ul.p0 li:last-child,
+.path_142146 nav#navH ul.p0 li:last-child,
+.path_36044 nav#navH ul.p0 li:last-child,
+.path_142325 nav#navH ul.p0 li:last-child,
+.path_142326 nav#navH ul.p0 li:last-child,
+.path_142327 nav#navH ul.p0 li:last-child,
+.path_142328 nav#navH ul.p0 li:last-child,
+.path_142329 nav#navH ul.p0 li:last-child {
+    border-right: none;
+}
+
+.path_142164 nav#navH ul.p0 li:last-child a,
+.path_142161 nav#navH ul.p0 li:last-child a,
+.path_80200 nav#navH ul.p0 li:last-child a,
+.path_142146 nav#navH ul.p0 li:last-child a,
+.path_36044 nav#navH ul.p0 li:last-child a,
+.path_142325 nav#navH ul.p0 li:last-child a,
+.path_142326 nav#navH ul.p0 li:last-child a,
+.path_142327 nav#navH ul.p0 li:last-child a,
+.path_142328 nav#navH ul.p0 li:last-child a,
+.path_142329 nav#navH ul.p0 li:last-child a {
+    border: none;
+}
+
+.path_142164 #navH .p1 > li,
+.path_80200 #navH .p1 > li,
+.path_142161 #navH .p1 > li,
+.path_142146 #navH .p1 > li,
+.path_36044 #navH .p1 > li,
+.path_142325 #navH .p1 > li,
+.path_142327 #navH .p1 > li,
+.path_142326 #navH .p1 > li,
+.path_142328 #navH .p1 > li,
+.path_142329 #navH .p1 > li {
+    margin: 0;
+}
+
+.path_142164 #navH .p1,
+.path_142146 #navH .p1,
+.path_36044 #navH .p1,
+.path_80200 #navH .p1,
+.path_142161 #navH .p1,
+.path_142325 #navH .p1,
+.path_142328 #navH .p1,
+.path_142329 #navH .p1,
+.path_142327 #navH .p1,
+.path_142326 #navH .p1 {
+    padding: 10px;
+
+}
+
+.path_142164 nav#navH ul.p0 li.active a,
+.path_142161 nav#navH ul.p0 li.active a,
+.path_80200 nav#navH ul.p0 li.active a,
+.path_142146 nav#navH ul.p0 li.active a,
+.path_36044 nav#navH ul.p0 li.active a,
+.path_142164 nav#navH ul.p0 li.active ul li.active a,
+.path_142161 nav#navH ul.p0 li.active ul li.active a,
+.path_80200 nav#navH ul.p0 li.active ul li.active a,
+.path_142328 nav#navH ul.p0 li.active ul li.active a,
+.path_36044 nav#navH ul.p0 li.active ul li.active a,
+.path_142325 nav#navH ul.p0 li.active a,
+.path_142161 nav#navH ul.p0 li.active a,
+.path_142327 nav#navH ul.p0 li.active a,
+.path_142146 nav#navH ul.p0 li.active a,
+.path_142329 nav#navH ul.p0 li.active a,
+.path_142325 nav#navH ul.p0 li.active ul li.active a,
+.path_142326 nav#navH ul.p0 li.active ul li.active a,
+.path_142327 nav#navH ul.p0 li.active ul li.active a,
+.path_142328 nav#navH ul.p0 li.active ul li.active a,
+.path_142329 nav#navH ul.p0 li.active ul li.active a {
+    color: #ea5e3a;
+}
+
+.path_142164 nav#navH ul.p0 li.active ul li a,
+.path_142161 nav#navH ul.p0 li.active ul li a,
+.path_80200 nav#navH ul.p0 li.active ul li a,
+.path_142146 nav#navH ul.p0 li.active ul li a,
+.path_36044 nav#navH ul.p0 li.active ul li a,
+.path_142325 nav#navH ul.p0 li.active ul li a,
+.path_142326 nav#navH ul.p0 li.active ul li a,
+.path_142327 nav#navH ul.p0 li.active ul li a,
+.path_142328 nav#navH ul.p0 li.active ul li a,
+.path_142329 nav#navH ul.p0 li.active ul li a {
+    color: #fff;
+}
+
+.path_142164 nav#navH ul.p0 li ul,
+.path_142161 nav#navH ul.p0 li ul,
+.path_80200 nav#navH ul.p0 li ul,
+.path_142146 nav#navH ul.p0 li ul,
+.path_36044 nav#navH ul.p0 li ul,
+.path_142325 nav#navH ul.p0 li ul,
+.path_142326 nav#navH ul.p0 li ul,
+.path_142327 nav#navH ul.p0 li ul,
+.path_142328 nav#navH ul.p0 li ul,
+.path_142329 nav#navH ul.p0 li ul {
+    display: none;
+}
+
+.path_142164 nav#navH ul.p0 li a:hover + ul,
+.path_142164 nav#navH ul.p0 li:hover ul,
+.path_142164 nav#navH ul.p0 li ul:hover,
+.path_142161 nav#navH ul.p0 li a:hover + ul,
+.path_142161 nav#navH ul.p0 li:hover ul,
+.path_142161 nav#navH ul.p0 li ul:hover,
+.path_80200 nav#navH ul.p0 li a:hover + ul,
+.path_80200 nav#navH ul.p0 li:hover ul,
+.path_80200 nav#navH ul.p0 li ul:hover,
+.path_142146 nav#navH ul.p0 li a:hover + ul,
+.path_142146 nav#navH ul.p0 li:hover ul,
+.path_142146 nav#navH ul.p0 li ul:hover,
+.path_36044 nav#navH ul.p0 li a:hover + ul,
+.path_36044 nav#navH ul.p0 li:hover ul,
+.path_36044 nav#navH ul.p0 li ul:hover,
+.path_142325 nav#navH ul.p0 li a:hover + ul,
+.path_142325 nav#navH ul.p0 li:hover ul,
+.path_142325 nav#navH ul.p0 li ul:hover,
+.path_142326 nav#navH ul.p0 li a:hover + ul,
+.path_142326 nav#navH ul.p0 li:hover ul,
+.path_142326 nav#navH ul.p0 li ul:hover,
+.path_142327 nav#navH ul.p0 li a:hover + ul,
+.path_142327 nav#navH ul.p0 li:hover ul,
+.path_142327 nav#navH ul.p0 li ul:hover,
+.path_142328 nav#navH ul.p0 li a:hover + ul,
+.path_142328 nav#navH ul.p0 li:hover ul,
+.path_142328 nav#navH ul.p0 li ul:hover,
+.path_142329 nav#navH ul.p0 li a:hover + ul,
+.path_142329 nav#navH ul.p0 li:hover ul,
+.path_142329 nav#navH ul.p0 li ul:hover {
+    display: block;
+    position: absolute;
+    z-index: 20;
+    background: #1151a2;
+    top: 25px;
+    left: 0;
+}
+
+.path_142164 nav#navH ul.p0 li ul li,
+.path_80200 nav#navH ul.p0 li ul li,
+.path_142161 nav#navH ul.p0 li ul li,
+.path_142146 nav#navH ul.p0 li ul li,
+.path_36044 nav#navH ul.p0 li ul li,
+.path_142325 nav#navH ul.p0 li ul li,
+.path_142327 nav#navH ul.p0 li ul li,
+.path_142326 nav#navH ul.p0 li ul li,
+.path_142328 nav#navH ul.p0 li ul li,
+.path_142329 nav#navH ul.p0 li ul li {
+    float: none;
+    display: block;
+    text-align: left;
+}
+
+.path_142164 nav#navH ul.p0 li ul li a,
+.path_80200 nav#navH ul.p0 li ul li a,
+.path_142161 nav#navH ul.p0 li ul li a,
+.path_142146 nav#navH ul.p0 li ul li a,
+.path_36044 nav#navH ul.p0 li ul li a,
+.path_142325 nav#navH ul.p0 li ul li a,
+.path_142327 nav#navH ul.p0 li ul li a,
+.path_142326 nav#navH ul.p0 li ul li a,
+.path_142328 nav#navH ul.p0 li ul li a,
+.path_142329 nav#navH ul.p0 li ul li a {
+    border: 0;
+}
+
+.path_142164 header#pageHead,
+.path_80200 header#pageHead,
+.path_142161 header#pageHead,
+.path_142146 header#pageHead,
+.path_36044 header#pageHead,
+.path_142325 header#pageHead,
+.path_142327 header#pageHead,
+.path_142326 header#pageHead,
+.path_142328 header#pageHead,
+.path_142329 header#pageHead {
+    padding: 0 20px 0;
+}
+
+.path_142325 #col_left .pollQuestionImg,
+.path_142326 #col_left .pollQuestionImg,
+.path_142327 #col_left .pollQuestionImg,
+.path_142328 #col_left .pollQuestionImg,
+.path_142329 #col_left .pollQuestionImg {
+    margin: 0;
+    padding: 0;
+    background: none;
+}
+
+.path_142325 #col_left .pollBox h2,
+.path_142325 #col_left .pollBoxWnk h2,
+.path_142326 #col_left .pollBox h2,
+.path_142326 #col_left .pollBoxWnk h2,
+.path_142327 #col_left .pollBox h2,
+.path_142327 #col_left .pollBoxWnk h2,
+.path_142328 #col_left .pollBox h2,
+.path_142328 #col_left .pollBoxWnk h2,
+.path_142329 #col_left .pollBox h2,
+.path_142329 #col_left .pollBoxWnk h2 {
+    margin: 20px 0 40px 0;
+    font: bold 26px/16px 'Arial Bold', Arial;
+    color: #1e1e1e;
+}
+
+.path_142325 #col_left .pollBox h2 span,
+.path_142325 #col_left .pollBoxWnk h2 span,
+.path_142326 #col_left .pollBox h2 span,
+.path_142326 #col_left .pollBoxWnk h2 span,
+.path_142327 #col_left .pollBox h2 span,
+.path_142327 #col_left .pollBoxWnk h2 span,
+.path_142328 #col_left .pollBox h2 span,
+.path_142328 #col_left .pollBoxWnk h2 span,
+.path_142329 #col_left .pollBox h2 span,
+.path_142329 #col_left .pollBoxWnk h2 span {
+    display: none;
+}
+
+.path_142325 #col_left .pollQuestionImg .entry,
+.path_142325 #col_left .pollBoxWnk .entry,
+.path_142326 #col_left .pollQuestionImg .entry,
+.path_142326 #col_left .pollBoxWnk .entry,
+.path_142327 #col_left .pollQuestionImg .entry,
+.path_142327 #col_left .pollBoxWnk .entry,
+.path_142328 #col_left .pollQuestionImg .entry,
+.path_142328 #col_left .pollBoxWnk .entry,
+.path_142329 #col_left .pollQuestionImg .entry,
+.path_142329 #col_left .pollBoxWnk .entry {
+    width: 300px;
+    float: left;
+    position: relative;
+}
+
+.path_142325 #col_left .pollQuestionImg .entry:nth-child(even),
+.path_142325 #col_left .pollBoxWnk .entry:nth-child(even),
+.path_142326 #col_left .pollQuestionImg .entry:nth-child(even),
+.path_142326 #col_left .pollBoxWnk .entry:nth-child(even),
+.path_142327 #col_left .pollQuestionImg .entry:nth-child(even),
+.path_142327 #col_left .pollBoxWnk .entry:nth-child(even),
+.path_142328 #col_left .pollQuestionImg .entry:nth-child(even),
+.path_142328 #col_left .pollBoxWnk .entry:nth-child(even),
+.path_142329 #col_left .pollQuestionImg .entry:nth-child(even),
+.path_142329 #col_left .pollBoxWnk .entry:nth-child(even) {
+    margin-right: 20px;
+}
+
+.path_142325 #col_left .pollQuestionImg .kL,
+.path_142325 #col_left .pollBoxWnk .kL,
+.path_142326 #col_left .pollQuestionImg .kL,
+.path_142326 #col_left .pollBoxWnk .kL,
+.path_142327 #col_left .pollQuestionImg .kL,
+.path_142327 #col_left .pollBoxWnk .kL,
+.path_142328 #col_left .pollQuestionImg .kL,
+.path_142328 #col_left .pollBoxWnk .kL,
+.path_142329 #col_left .pollQuestionImg .kL,
+.path_142329 #col_left .pollBoxWnk .kL {
+    width: 300px;
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.path_142325 #col_left .pollQuestionImg .kL input,
+.path_142326 #col_left .pollQuestionImg .kL input,
+.path_142327 #col_left .pollQuestionImg .kL input,
+.path_142328 #col_left .pollQuestionImg .kL input,
+.path_142329 #col_left .pollQuestionImg .kL input {
+    position: absolute;
+    right: 0;
+    top: 210px;
+}
+
+.path_142325 #col_left .pollQuestionImg .kL > a,
+.path_142326 #col_left .pollQuestionImg .kL > a,
+.path_142327 #col_left .pollQuestionImg .kL > a,
+.path_142328 #col_left .pollQuestionImg .kL > a,
+.path_142329 #col_left .pollQuestionImg .kL > a {
+    display: block;
+}
+
+.path_142325 #col_left .pollQuestionImg .kL img,
+.path_142325 #col_left .pollBoxWnk .kL img,
+.path_142326 #col_left .pollQuestionImg .kL img,
+.path_142326 #col_left .pollBoxWnk .kL img,
+.path_142327 #col_left .pollQuestionImg .kL img,
+.path_142327 #col_left .pollBoxWnk .kL img,
+.path_142328 #col_left .pollQuestionImg .kL img,
+.path_142328 #col_left .pollBoxWnk .kL img,
+.path_142329 #col_left .pollQuestionImg .kL img,
+.path_142329 #col_left .pollBoxWnk .kL img {
+    width: 300px;
+    height: 200px;
+    border: none;
+    padding: 0;
+    background: none;
+    margin: 0;
+}
+
+.path_142325 #col_left .pollQuestionImg .kR,
+.path_142325 #col_left .pollBoxWnk .kR,
+.path_142326 #col_left .pollQuestionImg .kR,
+.path_142326 #col_left .pollBoxWnk .kR,
+.path_142327 #col_left .pollQuestionImg .kR,
+.path_142327 #col_left .pollBoxWnk .kR,
+.path_142328 #col_left .pollQuestionImg .kR,
+.path_142328 #col_left .pollBoxWnk .kR,
+.path_142329 #col_left .pollQuestionImg .kR,
+.path_142329 #col_left .pollBoxWnk .kR {
+    width: 300px;
+    padding: 5px 0 0 0;
+    font: normal 16px/15px Arial;
+    color: #1e1e1e;
+}
+
+.path_142325 #col_left .pollQuestionImg .kR > img,
+.path_142325 #col_left .pollBoxWnk .kR > img,
+.path_142326 #col_left .pollQuestionImg .kR > img,
+.path_142326 #col_left .pollBoxWnk .kR > img,
+.path_142327 #col_left .pollQuestionImg .kR > img,
+.path_142327 #col_left .pollBoxWnk .kR > img,
+.path_142328 #col_left .pollQuestionImg .kR > img,
+.path_142328 #col_left .pollBoxWnk .kR > img,
+.path_142329 #col_left .pollQuestionImg .kR > img,
+.path_142329 #col_left .pollBoxWnk .kR > img {
+    display: none;
+
+}
+
+.path_142325 #col_left .pollBoxWnk .kR .bar0,
+.path_142326 #col_left .pollBoxWnk .kR .bar0,
+.path_142327 #col_left .pollBoxWnk .kR .bar0,
+.path_142328 #col_left .pollBoxWnk .kR .bar0,
+.path_142329 #col_left .pollBoxWnk .kR .bar0 {
+    position: absolute;
+    top: 173px;
+    float: none;
+    border: none;
+    padding: 0;
+    width: 300px;
+    margin: 0px;
+    font: normal 18px Arial;
+    color: #fff;
+    background: url('http://bi.gazeta.pl/i/obrazki/projects/lubie_tu_pracowac/samsung_glosowanie.png') bottom left no-repeat transparent;
+}
+
+.path_142325 #col_left .pollBoxWnk .kR .bar0 .bar,
+.path_142325 #col_left .pollBoxWnk .kR .bar0 .il,
+.path_142326 #col_left .pollBoxWnk .kR .bar0 .bar,
+.path_142326 #col_left .pollBoxWnk .kR .bar0 .il,
+.path_142327 #col_left .pollBoxWnk .kR .bar0 .bar,
+.path_142327 #col_left .pollBoxWnk .kR .bar0 .il,
+.path_142328 #col_left .pollBoxWnk .kR .bar0 .bar,
+.path_142328 #col_left .pollBoxWnk .kR .bar0 .il,
+.path_142329 #col_left .pollBoxWnk .kR .bar0 .bar,
+.path_142329 #col_left .pollBoxWnk .kR .bar0 .il {
+    display: none;
+}
+
+.path_142325 #col_left .pollBoxWnk .spec,
+.path_142326 #col_left .pollBoxWnk .spec,
+.path_142327 #col_left .pollBoxWnk .spec,
+.path_142328 #col_left .pollBoxWnk .spec,
+.path_142329 #col_left .pollBoxWnk .spec {
+    background: none;
+    border: none;
+}
+
+.path_142325 #col_left .pollBoxWnk .kR .bar0 span,
+.path_142326 #col_left .pollBoxWnk .kR .bar0 span,
+.path_142327 #col_left .pollBoxWnk .kR .bar0 span,
+.path_142328 #col_left .pollBoxWnk .kR .bar0 span,
+.path_142329 #col_left .pollBoxWnk .kR .bar0 span {
+    display: block;
+    width: 100px;
+    text-align: center;
+}
+
