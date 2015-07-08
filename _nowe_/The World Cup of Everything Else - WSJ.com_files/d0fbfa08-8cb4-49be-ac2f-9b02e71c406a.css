@@ -1,0 +1,58 @@
+/* 
+This CSS resource incorporates links to font software which is 
+the valuable copyrighted property of WebType LLC, The Font Bureau 
+and/or their suppliers. You may not attempt to copy, install, 
+redistribute, convert, modify or reverse engineer this font 
+software. Please contact WebType with any questions: www.webtype.com
+*/
+
+body:after { content: ''; background-image: url(http://pls.webtype.com/v.gif?ct=49027,49026,49028,49031,49030,49032,49029,49025&r=7850&p=6857&h=S69vxZnhquAKZ03Dd31coQ%3d%3d); }
+
+@font-face {
+ font-family: "Dispatch";
+ src: url("http://wac.6a25.edgecastcdn.net/006A25/webtype/ff/3/db3a36d6-39ff-4cde-9120-19d960b5bf8d") format("woff");
+ font-style: normal;
+ font-weight: bold;
+}
+@font-face {
+ font-family: "Dispatch";
+ src: url("http://wac.6a25.edgecastcdn.net/006A25/webtype/ff/3/ec5a2957-24ec-47a3-bd72-a4f90c2a4a01") format("woff");
+ font-style: normal;
+ font-weight: normal;
+}
+@font-face {
+ font-family: "Dispatch Black";
+ src: url("http://wac.6a25.edgecastcdn.net/006A25/webtype/ff/3/e8f39ff7-f665-4d40-bb1a-fed34a8ba6c8") format("woff");
+ font-style: normal;
+ font-weight: normal;
+}
+@font-face {
+ font-family: "Dispatch Cond";
+ src: url("http://wac.6a25.edgecastcdn.net/006A25/webtype/ff/3/cc9f4939-fa98-48b6-b8aa-2c8612a8bee9") format("woff");
+ font-style: normal;
+ font-weight: bold;
+}
+@font-face {
+ font-family: "Dispatch Cond";
+ src: url("http://wac.6a25.edgecastcdn.net/006A25/webtype/ff/3/8ad839c6-0014-47e3-9dd5-765dfe6e2e1a") format("woff");
+ font-style: normal;
+ font-weight: normal;
+}
+@font-face {
+ font-family: "Dispatch Cond Black";
+ src: url("http://wac.6a25.edgecastcdn.net/006A25/webtype/ff/3/99f177a1-81bb-44a4-a50c-36e4eebe760d") format("woff");
+ font-style: normal;
+ font-weight: normal;
+}
+@font-face {
+ font-family: "Dispatch Cond Light";
+ src: url("http://wac.6a25.edgecastcdn.net/006A25/webtype/ff/3/96734891-134d-4755-ad87-8a9383a57ac6") format("woff");
+ font-style: normal;
+ font-weight: normal;
+}
+@font-face {
+ font-family: "Dispatch Light";
+ src: url("http://wac.6a25.edgecastcdn.net/006A25/webtype/ff/3/2b04c60e-72bf-4434-a8a4-825f19d0306c") format("woff");
+ font-style: normal;
+ font-weight: normal;
+}
