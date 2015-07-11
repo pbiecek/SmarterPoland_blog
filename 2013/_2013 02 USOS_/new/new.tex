@@ -1,0 +1,148 @@
+\documentclass{article} 
+\usepackage[top=1in,bottom=1in,left=1.25in,right=1.25in]{geometry}
+\usepackage[MeX]{polski}
+\usepackage[cp1250]{inputenc}
+\usepackage{graphicx}
+\usepackage{multirow} 
+\usepackage{multicol}
+\usepackage[figuresright]{rotating}
+
+%\usepackage{slahbox}
+\usepackage{makecell}
+\usepackage{amssymb}
+\usepackage{longtable}
+\usepackage{amsthm}
+ 
+\begin{document}
+\title{Sieci (samo)wspierania} 
+\author{Teresa Ponikowska}
+
+\date{}
+
+\maketitle
+
+Dziœ kolejny goœcinny wpis, tym razem mojej dyplomantki mgr Teresy Ponikowskiej. 
+
+Temat dotyczy analizy danych z bazy USOS (system obs³ugi studenta, dzia³aj¹cy na wiêkszoœci uniwersytetów). Maj¹c dane o ró¿nych aspektach ,,procesu dydaktycznego'', mo¿na wiele ciekawych rzeczy zrobiæ. Wokó³ tego tematu powsta³o kilka prac magisterskich, zaczê³o siê od pracy Oceanarium, Filipa Grotkowskiego w 2011 roku, w kolejnym roku powsta³y trzy prace, miedzy innymi Teresy Ponikowskiej, eksperymentuj¹ce z ró¿nymi mo¿liwymi analizami danych z USOSa. Niestety pewnych rzeczy nie da siê zrobiæ w ramach pracy magisterskiej a NCBiR odmówi³ finansowania tego projektu. Plany wdro¿enia tego rozwi¹zania do USOSa oddali³y siê, na razie mamy tylko prototypy pomys³ów. Ale, ¿e s¹ one ciekawe, wiêc warto o nich napisaæ. Dzisiaj bêdzie o tym jak wykorzystaæ dane do sugerowania kursów, które zrobione wczeœniej pozwalaj¹ na lepsze zdanie (w domyœle lepsze zrozumienie) okreœlonego przedmiotu. W sytuacji gdy wiele przedmiotów jest wybieralnych, takie systemy mog¹ byæ u¿yteczne.
+
+----
+
+
+
+
+Ide¹ mojej pracy magisterskiej by³a pomoc studentom w okreœleniu kolejnoœci wybierania kursów. Na ka¿dym wydziale powinny siê bowiem znaleŸæ kursy, co do których mo¿na pokusiæ siê o wskazówki odnoœnie momentu ich realizacji. Przyk³adem takiego kursu na jednej z warszawskich uczelni jest Statystyka 2, która zrealizowana odpowiednio wczeœnie mo¿e przyczyniæ siê do uzyskania lepszych wyników z innych zajêæ:
+
+\begin{figure}[ht]
+\centering
+\includegraphics[scale=0.3]{rysunki/fota5.png}
+\end{figure}
+
+Powy¿szy graf prezentuje te przedmioty, dla których efektywnoœæ uczestniczenia w Optymalizacji, Modelach Matematycznych Rynków Instrumentów Pochodnych i Szeregach Czasowych wzros³a o co najmniej $25\%$ w zale¿noœci od tego, czy zrealizowano wczeœniej\footnote{a w zasadzie nie póŸniej, tzn. dopuszcza siê mo¿liwoœæ realizacji kursów w tym samym semestrze.} inny przedmiot. Przez efektywnoœæ rozumie siê uzyskanie wyniku ponad*przeciêtnego, czyli co najmniej takiego, jak wiêkszoœæ studentów realizuj¹cych dany przedmiot. Widaæ, ¿e elementem wspólnym jest wspomniana wczeœniej Statystyka 2. Nie przes¹dza to jednak o tym, ¿e stricte wiedza wyniesiona ze Statystyki 2 jest kluczowa dla osi¹gniêcia lepszych wyników. Wszystkie aspekty zwi¹zane ze sporz¹dzonym wykresem zosta³y zestawione w koncepcje sieci (samo)wspierania. 
+
+Intuicyjnie jest oczywiste, ¿e koñcowy sukces nie musi byæ zwi¹zany tylko z rozwa¿anym ursem, lecz mo¿e zale¿eæ od innych zrealizowanych przedmiotów. Metoda sieci (samo)wspierania bada te zwi¹zki dla zadanej pary kursów - kursu bazowego ($K_{baz}$) i kursu testowego ($K_{test}$); dok³adniej, bada w jaki sposób zmieni³a siê efektywnoœæ kursu bazowego w sytuacji, kiedy kurs testowy zosta³ zrealizowany co najwy¿ej w tym samym czasie co kurs bazowy, do sytuacji, kiedy by³ on zrealizowany póŸniej b¹dŸ nie by³ zrealizowany w ogóle. W sytuacji, kiedy przyrost efektywnoœci dla kursu bazowego jest dodatni mówi siê, ¿e kurs testowy \textit{wspiera} kurs bazowy. Wartoœci¹ wsparcia jest wówczas wspomniana ró¿nica efektywnoœci, oznaczana jako wspó³czynnik wsparcia $wsp$. 
+
+Dla porz¹dku wprowadza siê nastêpuj¹ce oznaczenie na opisane nastêpstwo czasowe:
+$$
+\textrm{\textit{Student}} = \left\{
+\begin{tabular}{rl}
+1, & \textrm{Kurs $K_{test}$ by³ realizowany nie póŸniej ni¿ kurs $K_{baz}$}\\
+0, & \textrm{Kurs $K_{test}$ by³ realizowany póŸniej ni¿ kurs $K_{baz}$ lub nie by³ realizowany w ogóle}
+%0, & \textrm{gdy w momencie przyst¹pienia do egzaminu student nie wys³ucha³ kursu $K_t$}.
+\end{tabular}
+\right.
+$$
+
+Dziêki niemu wspó³czynnik wsparcia mo¿na wyraziæ w terminach prawdopodobieñstw warunkowych, jeœli tylko podzieli siê studentów zwi¹zanych z kursem bazowym na odpowiednie podklasy. W tym celu rozwa¿a siê tablice dwudzielne o nastêpuj¹cym schemacie:
+
+\clearpage
+
+\begin{table}[ht] \begin{center}
+\begin{tabular}{|c|c|c|}\hline
+\diaghead{12345678910}{$K_{test}$}{$K_{baz}$} & $sukces = 1$ & $sukces = 0$ \\  \hline
+$Student = 1$ & $a$ & $b$ \\ \hline
+$Student = 0$  & $c$ & $d$ \\ \hline
+\end{tabular}
+\caption{Schemat tablicy dwudzielnej dla analizy wsparcia.}
+\label{tab:schemat-tablicy-dwudzielnej}
+\end{center} \end{table}
+
+
+
+Ostatecznie wspó³czynnik wsparcia wyra¿a siê jako:
+
+\begin{eqnarray}
+wsp(K_{baz},K_{test}) = \frac{a}{a+b} - \frac{c}{c+d} \nonumber.
+%,\\
+%prop(K_{baz},K_{test}) = \frac{a}{a+b} / \frac{c}{c+d} \nonumber.
+\end{eqnarray}
+
+Przyk³adowo, za³ó¿my, ¿e student zastanawia siê, w jakiej kolejnoœci zrealizowaæ
+Statystykê 2 ($stat2$) i Modele Matematyczne Rynków Instrumentów Pochodnych ($mmrip$). W tym celu mo¿na oceniæ, jak zmienia siê wprowadzony wspó³czynniki dla odpowiednich par testowych, tzn. dla ($stat2$, $mmrip$) i ($mmrip$, $stat2$). Tablice dwudzielne s¹ tutaj nastêpuj¹ce:
+
+\begin{table}[h]
+\begin{tabular}{ll}
+
+Tablica dwudzielna dla ($mmrip$, $stat2$) &
+Tablica dwudzielna dla ($stat2$, $mmrip$)  
+
+
+\\
+
+\begin{tabular}{|c|c|c|}\hline
+\diaghead{12345678910}{$stat2$}{$mmrip$} 
+& $sukces = 1$& $sukces = 0$ \\  \hline
+$Student = 1$ & $81$ & $55$ \\ \hline
+$Student = 0$  & $25$ & $65$ \\ \hline
+\end{tabular}
+
+&
+
+\begin{tabular}{|c|c|c|}\hline
+\diaghead{12345678910}{$mmrip$}{$stat2$} 
+& $sukces = 1$& $sukces = 0$ \\  \hline
+$Kursant = 1$ & $72$ & $21$ \\ \hline
+$Kursant = 0$  & $190$ & $58$ \\ \hline
+\end{tabular}
+
+\end{tabular}
+\caption{Tablice dwudzielne}
+\end{table}
+
+
+%\begin{table}[h]
+%\begin{center}
+%\begin{tabular}{|l|c|c|}\hline 
+%& \multicolumn{2}{|c|}{wspó³czynniki}\\ \cline{2-3}
+%& $wsp$ & $prop$ \\ \hline
+%($K_{PS}$, $K_{TRU}$) &  $-0.15$  & $0.78$ \\
+% ($K_{TRU}$, $K_{PS}$) &  $0.21$ & $1.46$ \\ \hline
+%\end{tabular}
+%\end{center}
+%\end{table}
+
+W tym przypadku wspó³czynniki wynosz¹ odpowiednio $31\%$, $1\%$. Metoda sieci (samo)wspierania sugeruje wiêc, ¿e to Statystyka 2 wspiera Modele Matematyczne Rynków Instrumentów Pochodnych, a nie odwrotnie. Mamy bowiem, ¿e studenci przystêpuj¹cy do egzaminu z Modeli Matematycznych Rynków Instrumentów Pochodnych, którzy mieli wczeœniej stycznoœæ ze Statystyk¹ 2 radzili sobie o $31\%$ lepiej od studentów, którzy ze Statystyk¹ 2 nie mieli (jeszcze) nic wspólnego. Zamieniaj¹c kursy rolami wsparcie wystêpuje na znikomym poziomie.
+
+%Otrzyman¹ zale¿noœæ mo¿na przedstawiæ w postaci grafu skierowanego z Rysunku %\ref{rys:PS.TRU}, który jest podstawow¹ informacj¹ zwrotn¹ generowan¹ przez sieæ %(samo)wsparcia.
+
+%\begin{figure}[ht]
+%\centering
+%\includegraphics[width=0.3\textwidth]{rysunki/polaczenie.png}
+%\caption{Kierunek wspierania dla Procesów Stochastycznych i Teorii Ryzyka w %Ubezpieczeniach}
+%\label{rys:PS.TRU}
+%\end{figure}
+
+W sytuacji, w której student by³by zainteresowany zbadaniem zale¿noœci pomiêdzy wiêksz¹ iloœci¹ przedmiotów, metoda sieci (samo)wspierania zbada³aby ka¿d¹ z mo¿liwych konfiguracji ($K_{baz}$, $K_{test}$). W wyniku podaje siê wówczas graf po³¹czeñ pomiêdzy tymi kursami, w których mo¿na mówiæ o wsparciu, pocz¹wszy od ustalonego poziomu pocz¹tkowego. Przyk³adem takiego grafu jest rozszerzona do 44 arbitralnie wybranych kursów postaæ wczeœniejszego grafu, przedstawiona na Rysunku \ref{rys:glowny_graf}. Poziom pocz¹tkowy zosta³ ustalony jako $25\%$. Pojawiaj¹ce siê dodatkowo pêtle odpowiadaj¹ one na pytanie, czy ponowne uczestniczenie w ca³ym kursie stawia studentów w uprzywilejowanej pozycji. Pêtle by³y dodawane ju¿ od poziomu samowsparcia $10\%$.
+
+Alternatywnym wspó³czynnikiem wsparcia mo¿e byæ wspó³czynnik proporcji, który odpowiada ilorazowi badanych efektywnoœci. Wartoœci tego wspó³czynnika zosta³y przypisane do krawêdzi znajduj¹ siê na zamieszczonych grafach (samo)wspierania.
+
+\begin{sidewaysfigure}
+\centering
+\includegraphics[width=0.95\textwidth]{rysunki/mat-sukces2.png}
+\caption{Sieæ (samo)wspierania}
+\label{rys:glowny_graf}
+\end{sidewaysfigure}
+
+
+
+
+\end{document}
