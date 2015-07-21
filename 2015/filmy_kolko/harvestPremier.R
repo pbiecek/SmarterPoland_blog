@@ -89,7 +89,7 @@ for (k in 1:12) {
                      1,
                      col=kolory[as.character(miesiac$gatunki[j])],
                      facing = "clockwise", adj=c(0,0),
-                     cex=1)
+                     cex=1, niceFacing=TRUE)
   }
   circos.trackText(factors = k, 
                    0.5,
@@ -97,7 +97,7 @@ for (k in 1:12) {
                    month.abb[k],
                    1,
                    facing = "clockwise", adj=c(1,1),
-                   cex=1.8)
+                   cex=1.8, niceFacing=TRUE)
 }
 
 circos.clear()
