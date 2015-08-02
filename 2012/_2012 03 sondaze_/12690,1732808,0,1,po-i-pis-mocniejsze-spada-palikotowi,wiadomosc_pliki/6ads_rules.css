@@ -1,0 +1,101 @@
+#rel72 {
+	margin: 5px 0px 0px 0px;
+	position: relative; z-index: 4;
+}
+#adl72 {
+	background-color: #fff;
+	width: 100%;
+	position: absolute; z-index: 4; visibility: visible; left: 0; top: 0;
+}
+.adl72h60 {
+	height: 60px;
+}
+.adl72h100 {
+	height: 100px;
+}
+.adl72h200 {
+	height: 200px;
+}
+#advCaption {
+	color: #696969; background-color: #fff;
+	font-size: 9px; font-family: Verdana,Helvetica,Tahoma; text-align: left;
+	width: 100%; height: 13px; margin-top: -13px;
+	position: absolute; left: 0;
+}
+#adl72close {
+	background-color: #fff;
+	height: 13px; margin-top: -13px;
+	position: absolute; right: 0;
+}
+.adl72cursor {
+	cursor: pointer;
+}
+.adl72frame {
+	width: 468px; height: 60px;
+}
+.adl74frame {
+	width: 750px; height: 100px;
+}
+.adl74frame200 {
+	width: 750px; height: 200px;
+}
+.adl72center {
+	text-align: center;
+	margin: 0 auto; overflow: hidden;
+}
+.onetBoxPrepend {
+	text-align: center;
+	margin: 10px 0;
+}
+.onetNapisReklama {
+	color: #696969;
+	font-size: 9px; font-family: Verdana, Helvetica, Tahoma; text-align: left;
+	width: 300px; margin: 0 auto; padding-bottom: 2px;
+	display: block;
+}
+.slot_belkadolna_tv .onetNapisReklama {
+	margin: 0;
+}
+.adHid {
+	display: none;
+}
+#adNavibox {
+	width: 300px; padding-top: 5px;
+	clear: both;
+}
+.ad_pasekrozwijany, .ad_default {
+	text-align: center;
+	margin: 10px auto;
+}
+.ad_default {
+	width: auto;
+}
+.ad_belkadolna, .ad_wizytowka, .ad_box, .ad_boxright1, .ad_boxright2,
+.ad_boxright3, .ad_boxright4, .ad_boxright5, .ad_halfpage, .ad_boks1,
+.ad_boksnavi, .ad_panel1, .ad_pasekart, .ad_efektcenter,
+.ad_efektright, .ad_efektleft {
+	margin: 0 0 10px 0;
+}
+.ad_sky {
+	/* width: 160px; */
+	margin: 0 auto 10px;
+}
+.ad_box {
+	width: 300px; margin: 0 auto 20px;
+	clear: both;
+}
+.ad_boxnavi {
+	clear: both;
+}
+.ad_adInfo {
+	color: #696969;
+   font: 9px Verdana, Arial, Helvetica, sans-serif; text-align: left;
+}
+.ad_zExpand {
+	color: #696969;
+	font: 9px Verdana, Arial, Helvetica, sans-serif;
+	text-align: right;
+}
+.ad_efektright2 {
+	width: 150px; overflow: hidden;
+}
