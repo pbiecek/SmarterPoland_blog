@@ -1,0 +1,161 @@
+#fbOverlay { background: url("http://bi.gazeta.pl/i/obrazki/fb_connect/overlay4.png") 0 0 repeat transparent; position: fixed; width: 100%; height: 100%; left: 0; top: 0; z-index: 999;display:none}
+#fbOverlay .fbOverlayWrap { position: relative; background: none; width: 100%; height: 100%; }
+#fbWindowContainer { position: absolute; top: 50%; margin-top:-305px; left:0; width: 100%; height: auto; font-family: Tahoma, Arial, sans-serif !important}
+#fbWindow { background: #fff; color: #3a3939; margin: auto; width: 674px; top: 50%; height: 610px; display: none; border-radius: 4px; overflow: hidden; position:relative; box-shadow: 0 0 20px #000;}
+#fbWindow.shadow2 { box-shadow: 0 0 40px #000 }
+#fbWindow .head { background: #3a589d; height: 74px; width: 100%; display: block; color: #fff; position:relative; font-size: 18px; line-height: 36px; overflow: hidden; border-radius: 4px 4px 0 0;}
+#fbWindow .head h3 {font-weight: bold; margin-left: 10px;margin-top:11px; line-height: 30px;color: #fff}
+#fbWindow .head p {font-size: 14px; color: #ccc; line-height:1em}
+#fbWindow .avatarWrap { float:left; margin: 10px 20px 10px 10px}
+#fbWindow .avatarWrap img { border:2px solid #274382; }
+#fbWindow .closeWin { height: 20px; width: 21px; display: block; position:absolute; right: 2px; top:2px;overflow: hidden; text-indent: -999px; background: url('http://bi.gazeta.pl/i/obrazki/fb_connect/sprite_g.png') -2px -26px no-repeat transparent; cursor:pointer }
+#fbWindow .fbLogoWrap { width: 100px; height:100px; position:absolute; right: 0; top:0; background: url('http://bi.gazeta.pl/i/obrazki/fb_connect/sprite_g.png') -50px -3px no-repeat}
+
+#fbWindow .gray { font-size: 11px; color: #909090;}
+#fbWindow .gray2 {font-size: 12px; color: #909090;}
+#fbWindow p {line-height: 27px;}
+#fbWindow a {color:#3A589D}
+#fbWindow a:hover{background:none;text-decoration:underline}
+#fbWindow small { margin-top: 5px; line-height:12px; font-size:11px}
+#fbWindow h4 { text-align: center; font-weight: bold; margin: 40px 0 30px; }
+#fbWindow label { color: #3a3939; line-height: 24px }
+#fbWindow input[type=text], #fbWindow input[type=password] { display: inline-block; border: 1px solid #a5acb2; outline: none; padding: 4px; font: 12px Tahoma, Arial, sans-serif; width: 180px }
+#fbWindow input[type=text].disabled { background: #daeaff !important; border:1px solid #daeaff !important; color: #444 !important}
+#fbWindow input[disabled] {background:#fff; border: none;line-height:16px}
+#fbWindow .email input[disabled] {color: #000}
+#fbWindow input:focus { border: 1px solid #ffb56c; outline: 2px solid #ffb56c }
+#fbWindow .left { width: 150px; text-align: right; display: block; float: left; margin-right: 4px}
+#fbWindow span.email { line-height: 24px; color: #999; }
+#fbWindow .blk { display: block; max-width: 260px;}
+#fbWindow .bld { font-weight: bold;}
+#fbWindow .f14 { font-size: 15px; }
+#fbWindow .mw80p { max-width: 80% }
+#fbWindow .mw200px { max-width: 200px; display: block }
+#fbWindow .cen { text-align: center; margin: auto;}
+#fbWindow .cnt { margin-left: 155px;display:block; }
+#fbWindow li { margin-bottom: 7px; clear:both; display: block; }
+#fbWindow input.hidden { display: none }
+#fbWindow .hidden { display: none}
+#fbWindow .errMsg { display: none; white-space: pre-line;}
+#fbWindow .invalid input, #fbWindow .logOcc input { outline: 2px solid #ff4310 !important; }
+#fbWindow .invalid .errMsg { display: block; color: #ff4310 }
+#fbWindow .invalid .Msg { display: none }
+#fbWindow .logOcc .Msg { display: none }
+#fbWindow .logOcc .errMsg2 { display: block; color: #ff4310}
+#fbWindow .invalid.passwd .errMsg { color: #ff4310 }
+#fbWindow li .empty {display:none; color: #ff4310}
+#fbWindow li.empty .errMsg {display:none}
+#fbWindow .empty .empty {display: block}
+#fbWindow .login.length .length {display:block;}
+#fbWindow .login .length {display:none}
+#fbWindow .login .chars {display:none}
+#fbWindow .login.chars .chars {display:block}
+#fbWindow .login .toLong {display:none}
+#fbWindow .login.toLong .toLong {display:block}
+#fbWindow .login .badLogin {display:none}
+#fbWindow .login.badLogin .badLogin {display:block}
+
+#fbWindow .errMsg2 { display: none }
+#fbWindow .srvError .srvMsg { display: block; color: red }
+#fbWindow .srvError .errMsg, #fbWindow .srvError .errMsg2 { display: none !important}
+#fbWindow .srvMsg { display: none }
+#fbWindow .passwd .errMsg { color: #aaa; display: block; }
+
+#fbWindow .editMail { background: url('http://bi.gazeta.pl/i/obrazki/fb_connect/sprite_g.png') -92px -28px no-repeat; display: inline-block; width: 16px; height: 15px; cursor: pointer; margin-left: 4px;}
+
+#fbWindow .topm { margin-top: 20px}
+#fbWindow .topm1 { margin-top: 65px}
+#fbWindow .topm2 { margin-top: 50px}
+#fbWindow .topm3 { margin-top: 35px}
+#fbWindow .topm4, #fbWindow .readyAndInvite p.topm4 { margin-top: 75px}
+#fbWindow .topm5 { margin-top: 200px}
+#fbWindow .topMsg { margin-bottom: 20px;}
+#fbWindow .left160 { margin-left: 110px;}
+#fbWindow .h50 { height: 50px}
+
+#fbWindow .commonError {color:red; margin-top: 100px}
+
+#fbWindow .makeNEdit { padding-top: 15px;}
+#fbWindow .makeNEdit .emailTxt { line-height: 24px;}
+#fbWindow .makeNEdit .title {line-height:16px;margin-bottom:6px}
+#fbWindow .makeNEdit .lead {line-height:16px;margin-bottom:10px}
+#fbWindow .email small {margin-top:0}
+#fbWindow li.single {height:42px}
+#fbWindow li.double {height:55px}
+#fbWindow input[type=submit].disabled, #fbWindow button.disabled, #fbWindow input[type=submit].disabled:hover, #fbWindow button.disabled:hover {background-position:0 -254px;border-color:#ddd;cursor:default; color:#e2e5eb !important;outline:none !important}
+
+#fbWindow .readyAndInvite { padding-top: 75px}
+#fbWindow .readyAndInvite p { max-width: 370px; margin:auto; line-height: 27px}
+#fbWindow .readyAndInvite .usersTotal { float: right; width: 200px; display: block;}
+#fbWindow .readyAndInvite li {width:250px; margin:auto}
+#fbWindow .wideB {padding-left:40px;padding-right:40px}
+#fbWindow .agreement { float: left; margin: 2px 7px 20px 155px}
+#fbWindow .agree small.blk {max-width:400px}
+#fbWindow .friendsUseWrap { background: #e9e9e9; border-radius: 4px; font-weight: bold; color: #333; padding: 20px; width: 500px; margin: 20px auto; height: 50px; display: block; border: 1px solid #e5e5e5 }
+
+/*#fbWindow .readyAndInvite .closePop {padding-left:40px;padding-right:40px}*/
+/*#fbWindow .readyAndInvite.connected .friendsUseWrap { margin: 45px auto}
+#fbWindow .readyAndInvite.connected .orByFB, #fbWindow .readyAndInvite.connected > ul { display:none}
+#fbWindow .friendsUse li { float: left; margin-right: 10px; clear: none;}*/
+
+#fbWindow .multiLogin select { padding: 4px; width: 250px; height: 30px; border: 1px solid #bdc7d8; font-size: 12px; color: #4a4a4a}
+#fbWindow  div.arrow { position: absolute; left: 400px; top: 135px; background: url('http://bi.gazeta.pl/i/obrazki/fb_connect/sprite_g.png') 0 -115px no-repeat; height: 80px; width: 50px}
+#fbWindow .loginOnly div.arrow { top: 155px}
+#fbWindow .wannaConnectAcc { padding-top: 60px; }
+#fbWindow .wannaConnectAcc form { margin-top: 30px;}
+#fbWindow .wannaConnectAcc gray { color:#6e6e6e;font-size:12px}
+
+#fbWindow .foundLogins { text-align: center; }
+#fbWindow .foundLogins li { display: inline; margin: 20px 10px }
+#fbWindow .foundLogins .fbButton { padding: 3px 10px}
+#fbWindow .loaderWrap { width: 100%; height: 363px; position: relative; }
+#fbWindow .loaderWrap img { position: absolute; top: 50%; left: 50%; margin-top: -16px; margin-left: -16px}
+#fbWindow .mLoaderWrap { margin:auto; height: 32px; width:32px; display: block}
+#fbWindow .footer { background: #e9e9e9; position: absolute; bottom: 0; left: 0; width: 100%; height: 78px; border-top: 1px solid #bdc7d8; font-size:14px; border-radius: 0 0 4px 4px;}
+#fbWindow .footer p { float: right; padding: 18px; width: 150px; line-height:18px}
+#fbWindow .footer a { font-size: 14px; color: #3a589d;text-decoration:none}
+#fbWindow .footer a:hover {text-decoration:underline}
+#fbWindow .footer a:hover > span {text-decoration:none !important}
+#fbWindow .lowLoader { position:absolute;right:20px;bottom:10px;display:none}
+#fbWindow input.fbButton, #fbWindow button.fbButton {line-height:17px;padding-top:1px; padding-bottom:3px}
+
+#fbWindow.hideAway {-webkit-transform: scale(0.8); -webkit-transition: all ease-in-out 0.4s; -moz-transform: scale(0.8); -moz-transition: all ease-in-out 0.4s; }
+section.account_log .fbRegBottom a {color:#fff}
+
+#page-hat a.gFBLogin.smallIcon,
+#page-hat a.gFBLogin.smallIcon:hover,
+section.account_log .fbRegBottom a.gFBLogin.smallIcon,
+section.account_log .fbRegBottom a.gFBLogin.smallIcon:hover,
+form#loginForm .fbRegBottom a.gFBLogin.smallIcon,
+form#loginForm .fbRegBottom a.gFBLogin.smallIcon:hover {padding:3px 10px; background: url('http://bi.gazeta.pl/i/obrazki/fb_connect/sprite_g.png') 0 -452px no-repeat transparent; width:93px; height:15px;display:inline-block;font:bold 11px/15px Tahoma,sans-serif;color:#fff;text-decoration:none;text-indent:19px;position:relative}
+
+#page-hat a.gFBLogin.smallIcon:hover,
+section.account_log .fbRegBottom a.gFBLogin.smallIcon:hover,
+form#loginForm .fbRegBottom a.gFBLogin.smallIcon:hover {background-position:0 -474px;color:#fff !important}
+
+section.account_log .fbRegBottom a.gFBLogin.smallIcon, section.account_log .fbRegBottom a.gFBLogin.smallIcon:hover, form#loginForm .fbRegBottom a.gFBLogin.smallIcon, form#loginForm .fbRegBottom a.gFBLogin.smallIcon:hover {width:200px}
+
+
+
+#page-hat a.gFBLogin.smallIcon, #page-hat a.gFBLogin.smallIcon:hover {margin-top:-2px}
+
+.gFBLogin {text-align:center !important; border: 1px solid #000; border-color: #183472 #274382 #183472 #274382}
+
+.gFBLogin > img {width:16px;height:16px;margin-top:-4px;display:inline !important}
+
+/* log fb */
+.fbButton, .fbButton:hover {background-image:url('http://bi.gazeta.pl/i/obrazki/fb_connect/sprite_g.png') !important;color:#fff;background-color:transparent;background-position:0 0}
+.gFBLogin.active {cursor:pointer}
+
+.fbButton, .fbButton:hover { background-position: 0 -277px; background-repeat: repeat-x; border-width: 1px !important; border-style: solid; border-color: #183472 #274382 #183472 #274382; outline: none; color: #fff; font-weight: bold; font-size: 13px; font-family: Tahoma, sans-serif; padding: 3px 10px; overflow: hidden; cursor: pointer}
+
+input.fbButton, input.fbButton:hover, button.fbButton, button.fbButton:hover {height:25px;}
+a.fbButton {margin:0 8px;line-height:17px;vertical-align:middle;}
+body a.fbButton:hover, body .fbButton:hover {background-position: 0 -300px;color:#fff !important;text-decoration:none !important; border: 1px solid #183472 !important}
+
+.userLogin a.fbButton {margin-bottom: 4px;display:inline-block}
+
+/*bottom of register/login form*/
+.fbRegBottom {width:100%;height:80px;display:block;background:#e6e6e6;text-align:center;line-height:80px;margin-top:48px}
+/*kinoplex*/ .path_111528 .fbRegBottom {background: transparent; border: 1px solid #363636;width:auto;margin-top:0}
+
