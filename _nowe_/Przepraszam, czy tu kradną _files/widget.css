@@ -1,0 +1,276 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+	FS
+*/
+
+body {
+	font-family: Open Sans, arial, sans-serif;
+	background-color: #fff;
+	color: #686868;
+}
+
+.box {
+	margin: 0 0;
+	width: 300px;
+	/*padding-top: 100px;*/
+}
+
+.agora_widget {
+	height: 425px;
+}
+
+.agora_widget h2 {
+	font-size: 18px;
+	font-weight: bold;
+	padding: 10px 0 10px 0;
+	border-bottom: 1px solid #ebeae2;
+	margin-bottom: 15px;
+	color: #7c7b69;
+}
+
+.agora_widget .tabs {
+	height: 375px;
+	width: 298px;
+	background-color: #fff;
+	border-radius: 5px; /* CSS3 */
+	border: 1px solid #d3d2d2;
+	position: relative;
+}
+
+.agora_widget .tabs .left_tab {
+	height: 375px;
+	width: 175px;
+	background-color: #ebeae2;
+	border: 1px solid #d3d2d2;
+	border-radius: 5px; /* CSS3 */
+	position: absolute;
+	left: -1px;
+	top: -1px;
+}
+
+.agora_widget .tabs .right_tab_line {
+	height: 1px;
+	width: 125px;
+	position: absolute;
+	top: 40px;
+	right: 0px;
+	background-color: #ebeae2;
+	border-top: 1px solid #d3d2d2;
+}
+
+.agora_widget .tabs .content {
+	height: 335px;
+	width: 298px;
+	background-color: #ebeae2;
+	border-bottom-left-radius: 5px; /* CSS3 */
+	border-bottom-right-radius: 5px; /* CSS3 */
+	position: absolute;
+	top: 40px;
+	left: 0px;
+}
+
+.agora_widget .tabs .content_down {
+	height: 150px;
+	width: 298px;
+	background-color: #ebeae2;
+	border-top: 1px solid #d3d2d2;
+	border-bottom-left-radius: 5px; /* CSS3 */
+	border-bottom-right-radius: 5px; /* CSS3 */
+	position: absolute;
+	top: 224px;
+	left: 0px;
+	text-align: center;
+}
+
+.agora_widget .tabs .content_down h2{
+	font-size: 14px;
+	font-weight: normal;
+	color: #686868;
+	margin: 13px 0 -15px 0;
+}
+
+.agora_widget .tabs .content_down .result{
+	margin: 10px 0 0 0;
+	font-size: 45px;
+	font-weight: bold;
+	color: #686868;
+	padding: 0;
+	height: 60px;
+	text-shadow: 0.1px 0.1px 0.1px rgba(189, 189, 189, 1);
+}
+
+.agora_widget .tabs .content_down .result .empty {
+	font-size: 16px;
+	display: block;
+	padding-top: 20px;
+	line-height: 130%;
+}
+
+.agora_widget .tabs .content_down .submit {
+	display: block;
+	margin: 0 12px 0 12px;
+	padding: 8px 8px 9px;
+	line-height: 16px;
+	border: 2px solid #d98209;
+	border-radius: 5px; /* CSS3 */
+	background-color:  #fa8a2a;
+	background-image: -moz-linear-gradient(top, #fa8a2a, #ee7802);
+	background-image: -webkit-linear-gradient(top, #fa8a2a, #ee7802);
+	background-image: linear-gradient(top, #fa8a2a, #ee7802);
+	cursor: pointer;
+	-webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+.agora_widget .tabs .content_down .submit:hover {
+	background-color: #ff953a;
+	background-image: -moz-linear-gradient(top, #ff953a, #ef7804);
+	background-image: -webkit-linear-gradient(top, #ff953a, #ef7804);
+	background-image: linear-gradient(top, #ff953a, #ef7804);
+}
+
+.agora_widget .tabs .content_down .submit span {
+	cursor: pointer;
+	display: block;
+	font-weight: 700;
+	color: #ecffff;
+	font-size: 16px;
+	text-shadow: 0.1em 0.1em #9b4601;
+}
+
+.agora_widget .tabs .left_label {
+	margin: 10px;
+	font-size: 15px;
+	font-weight: normal;
+	height: 40px;
+	width: 175px;
+	color: #7c7b69;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.agora_widget .tabs .right_label {
+	margin: 14px 10px 0 10px;
+	font-size: 12px;
+	font-weight: normal;
+	height: 40px;
+	width: 105px;
+	color: #7c7b69;
+	position: absolute;
+	top: 0px;
+	left: 175px;
+}
+
+.agora_widget .tabs .right_label a:hover,
+.agora_widget .tabs .right_label a {
+	color: #7c7b69;
+	text-decoration: none;
+}
+
+.agora_widget .tabs .content .slider_div {
+	padding: 20px 20px 20px 20px;
+	background-color: #ebeae2;
+	width: 258px;
+	height: 140px;
+	font-size: 14px;
+}
+
+.agora_widget .tabs .content .slider_div label{
+	padding: 0 10px 30px 10px;
+}
+
+.agora_widget .tabs .content .slider_div span{
+	color: #ef7804;
+	font-weight: bold;
+}
+
+/* 
+	Slider 
+*/
+.slider {
+  width: 242px;  
+}
+
+.slider > .dragger {
+  background: url('../img/pointer.png') no-repeat;
+  width: 18px;
+  height: 42px;
+}
+
+.slider > .dragger:hover {  
+  background: url('../img/pointer_2.png') no-repeat;
+}
+
+
+.slider > .track, .slider > .highlight-track {
+  background: #fff;
+  background: -webkit-linear-gradient(top, ##fff, #ddd);
+  background: -moz-linear-gradient(top, ##fff, #ddd);
+  background: linear-gradient(top, ##fff, #ddd);
+
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 5px;
+
+  border: 1px solid #aaa;
+  height: 14px;
+}
+
+.slider > .highlight-track {
+	background-color: #fb8b2d;
+	background: -webkit-linear-gradient(top, #fb8b2d, #ef7906);
+	background: -moz-linear-gradient(top, #fb8b2d, #ef7906);
+	background: linear-gradient(top, #fb8b2d, #ef7906);
+	
+	height: 14px;
+	border-color: #d1d1d1;
+}

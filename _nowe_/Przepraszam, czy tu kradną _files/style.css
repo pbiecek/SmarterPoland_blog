@@ -1,0 +1,755 @@
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('//porady.domiporta.pl/css/domiporta2013/fonts/opensans-light-webfont.eot');
+    src: url('//porady.domiporta.pl/css/domiporta2013/fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('//porady.domiporta.pl/css/domiporta2013/fonts/opensans-light-webfont.woff') format('woff'),
+         url('//porady.domiporta.pl/css/domiporta2013/fonts/opensans-light-webfont.ttf') format('truetype'),
+         url('//porady.domiporta.pl/css/domiporta2013/fonts/opensans-light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('//porady.domiporta.pl/css/domiporta2013/fonts/opensans-regular-webfont.eot');
+    src: url('//porady.domiporta.pl/css/domiporta2013/fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('//porady.domiporta.pl/css/domiporta2013/fonts/opensans-regular-webfont.woff') format('woff'),
+         url('//porady.domiporta.pl/css/domiporta2013/fonts/opensans-regular-webfont.ttf') format('truetype'),
+         url('//porady.domiporta.pl/css/domiporta2013/fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sanssemibold';
+    src: url('//porady.domiporta.pl/css/domiporta2013/fonts/opensans-semibold-webfont.eot');
+    src: url('//porady.domiporta.pl/css/domiporta2013/fonts/opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('//porady.domiporta.pl/css/domiporta2013/fonts/opensans-semibold-webfont.woff') format('woff'),
+         url('//porady.domiporta.pl/css/domiporta2013/fonts/opensans-semibold-webfont.ttf') format('truetype'),
+         url('//porady.domiporta.pl/css/domiporta2013/fonts/opensans-semibold-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{color:#333;font:normal 12px Arial;}
+body #banP1{margin:0 auto 20px;}
+header#pageHead{z-index:101; width:980px; margin-bottom: 0;}
+header#pageHead div.c0{margin-top:5px;}
+header#pageHead div.c0 div.imgw {padding-top: 15px; padding-bottom: 5px;}
+header#pageHead div.c1{height:auto; float: none; margin-left: 288px;}
+#content {width: 980px;}
+span.small{font-size:11px;color:#dd5231;font-weight:700;}
+
+#Ftabs{height:42px;background:url(http://bi.gazeta.pl/i/obrazki/dom09/finder-border.gif) repeat-x 0 100%;}
+#Ftabs li{float:left;display:inline;height:39px;font:15px/39px Georgia, serif;background:url(http://bi.gazeta.pl/i/obrazki/dom09/finder-tab-bg.gif) repeat-x 0 0;margin:2px 6px 1px 0;padding:0 16px;}
+#Ftabs li a,.mod_zr9 .node_head h2,.mod_zr7 .node_head h2,.mod_zr1 .node_head h2,.NFwrp h3,.mod_zr6 .node_head h2,.indexMT .header h2,.indexMT .header h1,.mod_zr13 .node_head h2,.wideoIndex .index_head h2,.mod_domiporta_ogl h2,.ibo2 .iboStart h3,.mod_zr9 .node_head h2 a,.mod_zr7 .node_head h2 a,.mod_zr1 .node_head h2 a,.NFwrp h3 a,.mod_zr6 .node_head h2 a,.indexMT .header h2 a,.indexMT .header h1 a,.mod_zr13 .node_head h2 a,.wideoIndex .index_head h2 a,.mod_zr_dom4 h1 a{color:#31313e;}
+#Ftabs li a:hover{text-decoration:underline;background:none;}
+#Ftabs li.active{background:#fff;border:1px solid #a8a8a8;border-bottom-color:#fff;padding-top:1px;margin:0 6px 0 0;}
+#Ftabs li.active a:hover{cursor:default;text-decoration:none;}
+#banP78 + article.eCommerce section.body,article.eCommerce section.body li.holder p{visibility:hidden;}
+#banP78 + article.eCommerce,article.eCommerce section.body li.holder{background:url(http://bi.gazeta.pl/i/obrazki/lego/loader-mill.gif) no-repeat 50% 50%;}
+#banP78 + article.eCommerce.loaded section.body{visibility:visible;}
+#bottom_wrap{width:980px;margin-top:20px;}
+#bottom_wrap .mod_zr8{margin-bottom:0;overflow:hidden;zoom:1;position:relative;height:122px;width:980px;}
+#bottom_wrap .mod_zr8 #partners_node_next{width:21px;height:82px;position:absolute;right:0;top:28px;z-index:2;overflow:hidden;zoom:1;}
+#bottom_wrap .mod_zr8 #partners_node_next a{display:block;width:21px;height:82px;text-indent:9999px;background:url(http://bi.gazeta.pl/i/obrazki/dom09/node-next-bg.gif) no-repeat 0 50%;zoom:1;}
+#bottom_wrap .mod_zr8 #partners_node_prev{width:21px;height:82px;position:absolute;left:0;top:28px;z-index:2;overflow:hidden;zoom:1;}
+#bottom_wrap .mod_zr8 #partners_node_prev a{display:block;width:21px;height:82px;text-indent:9999px;background:url(http://bi.gazeta.pl/i/obrazki/dom09/node-prev-bg.gif) no-repeat 0 50%;zoom:1;}
+#bottom_wrap .mod_zr8 .node_body{position:absolute;left:18px;top:28px;width:904px;height:82px;overflow:hidden;zoom:1;z-index:1;}
+#bottom_wrap .mod_zr8 .node_inner_body{width:5000px;margin:0;}
+#col_left{padding-right:11px;background:url(http://bi.gazeta.pl/i/obrazki/dom09/col-left-bg.gif) repeat-y 0 0;}
+#col_right .mod_zr8 .node_head{margin-bottom:3px;}
+#col_right .mod_zr9{margin-bottom:16px;}
+#col_right .mod_zr9 .node_main{background:#afafaf url(http://bi.gazeta.pl/i/obrazki/dom09/zr9-main-col-right-bg.gif) repeat-x 0 0;margin-bottom:4px;}
+#col_right .mod_zr9 .node_main .lead{font:13px Arial, sans-serif;color:#fff;}
+#col_right .mod_zr9 .node_main h3{font-size:18px;line-height:normal;margin-bottom:2px;}
+#col_right .mod_zr9 .node_main h3 a:hover,.quiz .more a:hover,.mod_uzr_search a:hover{text-decoration:underline;}
+#col_right .mod_zr9_green .node_main img{border:1px solid #fff;}
+#dom-areafrom-hint a,#dom-areato-hint a,#dom-roomnumberfrom-hint a,#dom-roomnumberto-hint a,#dom-pricefrom-hint a,#dom-priceto-hint a{display:block;color:#333;padding:0 3px;}
+#dom-areafrom-hint a:hover,#dom-areato-hint a:hover,#dom-roomnumberfrom-hint a:hover,#dom-roomnumberto-hint a:hover,#dom-pricefrom-hint a:hover,#dom-priceto-hint a:hover{background:#f2f2f2;color:#333;cursor:pointer;}
+#dom-areafrom-hint,#dom-areato-hint,#dom-roomnumberfrom-hint,#dom-roomnumberto-hint,#dom-pricefrom-hint,#dom-priceto-hint{display:none;position:absolute;top:36px;left:0;width:78px;border:1px solid #87d37a;border-top:none;background:#fff;z-index:999;padding:3px;}
+#dom-rynek-pierwotny-t-form{width:592px;font-family:Arial,sans-serif;}
+#dom-rynek-pierwotny-t-form .SbtRow .c0 ul li{float:left;font-size:12px;font-weight:700;margin-left:10px;padding-left:10px;border-left:1px solid #ccc;position:static;}
+#dom-rynek-pierwotny-t-form .SbtRow .c0 ul li a{text-decoration:none;color:#4389C3;}
+#dom-rynek-pierwotny-t-form .SbtRow .c0 ul li.first{border:none;margin:0;padding:0;}
+#dom-rynek-pierwotny-t-form .SbtRow .c1{float:right;margin:0;}
+#dom-rynek-pierwotny-t-form > .c0{width:380px;float:left;position:relative;}
+#dom-rynek-pierwotny-t-form > .c0 .first input{width:370px;}
+#dom-rynek-pierwotny-t-form > .c0 .row ul li{float:left;width:85px;margin-left:13px;display:inline;}
+#dom-rynek-pierwotny-t-form > .c0 .row ul li input{width:76px;}
+#dom-rynek-pierwotny-t-form > .c0 .row,#dom-rynek-pierwotny-t-form > .c1 .row,.doK1BotH,.doK1Bot{margin-bottom:15px;}
+#dom-rynek-pierwotny-t-form > .c1{width:180px;float:right;}
+#dom-rynek-pierwotny-t-form > .c1 .row input{width:75px;}
+#dom-rynek-pierwotny-t-form > .c1 .row li{float:left;margin-left:10px;}
+#dom-rynek-pierwotny-t-form > .c1 .row ul li,.see_more_links p,.see_more_links ul,.see_more_links ul li{display:inline;}
+#dom-rynek-pierwotny-t-form > .c1 select{border:1px solid #ccc;width:178px;padding:1px;}
+#dom-rynek-pierwotny-t-form h3{color:#41A011;font:14px Georgia,serif;margin:5px 0 15px;}
+#dom-rynek-pierwotny-t-form input{border:1px solid #ccc;padding:2px 4px;}
+#dom-rynek-pierwotny-t-form input.placeholder,#dom-rynek-pierwotny-t-form ::-webkit-input-placeholder,#dom-rynek-pierwotny-t-form input:-moz-placeholder{color:#858585;height:16px;font-size:11px;}
+#dom-rynek-pierwotny-t-form input.sbtImg{border:none;}
+#dom-rynek-pierwotny-t-form input[name=AreaTo],#dom-rynek-pierwotny-t-form input[name=PriceTo],#dom-rynek-pierwotny-t-form input[name=RoomCountTo]{margin-top:16px;}
+#dom-rynek-pierwotny-t-form label,#dom-rynek-pierwotny-t-form .label{font-size:11px;font-weight:700;display:block;}
+#dom-rynek-pierwotny-t-form ul{list-style:none;}
+#dom-search-hint{z-index:9999;background:none repeat scroll 0 0 #FFF;border-right:1px solid #87D37A;display:none;position:absolute;top:36px;left:0;width:368px;border-color:0 #87D37A #87D37A;border-style:none solid solid;border-width:0 1px 1px;padding:5px;}
+#dom-search-hint div.active{background:#f2f2f2;}
+#dwf3{top:-125px;}
+#finder{height:241px;width:620px;float:left;display:inline;margin-bottom:30px;background:#e2dfdf;margin-left:-14px;position:relative;margin-right:0!important;z-index:2;padding:15px 333px 15px 15px;}
+#finder0 #dom-rynek-wtorny-dzielnica-s,#finder2 #dom-wynajem-dzielnica-s{font-size:12px;height:62px;}
+#finder0 .c2,#finder2 .c1,#finder2 .c2,#finder3 .c2{padding-top:41px;}
+#finder2 .SbtRow .c1{padding-top:0;}
+#finder3 #dom-rynek-komercyjny-przeznaczenie{height:104px;}
+#finderForm{border:1px solid #a8a8a8;border-top:0;background:#fff;height:198px;padding:0 0 0 13px;}
+#finderForm .SbtRow{clear:both;padding-top:7px;}
+#finderForm .SbtRow .c0{width:400px;}
+#finderForm .SbtRow .c0 li{float:left;display:inline;border-left:1px solid #a1a1a1;padding-left:10px;margin-left:10px;font:bold 12px Arial, sans-serif;}
+#finderForm .SbtRow .c0 li a{color:#4389c3;}
+#finderForm .SbtRow .c0 li.first,#holder_101 .mod_zr1 .node_body{border:0;margin:0;padding:0;}
+#finderForm .SbtRow .c0 ul{overflow:hidden;zoom:1;padding-top:8px;}
+#finderForm .SbtRow .c1{float:right;margin:0 22px 0 0;}
+#finderForm .c0,#finderForm .c1,#finderForm .c2{float:left;display:inline;width:178px;margin-left:24px;}
+#finderForm .first,#finderForm .fisrt,#dom-rynek-pierwotny-t-form .SbtRow .c1 input,* html .mod_domiporta_finder .form .formItemS select{padding:0;}
+#finderForm .iSel{width:178px;border:1px solid #d2d2da;background:#fff;font:14px Arial, sans-serif;color:#666;border-color:#a09fb2 #d2d2da #d2d2da #a09fb2;padding:1px;}
+#finderForm .iTxt{width:176px;border:1px solid #d2d2da;background:#fff;font:14px Arial, sans-serif;color:#666;border-color:#a09fb2 #d2d2da #d2d2da #a09fb2;padding:2px 0;}
+#finderForm .partner{font:9px Arial, sans-serif;color:#a6a6a6;text-align:right;float:right;margin:8px 18px 2px 0;}
+#finderForm .partner span{margin-right:5px;}
+#finderForm .row{padding-top:5px;}
+#finderForm .row .kL .iSel,#finderForm .row .kR .iSel{width:85px;}
+#finderForm .row .kL .iTxt,#finderForm .row .kR .iTxt{width:83px;}
+#finderForm .row .kL,#finderForm .row .kR{width:85px;float:left;display:inline;}
+#finderForm .row .kR,#dom-search-hint .rCount,.formNav .linkF,.pollBox .pollSubmit,.quiz .str ul,.quiz .str .next{float:right;}
+#finderForm div.clr{clear:both;height:0;line-height:0;font-size:0;}
+#finderForm h3{font:14px Georgia,serif;color:#41a011;zoom:1;float:left;margin:5px 0 8px;}
+#finderForm label{font:bold 11px Arial, sans-serif;color:#2e2e3c;display:block;}
+#finderForm li,#holder_209,article.eCommerce section.body p.imgw{position:relative;}
+#finderKR1{position:absolute;top:89px;left:435px;width:178px;height:118px;overflow:hidden;}
+#finderKR1 h4{font:bold 11px Arial, sans-serif;color:#2a2a3f;}
+#finderKR1 li{font:12px Arial, sans-serif;background:url(http://bi.gazeta.pl/i/obrazki/dom09/finder-li-bg.gif) no-repeat 0 9px;padding:3px 0 0 10px;}
+#footer{line-height:21px;}
+#gazeta_article .pages{text-align:center;display:block;font-weight:700;font-size:11px;}
+#gazeta_article .pages .all > span{border-color:#fff;}
+#gazeta_article .pages > a,#gazeta_article .pages > .next a,#gazeta_article .pages .all > *{border:1px solid #b8b8b8;color:#146cb4;padding:2px 5px;}
+#gazeta_article .pages a:hover{background:#dedede;color:000;text-decoration:none;}
+#holder_101 .mod_zr1{float:right;width:300px;overflow:hidden;position:relative;top:-263px;z-index:3;margin:0 0 -263px;padding:0;}
+#holder_101 .mod_zr1 .node_entry,.mod_zr_dom3 .node_entry{width:98px;margin:0 1px;}
+#holder_101 .mod_zr1 .node_head h2 a,#holder_101 .mod_zr7 .node_head h2 a{display:inline;color:#2a2a3f;}
+#holder_101 .mod_zr1 .node_head h2 a:hover,#holder_101 .mod_zr7 .node_head h2 a:hover{background:none;text-decoration:underline;color:#2a2a3f;}
+#holder_101 .mod_zr1 .node_head h2,#holder_101 .mod_zr7 .node_head h2{font:14px Georgia, sans-serif;color:#2a2a3f;}
+#holder_101 .mod_zr1 .node_head,#holder_101 .mod_zr7 .node_head{border-bottom:1px solid #868686;padding-bottom:1px;margin-bottom:7px;}
+#holder_101 .mod_zr7{clear:right;float:right;width:300px;overflow:hidden;position:relative;top:-126px;z-index:3;margin:0 0 -126px;padding:0;}
+#holder_101 .mod_zr7 .node_entry{border:0;margin-left:20px;padding:0;}
+#holder_101 .mod_zr7 li a{color:#41a011;}
+#holder_101 .mod_zr7 li,.mod_zr_dom3 .node_body h3,.wideoIndex h3{font:11px Arial, sans-serif;}
+#holder_205 .wideoIndex,#holder_206 .wideoIndex,#holder_301 .wideoIndex{width:300px;overflow:hidden;zoom:1;}
+#mod_offer{clear:both;border:1px solid #ccc;margin-bottom:20px;}
+#mod_offer .body{position:relative;zoom:1;padding:6px 32px 6px 31px;}
+#mod_offer .body .active,.SONwrp label{cursor:pointer;}
+#mod_offer .body .list_holder{width:870px;height:181px;overflow:hidden;zoom:1;position:relative;}
+#mod_offer .body .scheme_1 p{background:#2f375a;}
+#mod_offer .body .scheme_2 p{background:#d6261c;}
+#mod_offer .body .scheme_3 p{background:#cfcfcf;}
+#mod_offer .body .scheme_3 p a,a,.mod .node_head h2 a:hover,.indexMT .header h1 a:hover,.indexMT .header h2 a:hover,.index .head h1 a:hover,.index .head h2 a:hover,.blogBox h3 a:hover,.NFwrp h3 a:hover,.indABC h3 a:hover,.wideoIndex .index_head h2 a:hover,.mod_uzr4 section.body div.content a:hover{color:#148;}
+#mod_offer .body li{float:left;width:138px;height:179px;display:inline;margin-right:7px;border:1px solid #d0d0d0;overflow:hidden;zoom:1;position:relative;}
+#mod_offer .body p{position:absolute;left:0;bottom:0;width:138px;text-align:center;height:21px;font-size:13px;font-weight:700;line-height:20px;}
+#mod_offer .body p a{color:#fff;display:block;}
+#mod_offer .body strong{display:block;font-size:13px;line-height:17px;font-weight:700;height:35px;padding:5px;}
+#mod_offer .body strong span,article.eCommerce header h1 a{color:#bf1450;}
+#mod_offer .body ul{width:5000px;position:absolute;}
+#mod_offer .head{overflow:hidden;zoom:1;padding:12px 12px 6px 6px;}
+#mod_offer .head h2{float:left;font:16px Georgia, serif;text-transform:uppercase;}
+#mod_offer .head p{float:right;font-size:13px;font-weight:700;}
+#mod_offer_scroll_left{left:6px;background:url(http://bi.gazeta.pl/i/obrazki/dom09/node-prev-bg.gif) no-repeat 0 50%;}
+#mod_offer_scroll_left .active{background:url(http://bi.gazeta.pl/i/obrazki/dom09/node-prev-bg.gif) no-repeat 0 50%;}
+#mod_offer_scroll_left span{background:url(http://bi.gazeta.pl/i/obrazki/dom09/node-prev-bg.gif) no-repeat -21px 50%;}
+#mod_offer_scroll_left span,#mod_offer_scroll_right span{position:absolute;left:0;top:80px;height:19px;width:21px;}
+#mod_offer_scroll_left,#mod_offer_scroll_right{position:absolute;width:21px;height:179px;display:block;top:7px;}
+#mod_offer_scroll_right{right:5px;background:url(http://bi.gazeta.pl/i/obrazki/dom09/node-next-bg.gif) no-repeat 0 50%;}
+#mod_offer_scroll_right .active{background:url(http://bi.gazeta.pl/i/obrazki/dom09/node-next-bg.gif) no-repeat 0 50%;}
+#mod_offer_scroll_right span{background:url(http://bi.gazeta.pl/i/obrazki/dom09/node-next-bg.gif) no-repeat -21px 50%;}
+#navH{height:43px;position:relative;z-index:5;color:#fff;font:normal 16px Arial;margin-bottom:49px;background-color:#3d3d3d;width:100%;padding:0;border-top:3px solid #ee7307;}
+#navH .p0{position:relative;width:980px;height:auto;background:transparent;margin:0 auto;}
+#navH .p0 > li.active > a{background:#fff;color:#000;}
+#navH .p0 li{font:12px/27px 'open_sansregular', sans-serif;height:43px;text-transform:uppercase;float:left;display:inline;zoom:1;position:static!important;background:transparent;}
+#navH .p0 li a{display:block;color:#b1b1b1;font-weight:400;text-transform:none;text-decoration:none;padding:0 17px; line-height: 45px; text-transform: uppercase; background-image: url(http://biv.gazeta.pl/i/obrazki/domiporta2013/separator.png); background-position: 100% 50%; background-repeat: no-repeat;}
+#navH .p0 li.active a, #navH .p0 > li.active.hovered > a{padding-bottom:2px;color:#fff;background:transparent;}
+#navH .p0 li.dark{background-color:#6bb51f;background-image:url(http://bi.gazeta.pl/i/obrazki/dom09/nav-dark-sep.gif);}
+#navH .p0 li.dark a{color:#224203;}
+#navH .p0 li.first,#navH .p0 li.active,#navH .p0 li.afterAcive,#navH .p0 li.beforeActive{background-image:none;}
+#navH .p0 li.hovered a{color:#fff;padding-bottom:2px;text-decoration:none;background:transparent;}
+#navH .p0 li.hovered ul{display:block;z-index:20;position:absolute;}
+#navH .p0 li.hovered,#navH .p0 li.active{background:#ee7307;}
+#navH .p0 li#e8 { background: url('http://bi.gazeta.pl/i/obrazki/domiporta2013/mdm_icon_v1.png') no-repeat 14px 9px; padding-left: 37px; }
+#navH .p0 li#e8.hovered, #navH .p0 li#e8.active { background: url('http://bi.gazeta.pl/i/obrazki/domiporta2013/mdm_icon_v1.png') no-repeat #ee7307 14px -43px; }
+#navH .p0,#sitePath,#holder_101,#dom-rynek-pierwotny-t-form > .c0 .row,#dom-rynek-pierwotny-t-form > .c1 .row,#dom-rynek-pierwotny-t-form .SbtRow,* html .mod_domiporta_finder,* html .mod_domiporta_finder *,.mod_uzr_2 li,.mod_uzr_5 li{zoom:1;}
+#navH .p0:after{display:block;position:relative;overflow:hidden;clear:both;}
+#navH .p0:after,#sitePath:after,#holder_101:after,#dom-rynek-pierwotny-t-form > .c0 .row:after,#dom-rynek-pierwotny-t-form > .c1 .row:after,
+#dom-rynek-pierwotny-t-form .SbtRow:after,.pollBox .pollQuestion:after,.pollBox:after,.mod_uzr_2 li:after,.mod_uzr_5 li:after{content:'.';display:block;height:0;width:0;visibility:hidden;clear:both;}
+#navH .p0 li.home{height:43px;width:45px;background:url(http://biv.gazeta.pl/i/obrazki/domiporta2013/home.png) no-repeat scroll center center transparent;padding:0;text-indent:-9999px;}
+#navH .p0 li.home a{display:block;height:45px;width:45px;padding: 0; background-image: none;}
+#navH .p0 li.home.active{background-color:#ee7307;}
+#navH .p0 li:last-child a {background-image:none;}
+#navtop_wrap,#bottom_wrap #holder_402,#bottom_wrap #holder_403,#searchH_param,#searchH #searchH_sel,#searchForm img,#sitePath small,#sitePath span,#Ftabs li span,#Ftabs li img,#finderHidden,#finderKRhidden,.wideoIndex .index_entries li.clr,.ibo2 .usun span,article.mod > header h1 span,.mod_uzr_search ul + ul,#pageHead .c1 .hack{display:none;}
+#page{background:url(http://bi.gazeta.pl/i/obrazki/dom09/page_bg.png) repeat-y 50% 0;background-image:none;}
+#page-top{background-color:#fbfbfb; border-top: 1px solid #efefef;}
+#pageHead{overflow:hidden; font-family: 'open_sansregular';}
+#pageHead .c1 .htm0{margin-left:0;}
+#pageHead .c1 span[class^=htm] { margin-top: 0; text-transform: uppercase; height: 68px; margin-left: 0; background-image: url(http://biv.gazeta.pl/i/obrazki/domiporta2013/separator2.png); background-position: 0% 50%; background-repeat: no-repeat; }
+#pageHead .c1 .hack + span {background-image: none;}
+#pageHead .c1 span[class^=htm] a { line-height: 69px; display: block; color: #686868; padding:0 12px 0 20px;}
+#pageHead .c1 span[class^=htm] a:hover {background-color: #e5e5e5; color: #757575; text-decoration: none;}
+header#pageHead .c1 .htm4 {margin: 0; padding: 0; background-image: none; text-transform: none; float: right; margin-top: 18px; height: auto;}
+header#pageHead .c1 .htm4 a { display: inline-block; padding: 4px 41px; margin-bottom: 0; font-size: 16px; line-height: 24px; text-align: center; vertical-align: middle; cursor: pointer; color: #ffffff; text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); background-color: #52b9fd; background-image: -moz-linear-gradient(top, #52b9fd, #449fdd); background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#52b9fd), to(#449fdd)); background-image: -webkit-linear-gradient(top, #52b9fd, #449fdd); background-image: -o-linear-gradient(top, #52b9fd, #449fdd); background-image: linear-gradient(to bottom, #52b9fd, #449fdd); background-repeat: repeat-x; border: 1px solid #cccccc; border-color: #449fdd #449fdd #002a80; border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25); border-bottom-color: #b3b3b3; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff52b9fd', endColorstr='#ff449fdd', GradientType=0); filter: progid:DXImageTransform.Microsoft.gradient(enabled=false); -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);}
+header#pageHead .c1 .htm4 a:hover {color: #ffffff; background-color: #449fdd; text-decoration: none; background-position: 0 -15px; -webkit-transition: background-position 0.1s linear; -moz-transition: background-position 0.1s linear; -o-transition: background-position 0.1s linear; transition: background-position 0.1s linear;}
+#pagetype_art #col_left,#pagetype_raport #col_left,#pagetype_photo #col_left,#pagetype_wideo #col_left{background:#fff;padding-right:10px;border-right:1px solid #e5e5e5;}
+#pagetype_art .sitePath_wrap{z-index:1;}
+#pagetype_art div#dwf3{top:-9px;z-index:3;}
+#pagetype_art_blog #article_body,.mod_uzr_5 p{font-size:14px;}
+#pagetype_art_blog #tab tr td{color:#000;padding-left:6px;}
+#pagetype_art_blog #tab tr.p td{background-color:#EEE;border-bottom:1px solid #DFEAEA;}
+#pagetype_art_blog #tab tr.p td.b{font-weight:700;background-color:#CFCED0;color:#000;}
+#pagetype_art_blog #tab tr.p td:first-child,#pagetype_art_blog #tab tr.p td.b:first-child{background:0;border:0;}
+#pagetype_art_blog #tab,#pagetype_art_blog #tab tr.p td{font:12px Arial,tahoma,verdana,helvetica,sans-serif;overflow:hidden;}
+#row_1,#row_5,#row_3{background:#fff;}
+#row_2 .mod_zr1 .node_body{padding-bottom:0;border:0;}
+#row_2 .mod_zr1 .node_entry{width:98px;clear:none!important;margin:0 1px!important;}
+#sWbgNew .clr,#dom-rynek-pierwotny-t-form .SbtRow,.ibo2 .frmSect .clr{clear:both;}
+#sWlbg{width:960px;position:relative;margin:0 auto 7px;}
+#searchH{width:416px;position:relative;height:26px;zoom:1;}
+#searchH .b{display:inline;border:0;oultine:0;width:75px;height:26px;padding-bottom:1px;text-align:center;font:bold 12px Arial, sans-serif;color:#fff;background:url(http://bi.gazeta.pl/i/obrazki/wysokieobcasy/searchButton.gif) 0 0 repeat-x;}
+#searchH .google{background:#fff url(http://bi.gazeta.pl/i/obrazki/wysokieobcasy/sGBg.gif) 6px 6px no-repeat;}
+#searchH .hovered .searchSel{top:-7px;background:url(http://bi.gazeta.pl/i/obrazki/wysokieobcasy/sBgB.png) bottom left no-repeat;}
+#searchH .hovered .searchSel .b{top:7px;}
+#searchH .hovered .searchSel .searchSel0{background:url(http://bi.gazeta.pl/i/obrazki/wysokieobcasy/sBgT.png) top left no-repeat;margin:0 0 6px;padding:7px 12px 1px;}
+#searchH .hovered .searchSel0 a,#navH li.hovered .p1,.mod_zr6 .price,.notowania_waluta li.hover .param,.mod_uzr_search label{display:block;}
+#searchH .r{margin-left:0;margin-right:0;}
+#searchH .searchSel{width:179px;float:left;position:relative;zoom:1;}
+#searchH .searchSel .b{display:inline;border:0;oultine:0;width:75px;height:26px;padding-bottom:1px;text-align:center;font:bold 12px Arial, sans-serif;color:#fff;background:url(http://bi.gazeta.pl/i/obrazki/wysokieobcasy/searchButton.gif) 0 0 repeat-x;cursor:pointer;position:absolute;top:0;right:7px;}
+#searchH .searchSel .searchSel0{width:155px;padding:0 12px 1px;}
+#searchH .searchSel .selectedVal{display:block;margin-bottom:5px;background:url(http://bi.gazeta.pl/i/obrazki/wysokieobcasy/sArr.gif) 68px 0 no-repeat;border:0;zoom:1;}
+#searchH .searchSel .selectedVal,#searchH .searchSel .selected{color:#31313e;text-decoration:none;}
+#searchH .searchSel a.internet{border:0;background:url(http://bi.gazeta.pl/i/obrazki/wysokieobcasy/sGL.gif) bottom right no-repeat;}
+#searchH .searchSel0 a{display:none;font-size:11px;line-height:26px;border-bottom:1px solid #cacaca;outline:0;}
+#searchH .t{background:#fff;border:1px solid #cacaca;width:222px;color:#31313e!important;font:normal 14px Arial, sans-serif;float:left;margin:0 5px 0 0;padding:4px;}
+#searchH a:hover,.mod_linkiNadNaw li a:hover,#finderForm .SbtRow .c0 li a:hover,#holder_101 .mod_zr7 li a:hover,.mod_domiporta_finder .form .formItemAdvSearch a:hover,#mod_offer .body p a:hover{background:none;text-decoration:underline;}
+#searchH label{font-size:11px;color:#000;font-weight:400;margin:0 8px 0 3px;}
+#searchH0{position:absolute;left:0;top:0;}
+#searchH0 *,#finderForm .partner *,.mod_domiporta_finder .form .formItem *,.frmSect input,.bDodajZdj,.SONwrp li *,.quiz .entry li *,.mod_uzr_czapeczka span{vertical-align:middle;}
+#sitePath{border-bottom:1px solid #e5e5e5;font:12px/15px Arial, sans-serif;padding:22px 0 9px 5px;}
+#sitePath a,.mod_domiporta_finder .form form{float:left;display:inline;}
+#sitePath a.s{padding-left:9px;background:url(http://bi.gazeta.pl/i/obrazki/angielski2009/path-sep.gif) no-repeat 3px 50%;}
+#top_wrap{padding-top:10px;}
+#upload_err .alertList{font:11px Tahoma;font-weight:700;color:#C83D1F;}
+#zdjecia_upload{padding-top:20px;clear:both;overflow:hidden;zoom:1;}
+* html #dwf3{top:-129px;}
+* html #searchH .hovered .searchSel{background-image:url(http://bi.gazeta.pl/i/obrazki/wysokieobcasy/sBgB.gif);}
+* html #searchH .hovered .searchSel .searchSel0{background-image:url(http://bi.gazeta.pl/i/obrazki/wysokieobcasy/sBgT.gif);}
+* html .ibo2 .iboStart .ceny .mLeft{margin-bottom:55px;}
+* html .mod_domiporta_finder .form .formItemS{padding-top:16px;}
+* html .mod_domiporta_finder .form .formItemT{padding-top:15px;}
+* html .mod_domiporta_finder .form .formItemsubmit{padding-top:13px;}
+.NFwrp .NFwrp2 a,.NFwrp .NFwrp2 span{font-size:16px;font-family:Arial;}
+.NFwrp h3,.zi1 .body li,.widget_kalk{margin-bottom:12px;}
+.SONwrp{display:block;margin-bottom:20px;}
+.SONwrp .head{zoom:1;margin-bottom:10px;padding-left:10px;}
+.SONwrp .head img{display:inline;margin-left:5px;float:left;margin-right:12px;}
+.SONwrp .head span{display:block;font:11px Arial, sans-serif;color:#666;padding:5px 0 2px;}
+.SONwrp .head strong{display:block;overflow:hidden;zoom:1;color:#000;font:normal 18px Arial, serif;}
+.SONwrp .results li p span{color:#666;display:inline;border:0;vertical-align:baseline;width:auto;height:auto;}
+.SONwrp .results li span{display:inline-block;width:250px;height:5px;border:1px solid #e0e0e0;position:relative;border-width:1px 0;}
+.SONwrp h3{margin-bottom:10px;font:normal 19px/19px Arial, serif;color:#fff;height:39px;background:transparent url(http://biv.gazeta.pl/i/obrazki/zdrowie2012/sondazbghead3.png) left top no-repeat;padding:22px 0 0 9px;}
+.SONwrp h3 a{font:normal 19px/19px Arial, serif;color:#00427f;}
+.SONwrp label span{font-size:12px;color:#333;margin-left:4px;}
+.SONwrp li{font:12px/19px Arial, sans-serif;color:#333;zoom:1;border-bottom:none;padding:0;}
+.SONwrp li em{margin-left:8px;color:#e16f9f;}
+.SONwrp li span strong{position:absolute;left:0;top:0;height:5px;font-size:5px;line-height:5px;background:#23b62d;background-color:#e16f9f;}
+.SONwrp p{font:normal 12px/12px Arial, serif;color:#1d1d1d;margin:0;padding:0 0 0 16px;}
+.SONwrp ul{padding-bottom:10px;border-top:none;padding-left:14px;}
+.bs_mostread .more{border-top:1px solid #e2e2e2;font-size:11px;text-align:right;padding-top:2px;}
+.bs_mostread .no{display:block;width:38px;height:38px;line-height:38px;background:#2e2d4a;color:#fff;font-size:28px;font-weight:700;text-align:center;position:absolute;left:0;top:0;}
+.bs_mostread .t{display:block;font-weight:700;line-height:17px;}
+.bs_mostread .t a{display:block;font-size:16px;font-weight:400;height:34px;overflow:hidden;padding:2px 10px 2px 48px;}
+.bs_mostread li{height:38px;margin-bottom:10px;overflow:hidden;position:relative;}
+.bs_mostread li:hover .t a{color:#fff;}
+.bs_mostread li:hover,.bs_mostread .t a:hover,.bs_mostread li:hover .no,.mod_most_read.mod_most_read2 li:hover,.mod_most_read.mod_most_read2_premium .tabbed_items ul li:hover{background:#012341;}
+.doK1BotH{color:#666;font:normal 20px Georgia,serif;border-bottom:1px solid #ccc;padding-bottom:4px;}
+.eCommerce.viewVariant0 section.body p.imgw img{width:140px;height:100px;}
+.eCommerce.viewVariant1 section.body li p.description{margin-top:6px;text-align:left;}
+.eCommerce.viewVariant1 section.body li p.description a,.eCommerce.viewVariant2 section.body li p.description a{font:bold 18px/22px Arial;}
+.eCommerce.viewVariant1 section.body li p.imgw,.eCommerce.viewVariant2 section.body li p.imgw{width:300px;height:200px;border:1px solid #e7e7e7;}
+.eCommerce.viewVariant1 section.body li p.price{position:absolute;right:-5px;top:134px;background:url(http://bi.gazeta.pl/i/obrazki/hp2009/cpc/cpc_buttonv1.png) no-repeat;width:112px;height:35px;padding-top:15px;}
+.eCommerce.viewVariant1 section.body li p.price a,.eCommerce.viewVariant2 section.body li p.price a{font:bold 18px/22px Arial;color:#fff;}
+.eCommerce.viewVariant1 section.body li,.eCommerce.viewVariant2 section.body li{position:relative;width:300px;height:280px;margin:0;padding:0 0 0 19px;}
+.eCommerce.viewVariant2 section.body li p.price{position:absolute;right:-16px;top:162px;background:url(http://bi.gazeta.pl/i/obrazki/hp2009/cpc/cpc_buttonv2.png) no-repeat;width:112px;height:35px;padding-top:15px;}
+.eCommerce.viewVariant3 section.body li{width:312px;position:relative;margin:0;padding:1px;}
+.eCommerce.viewVariant3 section.body li p.description{text-align:left;margin-left:9px;}
+.eCommerce.viewVariant3 section.body li p.description a{font:bold 14px/17px Arial;}
+.eCommerce.viewVariant3 section.body li p.description,.eCommerce.viewVariant3 section.body li p.price{float:right;width:160px;}
+.eCommerce.viewVariant3 section.body li p.imgw{float:left;border:1px solid #e7e7e7;width:140px;height:100px;}
+.eCommerce.viewVariant3 section.body li p.price{position:absolute;right:58px;bottom:0;background:url(http://bi.gazeta.pl/i/obrazki/hp2009/cpc/cpc_buttonv3.png) no-repeat;width:102px;height:24px;padding-top:5px;}
+.eCommerce.viewVariant3 section.body li p.price a{color:#fff;font:bold 14px/16px Arial;}
+.eCommerce.viewVariant4 header,.eCommerce.viewVariant1 header,.eCommerce.viewVariant2 header{margin:0 0 12px;}
+.eCommerce.viewVariant4 section.body li{position:relative;width:182px;border-left:1px solid #e2e2e2;height:187px;margin:0 0 0 34px;padding:0 0 0 34px;}
+.eCommerce.viewVariant4 section.body li p.description a{font:bold 14px/18px Arial;}
+.eCommerce.viewVariant4 section.body li p.description,.eCommerce.viewVariant2 section.body li p.description{margin-top:11px;text-align:left;}
+.eCommerce.viewVariant4 section.body li p.imgw{width:180px;height:118px;border:1px solid #e7e7e7;}
+.eCommerce.viewVariant4 section.body li p.imgw img,.eCommerce.viewVariant3 section.body li p.imgw img,.eCommerce.viewVariant2 section.body li p.imgw img,.eCommerce.viewVariant1 section.body li p.imgw img{display:block;width:100%;height:100%;margin:0 auto;}
+.eCommerce.viewVariant4 section.body li p.price{position:absolute;right:-14px;top:91px;background:url(http://bi.gazeta.pl/i/obrazki/hp2009/cpc/cpc_buttonv4.png) no-repeat;width:96px;height:29px;padding-top:7px;}
+.eCommerce.viewVariant4 section.body li p.price a{font:bold 16px/22px Arial;color:#fff;}
+.eCommerce.viewVariant4 section.body li:first-child,#navH .p0 li:first-child{border-left:none;}
+.fbBox{position:absolute;left:174px;top:108px;}
+.formNav{height:auto;overflow:hidden;width:100%;zoom:1;margin-bottom:25px;}
+.formNav .linkB{float:left;}
+.frmSect{margin-bottom:15px;line-height:140%;clear:both;overflow:hidden;zoom:1;}
+.frmSect .header{text-align:left;}
+.frmSect .header .rdBox{margin-left:170px!important;}
+.frmSect .label,.ibo2 .kolejnosc .usun{margin-right:15px;}
+.frmSect input.rdBox,.frmSect .chkBox{margin:0 7px 2px 0 !important;}
+.ibo2{font:12px Tahoma, Verdana;width:100%;text-align:left;overflow:hidden;zoom:1;margin-bottom:7px;}
+.ibo2 #inf_dod .element{display:block;float:left;width:33%;height:20px;overflow:hidden;}
+.ibo2 #inf_dod .element .label,.mod_uzr_search li:last-child{margin-right:0;}
+.ibo2 #plany .foto,.ibo2 .usun img,.ibo2 .up img,.ibo2 .down img{width:auto;}
+.ibo2 #pow,.ibo2 #lpok{overflow:hidden;height:auto;width:100%;}
+.ibo2 #zdjecia{margin-bottom:40px;overflow:hidden;zoom:1;}
+.ibo2 .bp{display:block;background:none;text-indent:0;}
+.ibo2 .bp strong{font-weight:700;font-family:Arial;font-size:1.2em;color:#ff512f;position:relative;top:-2px;}
+.ibo2 .cena{overflow:hidden;padding-bottom:10px;font:14px Tahoma;}
+.ibo2 .cena .k1{width:50px;float:left;font-size:11px;margin-left:15px;display:inline;}
+.ibo2 .cena .k2{width:170px;float:right;font-size:11px;}
+.ibo2 .cena .kL{font-weight:700;color:#2b2b2b;}
+.ibo2 .cena .kR{color:#515151;font:14px Tahoma;}
+.ibo2 .errorList{border:1px solid #ddd;color:#666;border-style:solid none;padding:10px 40px;}
+.ibo2 .errorList li{padding:3px 0;}
+.ibo2 .foto{overflow:hidden;zoom:1;margin-top:10px;float:left;display:inline;width:33%;}
+.ibo2 .foto img{width:180px;}
+.ibo2 .hLine{width:100%;height:1px;border-top:1px solid #ccc;display:block;margin-bottom:18px;margin-top:18px;}
+.ibo2 .hard{font-weight:700;border:2px solid #000;text-align:center;font-size:10px;background:none;text-indent:0;margin:0;padding:0 1px;}
+.ibo2 .iboStart{font:11px Tahoma;color:#1b1b1b;line-height:18px;}
+.ibo2 .iboStart .ceny{text-align:center;font:bold 18px Arial,sans-serif;height:auto!important;margin-bottom:9px;border:1px solid #c9c9c9;border-top:0;color:#333251;padding:10px 0 0;}
+.ibo2 .iboStart .ceny .mLeft{padding-left:45px;margin-bottom:39px;}
+.ibo2 .iboStart .ceny ul{height:auto!important;border:0;min-height:0;list-style:none;color:#666;}
+.ibo2 .iboStart .ceny ul li{padding-left:0;background:0;}
+.ibo2 .iboStart .ceny ul li strong{display:block;font-weight:700;text-align:center;padding:0 40px;}
+.ibo2 .iboStart .hLine{width:100%;height:1px;border-top:2px solid #d84321;display:block;margin-bottom:18px;margin-top:18px;}
+.ibo2 .iboStart .kL .ceny{padding-top:26px;}
+.ibo2 .iboStart .kL .ceny ul{background:#e3e5eb;margin:20px 1px 1px;}
+.ibo2 .iboStart .kL,.ibo2 .iboStart .kR{width:298px;float:left;margin-top:10px;color:#000;text-align:left;margin-bottom:0;}
+.ibo2 .iboStart .kR{float:right;position:relative;}
+.ibo2 .iboStart .kR ul{height:80px;min-height:80px;}
+.ibo2 .iboStart a.start{display:block;width:137px;text-align:center;background:url(http://bi.gazeta.pl/i/obrazki/dom09/doK1But.gif);font:normal 17px/30px Arial,sans-serif;color:#fff;margin:0 auto 10px;}
+.ibo2 .iboStart h3{font:normal 16px Georgia,serif;text-transform:uppercase;zoom:1;border:0;}
+.ibo2 .iboStart h4{margin-bottom:0;border-bottom:none;font:normal 16px Georgia,serif;width:278px;text-align:center;height:51px;background:url(http://bi.gazeta.pl/i/obrazki/dom09/doK1Top.gif) repeat-x;overflow:hidden;line-height:20px;text-transform:uppercase;color:#fff;padding:10px 10px 0;}
+.ibo2 .iboStart ul{font:12px/17px Arial,sans-serif;color:#666;border:1px solid #c9c9c9;line-height:18px;border-style:none solid;padding:10px;}
+.ibo2 .iboStart ul li{padding-left:10px;background:url(http://bi.gazeta.pl/i/obrazki/dom09/doK1Bullet.gif) 0 7px no-repeat;margin-bottom:4px;}
+.ibo2 .info a{font-size:11px;padding-left:3px;}
+.ibo2 .info,.ibo2 .info a{font-size:11px;border-bottom:1px solid #ccc;margin-bottom:20px;padding:7px 0;}
+.ibo2 .kL{float:left;width:236px;text-align:right;margin-bottom:8px!important;display:inline;}
+.ibo2 .kR{float:right;width:373px;font-size:11px;color:#575757;margin-bottom:8px;display:inline;}
+.ibo2 .kolejnosc{overflow:hidden;zoom:1;margin:5px 0 10px;}
+.ibo2 .kolejnosc a{float:left;margin-right:2px;}
+.ibo2 .lastPrev #podgl_ogl{display:block;float:none;border:1px solid #c9c9c9;margin:0 15px 0 0;padding:10px;}
+.ibo2 .lastPrev .dlugaC{display:block;margin-bottom:10px;}
+.ibo2 .lastPrev .kL{width:50%;text-align:center;overflow:hidden;}
+.ibo2 .lastPrev .kR{width:50%;color:#333;font:11px Verdana;}
+.ibo2 .lastPrev .kind{display:block;font:normal 16px Georgia,serif;text-align:center;height:51px;background:url(http://bi.gazeta.pl/i/obrazki/dom09/doK1Top.gif) repeat-x;overflow:hidden;line-height:20px;text-transform:uppercase;color:#fff;border:1px solid #c9c9c9;border-bottom:0;margin:10px 15px 0 0;padding:10px 10px 0;}
+.ibo2 .lastPrev .prev{margin:0 10px;}
+.ibo2 .lastPrev .prevBox{border:1px solid #c9c9c9;margin:0 15px 0 0;}
+.ibo2 .linkChange{display:block;text-align:center;clear:both;padding:20px 0;}
+.ibo2 .opisy{list-style-type:disc;padding:3px 0 10px 25px;}
+.ibo2 .prev{display:block;margin-left:5px;font-family:Tahoma, Verdana;font-size:.8em;color:#000;list-style-position:inside;text-align:left;background:url(http://bi.gazeta.pl/i/obrazki/ibo2/dot.gif) no-repeat 0 5px;text-indent:10px;float:left;clear:both;}
+.ibo2 .req{display:block;text-align:right;height:14px;margin-bottom:-14px;}
+.ibo2 .sel1{width:280px;border:1px solid #9dae80;background-color:#f3f0e0;color:#1d1d1d;margin-right:5px;}
+.ibo2 .sel2{width:200px;border:1px solid #9dae80;background-color:#f3f0e0;color:#1d1d1d;margin-right:5px;}
+.ibo2 .subTxt{font-size:11px;display:block;}
+.ibo2 .sup{font-size:.7em;position:relative;top:-.5em;}
+.ibo2 .txtArea{width:350px;height:110px;border:1px solid #9dae80;background-color:#f3f0e0;vertical-align:top;margin-right:5px;}
+.ibo2 .txtF1{border:1px solid #9dae80;background-color:#f3f0e0;width:350px;margin-right:5px;}
+.ibo2 .txtF2{border:1px solid #9dae80;background-color:#f3f0e0;width:240px;margin-right:5px;}
+.ibo2 .txtF3{border:1px solid #9dae80;background-color:#f3f0e0;width:75px;margin-right:5px;}
+.ibo2 .uploadFrame{width:100%;height:60px;}
+.ibo2 .usun{float:left;width:42px;height:14px;background:url(http://bi.gazeta.pl/i/obrazki/ibo2/del.gif) no-repeat;}
+.ibo2 .zW{float:left;padding-bottom:10px;height:15px;margin-left:15px;display:inline;}
+.ibo2 a:hover,#banP78 + article.eCommerce.loaded{background:0;}
+.ibo2 h2,.ibo2 .iboStart h2{font:14px "Trebuchet MS";font-weight:700;margin-bottom:5px;}
+.ibo2 h3{font:normal 14px Georgia,serif;color:#333;line-height:27px;border-bottom:2px solid #f0ecd9;margin-bottom:10px;text-transform:uppercase;}
+.ibo2 h4{font:bold 12px "Trebuchet MS";color:#333;line-height:20px;border-bottom:2px solid #f0ecd9;margin-bottom:10px;background-color:#fff;height:20px;margin-top:-12px;padding-top:10px;clear:both;}
+.ibo2 h5{font:11px Tahoma;font-weight:700;color:#575757;line-height:15px;padding-top:2px!important;}
+.iboStart .adLink{display:block;font-weight:400;text-align:center;width:298px;position:absolute;bottom:55px;}
+.iboStart .adLink a,.mod_uzr1 section.links li a{font-weight:400;}
+.indABC h3{color:#31313e;border-bottom-color:#e4e4e4;}
+.indABC h4 span,#col_right .mod_zr9_green .node_main{background:#6bb51f;}
+.indexMT{margin-bottom:0;padding-bottom:20px;}
+.indexMT .lead{color:#666;margin:0;}
+.indexMT h3{margin-bottom:1px;}
+.layout_uniwersalny #bottom_wrap #holder_401 .mod_zr8_noslider .node_entry{margin-left:9px;clear:none;}
+.layout_uniwersalny #columns_wrap #holder_205 .mod_zr13 .node_entry,.layout_uniwersalny #columns_wrap #holder_206 .mod_zr13 .node_entry,.layout_uniwersalny #columns_wrap #holder_221 .mod_zr13 .node_entry,.layout_uniwersalny #columns_wrap #holder_222 .mod_zr13 .node_entry,.layout_uniwersalny #columns_wrap #holder_301 .mod_zr13 .node_entry,.layout_uniwersalny #bottom_wrap #holder_402 .mod_zr13 .node_entry{border-bottom:3px solid #e4e4e4;padding-bottom:8px;margin-bottom:15px;}
+.layout_uniwersalny #columns_wrap #holder_205 .mod_zr6 .node_entry,.layout_uniwersalny #columns_wrap #holder_206 .mod_zr6 .node_entry,.layout_uniwersalny #columns_wrap #holder_221 .mod_zr6 .node_entry,.layout_uniwersalny #columns_wrap #holder_222 .mod_zr6 .node_entry,.layout_uniwersalny #columns_wrap #holder_301 .mod_zr6 .node_entry,.layout_uniwersalny #bottom_wrap #holder_402 .mod_zr6 .node_entry{border:0;border-bottom:1px solid #e5e5e5;line-height:16px;margin:0;padding:6px 0;}
+.layout_uniwersalny #columns_wrap #holder_205 .mod_zr_dom3 .n2,.layout_uniwersalny #columns_wrap #holder_206 .mod_zr_dom3 .n2,.layout_uniwersalny #columns_wrap #holder_221 .mod_zr_dom3 .n2,.layout_uniwersalny #columns_wrap #holder_222 .mod_zr_dom3 .n2,.layout_uniwersalny #columns_wrap #holder_301 .mod_zr_dom3 .n2,.layout_uniwersalny #bottom_wrap #holder_402 .mod_zr_dom3 .n2{clear:none;margin:0 1px;}
+.layout_uniwersalny #navtop_wrap .c0,.layout_uniwersalny #navbot_wrap .c0{position:absolute;right:10px;top:79px;}
+.layout_uniwersalny #navtop_wrap .c1,.layout_uniwersalny #navbot_wrap .c1{margin-top:-5px;}
+.mod_contact{border:none;padding:0;}
+.mod_contact .row_submit input{font:normal 13px Arial;color:#fff;background:linear-gradient(tobottom,#ffa75d0%,#ff7906100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffa75d',endColorstr='#ff7906',GradientType=0);padding:6px 10px;}
+.mod_contact form{border:2px solid #dedede;padding:10px;}
+.mod_contact h2{color:#000!important;}
+.mod_contact h2 + p{font:bold 14px Arial;background:#e5e5e5;margin:10px 0;padding:10px;}
+.mod_contact label{font:normal 13px Arial!important;color:#7e7e7e!important;text-transform:none!important;}
+.mod_domiporta_finder{border:1px solid #a8a8a8;margin-bottom:12px;height:57px;overflow:hidden;zoom:1;}
+.mod_domiporta_finder .form{overflow:hidden;zoom:1;}
+.mod_domiporta_finder .form .formItem{float:left;display:inline;line-height:57px;margin-right:5px;}
+.mod_domiporta_finder .form .formItem .b{background:#6ab31e url(http://bi.gazeta.pl/i/obrazki/dom09/DPsBg.gif) top left repeat-x;border:1px solid #569317;font:normal 15px Georgia,serif;color:#315907;text-transform:uppercase;text-align:center;width:84px;padding:2px 0;}
+.mod_domiporta_finder .form .formItem .empty{background:#fff url(http://bi.gazeta.pl/i/obrazki/dom09/finder-wm-bg.gif) no-repeat 5px 5px;}
+.mod_domiporta_finder .form .formItem .t{width:140px;font:normal 14px Arial,sans-serif;color:#666;border:1px solid #d2d2da;background:#fff;padding:3px;}
+.mod_domiporta_finder .form .formItem select{width:140px;font:normal 14px Arial,sans-serif;color:#666;border:1px solid #d2d2da;background:#fff;padding:2px;}
+.mod_domiporta_finder .form .formItemAdvSearch{width:80px;padding-top:14px;font:normal 11px Arial,sans-serif;}
+.mod_domiporta_finder .form .formItemAdvSearch a{color:#390;vertical-align:middle;}
+.mod_domiporta_finder .related{width:128px;height:49px;float:right;border-left:1px solid #a8a8a8;margin:4px 0;padding:0 6px;}
+.mod_domiporta_finder .related a{display:block;height:23px;line-height:23px;text-indent:-1000px;}
+.mod_domiporta_finder .related a.DPdodaj{background:#fff url(http://bi.gazeta.pl/i/obrazki/dom09/DPdodaj.gif) center no-repeat;}
+.mod_domiporta_finder .related a.DPlogo{background:#fff url(http://bi.gazeta.pl/i/obrazki/dom09/DPlogo.gif) top center no-repeat;margin-bottom:3px;}
+.mod_domiporta_finder .title{width:140px;height:57px;background:url(http://bi.gazeta.pl/i/obrazki/dom09/DPfinSep.gif) center right no-repeat;margin-right:5px;padding:0 18px 0 8px;}
+.mod_domiporta_finder .title h2{font:normal 15px/18px Georgia,serif;text-transform:uppercase;margin-top:10px;}
+.mod_domiporta_finder .title,.mod_domiporta_finder .form,.mod_domiporta_finder .related{float:left;overflow:hidden;zoom:1;}
+.mod_domiporta_ogl{margin-bottom:7px;}
+.mod_domiporta_ogl a.img,.pollBox .pollQuestion img,.pollResults .kL .kL,.quartic_rec .quartic_content > li .quartic_imagediv{float:left;margin-right:10px;}
+.mod_domiporta_ogl h2{border-bottom:3px solid #cecece;margin-bottom:10px;padding-bottom:2px;position:relative;zoom:1;font:normal 16px Georgia,serif;text-transform:uppercase;}
+.mod_domiporta_ogl h3{font:normal 14px Georgia,serif;}
+.mod_domiporta_ogl p{color:#676767;}
+.mod_domiporta_ogl p strong,.ibo2 a,.ibo2 .cena .kwota,.pollResultBox0 > .caption,.SONwrp p strong{font-weight:700;}
+.mod_domiporta_ogl ul{border:1px solid #ebebeb;padding:10px 10px 5px;}
+.mod_domiporta_ogl ul li{overflow:hidden;zoom:1;margin-bottom:5px;}
+.mod_linkiNadNaw li{display:inline;margin-left:8px;vertical-align:middle;}
+.mod_linkiNadNaw li .audio{margin-left:8px;font:10px/13px Georgia, serif;text-transform:uppercase;background:url(http://bi.gazeta.pl/i/obrazki/dom09/dodaj-ogloszenie-bg.gif) repeat-x 0 0;position:relative;top:-1px;padding:6px 15px 7px;}
+.mod_linkiNadNaw li .audio a,#col_right .mod_zr9 .node_main h3 a,.SONwrp li p{color:#333;}
+.mod_linkiNadNaw li.first{padding-right:8px;border-right:1px solid #E4E4E4;margin:0;}
+.mod_linkiNadNaw ul{font:12px/26px Arial, sans-serif;height:26px;}
+.mod_linkiNadNaw,#finderForm .c0,#dom-rynek-pierwotny-t-form > .c0 .row ul li.first,#dom-rynek-pierwotny-t-form > .c1 .row li.first,.mod_zr1,.mod_zr6 .node_head,.mod_zr13,.indexMT .header h2{margin:0;}
+.mod_most_read.mod_most_read1 .number,.mod_most_read.mod_most_read1_premium .number{background:#2E2D4A;color:#fff;}
+.mod_most_read.mod_most_read1 .title a,.mod_most_read.mod_most_read1_premium .title a{font-weight:400;font-size:16px;}
+.mod_most_read.mod_most_read1 li:hover,.mod_most_read.mod_most_read1 .title a:hover,.mod_most_read.mod_most_read1 li:hover .number,.mod_most_read.mod_most_read1_premium .tabbed_items ul li:hover,.mod_most_read.mod_most_read1_premium .title a:hover,.mod_most_read.mod_most_read1_premium .tabbed_items ul li:hover .number{background:#012341;text-decoration:none;}
+.mod_uzr1 li{padding-left:12px;border-top:1px solid #e5e5e5;margin-top:6px;padding-top:5px;background:url(http://biv.gazeta.pl/i/obrazki/domiporta2012/dot.png) no-repeat scroll 3px 14px transparent;}
+.mod_uzr1 li:first-child{border-top:none;margin-top:0;}
+.mod_uzr1 section.links li{line-height:19px;}
+.mod_uzr11 header h4 {font-family: 'open_sanssemibold'; line-height: 20px;}
+.mod_uzr1 section.body p { font-size: 14px; line-height: 19px; }
+article.mod.mod_uzr11 > header {border-bottom: 1px solid #7b7b7b;padding-bottom: 5px; margin-bottom: 18px;}
+.mod_uzr11 a.prev,.mod_uzr11 a.next{color:#fff!important; text-indent: -9999px; background:url(http://biv.gazeta.pl/i/obrazki/domiporta2013/slider_nav2.png) no-repeat scroll 0 8px transparent; width: 16px; height: 60px; }
+.mod_uzr11 a.prev {background-position: -15px 8px;}
+.mod_uzr11 a.next {background-position: -30px 8px;}
+.mod_uzr11 a.prev:hover,.mod_uzr11 a.next:hover,.bs_mostread li:hover .t a:hover{text-decoration:none;}
+.mod_uzr11 a.prev:hover {background-position: 0 8px;}
+.mod_uzr11 a.next:hover {background-position: -45px 8px;}
+.mod_uzr11 section.body {margin-left: 40px; height: 60px;}
+.mod_uzr11 section.body ul {height: 60px; }
+.mod_uzr11 section.body li {background-color: #fff; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius:5px; -webkit-background-clip: padding-box; -moz-background-clip: padding; background-clip: padding-box; height: 58px; width: 100px; line-height: 58px;}
+.mod_uzr11 section.body li img {max-height: 58px; max-width: 98px;}
+.mod_uzr4 section.body div.content{background:#f0f0f0;}
+.mod_uzr4 section.body div.content a{color:#148;font-weight:400;}
+.mod_uzr6 section.body li li.nomargin{margin-bottom:4px;}
+.mod_uzr6 section.body li li.nomargin a{color:#154972;}
+.mod_uzr_2 li{margin-top:8px;padding-top:9px;border-top:1px solid #dadada;}
+.mod_uzr_2 li .content{margin-left:82px;font-size:14px;}
+.mod_uzr_2 li .picture{float:left;width:71px;}
+.mod_uzr_2 li .picture img{border:1px solid #dadada;}
+.mod_uzr_2 li h3,.mod_uzr_2 li .content a{font-size:16px;}
+.mod_uzr_2 li:first-child{margin-top:0;padding-top:0;border-top:none;}
+.mod_uzr_3 .body > p{font-size:14px;margin:10px 0 30px;}
+.mod_uzr_3 img{margin-bottom:6px;display:block;border:1px solid #e4e4e4;}
+.mod_uzr_3 li{margin-left:5px;margin-bottom:18px;float:left;width:71px;font-weight:700;}
+.mod_uzr_3 li.clear{height:0;clear:both;overflow:hidden;font-size:0;margin:0;padding:0;}
+.mod_uzr_3 li.clear + li{margin-left:0;}
+.mod_uzr_4 {background: #424242; color: #e9e9e9; padding: 37px 0px 0px; font-family: 'open_sansregular'; font-size: 14px;}
+.mod_uzr_4 a {color: #e9e9e9;}
+.mod_uzr_4 a:hover {color: #e9e9e9; text-decoration: underline;}
+.mod_uzr_4 .footer_wrapper {width:980px; margin: 0 auto;}
+.mod_uzr_4 .links {margin-bottom: 34px;}
+.mod_uzr_4 .links_col{width:20%; float: left; box-sizing: border-box; height: 200px;}
+.mod_uzr_4 .col1 {width: 201px;}
+.mod_uzr_4 .col2 {width: 221px;}
+.mod_uzr_4 .col3 {width: 179px;}
+.mod_uzr_4 .col4 {width: 162px;}
+.mod_uzr_4 .collaborators {width: 217px;background-image: url(http://biv.gazeta.pl/i/obrazki/domiporta2013/separator3.png); background-position: 0% 50%; background-repeat: no-repeat;}
+.mod_uzr_4 .links_col li {line-height: 18px;}
+.mod_uzr_4 .links_col li:before {content: "- ";}
+.mod_uzr_4 .collaborators li:before {content: "";}
+.mod_uzr_4 .collaborators .h5_like, .mod_uzr_4 .collaborators .collaborators_list {margin-left: 37px;}
+.mod_uzr_4 .collaborators_list li, .mod_uzr_4 .collaborators_list li a  { width: 150px; text-align: center; height:33px; line-height: 33px; vertical-align: middle; display:block;}
+.mod_uzr_4 .collaborators_list li {border-radius: 5px; border:1px solid #7b7b7b; background-color: #ededed; margin-top: 10px;}
+.mod_uzr_4 .collaborators_list li:first-child {margin-top: 0;}
+.mod_uzr_4 .collaborators_list li img {vertical-align: middle;}
+.mod_uzr_4 .h5_like {font-size: 14px; font-family: 'open_sanssemibold'; margin-bottom:13px;}
+.mod_uzr_4 .links:after {display: block; position: relative; overflow: hidden; content:""; clear: both;}
+
+
+.mod_uzr_5 h3{font:normal 11px Arial;color:#999;margin-bottom:6px;text-transform:uppercase;}
+.mod_uzr_5 img{float:left;border:1px solid #dadada;margin:0 10px 2px 0;}
+.mod_uzr_5 li{border-bottom:1px solid #e5e5e5;margin-bottom:10px;padding-bottom:8px;}
+.mod_uzr_czapeczka{font-size:11px;background:#f1f1f1;}
+.mod_uzr_czapeczka .body{width:980px;margin:0 auto;}
+.mod_uzr_czapeczka .list li{display:inline-block;vertical-align:middle;border-left:1px solid #000;margin-left:2px;padding-left:4px;line-height:11px;}
+.mod_uzr_czapeczka .list li:first-child{border-left:none;margin-left:0;padding-left:0;}
+.mod_uzr_czapeczka .list,.mod_uzr_4 .copyright{display:inline-block;}
+.mod_uzr_czapeczka .partners{float:right;display:inline-block;margin-top:-5px;}
+.mod_uzr_czapeczka .partners li{display:inline-block;color:#999;vertical-align:middle;margin-left:6px;}
+.mod_uzr_czapeczka a{color:#60b6ed;}
+.mod_uzr_czapeczka p{color:#999;padding-top:6px;}
+.mod_uzr_domiporta1 ul li{display:inline-block;margin-left:6px;font-size:16px;vertical-align:middle;}
+.mod_uzr_domiporta1 ul li.fb{border-left:1px solid #d0d0d0;margin-left:5px;padding-left:6px;}
+.mod_uzr_domiporta1 ul li:first-child{padding-left:28px;font-size:20px;background:transparent url(http://biv.gazeta.pl/i/obrazki/domiporta2012/plus.png) left top no-repeat;}
+.mod_uzr_search{font:normal 14px/22px Arial;color:#666;margin:12px 0;}
+.mod_uzr_search .integer{width:79px;}
+.mod_uzr_search a,.mod_uzr_search a:hover{float:right;display:inline-block;font-size:11px;padding-right:12px;cursor:pointer;background:transparent url(http://biv.gazeta.pl/i/obrazki/gazetapraca2012/arrow.png) no-repeat right center;}
+.mod_uzr_search form{position:relative;border:1px solid #e5e5e5;padding:15px;}
+.mod_uzr_search input{width:206px;height:20px;border:1px solid #ccc;}
+.mod_uzr_search input,.mod_uzr_search select{font-size:14px;color:#666;}
+.mod_uzr_search input[type="submit"] { position: absolute; bottom: 23px; right: 10px; width: auto; height: auto; padding: 6px 16px; color: #fff; font: bold 16px/16px Arial; border: 1px solid #fc8f30; cursor: pointer; text-transform: capitalize; background: #ff9e4a; /* Old browsers */ background: -moz-linear-gradient(top,  #ff9e4a 0%, #ed7002 100%); /* FF3.6+ */ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff9e4a), color-stop(100%,#ed7002)); /* Chrome,Safari4+ */ background: -webkit-linear-gradient(top,  #ff9e4a 0%,#ed7002 100%); /* Chrome10+,Safari5.1+ */ background: -o-linear-gradient(top,  #ff9e4a 0%,#ed7002 100%); /* Opera 11.10+ */ background: -ms-linear-gradient(top,  #ff9e4a 0%,#ed7002 100%); /* IE10+ */ background: linear-gradient(top,  #ff9e4a 0%,#ed7002 100%); /* W3C */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9e4a', endColorstr='#ed7002',GradientType=0 ); /* IE6-9 */ }
+.mod_uzr_search input[type="submit"]:hover { background: #ed7002; /* Old browsers */ background: -moz-linear-gradient(top,  #ed7002 0%, #ff9e4a 100%); /* FF3.6+ */ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ed7002), color-stop(100%,#ff9e4a)); /* Chrome,Safari4+ */ background: -webkit-linear-gradient(top,  #ed7002 0%,#ff9e4a 100%); /* Chrome10+,Safari5.1+ */ background: -o-linear-gradient(top,  #ed7002 0%,#ff9e4a 100%); /* Opera 11.10+ */ background: -ms-linear-gradient(top,  #ed7002 0%,#ff9e4a 100%); /* IE10+ */ background: linear-gradient(top,  #ed7002 0%,#ff9e4a 100%); /* W3C */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed7002', endColorstr='#ff9e4a',GradientType=0 ); /* IE6-9 */ }
+.mod_uzr_search li{display:inline-block;margin-right:10px;vertical-align:top;}
+.mod_uzr_search select{width:206px;height:21px;border:1px solid #ccc;}
+.mod_uzr_search ul{margin-top:10px;}
+.mod_uzr_search ul:first-child{margin-top:0;}
+.mod_uzr_search ul:first-child li:first-child{float:left;width:120px;height:40px;margin-right:15px;font-size:16px;border-right:1px solid #e5e5e5;padding:3px 10px 3px 0;}
+.mod_uzr_search.expand input[type=submit]{bottom:8px;}
+.mod_uzr_search.expand ul:first-child li:first-child{padding:30px 10px 30px 0;}
+.mod_zapisywarka_nlt .node_head{border:0;margin-bottom:20px;}
+.mod_zapisywarka_nlt .node_head h2{font-size:23px;color:#68a827;border:0;line-height:36px;}
+.mod_zapisywarka_nlt .s{font:14px/16px Arial, sans-serif;text-transform:uppercase;text-align:center;color:#fff;width:130px;height:28px;margin-left:5px;background:url(http://bi.gazeta.pl/i/obrazki/dom09/nlt_btn.png) bottom left repeat-x;border:0;}
+.mod_zapisywarka_nlt .t{border:1px solid #959595;font:20px Arial, sans-serif;color:#000;width:260px;padding:1px;}
+.mod_zapisywarka_nlt a{color:#68a827;font-size:16px;}
+.mod_zapisywarka_nlt form{background:url(http://bi.gazeta.pl/i/obrazki/dom09/nlt_bg.png) no-repeat;height:60px;line-height:58px;padding-left:18px;}
+.mod_zapisywarka_nlt li{padding-left:15px;background:url(http://bi.gazeta.pl/i/obrazki/lego/bullet2.gif) 0 12px no-repeat;}
+.mod_zapisywarka_nlt p,.mod_zapisywarka_nlt li{font-size:18px;margin:0;}
+.mod_zapisywarka_nlt ul{margin-bottom:10px;}
+.mod_zaslepka{border:1px solid #ccc;text-align:center;font:normal 18px Georgia,serif;color:#333251;margin:0 0 20px;padding:100px 20px;}
+.mod_zi13 .base a{color:#333;background:#dadada;}
+.mod_zi13 .body h2 a,.mod_zi13 .body h3 a{font-family:Arial;}
+.mod_zi13 .body h3{display:block;margin-top:6px;}
+.mod_zr1 .node_body{padding-bottom:10px;margin-bottom:20px;border-bottom:1px solid #e7e7e7;}
+.mod_zr1 .node_body h3,.mod_zr1 .node_entry,#navtop_wrap > .c1,article.mod_uzr_domiporta1,article.mod_uzr_domiporta1 header{margin-bottom:0;}
+.mod_zr1 .node_head{margin-bottom:2px;}
+.mod_zr1 .super{font:11px Arial, sans-serif;color:#1C1B1B;}
+.mod_zr1 img{margin:2px 0 5px;}
+.mod_zr13 .lead{font:11px Arial, sans-serif;color:#666;margin:0;}
+.mod_zr13 .node_body h3{font:24px Georgia, serif;margin:2px 0;}
+.mod_zr13 .node_head h2{font:16px Georgia, serif;margin-bottom:0;}
+.mod_zr13 .node_head,.see_more_links{margin-bottom:6px;}
+.mod_zr5{height:307px;}
+.mod_zr5 .node_body{height:307px;left:0;width:620px;overflow:hidden;}
+.mod_zr5 .node_body .node_entry .node_caption{display:block;position:absolute;left:10px;bottom:13px;width:426px;background:#fff;opacity:0.81;padding:7px;}
+.mod_zr5 .node_body .node_entry .node_caption h1{font:normal 25px Georgia,serid;margin-bottom:4px;}
+.mod_zr5 .node_body .node_entry .node_caption h1 a{color:#2B4F08;}
+.mod_zr5 .node_body .node_inner_body{width:9999px;}
+.mod_zr5 .node_entry{width:460px;height:307px;margin-left:80px;}
+.mod_zr6 .author{font:11px Arial, sans-serif;color:#999;display:block;}
+.mod_zr6 .lead{font:12px/16px Georgia, serif;display:inline;}
+.mod_zr6 .node_body img{border:1px solid #e5e5e5;margin-right:5px;}
+.mod_zr6 .node_entry .more{font:12px/16px Georgia, serif;display:inline;margin-left:2px;}
+.mod_zr6 p.more{clear:both;padding-top:5px;}
+.mod_zr6,.mod_zr_dom3,.wideoIndex,.pollBox,.quartic_rec,.bs_mostread{margin-bottom:20px;}
+.mod_zr7{margin-bottom:0;padding-bottom:6px;}
+.mod_zr7 .node_entry{border-left-color:#e7e7e7;}
+.mod_zr7 .node_head,.mod_zr1 .node_head,.NFwrp h3,.mod_zr6 .node_head,.indexMT .header,.mod_zr13 .node_head,.wideoIndex .index_head,.mod_domiporta_ogl h2{border-bottom-color:#e4e4e4;}
+.mod_zr7 .super{font:13px Arial, sans-serif;color:#1c1b1b;text-transform:uppercase;}
+.mod_zr7 .super a{color:#31313E;}
+.mod_zr7 .super a:hover{color:#5DB701;background:#fff;}
+.mod_zr7 ul{margin:2px 0 15px;}
+.mod_zr8 .node_entry{margin-bottom:12px;border-color:#e0e1e1;}
+.mod_zr8 .node_head{padding-bottom:0;}
+.mod_zr9 .node_head{padding-bottom:0;margin-bottom:5px;}
+.mod_zr9 .node_main{background:#d9d9d9 url(http://bi.gazeta.pl/i/obrazki/dom09/zr9-main-bg.gif) repeat-x 0 0;margin-bottom:4px;}
+.mod_zr9 .node_main .lead{font:11px Arial, sans-serif;color:#666;}
+.mod_zr9 .node_main h3{font-size:16px;line-height:normal;margin-bottom:2px;}
+.mod_zr9 .node_main h3 a:hover,.mod_zr_dom1 .node_body h3 a:hover,.path_112431 #col_left,.eCommerce.viewVariant4 section.body ul,.eCommerce.viewVariant3 section.body ul,.eCommerce.viewVariant2 section.body ul,.eCommerce.viewVariant1 section.body ul,.quiz .entry .wide .sel .i,.quiz .entry .wide .i img{background:none;}
+.mod_zrKontakt{width:620px;overflow:hidden;}
+.mod_zrKontakt .mod_inner{width:640px;}
+.mod_zrKontakt .node_entry{width:298px;height:184px;float:left;border:1px solid #c9c9c9;color:#333;margin:0 20px 20px 0;}
+.mod_zrKontakt .node_entry h3{font:normal 14px Gerogia,serif;height:50px;background:url(http://bi.gazeta.pl/i/obrazki/dom09/doK1Top.gif) repeat-x;overflow:hidden;line-height:20px;color:#fff;padding:5px 10px 0;}
+.mod_zrKontakt .node_entry h4{font-weight:700;margin:7px 0 4px;}
+.mod_zrKontakt .node_entry p,.mod_zrKontakt .node_entry h4{padding:0 10px;}
+.mod_zrKontakt .node_head{border-bottom:0;}
+.mod_zr_dom1 .node_body{background:#ebf7fb;padding:10px;}
+.mod_zr_dom1 .node_body h3{font:19px Georgia, serif;}
+.mod_zr_dom2 .node_head{padding-bottom:2px;border-bottom:3px solid #e4e4e4;}
+.mod_zr_dom3 .node_body{border:0;margin:0;padding:0;}
+.mod_zr_dom3 img{margin:2px 0;}
+.mod_zr_dom4{background:#fff;padding-bottom:15px;margin:0;}
+.mod_zr_dom4 .node_head{border-bottom:3px solid #e4e4e4;padding-bottom:2px;margin:0;}
+.mod_zr_dom4 h1{display:inline;margin-right:15px;font:22px Georgia, serif;color:#31313e;text-transform:uppercase;}
+.mod_zr_dom4 h1 a:hover{background:none;color:#5DB701;}
+.mod_zr_dom4 p{display:inline;color:#999;}
+.notowania_waluta{border:1px solid #e5e5e5;position:relative;padding-bottom:15px;margin:22px 0 10px;}
+.notowania_waluta .W_chart{position:absolute;right:11px;top:13px;}
+.notowania_waluta .W_chart a img{display:block;background:none;}
+.notowania_waluta .W_chart_title{font:bold 11px Georgia, serif;color:#000;position:absolute;left:32px;top:3px;}
+.notowania_waluta .param{position:absolute;width:5px;height:23px;text-indent:-1000em;right:-5px;top:-1px;background:url(http://bi.gazeta.pl/i/obrazki/dom09/waluty-bird.gif) no-repeat 0 0;display:none;}
+.notowania_waluta h5{font:16px Georgia, serif;text-transform:uppercase;color:0;position:absolute;top:-22px;left:0;}
+.notowania_waluta li{border-bottom:1px solid #e1e1e1;height:21px;line-height:21px;margin-right:5px;position:relative;zoom:1;}
+.notowania_waluta li .kL{float:left;font-size:11px;font-family:Georgia, serif;}
+.notowania_waluta li .kL a{padding-left:20px;background-position:3px 50%;background-repeat:no-repeat;}
+.notowania_waluta li .kL a.W_CHFPLN{background-image:url(http://bi.gazeta.pl/i/obrazki/dom09/i-chf.gif);}
+.notowania_waluta li .kL a.W_EURPLN{background-image:url(http://bi.gazeta.pl/i/obrazki/dom09/i-eur.gif);}
+.notowania_waluta li .kL a.W_GBPPLN{background-image:url(http://bi.gazeta.pl/i/obrazki/dom09/i-gbp.gif);}
+.notowania_waluta li .kL a.W_USDPLN{background-image:url(http://bi.gazeta.pl/i/obrazki/dom09/i-usd.gif);}
+.notowania_waluta li .kL a:hover{background-color:transparent;background-repeat:no-repeat;color:#333;}
+.notowania_waluta li .kR{float:right;width:38px;overflow:hidden;text-align:center;font-size:11px;font-weight:700;color:#4c4c4c;}
+.notowania_waluta li.hover{background:#e1f7e2;}
+.notowania_waluta li.th .kR{color:#7c7c7c;font-size:8px;text-transform:uppercase;font-weight:400;}
+.notowania_waluta ul{width:133px;padding:6px 0 0 11px;}
+.platnosc{padding-bottom:10px;overflow:hidden;}
+.platnosc .k1{width:25%;float:left;padding-top:10px;}
+.platnosc .k1 input{margin-right:7px;}
+.platnosc .k2{width:30%;float:left;}
+.platnosc .k3{width:45%;float:left;}
+.pollBox .pollQuestion{margin-bottom:10px;padding-bottom:10px;clear:left;overflow:hidden;border-bottom:1px solid #CECECE;}
+.pollBox .pollQuestion h2{color:#333;margin-bottom:10px;padding-bottom:2px;font:bold 14px/19px Georgia,serif;text-transform:uppercase;}
+.pollBox .pollQuestion h2 span,.pollResults h2 span{-moz-border-bottom-colors:none;-moz-border-image:none;-moz-border-left-colors:none;-moz-border-right-colors:none;-moz-border-top-colors:none;background:none repeat scroll 0 0 #BBB;color:#F5F5F5;font-size:12px;position:relative;top:-1px;border-color:#BBB;border-style:solid;border-width:1px 4px 2px;}
+.pollBox .pollQuestion ul li,.pollResultBox0 > .kL{margin:5px 0;}
+.pollResults{margin-bottom:10px;border-bottom:1px solid #CECECE;padding-bottom:10px;}
+.pollResults .kL .bar{background:#6BB51F;display:inline-block;height:15px;width:141px;float:left;margin-right:10px;}
+.pollResults .kR{line-height:15px;}
+.pollResults h2{color:#333;margin-bottom:10px;padding-bottom:4px;font:16px/20px Georgia,serif;text-transform:uppercase;}
+.prevBox .lV{width:45%;float:left;text-align:right;padding-right:10px;font-weight:700;line-height:12px;}
+.prevBox .poz1{background-color:#fefefe;border-top:1px solid #c9c9c9;overflow:hidden;zoom:1;padding:10px 10px 0;}
+.prevBox .poz2{background-color:#f0f1f5;overflow:hidden;zoom:1;padding:10px;}
+.prevBox .poz3{background-color:#fff;border-bottom:1px solid #c9c9c9;overflow:hidden;zoom:1;padding:10px;}
+.prevBox .poz4{background-color:#f0f1f5;border-bottom:1px solid #c9c9c9;overflow:hidden;zoom:1;padding:10px;}
+.prevBox .poz5{background:#fff;border-bottom:1px solid #c9c9c9;overflow:hidden;zoom:1;padding:10px;}
+.prevBox .row{clear:both;margin:4px 0;}
+.quartic_rec .quartic_content > li{display:inline-block;width:300px;vertical-align:top;margin-right:10px;margin-bottom:8px;}
+.quartic_rec .quartic_header{border-bottom:2px solid #DADADA;font-weight:700;margin-bottom:10px;padding-bottom:2px;text-transform:uppercase;}
+.quiz{overflow:hidden;zoom:1;width:620px;margin:0 0 20px;}
+.quiz .entry{overflow:hidden;zoom:1;border-top:1px solid #f0eeeb;padding:10px 0;}
+.quiz .entry .bad,.quiz .entry .wide .bad{border:2px solid #c90604;background:#f2f0ed url(http://biv.gazeta.pl/i/quizy/q_ansSelected.gif) repeat-x 0 0;}
+.quiz .entry .good,.quiz .entry .wide .good{border:2px solid #07aa01;background:#f2f0ed url(http://biv.gazeta.pl/i/quizy/q_ansSelected.gif) repeat-x 0 0;}
+.quiz .entry .i{float:left;display:inline;margin-right:10px!important;}
+.quiz .entry .i img{display:block;background:#fff;border:1px solid #f2f0ed;padding:3px;}
+.quiz .entry .sel{border:1px solid #f2f0ed;background:#f2f0ed url(http://biv.gazeta.pl/i/quizy/q_ansSelected.gif) repeat-x 0 0;}
+.quiz .entry .wide{width:100%;}
+.quiz .entry .wide .i{float:left;background:none;overflow:hidden;zoom:1;padding:3px;}
+.quiz .entry .wide .i img{float:left;display:inline;border:none;background:none;padding:0;}
+.quiz .entry .wide .i input{float:left;display:inline;height:15px;width:15px;margin:0 6px 0 8px;padding:0;}
+.quiz .entry .wide li{margin-bottom:15px;border:1px solid #f2f0ed;padding:3px;}
+.quiz .entry .wide span{display:block;overflow:hidden;zoom:1;background:url(http://biv.gazeta.pl/i/quizy/q_ansBg.gif) no-repeat 0 5px;padding-left:12px;font:12px/17px Arial, sans-serif;}
+.quiz .entry h2{font:bold 16px Arial, sans-serif;color:#23B62D;margin-bottom:15px;}
+.quiz .entry h2 span{font:bold 12px Verdana, sans-serif;color:#f5f5f5;background:#23B62D;border:2px solid #23B62D;position:relative;top:-2px;margin-right:5px;}
+.quiz .entry li{font:12px/17px Arial, sans-serif;border:1px solid #fff;overflow:hidden;zoom:1;padding:6px;}
+.quiz .entry ul{width:440px;overflow:hidden;zoom:1;}
+.quiz .legenda{overflow:hidden;zoom:1;margin-top:15px;}
+.quiz .legenda .dobre{background:url(http://biv.gazeta.pl/i/quizy/q_LegendaGood.gif) no-repeat 0 3px;padding-right:10px;margin-right:10px;border-right:1px solid #949494;}
+.quiz .legenda .zle{background:url(http://biv.gazeta.pl/i/quizy/q_LegendaBad.gif) no-repeat 0 3px;}
+.quiz .legenda li{font:12px Arial, sans-serif;color:#949494;float:left;display:inline;padding-left:17px;}
+.quiz .legenda span{font:12px Arial, sans-serif;float:left;display:inline;margin-right:10px;color:#000;text-transform:uppercase;}
+.quiz .legenda ul{float:left;display:inline;list-style:none;overflow:hidden;zoom:1;}
+.quiz .more{margin-top:10px;text-align:right;}
+.quiz .more a{font:bold 11px Tahoma, sans-serif;color:#363;text-decoration:none;}
+.quiz .q_submit .q_submitWrp{float:right;width:129px;height:22px;margin-top:10px;background:url(http://biv.gazeta.pl/i/quizy/q_submit.gif) no-repeat 0 0;}
+.quiz .q_submit .q_submitWrp input{background:none;border:none;height:20px;width:129px;color:#fff;font:bold 14px Tahoma, sans-serif;text-align:center;cursor:pointer;}
+.quiz .quizAlreadyDone li{font-weight:700;padding-bottom:2px;}
+.quiz .quizAlreadyDone p{font-weight:700;margin-bottom:10px;}
+.quiz .quizLogin .c0,.quiz .quizLogin .c1{float:left;display:inline;margin-right:10px;}
+.quiz .quizLogin .headerRow{font-weight:700;padding:0;}
+.quiz .quizLogin .iTxt{border:1px solid #ababab;width:200px;font:12px Arial, sans-serif;padding:2px 3px 3px;}
+.quiz .quizLogin .row{overflow:hidden;zoom:1;padding-top:10px;}
+.quiz .quizLogin .sbtBtn{background:#fff url(http://biv.gazeta.pl/i/drabinki/przypSbtBg.gif) repeat-x 0 0;border:1px solid #dfdfdf;text-align:center;width:100px;height:22px;font:bold 12px Tahoma, sans-serif;color:#484848;cursor:pointer;padding-bottom:2px;}
+.quiz .quizLogin,.quiz .quizAlreadyDone{font:normal 12px/16px Verdana, sans-serif;color:#000;}
+.quiz .str .current{background-image:url(http://biv.gazeta.pl/i/obrazki/zdrowie/q_strCurrent.gif);}
+.quiz .str .next{width:99px;height:22px;background:#23b62d;}
+.quiz .str .next input{background:none;border:none;height:20px;width:99px;color:#fff;font:bold 14px Arial, sans-serif;text-align:center;cursor:pointer;}
+.quiz .str li{float:left;display:inline;height:15px;padding-top:22px;width:29px;font:12px Verdana, sans-serif;color:#000;background:url(http://biv.gazeta.pl/i/quizy/q_strBg.gif) no-repeat 0 0;text-align:center;}
+.quiz .str ul{overflow:hidden;zoom:1;margin-right:25px;margin-top:3px;list-style:none;}
+.quiz .str,.quiz .q_submit{border-top:1px solid #f0eeeb;padding-top:10px;overflow:hidden;zoom:1;}
+.quiz .wynikHead{overflow:hidden;zoom:1;padding-bottom:25px;margin-bottom:15px;border-bottom:1px solid #f0eeeb;}
+.quiz .wynikHead h5{float:left;display:inline;font:bold 18px Tahoma, sans-serif;color:#000;line-height:29px;}
+.quiz .wynikHead0 .dobre{color:#07aa01;}
+.quiz .wynikHead0 .dobre .ile{border:1px solid #07aa01;}
+.quiz .wynikHead0 .punkty{position:relative;top:-5px;margin-bottom:-5px;}
+.quiz .wynikHead0 .punkty em{font-size:18px;font-weight:400;font-style:normal;}
+.quiz .wynikHead0 .punkty span{font:bold 28px Tahoma, sans-serif;}
+.quiz .wynikHead0 .zle{color:#c90604;}
+.quiz .wynikHead0 .zle .ile{border:1px solid #c90604;}
+.quiz .wynikHead0 div{overflow:hidden;zoom:1;float:left;display:inline;margin-left:15px;}
+.quiz .wynikHead0 div .ile{font-weight:700;margin-right:8px;width:auto;height:29px;line-height:29px;background:#ededed url(http://biv.gazeta.pl/i/quizy/q_ileBg.gif) repeat-x 0 0;text-align:center;margin-top:0;padding:0 7px;}
+.quiz .wynikHead0 div span{float:left;display:inline;font:18px Arial, sans-serif;line-height:29px;}
+.quiz .wyniki{overflow:hidden;zoom:1;margin-top:25px;}
+.quizHead{margin-bottom:25px;}
+.quizHead h1{font:bold 24px/28px Arial, sans-serif;color:#000;margin:20px 0 15px;}
+.quizHead p{font:normal 12px/16px Arial, sans-serif;color:#000;}
+.quiz_index .entries .contentI{font:12px/20px Arial, sans-serif;color:#646464;margin:3px 0 5px;}
+.quiz_index .entries .first{margin-top:25px;}
+.quiz_index .entries h3 a{font:18px Arial, sans-serif;color:#000;}
+.quiz_index .entry{overflow:hidden;border-bottom:1px solid #ddd;padding-bottom:25px;margin-bottom:10px;zoom:1;}
+.quiz_index .entry .image{width:auto;height:auto;float:left;margin-right:10px!important;overflow:hidden;}
+.quiz_index .head{font-weight:700;font-size:18px;border-bottom:2px solid #ddd;margin:0;padding:0 0 5px;}
+.wideoIndex .index_entries li{height:160px;overflow:hidden;}
+.wideoIndex .index_head{margin-bottom:8px;}
+.wideoIndex .more,.SONwrp .sbt{text-align:right;}
+.zi1 .imgw li{margin:8px 0 0;}
+a:hover{color:#148;text-decoration:underline;background:transparent;}
+article.eCommerce{clear:both;margin:0 0 16px;}
+article.eCommerce header{border-bottom:2px solid #ccc;color:#434343;margin:0 0 12px;padding:0 0 2px;}
+article.eCommerce header h1 a:hover{text-decoration:none;color:#960639;}
+article.eCommerce header ul{float:right;padding:9px 0 0;}
+article.eCommerce header ul a{color:#666;}
+article.eCommerce header ul a:hover{text-decoration:none;color:#2e2e2e;}
+article.eCommerce header ul li{float:left;border-left:1px solid #ccc;margin:0 0 0 5px;padding:0 0 0 5px;}
+article.eCommerce header ul li:first-child{border:0;}
+article.eCommerce section.body li{margin-left:20px;float:left;width:140px;}
+article.eCommerce section.body li.nokaut p.imgw{width:130px;height:100px;overflow:hidden;margin:0 0 4px 5px;}
+article.eCommerce section.body li.nokaut p.imgw span.overlay{position:absolute;left:0;top:0;width:76px;height:21px;background:url(http://bi.gazeta.pl/i/obrazki/hp2009/nokaut-overlay.1.png) no-repeat 0 0;}
+article.eCommerce section.body li.okazje p.imgw span.overlay{position:absolute;left:0;top:0;width:66px;height:17px;background:url(http://bi.gazeta.pl/i/obrazki/hp2009/okazje-overlay2.png) no-repeat 0 0 #fff;}
+article.eCommerce section.body li:first-child{margin:0;padding:0;}
+article.eCommerce section.body p.description{font-weight:700;line-height:16px;margin:6px 0 1px;}
+article.eCommerce section.body p.description,article.eCommerce section.body p.price,article.eCommerce section.body li.okazje p.imgw{text-align:center;}
+article.eCommerce section.body p.imgw img{display:block;margin:auto;}
+article.eCommerce section.body p.price{font-size:16px;line-height:22px;font-weight:700;}
+article.eCommerce section.body p.price a{color:#930e0e;}
+article.eCommerce section.body p.price span.oldPrice{color:#999;text-decoration:line-through;}
+article.mod > header h1,article.mod > header h2,article.mod > header h3,article.mod > header span,article.mod > header a,.mod .node_head h2,.indexMT .header h1,.indexMT .header h2,.index .head h1,.index .head h2,.blogBox h3,.NFwrp h3,#ea_mostread .head strong,.indABC h3,.wideoIndex .index_head h2,#newslzaj h3,.mod_contact h2,article.mod > header a,.mod .node_head h2 a,.indexMT .header h1 a,.indexMT .header h2 a,.index .head h1 a,.index .head h2 a,.blogBox h3 a,.NFwrp h3 a,.indABC h3 a,.wideoIndex .index_head h2 a,.bs_mostread_head0 strong{display:block;font:bold 22px/22px Arial, serif;color:#148;margin-bottom:0;text-transform:none;}
+article.mod > header,article.mod_uzr8 section.body header,.mod .node_head,.indexMT .header,.index .head,.blogBox h3,.NFwrp h3,#ea_mostread .head,.indABC h3,.wideoIndex .index_head,#newslzaj h3,.mod_contact h2,.bs_mostread_head0{margin-bottom:12px;padding-bottom:4px;border-bottom:2px solid #6bb51f;text-transform:none;border-bottom-color:#ee7307;}
+article.mod_most_read > header{border-bottom:2px solid #EE7307;font-size:22px;line-height:22px;color:#148;}
+article.mod_uzr_5 header h2{color:#000;}
+article.mod_uzr_titleH1 header h1{display:inline-block;font:normal 22px Arial;color:#333;}
+article.mod_uzr_titleH1 header span{display:inline-block;font:normal 14px Arial;color:#999;}
+
+/* wyszukiwarka mdm */
+.path_mdm .mod_uzr_titleH1 { margin-bottom: 0; }
+.path_mdm .mod_uzr_titleH1 > header { margin-bottom: 0; padding-bottom: 0; }
+.path_mdm .WyszukiwarkaMdM a:link, .path_mdm .WyszukiwarkaMdM a:active, .path_mdm .WyszukiwarkaMdM a:visited, .path_mdm .WyszukiwarkaMdM a:hover { color: #114488; text-decoration: none; }
+.path_mdm .WyszukiwarkaMdM a:hover { text-decoration: underline; }
+.path_mdm .WyszukiwarkaMdM .FloatLeft { float: left; }
+.path_mdm .WyszukiwarkaMdM .FloatRight { float: right; }
+.path_mdm .WyszukiwarkaMdM .ClearBoth { clear: both; }
+.path_mdm .WyszukiwarkaMdM .watermark { color: #999 !important; }
+.path_mdm .WyszukiwarkaMdM input.ButtonSzukaj, .path_mdm .WyszukiwarkaMdM input.ButtonSzukajHover { border: 0px; color: #fff; cursor: pointer; width: 106px; }
+.path_mdm .WyszukiwarkaMdM { color: #313131; font-family: Arial; font-size: 14px; line-height: 1; padding: 0 0 20px; }
+.path_mdm .WyszukiwarkaMdM h2 { color: #646464; font-size: 15px; font-weight: normal; margin: 20px 0px 10px; text-align: left; position: relative; }
+.path_mdm .WyszukiwarkaMdM h2 img { position: absolute; right: 0px; top: -4px; }
+.path_mdm #MdmSearchForm { max-width: 620px; }
+.path_mdm .WyszukiwarkaMdM .WyszukiwarkaMdMStyl { background: #f1f1f1; border: 1px solid #d6d6d6; border-bottom: 2px solid #d6d6d6; padding: 20px; overflow: hidden; }
+.path_mdm .WyszukiwarkaMdM .WyszukiwarkaMdMStyl .Kol1 { border-right: 1px solid #e5e5e5; color: #757575; margin: 0px 20px 0px 0px; max-width: 150px; padding: 0px 20px 0px 0px; text-align: right; }
+.path_mdm .WyszukiwarkaMdM .WyszukiwarkaMdMStyl .Kol1 span { display: block; margin: 0px 0px 50px 0px; }
+.path_mdm .WyszukiwarkaMdM .WyszukiwarkaMdMStyl .Kol2 { max-width: 390px; }
+.path_mdm .WyszukiwarkaMdM .WyszukiwarkaMdMStyl .WyszukiwarkaMdMElement { margin: 30px 0px; }
+.path_mdm .WyszukiwarkaMdM .WyszukiwarkaMdMStyl .WyszukiwarkaMdMElement.WyborKategorii, .path_mdm .WyszukiwarkaMdM .WyszukiwarkaMdMStyl .WyszukiwarkaMdMElement.Checkbox { margin: 0px 0px 40px 0px; }
+.WyszukiwarkaMdM .WyszukiwarkaMdMStyl .Kol2 .ui-state-default { background: url(http://www.domiporta.pl/nowe/Content/images/mdm-radio.png) no-repeat center left; position: relative; margin: 0px 70px 0px 0px; padding: 3px 0px 3px 25px; }
+.path_mdm .WyszukiwarkaMdM .ButtonSzukaj { clear: both; padding-top: 25px; }
+.path_mdm .WyszukiwarkaMdM .WyszukiwarkaMdMStyl .Kol2 .WyszukiwarkaMdMElement.Checkbox .ui-state-default.ui-state-active, .path_mdm .WyszukiwarkaMdM .WyszukiwarkaMdMStyl .Kol2 .WyszukiwarkaMdMElement.Checkbox .ui-state-default { background: url(http://www.domiporta.pl/nowe/Content/images/mdm-checkbox-check.png) no-repeat center left; display: block; margin: 0px; padding: 18px 0px 0px 25px; }
+.path_mdm .WyszukiwarkaMdM .WyszukiwarkaMdMStyl .Kol2 .WyszukiwarkaMdMElement.Checkbox .ui-state-default { background: url(http://www.domiporta.pl/nowe/Content/images/mdm-checkbox.png) no-repeat center left; }
+.path_mdm .WyszukiwarkaMdM .WyszukiwarkaMdMStyl .Kol2 .ui-state-default.ui-state-active { background: url(http://www.domiporta.pl/nowe/Content/images/mdm-radio-check.png) no-repeat center left; }
+.path_mdm .WyszukiwarkaMdM .WyszukiwarkaMdMStyl .Kol2 .WyszukiwarkaMdMElement.Checkbox span a { font-size: 12px; line-height: 1.6; }
+.path_mdm .WyszukiwarkaMdM .WyszukiwarkaMdMStyl .Kol2 input[type=checkbox], .path_mdm .WyszukiwarkaMdM .WyszukiwarkaMdMStyl .Kol2 input[type=radio] { display: none; margin: 0px; padding: 0px; width: auto; }
+.path_mdm .WyszukiwarkaMdM .WyszukiwarkaMdMStyl .Kol2 input, .path_mdm .WyszukiwarkaMdM .WyszukiwarkaMdMStyl .Kol2 .styled-select { -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; border: 1px solid #e5e5e5; font-size: 14px; padding: 8px 10px; }
+.path_mdm .WyszukiwarkaMdM .Kol2 input#Localization { width: 359px; }
+.path_mdm .WyszukiwarkaMdM .WyszukiwarkaMdMStyl .Kol2 .styled-select { padding: 0px; }
+.path_mdm .WyszukiwarkaMdM .WyszukiwarkaMdMStyl .WyszukiwarkaMdMElement .Element1 { margin: 0px 65px 0px 0px; }
+.path_mdm .WyszukiwarkaMdM .WyszukiwarkaMdMStyl .WyszukiwarkaMdMElement .OdDo { padding: 9px 8px 0px 0px; }
+.path_mdm .styled-select select, .styled-select-disabled select { background: none; border: none; line-height: 33px; margin: 7px 0px 0px 10px; padding: 0px; width: 110%; }
+.path_mdm .styled-select { background: url(http://www.domiporta.pl/nowe/Content/images/strzalka-select.png) no-repeat right white; display: inline-block; height: 33px; line-height: 33px; overflow: hidden; width: 130px; }
+.path_mdm .styled-select-disabled { background : url(http://www.domiporta.pl/nowe/Content/images/strzalka-select-dis.png) no-repeat right #f0f0f0; display: inline-block; height: 33px; line-height: 33px; overflow: hidden;   width: 130px; }
+.path_mdm .styled-select select, .styled-select-disabled select { background: transparent; border: 0px; color: #000; font-size: 1em; line-height: 31px; margin: 7px 0px 0px 10px; padding: 0px; width: 110%; }
+.path_mdm .styled-select-disabled select { color: #959595; }
+.path_mdm .WyszukiwarkaMdM .WyszukiwarkaMdMStyl input.ButtonSzukaj, .path_mdm .WyszukiwarkaMdM .WyszukiwarkaMdMStyl input.ButtonSzukajHover { background: #fe9e4a; background: -moz-linear-gradient(top, #fe9e4a 0%, #e77107 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fe9e4a), color-stop(100%,#e77107)); background: -webkit-linear-gradient(top, #fe9e4a 0%,#e77107 100%); background: -o-linear-gradient(top, #fe9e4a 0%,#e77107 100%); background: -ms-linear-gradient(top, #fe9e4a 0%,#e77107 100%); background: linear-gradient(to bottom, #fe9e4a 0%,#e77107 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fe9e4a', endColorstr='#e77107',GradientType=0 ); border: 1px solid #fa8f31; font-size: 18px; padding: 5px 0px 6px; text-align: center; text-shadow: -1px -1px 0px #ab5615; text-transform: none; width: 100%; }
+.path_mdm .WyszukiwarkaMdM .WyszukiwarkaMdMStyl input.ButtonSzukajHover { background: #fe7600; background: -moz-linear-gradient(top,  #fe7600 0%, #c15c04 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fe7600), color-stop(100%,#c15c04)); background: -webkit-linear-gradient(top, #fe7600 0%,#c15c04 100%); background: -o-linear-gradient(top, #fe7600 0%,#c15c04 100%); background: -ms-linear-gradient(top, #fe7600 0%,#c15c04 100%); background: linear-gradient(to bottom, #fe7600 0%,#c15c04 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fe7600', endColorstr='#c15c04',GradientType=0 ); border: 1px solid #d87117; }
+
+/* poprawka dla nowej wyszukiwarki porady.domiporta.pl */
+.mod_domiporta2 sup {position: relative; top: 2px; line-height: 1;}
