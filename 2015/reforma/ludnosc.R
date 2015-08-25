@@ -24,14 +24,29 @@ library(archivist)
 setLocalRepo("/Users/pbiecek/GitHub/graphGallery")
 
 saveToRepo(urodzenia)
-# c6302d382033bc8db4b52256d4a8021f
+# 5a6c2a732c20d5a1bebe6507ebf09afa
 
-
-
+#
+# rysujemy słupki
+#
 library(ggplot2)
+library(scales)
 
-ggplot(sel, aes(x=rok, ymin=0, ymax=urodzenia)) + 
-  geom_linerange()
+ggplot(urodzenia, aes(x=rok, ymin=0, ymax=urodzenia)) + 
+  geom_linerange(size=2) +
+  theme_bw() +
+  scale_y_continuous(label=comma) + scale_x_continuous(limits=c(1965,2015)) +
+  ggtitle("Liczba urodzin w ostatnich 50 latach")
+
+
+ggplot(urodzenia, aes(x=rok, ymin=0, ymax=urodzenia)) + 
+  geom_linerange(size=5) +
+  theme_bw() +
+  scale_y_continuous(label=comma) + scale_x_continuous(limits=c(2000,2015)) +
+  ggtitle("Liczba urodzin w ostatnich 15 latach")
+
+
+
 
 sel2000 <- sel[sel$rok >=2000, ]
 
