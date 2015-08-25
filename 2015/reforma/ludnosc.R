@@ -1,15 +1,32 @@
+#
+# pobieramy dane pakietem htmltable
+#
 devtools::install_github("crubba/htmltable")
 library(htmltab)
 
+# z wikipedii
 url <- "https://pl.wikipedia.org/wiki/Ludno%C5%9B%C4%87_Polski"
 urodzenia <- htmltab(doc = url, which = 4)
 head(urodzenia)
 
+# mała obróbka
 sel <- urodzenia[,c(1,3)]
 sel[,1] <- as.numeric(sel[,1])
 sel[,2] <- as.numeric(gsub(sel[,2], pattern = "[^0-9]", replacement = ""))
 
 colnames(sel) <- c("rok", "urodzenia")
+urodzenia <- sel
+
+#
+# Zapisujemy dane do repo
+# 
+library(archivist)
+setLocalRepo("/Users/pbiecek/GitHub/graphGallery")
+
+saveToRepo(urodzenia)
+# c6302d382033bc8db4b52256d4a8021f
+
+
 
 library(ggplot2)
 
