@@ -26,6 +26,8 @@ setLocalRepo("/Users/pbiecek/GitHub/graphGallery")
 saveToRepo(urodzenia)
 # 5a6c2a732c20d5a1bebe6507ebf09afa
 
+archivist::aread("pbiecek/graphGallery/5a6c2a732c20d5a1bebe6507ebf09afa")
+
 #
 # rysujemy słupki
 #
@@ -49,6 +51,8 @@ pl2 <- ggplot(urodzenia, aes(x=rok, ymin=0, ymax=urodzenia)) +
 
 # 6db6919611a91a549a585da6fbeda194
 saveToRepo(pl1)
+archivist::aread("pbiecek/graphGallery/6db6919611a91a549a585da6fbeda194")
+
 
 # 280783b967ac985fb6217958596687d5
 saveToRepo(pl2)
