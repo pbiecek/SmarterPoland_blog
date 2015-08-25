@@ -35,23 +35,23 @@ library(scales)
 pl1 <- ggplot(urodzenia, aes(x=rok, ymin=0, ymax=urodzenia)) + 
   geom_linerange(size=2) +
   theme_bw() +
-  scale_y_continuous(label=comma, limits=c(0,650000)) + 
+  scale_y_continuous(label=comma) + 
   scale_x_continuous(limits=c(1965,2015)) +
   ggtitle("Liczba urodzin w ostatnich 50 latach")
 
 
 pl2 <- ggplot(urodzenia, aes(x=rok, ymin=0, ymax=urodzenia)) + 
-  geom_linerange(size=5) +
+  geom_linerange(size=7) +
   theme_bw() +
   scale_y_continuous(label=comma, limits=c(0,650000)) + 
   scale_x_continuous(limits=c(2000,2015)) +
   ggtitle("Liczba urodzin w ostatnich 15 latach")
 
-saveToRepo(pl1)
 # 6db6919611a91a549a585da6fbeda194
+saveToRepo(pl1)
 
+# 280783b967ac985fb6217958596687d5
 saveToRepo(pl2)
-# c8577642b69dab0bc50c579ce969401c
 
 #
 # pierwsza strategia, komasujemy 3 roczniki w dwóch latach
@@ -72,7 +72,7 @@ urodzenia2000$szkola2[urodzenia2000$rok==2020] = urodzenia2000$urodzenia[urodzen
 urodzenia2000
 
 pl3 <- ggplot(urodzenia2000, aes(x=rok, ymin=0, ymax=urodzenia)) + 
-  geom_linerange(aes(x=rok,ymax=szkola), size=3, color="orange") +
+  geom_linerange(aes(x=rok,ymax=szkola), size=7, color="orange") +
   theme_bw() +
   scale_y_continuous(label=comma, limits=c(0,650000)) + scale_x_continuous(limits=c(2006,2021)) +
   ggtitle("Szacunek liczby uczniów trafiających do I klasy podstawówki")
@@ -80,7 +80,7 @@ pl3 <- ggplot(urodzenia2000, aes(x=rok, ymin=0, ymax=urodzenia)) +
 
 
 pl4 <- ggplot(urodzenia2000, aes(x=rok, ymin=0, ymax=urodzenia)) + 
-  geom_linerange(aes(x=rok+0,ymax=szkola2), size=3, color="blue") +
+  geom_linerange(aes(x=rok+0,ymax=szkola2), size=7, color="blue") +
   theme_bw() +
   scale_y_continuous(label=comma, limits=c(0,650000)) + 
   scale_x_continuous(limits=c(2006,2021)) +
@@ -91,5 +91,10 @@ saveToRepo(pl3)
 
 # 9c6cd7842b95fabac987a9db79cf0de4
 saveToRepo(pl4)
+
+ggsave("v1.png", pl1, width = 7, height = 7)
+ggsave("v2.png", pl2, width = 7, height = 7)
+ggsave("v3.png", pl3, width = 7, height = 7)
+ggsave("v4.png", pl4, width = 7, height = 7)
 
 
