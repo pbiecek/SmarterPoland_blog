@@ -32,18 +32,24 @@ saveToRepo(urodzenia)
 library(ggplot2)
 library(scales)
 
-ggplot(urodzenia, aes(x=rok, ymin=0, ymax=urodzenia)) + 
+pl1 <- ggplot(urodzenia, aes(x=rok, ymin=0, ymax=urodzenia)) + 
   geom_linerange(size=2) +
   theme_bw() +
   scale_y_continuous(label=comma) + scale_x_continuous(limits=c(1965,2015)) +
   ggtitle("Liczba urodzin w ostatnich 50 latach")
 
 
-ggplot(urodzenia, aes(x=rok, ymin=0, ymax=urodzenia)) + 
+pl2 <- ggplot(urodzenia, aes(x=rok, ymin=0, ymax=urodzenia)) + 
   geom_linerange(size=5) +
   theme_bw() +
   scale_y_continuous(label=comma) + scale_x_continuous(limits=c(2000,2015)) +
   ggtitle("Liczba urodzin w ostatnich 15 latach")
+
+saveToRepo(pl1)
+# 6db6919611a91a549a585da6fbeda194
+
+saveToRepo(pl2)
+# c8577642b69dab0bc50c579ce969401c
 
 
 
