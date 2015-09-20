@@ -26,7 +26,7 @@ setLocalRepo("/Users/pbiecek/GitHub/graphGallery")
 saveToRepo(urodzenia)
 # 5a6c2a732c20d5a1bebe6507ebf09afa
 
-archivist::aread("pbiecek/graphGallery/5a6c2a732c20d5a1bebe6507ebf09afa")
+urodzenia <- archivist::aread("pbiecek/graphGallery/5a6c2a732c20d5a1bebe6507ebf09afa")
 
 #
 # rysujemy słupki
@@ -42,12 +42,27 @@ pl1 <- ggplot(urodzenia, aes(x=rok, ymin=0, ymax=urodzenia)) +
   ggtitle("Liczba urodzin w ostatnich 50 latach")
 
 
+urodzenia$year <- urodzenia$rok
+pl1 <- ggplot(urodzenia, aes(x=rok, ymin=0, ymax=urodzenia)) + 
+  geom_linerange(size=2) +
+  theme_bw() +
+  scale_y_continuous(label=comma) + 
+  scale_x_continuous(limits=c(1965,2015)) +
+  ggtitle("Number of births in last 50 years")
+
 pl2 <- ggplot(urodzenia, aes(x=rok, ymin=0, ymax=urodzenia)) + 
   geom_linerange(size=7) +
   theme_bw() +
   scale_y_continuous(label=comma, limits=c(0,650000)) + 
   scale_x_continuous(limits=c(2000,2015)) +
   ggtitle("Liczba urodzin w ostatnich 15 latach")
+
+pl2 <- ggplot(urodzenia, aes(x=rok, ymin=0, ymax=urodzenia)) + 
+  geom_linerange(size=7) +
+  theme_bw() +
+  scale_y_continuous(label=comma, limits=c(0,650000)) + 
+  scale_x_continuous(limits=c(2000,2015)) +
+  ggtitle("Number of births in last 15 years")
 
 # 6db6919611a91a549a585da6fbeda194
 saveToRepo(pl1)
@@ -63,7 +78,7 @@ saveToRepo(pl2)
 
 urodzenia2000 <- urodzenia[urodzenia$rok >=2000, ]
 urodzenia2000$szkola = 0
-urodzenia2000 <- rbind(urodzenia2000, data.frame(rok=2015:2025, urodzenia=0, szkola=0))
+urodzenia2000 <- rbind(urodzenia2000, data.frame(rok=2015:2025, urodzenia=0, year=2015:2025, szkola=0))
 urodzenia2000$szkola[urodzenia2000$rok>=2007 & urodzenia2000$rok<=2013] = urodzenia2000$urodzenia[urodzenia2000$rok>=2000 & urodzenia2000$rok<=2006]
 urodzenia2000$szkola[urodzenia2000$rok==2014] = urodzenia2000$urodzenia[urodzenia2000$rok == 2007] + urodzenia2000$urodzenia[urodzenia2000$rok == 2008]/2
 urodzenia2000$szkola[urodzenia2000$rok==2015] = urodzenia2000$urodzenia[urodzenia2000$rok == 2009] + urodzenia2000$urodzenia[urodzenia2000$rok == 2008]/2
@@ -81,6 +96,11 @@ pl3 <- ggplot(urodzenia2000, aes(x=rok, ymin=0, ymax=urodzenia)) +
   scale_y_continuous(label=comma, limits=c(0,650000)) + scale_x_continuous(limits=c(2006,2021)) +
   ggtitle("Szacunek liczby uczniów trafiających do I klasy podstawówki")
 
+pl3 <- ggplot(urodzenia2000, aes(x=rok, ymin=0, ymax=urodzenia)) + 
+  geom_linerange(aes(x=rok,ymax=szkola), size=7, color="orange") +
+  theme_bw() +
+  scale_y_continuous(label=comma, limits=c(0,650000)) + scale_x_continuous(limits=c(2006,2021)) +
+  ggtitle("An estimate of number of kids that start 1st class") + xlab("year")
 
 
 pl4 <- ggplot(urodzenia2000, aes(x=rok, ymin=0, ymax=urodzenia)) + 
@@ -89,6 +109,13 @@ pl4 <- ggplot(urodzenia2000, aes(x=rok, ymin=0, ymax=urodzenia)) +
   scale_y_continuous(label=comma, limits=c(0,650000)) + 
   scale_x_continuous(limits=c(2006,2021)) +
   ggtitle("Szacunek liczby uczniów trafiających do I klasy podstawówki")
+
+pl4 <- ggplot(urodzenia2000, aes(x=rok, ymin=0, ymax=urodzenia)) + 
+  geom_linerange(aes(x=rok+0,ymax=szkola2), size=7, color="blue") +
+  theme_bw() +
+  scale_y_continuous(label=comma, limits=c(0,650000)) + 
+  scale_x_continuous(limits=c(2006,2021)) +
+  ggtitle("An estimate of number of kids that start 1st class") + xlab("year")
 
 # 03be6170a664764126c21f6a45dbd90e
 saveToRepo(pl3)
@@ -101,4 +128,13 @@ ggsave("v2.png", pl2, width = 7, height = 7)
 ggsave("v3.png", pl3, width = 7, height = 7)
 ggsave("v4.png", pl4, width = 7, height = 7)
 
+ggsave("c1.png", pl1, width = 7, height = 7)
+ggsave("c2.png", pl2, width = 7, height = 7)
+ggsave("c3.png", pl3, width = 7, height = 7)
+ggsave("c4.png", pl4, width = 7, height = 7)
+
+archivist::aread("pbiecek/graphGallery/af0b5130b2db42b23c61d3ab373d7946")
+
+Żródło na stronach World Bank.
+Wykres został wykonany z użyciem pakietu networkD3.
 
