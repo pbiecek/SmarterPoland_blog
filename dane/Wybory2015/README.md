@@ -18,7 +18,17 @@ Dane z trackingu CAWI, również uciąglone (tracking w pierwszej połowie kampa
 
 Więcej informacji znajduje się na stronie http://smarterpoland.pl/?p=6090
 
-Należy wczytać plik `WyboryParlamentarne2015.rda`
+Poniższe instrukcje wczytują dane o sondażach i budują interaktywną aplikację w googleVis.
+
+```
+library(googleVis)
+dane <- read.table("https://raw.githubusercontent.com/pbiecek/SmarterPoland_blog/master/dane/Wybory2015/2r.txt",header=T,sep="\t",dec=",")
+dane$data <- as.Date(dane$data, "%Y-%m-%d")
+M1 <- gvisMotionChart(dane, idvar="objekt", timevar="data")
+plot(M1)
+```
+
+Więcej danych jest w pliku `WyboryParlamentarne2015.rda`
 
 ```
 > tail(dane)
