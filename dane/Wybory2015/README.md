@@ -1,10 +1,20 @@
-# Dane z sondaży przedwyborczych udostępnione przez IRCenter
+# Dane z sondaży przedwyborczych
+
+Szczegółowe informacje uzyskać można od osoby, ktróra te dane przygotowała:
+
+```
+dr Albert Hupa, prezes IRCenter
+hupa.albert na serwerze ircenter.com
+```
 
 Dane z trackingu CAWI, również uciąglone (tracking w pierwszej połowie kampanii szedł co tydzień, a w drugiej połowie – co dwa dni:
  
 * zmienne z prefiksem "wiz" - wiarygodność, kompetencje, otwartość, uczciwość, nowoczesność, zaufanie - dane pochodzące z trackingu kwestionariuszowego (CAWI) realizowanego przez IRCenter w trakcie kampanii
 * zmienne z prefiksem "akt" - aktywność internautów w związku z partiami politycznymi: czytanie / pisanie treści dostępnych w internecie - dane pochodzące z trackingu kwestionariuszowego (CAWI) realizowanego przez IRCenter w trakcie kampanii
- * dane sondażowe – to dane zebrane z serwisu ewybory – dla każdego dnia (jeśli było więcej niż jeden pomiar) wyciągnąłem średnią z obserwacji z poszczególnych sondaży. Dane uciągliłem prostym modelem z RapidMindera.
+* zmienne z prefiksem 'sondaz' - dane sondażowe – to dane zebrane z serwisu ewybory – dla każdego dnia (jeśli było więcej niż jeden pomiar) wyciągnąłem średnią z obserwacji z poszczególnych sondaży. Dane uciągliłem prostym modelem z RapidMindera.
+* zmienne z prefiksem sm - z wypowiedzi na mediach społecznościowych,
+* zmienne z prefiksem google - Google Trends.
+
 
 Więcej informacji znajduje się na stronie http://smarterpoland.pl/?p=6090
 
@@ -70,9 +80,3 @@ Należy wczytać plik `WyboryParlamentarne2015.rda`
 86      9908                6915            20421  77091     6915   18922
 ```
 
-Szczegółowe informacje uzyskać można od osoby, ktróra te dane przygotowała:
-
-```
-dr Albert Hupa, prezes IRCenter
-hupa.albert na serwerze ircenter.com
-```
