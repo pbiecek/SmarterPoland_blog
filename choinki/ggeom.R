@@ -1,58 +1,56 @@
 GeomChristmasTree <- ggproto("GeomChristmasTree", Geom,
-                           required_aes = c("x", "y"),
-                           default_aes = aes(shape = 19, 
-                                             colour = "black", 
-                                             fill = "green4", 
-                                             size = 3,
-                                             linetype = 1, alpha = 1,
-                                             fontsize = 1),
-                           draw_key = draw_key_polygon,
-                           
-                           draw_panel = function(data, panel_scales, coord) {
-                             coords <- coord$transform(data, panel_scales)
-                             
-                             r01x <- diff(range(coords$x))/100
-                             r01y <- diff(range(coords$y))/100
-                             
-                             # each tree is 4*branch + 4
-                             if (length(coords$size) == 1) {
-                               tsize <- rep(pmax(1, round(coords$size)), length(coords$x))
-                               theight <- rep(pmax(0, round(coords$size)), length(coords$x))
-                             } else {
-                               tsize <- pmax(1, round(coords$size))
-                               theight <- pmax(0, coords$size)
-                             }
-    
-                             # coords
-                             longx <- unlist(lapply(seq_along(coords$x), function(i) {
-                               if (tsize[i] == 1) {
-                                 dx <- -c(0.5, 0.5, 1.5, 0, -1.5, -0.5, -0.5)
-                               } else {
-                                 dx <- -c(0.5, 0.5, rep(c(1.5,0.5), tsize[i]-1), 1.5, 0, -1.5, rep(c(-0.5,-1.5), tsize[i]-1), -0.5, -0.5)
-                               }
-                               r01x*dx + coords$x[i]
-                             }))
-                             longy <- unlist(lapply(seq_along(coords$y), function(i) {
-                               if (tsize[i] == 1) {
-                                 dy <- c(-0.5, 0, 0, theight[i], 0, 0, -0.5)
-                               } else {
-                                 dy <- c(-0.5, 0, 0, rep(1:(tsize[i]-1), each=2), theight[i], rep((tsize[i]-1):1, each=2), 0, 0, -0.5)
-                               }
-                               r01y*dy + coords$y[i]
-                             }))
-                             longid <- unlist(sapply(seq_along(coords$y), function(i) {
-                               rep(i, each=4*tsize[i]+3)
-                             }))
-                             
-                             grid::polygonGrob(
-                               longx, 
-                               longy,
-                               id = longid,
-                               gp = grid::gpar(col = coords[,"colour"],
-                                               fill = coords[,"fill"],
-                                               fontsize = 10)
-                             )
-                           }
+     required_aes = c("x", "y"),
+     default_aes = aes(shape = 19, colour = "black", 
+         fill = "green4", size = 3,
+         linetype = 1, alpha = 1,
+         fontsize = 1),
+     draw_key = draw_key_polygon,
+     
+     draw_panel = function(data, panel_scales, coord) {
+       coords <- coord$transform(data, panel_scales)
+       
+       r01x <- diff(range(coords$x))/100
+       r01y <- diff(range(coords$y))/100
+       
+       # each tree is 4*branch + 4
+       if (length(coords$size) == 1) {
+         tsize <- rep(pmax(1, round(coords$size)), length(coords$x))
+         theight <- rep(pmax(0, round(coords$size)), length(coords$x))
+       } else {
+         tsize <- pmax(1, round(coords$size))
+         theight <- pmax(0, coords$size)
+       }
+
+       # coords
+       longx <- unlist(lapply(seq_along(coords$x), function(i) {
+         if (tsize[i] == 1) {
+           dx <- -c(0.3, 0.3, 1.2, 0, -1.2, -0.3, -0.3)
+         } else {
+           dx <- -c(0.3, 0.3, rep(c(1.2,0.3), tsize[i]-1), 1.2, 0, -1.2, rep(c(-0.3,-1.2), tsize[i]-1), -0.3, -0.3)
+         }
+         r01x*dx + coords$x[i]
+       }))
+       longy <- unlist(lapply(seq_along(coords$y), function(i) {
+         if (tsize[i] == 1) {
+           dy <- c(-0.5, 0, 0, theight[i], 0, 0, -0.5)
+         } else {
+           dy <- c(-0.5, 0, 0, rep(1:(tsize[i]-1), each=2), theight[i], rep((tsize[i]-1):1, each=2), 0, 0, -0.5)
+         }
+         r01y*dy + coords$y[i]
+       }))
+       longid <- unlist(sapply(seq_along(coords$y), function(i) {
+         rep(i, each=4*tsize[i]+3)
+       }))
+       
+       grid::polygonGrob(
+         longx, 
+         longy,
+         id = longid,
+         gp = grid::gpar(col = coords[,"colour"],
+                         fill = coords[,"fill"],
+                         fontsize = 10)
+       )
+     }
 )
 
 geom_christmas_tree <- function(mapping = NULL, data = NULL, stat = "identity",
@@ -65,11 +63,27 @@ geom_christmas_tree <- function(mapping = NULL, data = NULL, stat = "identity",
   )
 }
 
+
+mm <- data.frame(matrix(runif(1200),300,4))
+
+ggplot(mm, aes(X1, X2, size=X3, fill=X4)) + 
+  geom_christmas_tree() + theme_void() + scale_fill_gradient(low="green1", high="green4")
+
+
 ggplot(mpg, aes(displ, hwy, fill=manufacturer)) + 
   geom_christmas_tree(size=2)
 
+ggplot(mpg, aes(displ, hwy, fill=manufacturer)) + 
+  geom_christmas_tree(size=2) +
+  stat_density_2d(h=2)
+
 ggplot(iris, aes(x=Sepal.Length, y=Petal.Length, size=Petal.Length, fill=Species, color=Species)) + 
   geom_christmas_tree() + theme_void() + theme(legend.position="none")
+
+ggplot(iris, aes(x=Sepal.Length, y=Petal.Length, size=Petal.Length, fill=Species)) + 
+  stat_density_2d(aes(color=Species), alpha=0.5) +
+  geom_christmas_tree() + 
+  theme_void() + theme(legend.position="none")
 
 
 ggplot(iris, aes(Sepal.Length, Petal.Length)) + 
