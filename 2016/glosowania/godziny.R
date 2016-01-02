@@ -42,10 +42,12 @@ k78 <- rbind(data.frame(kadencja = "K7", as.data.frame(table(substr(unlist(allRe
 colnames(k78) <- c("kadencja", "godzina", "glosowan")
 
 library(tidyr)
-k78s <- spread(k78, kadencja, Freq, fill = 0)
+k78s <- spread(k78, kadencja, glosowan, fill = 0)[c(1:11,14:17,12:13),]
 k78s$K7 <- -k78s$K7
 colnames(k78s)[1] = "godzina"
-k78s <- arrange(k78s, as.character(godzina))
+
+# k78s <- rbind(k78s, data.frame(godzina=paste0("0",2:8), K7=0,K8=0))
+# k78s <- arrange(k78s, as.character(godzina))
 
 k78sg <- gather(k78s, kadencja, glosowan, -godzina)
 levels(k78sg$kadencja) <- c("Kadencja 7", "Kadencja 8")
@@ -65,7 +67,7 @@ n1$yAxis(axisLabel = "Głosowań",
          tickFormat = "#! function(d) {
          return d3.format(',.0f')(Math.abs(d)) + ''
          } !#")
-n1$set(width = 700, height = 500)
+n1$set(width = 680, height = 500)
 n1$chart(color = c('darkred', 'silver'))
 
 n1$setTemplate(
