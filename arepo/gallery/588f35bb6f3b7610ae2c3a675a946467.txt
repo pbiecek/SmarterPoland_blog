@@ -1,0 +1,7 @@
+       kraj ministrow  ludnosc
+1   Austria        14  8223062
+2    Belgia        13 10449361
+3  Bułgaria        19  6924716
+4 Chorwacja        20  4470534
+5      Cypr        11   858000
+6    Czechy        16 10627448
