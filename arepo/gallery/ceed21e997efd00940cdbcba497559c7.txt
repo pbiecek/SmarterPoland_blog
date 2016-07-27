@@ -1,0 +1,9 @@
+# A tibble: 6 x 4
+         country_txt sum_kills sum_wounds     n
+               <chr>     <dbl>      <dbl> <int>
+1        Afghanistan      6208       6958  1926
+2            Algeria        21         19    16
+3            Bahrain         5         22    18
+4         Bangladesh        76        695   465
+5 Bosnia-Herzegovina         4          6     6
+6       Burkina Faso         6          9     5

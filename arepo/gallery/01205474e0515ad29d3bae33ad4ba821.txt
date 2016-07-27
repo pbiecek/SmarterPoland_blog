@@ -1,0 +1,7 @@
+  iyear        country_txt nkill nwound             weaptype1_txt
+1  2015               Iraq     2      5 Explosives/Bombs/Dynamite
+2  2015 Bosnia-Herzegovina     0      1                     Melee
+3  2015               Iraq     1      1 Explosives/Bombs/Dynamite
+4  2015             Sweden     0      0                Incendiary
+5  2015              Libya    NA     NA Explosives/Bombs/Dynamite
+6  2015               Iraq     3      8 Explosives/Bombs/Dynamite

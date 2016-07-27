@@ -1,0 +1,7 @@
+       iyear country_txt nkill nwound             weaptype1_txt
+125126  2014    Colombia     0      0 Explosives/Bombs/Dynamite
+125127  2014     Somalia     4     20 Explosives/Bombs/Dynamite
+125128  2014    Pakistan     3     31 Explosives/Bombs/Dynamite
+125129  2014    Pakistan     0      0 Explosives/Bombs/Dynamite
+125130  2014     Somalia    NA     NA                   Unknown
+125131  2014        Iraq     2      6 Explosives/Bombs/Dynamite
