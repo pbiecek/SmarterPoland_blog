@@ -5,6 +5,7 @@ load("elections1.rda")
 
 shinyServer(function(input, output) {
   position <- reactiveValues(x = NULL)
+  hash <- reactiveValues(hash = NULL)
   
   observeEvent(input$plot_hower, {
     hower <- input$plot_hower
