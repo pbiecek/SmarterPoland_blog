@@ -5,13 +5,16 @@ library(rgdal)
 library(dplyr)
 
 sejmiki <- read.xlsx("1461143032_a1c242476ecfd74febac7beef6a12fcb.xlsx")
-shp1 <- readShapePoly("gminy/gminy") 
+shp1 <- readShapePoly("gminy/gminy")
 
 sejmiki2 <- sejmiki[,c(1,2,3,4,5,25,26)]
 
 sejmiki2$kod <- paste0(sejmiki2$TERYT, sejmiki2$Typ)
 
-df <- data.frame(shp1@data, 
+# wyciagamy srodki kazdej gminy
+wsp <- t(sapply(shp1@polygons,   function(x) x@labpt))
+
+df <- data.frame(shp1@data,
                  long=wsp[,1], lat=wsp[,2])
 
 
@@ -55,7 +58,7 @@ sejmiki6$prop <- signif(100*sejmiki6$PiS/sejmiki6$Głosy.ważne, digits = 3)
 
 ggplot() +
   geom_map(data=shp1f[shp1f$id %in% c(iid),], aes(map_id=id), fill="grey80", map=shp1f[shp1f$id %in% c(iid),]) +
-  geom_path(data=shp1f[shp1f$id %in% c(iid),], aes(x=long, y=lat, group=id), 
+  geom_path(data=shp1f[shp1f$id %in% c(iid),], aes(x=long, y=lat, group=id),
             colour="grey", size=0.25) +
   geom_text_repel(data=sejmiki6[1:22,], aes(long, lat, label=paste0(jpt_nazwa_, "\n", prop,"%")), size=3) +
   theme_bw() +
