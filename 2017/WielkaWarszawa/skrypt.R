@@ -15,7 +15,8 @@ sejmiki2$kod <- paste0(sejmiki2$TERYT, sejmiki2$Typ)
 wsp <- t(sapply(shp1@polygons,   function(x) x@labpt))
 
 df <- data.frame(shp1@data,
-                 long=wsp[,1], lat=wsp[,2])
+                 long=wsp[,1], lat=wsp[,2],
+                 odl = sqrt((wsp[,1] - 639815.2)^2 + (wsp[,2] - 486779.2)^2))
 
 
 sejmiki3 <- merge(df, sejmiki2, by.x='jpt_kod_je', by.y = 'kod')
